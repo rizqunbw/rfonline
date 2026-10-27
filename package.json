@@ -1,0 +1,11 @@
+{
+  "name": "platform01-expedition",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "python3 -m http.server 3000 --bind 0.0.0.0 --directory dist",
+    "test": "node --test scripts/validate.test.mjs"
+  }
+}

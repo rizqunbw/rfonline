@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08151d"><title>Platform01 · Expedition</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="world" aria-label="Platform01 dalam tampilan mesh 3D"></canvas>
+<header><a class="brand" href="./"><span class="logo">P<span>01</span></span><span>PLATFORM<span class="muted"> / EXPEDITION</span></span></a><span class="tag">RF WORLD LAB <i></i> PROTOTYPE 01</span></header>
+<main id="menu" class="panel">
+  <div class="eyebrow">SECTOR 01 / FIELD EXPLORATION</div>
+  <h1>A familiar world.<br><em>A new frontier.</em></h1>
+  <p>Jelajahi geometri asli Platform01 dari browser. Terbang melintasi sektor dan temukan lima beacon untuk menyelesaikan ekspedisi.</p>
+  <div class="facts"><div><strong id="pointCount">—</strong><span>ORIGINAL VERTICES</span></div><div><strong>05</strong><span>SIGNAL BEACONS</span></div><div><strong>WEBGL</strong><span>BROWSER NATIVE</span></div></div>
+  <button id="play" disabled>MEMBACA SEKTOR… <span>↗</span></button>
+  <label class="sky-choice" for="skySelect">LANGIT <select id="skySelect" disabled><option value="0">Platform01 Sky 1</option><option value="1">Platform01 Sky 2</option></select></label>
+  <p class="note">Geometri map dan tekstur langit asli. Material terrain masih sementara; collision, karakter, dan sistem RF belum tersedia. Misi beacon adalah gameplay prototype tambahan.</p>
+  <details><summary>Aset & status pembacaan</summary><div class="asset"><img src="assets/am16.png" alt="Tekstur am16 yang diunggah"><span>am16.dds · 256 × 256<br>Tekstur berhasil didekode. Arsip tekstur map R3T masih diperlukan.</span></div><p id="assetInfo"></p></details>
+</main>
+<section id="hud" hidden>
+  <div class="mission"><div class="eyebrow">EXPEDITION / OBJECTIVE</div><h2>Temukan sinyal sektor</h2><p>Dekati beacon yang menyala.</p><div id="progress"></div><strong id="score">0 / 5 BEACONS</strong></div>
+  <div id="target"></div><div class="crosshair">+</div>
+  <div class="telemetry"><span id="coords"></span><span id="timer">00:00</span></div>
+  <button id="pause" class="small">JEDA / ESC</button>
+  <div id="toast" role="status"></div>
+</section>
+<aside class="map"><div class="eyebrow">SECTOR TELEMETRY <span>N ↑</span></div><canvas id="minimap" width="240" height="190"></canvas><div class="mapfoot"><i></i> PLATFORM01 <span id="mode">SURVEY MODE</span></div></aside>
+<footer><span><kbd>W A S D</kbd> GERAK <kbd>MOUSE / ← →</kbd> LIHAT <kbd>Q / E</kbd> TURUN / NAIK <kbd>SHIFT</kbd> BOOST</span><span id="status" role="status">LOADING ASSET DATA</span></footer>
+<section id="finish" class="panel" hidden><div class="eyebrow">ALL SIGNALS ACQUIRED</div><h1>Sector<br><em>complete.</em></h1><p id="result"></p><button id="restart">EKSPEDISI BARU ↗</button><button id="explore" class="secondary">LANJUT JELAJAH</button></section>
+<div id="touch" hidden><button data-key="KeyW">↑</button><button data-key="KeyA">←</button><button data-key="KeyS">↓</button><button data-key="KeyD">→</button><button data-key="KeyE">Naik</button><button data-key="KeyQ">Turun</button></div>
+<script type="module" src="app.js"></script>
+</body></html>

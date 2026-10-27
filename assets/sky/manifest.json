@@ -1,0 +1,853 @@
+{
+  "skies": [
+    {
+      "name": "Platform01Sky",
+      "mesh": "assets/sky/Platform01Sky/mesh.bin",
+      "triangles": 2132,
+      "textures": [
+        {
+          "id": 1,
+          "name": "sky_d_a.dds",
+          "url": "assets/sky/Platform01Sky/1.png",
+          "width": 64,
+          "height": 64,
+          "ddsSha256": "670482ae478611c8a6f49a1d01fa5c9698878fd756427389477b15227103a5d4"
+        },
+        {
+          "id": 2,
+          "name": "sky_d_sa.dds",
+          "url": "assets/sky/Platform01Sky/2.png",
+          "width": 512,
+          "height": 256,
+          "ddsSha256": "71071f6c06a825070278da86d73e2cc2a2675b79212433bf09d3fc134f4dcd7a"
+        },
+        {
+          "id": 3,
+          "name": "sky_d_st.dds",
+          "url": "assets/sky/Platform01Sky/3.png",
+          "width": 512,
+          "height": 512,
+          "ddsSha256": "92eaed2bd8e2edde2a2e3a37ea3eafef18226b1c25f89e82f253be4a40c0866a"
+        },
+        {
+          "id": 4,
+          "name": "sky_d_bst1.dds",
+          "url": "assets/sky/Platform01Sky/4.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "e446523c8def8210134f32933b06ebfa79b71deb14fde90e1d8d474e1ff02f08"
+        },
+        {
+          "id": 5,
+          "name": "sky_sun.dds",
+          "url": "assets/sky/Platform01Sky/5.png",
+          "width": 128,
+          "height": 128,
+          "ddsSha256": "951da6dcb10a021ad3a1f49759ab1ddf17801011d73a29d2e060e489a4613f03"
+        },
+        {
+          "id": 6,
+          "name": "sky_d_bst2.dds",
+          "url": "assets/sky/Platform01Sky/6.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "7a5360a0632017cadd9b693271b57bc6d9ffaa89c7a6c9e4ee3c34fb52d7ef3b"
+        },
+        {
+          "id": 7,
+          "name": "sky_d_bst3.dds",
+          "url": "assets/sky/Platform01Sky/7.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "1c6e2d22b3cf9c28d1ed844b6c5dc8e402eb263e463998d734c6567c9fd8a406"
+        },
+        {
+          "id": 8,
+          "name": "sky_d_bst4.dds",
+          "url": "assets/sky/Platform01Sky/8.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "cf000fc989aac80bef8e3f4082acc23175a62cc4af1386a87ea6fde297ff7b7f"
+        },
+        {
+          "id": 9,
+          "name": "sky_cloud_b.dds",
+          "url": "assets/sky/Platform01Sky/9.png",
+          "width": 1024,
+          "height": 1024,
+          "ddsSha256": "3e16a451ea5392e433c6d12aee8da4872fae388991ba2c9e8cf02f2206ca8127"
+        }
+      ],
+      "materials": [
+        {
+          "name": "sky_d_a_0",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 0,
+              "alphaType": 0,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_d_sa_7",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 3,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_d_st_2",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 2,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_d_bst1_1",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 4,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_sun_3",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 6,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_d_bst2_5",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 5,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_d_bst3_4",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 7,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_d_bst4_6",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 1,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_cloud_b1_9",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 8,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_cloud_b_8",
+          "flags": 1,
+          "layers": [
+            {
+              "texture": 8,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 16,
+              "scroll": [
+                12,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "draws": [
+        {
+          "first": 0,
+          "count": 2880,
+          "material": 0
+        },
+        {
+          "first": 2880,
+          "count": 6,
+          "material": 1
+        },
+        {
+          "first": 2886,
+          "count": 2880,
+          "material": 2
+        },
+        {
+          "first": 5766,
+          "count": 6,
+          "material": 3
+        },
+        {
+          "first": 5772,
+          "count": 6,
+          "material": 4
+        },
+        {
+          "first": 5778,
+          "count": 6,
+          "material": 5
+        },
+        {
+          "first": 5784,
+          "count": 6,
+          "material": 6
+        },
+        {
+          "first": 5790,
+          "count": 216,
+          "material": 7
+        },
+        {
+          "first": 6006,
+          "count": 372,
+          "material": 8
+        },
+        {
+          "first": 6378,
+          "count": 18,
+          "material": 9
+        }
+      ],
+      "skippedAnimatedGroups": 0,
+      "sources": [
+        {
+          "name": "Platform01Sky.r3e",
+          "sha256": "4a4bb4e5855820413d317458002c09c08425d3bd331951ac43edfe9cee4ee767"
+        },
+        {
+          "name": "Platform01Sky.r3m",
+          "sha256": "436ca180891526e60002eef0b98fa6bd58327256699d12d88a19e9370ff0e062"
+        },
+        {
+          "name": "Platform01Sky.r3t",
+          "sha256": "b7a6b040d38b657355b1c066fc39393dc3a68795cd9fca9a03f52f8d391996ee"
+        },
+        {
+          "name": "Platform01Sky.mtf",
+          "sha256": "43746f47411120a2fcb8771abd6dfb2d1a871a60d68f4679d14d4ebd4b2ca583"
+        }
+      ]
+    },
+    {
+      "name": "Platform01sky2",
+      "mesh": "assets/sky/Platform01sky2/mesh.bin",
+      "triangles": 1158,
+      "textures": [
+        {
+          "id": 1,
+          "name": "sky_color.dds",
+          "url": "assets/sky/Platform01sky2/1.png",
+          "width": 64,
+          "height": 64,
+          "ddsSha256": "359ceefdc22aec462558d0c42ee2c4869284256c2a2483a290976dd83f7df315"
+        },
+        {
+          "id": 2,
+          "name": "sky_a_bc.dds",
+          "url": "assets/sky/Platform01sky2/2.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "714a8763aa4a59a1976b4d229ad36b68d5b29c38997f71632bc45ac6e96be6c2"
+        },
+        {
+          "id": 3,
+          "name": "sky_a_bc1.dds",
+          "url": "assets/sky/Platform01sky2/3.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "8e89e7ee7af04416e2dedb39eae98a66ae9edf7ca6058ec6f7bae4455737b451"
+        },
+        {
+          "id": 4,
+          "name": "sky_a_sun.dds",
+          "url": "assets/sky/Platform01sky2/4.png",
+          "width": 128,
+          "height": 128,
+          "ddsSha256": "5f7959a93578dab65665da13d3902099d001637ea521c91d2430ab86eeac4736"
+        },
+        {
+          "id": 5,
+          "name": "sky_a_fc.dds",
+          "url": "assets/sky/Platform01sky2/5.png",
+          "width": 1024,
+          "height": 256,
+          "ddsSha256": "12a1992b1443639780d85d00ae88b2d8f1e2d2ef9ba46a250ee453b6aa91ea2e"
+        },
+        {
+          "id": 6,
+          "name": "d_f.dds",
+          "url": "assets/sky/Platform01sky2/6.png",
+          "width": 1024,
+          "height": 1024,
+          "ddsSha256": "6637536e9d6efc0bec4b1ed41f9bfe88769538e346282a153e3e82947319ffc8"
+        },
+        {
+          "id": 7,
+          "name": "sky_an_cloud_s.dds",
+          "url": "assets/sky/Platform01sky2/7.png",
+          "width": 1024,
+          "height": 1024,
+          "ddsSha256": "c23d883647ce15952d26f07237baed56e62304ab80fcec45ff6894251151dc31"
+        },
+        {
+          "id": 8,
+          "name": "sky_an_cloud_c.dds",
+          "url": "assets/sky/Platform01sky2/8.png",
+          "width": 1024,
+          "height": 1024,
+          "ddsSha256": "90c376163a71d008137cb7c73653c2f228c765993badc619ed75e51a30632dd1"
+        },
+        {
+          "id": 9,
+          "name": "sky_L_cloud_c.dds",
+          "url": "assets/sky/Platform01sky2/9.png",
+          "width": 1024,
+          "height": 1024,
+          "ddsSha256": "b723c9467ce102b65631aa0a4de6ef76850ccd1be2677a726eeee218f1592b25"
+        },
+        {
+          "id": 10,
+          "name": "sky_a_fca.dds",
+          "url": "assets/sky/Platform01sky2/10.png",
+          "width": 64,
+          "height": 64,
+          "ddsSha256": "678c3eb4f3a75655d8df904f91cc9180d58742184de8328fba2d6b7e0a936eb6"
+        },
+        {
+          "id": 11,
+          "name": "aurora_d02.dds",
+          "url": "assets/sky/Platform01sky2/11.png",
+          "width": 1024,
+          "height": 256,
+          "ddsSha256": "cf309a18b7a56df0a54e4a8751e8b976b60e7b4416892bef9a64f153c9f84029"
+        },
+        {
+          "id": 12,
+          "name": "sky_moon.dds",
+          "url": "assets/sky/Platform01sky2/12.png",
+          "width": 256,
+          "height": 256,
+          "ddsSha256": "e04a3aafe2c7f65e79d1520247d2efdaa8f5140f20d075d1352d671ff304e257"
+        },
+        {
+          "id": 13,
+          "name": "lobby_s.dds",
+          "url": "assets/sky/Platform01sky2/13.png",
+          "width": 1024,
+          "height": 512,
+          "ddsSha256": "36160fae363543ac4754e9d8aea9ebd1bcc70b54188c72881b6acfb96e99589e"
+        }
+      ],
+      "materials": [
+        {
+          "name": "sky_color_0",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 0,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_a_bc_1",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 1,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_a_bc1_3",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 4,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_a_sun_4",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 2,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_a_fc_2",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 3,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "d_f_5",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 5,
+              "alphaType": 0,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_an_cloud_s_11",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 8,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 16,
+              "scroll": [
+                6,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_an_cloud_c_7",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 7,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 32,
+              "scroll": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_L_cloud_c_6",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 9,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_a_fca_8",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 10,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 16,
+              "scroll": [
+                12,
+                0
+              ]
+            },
+            {
+              "texture": 10,
+              "alphaType": 3,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 1040,
+              "scroll": [
+                12,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "aurora_d02_9",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 11,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sky_moon_10",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 6,
+              "alphaType": 1,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 32,
+              "scroll": [
+                0,
+                -7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lobby_s_12",
+          "flags": 17,
+          "layers": [
+            {
+              "texture": 12,
+              "alphaType": 0,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "flags": 0,
+              "scroll": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "draws": [
+        {
+          "first": 0,
+          "count": 1632,
+          "material": 0
+        },
+        {
+          "first": 1632,
+          "count": 24,
+          "material": 1
+        },
+        {
+          "first": 1656,
+          "count": 150,
+          "material": 2
+        },
+        {
+          "first": 1806,
+          "count": 6,
+          "material": 3
+        },
+        {
+          "first": 1812,
+          "count": 6,
+          "material": 4
+        },
+        {
+          "first": 1818,
+          "count": 66,
+          "material": 5
+        },
+        {
+          "first": 1884,
+          "count": 24,
+          "material": 6
+        },
+        {
+          "first": 1908,
+          "count": 30,
+          "material": 7
+        },
+        {
+          "first": 1938,
+          "count": 216,
+          "material": 8
+        },
+        {
+          "first": 2154,
+          "count": 1248,
+          "material": 9
+        },
+        {
+          "first": 3402,
+          "count": 6,
+          "material": 10
+        },
+        {
+          "first": 3408,
+          "count": 66,
+          "material": 11
+        }
+      ],
+      "skippedAnimatedGroups": 2,
+      "sources": [
+        {
+          "name": "Platform01sky2.r3e",
+          "sha256": "eab2768fbe519ad75ba230b8f279a8869349a37b794d235cbc575fc6cb3889cd"
+        },
+        {
+          "name": "Platform01sky2.r3m",
+          "sha256": "f4c374f125b1586c5f77b098149dc8e9284b7b61b01885d45682f31d67be8137"
+        },
+        {
+          "name": "Platform01sky2.r3t",
+          "sha256": "cb0bb337419497d6ccfc2ac5e835ca3ed367614a144c6426556845b74c007137"
+        },
+        {
+          "name": "Platform01sky2.mtf",
+          "sha256": "42c7fec66445bc6b5fb07f5ba63a4dac0a8b55bbbacb0608336ce7460085e599"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Object tracks/animated groups omitted",
+    "UV scrolling and secondary material layers not simulated",
+    "Sky is centered on the camera; original game sky-selection rules unknown"
+  ]
+}

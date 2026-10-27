@@ -1,0 +1,4 @@
+dist/
+.vercel/
+test-results/
+__pycache__/
