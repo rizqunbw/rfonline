@@ -6,10 +6,10 @@ Dependency-free WebGL static-map exploration game using uploaded RF Online Platf
 
 Node 18+ and Python 3 are sufficient. No npm installation is required.
 
-Run from the `Platform01` folder:
+Run from the `Map/Platform01` folder:
 
 ```sh
-cd Platform01
+cd Map/Platform01
 npm run build
 npm test
 npm start
@@ -25,7 +25,7 @@ Original uploads remain in `assets/source`. BSP version/header value is 39. The 
 
 ## Vercel
 
-`vercel.json` builds the static site to `dist`. Import this project into Vercel with Root Directory **Platform01**, Framework Preset **Other**, build command `npm run build`, output `dist`, and no dependency install requirement. Alternatively, run `vercel --prod` from an authenticated local Vercel CLI. Source binary uploads are excluded from CLI deployments; only extracted mesh/points, the manifest and decoded texture are copied to the public build.
+`vercel.json` builds the static site to `dist`. Import this project into Vercel with Root Directory **Map/Platform01**, Framework Preset **Other**, build command `npm run build`, output `dist`, and no dependency install requirement. Alternatively, run `vercel --prod` from an authenticated local Vercel CLI. Source binary uploads are excluded from CLI deployments; only extracted mesh/points, the manifest and decoded texture are copied to the public build.
 
 Deployment requires access to a Vercel account and working network access. This workspace has not been deployed merely by generating this configuration.
 
@@ -45,4 +45,4 @@ To regenerate the sky outputs, run `python scripts/convert_sky.py` (requires Pil
 
 368 original terrain textures and 9 lightmaps are decoded by `python scripts/convert_terrain.py` (Pillow required) and rendered by terrain.js. DDS header obfuscation is decoded using the MIT reference format. Run `python scripts/test_terrain.py` to verify exported pixels, topology and UVs. The R3X/RVP/SPT files are retained but their gameplay/effect behavior is not interpreted.
 
-A repository-root package.json and vercel.json now support Vercel projects imported with the default root directory. No dashboard change is required unless custom build/output overrides conflict. The alternative Platform01 root remains supported.
+A repository-root package.json and vercel.json now support Vercel projects imported with the default root directory. No dashboard change is required unless custom build/output overrides conflict. The alternative Map/Platform01 root remains supported.

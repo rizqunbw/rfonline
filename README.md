@@ -1,5 +1,5 @@
 # RF Online browser prototype
 
-The application and original uploaded assets are in [Platform01](Platform01/README.md).
+The application and original uploaded assets are in [Map/Platform01](Map/Platform01/README.md), matching the game client map layout.
 
-Vercel can deploy from either repository root or `Platform01`. Keep Framework Preset **Other** and let the checked-in `vercel.json` select the build and output directory. From repository root, `npm run build` produces `Platform01/dist`; from the `Platform01` root it produces `dist`. Clear conflicting dashboard build/output overrides if present.
+Vercel supports the repository root (`.`; recommended) or `Map/Platform01` as Root Directory. Use Framework Preset **Other** and the checked-in `vercel.json` without conflicting dashboard overrides. From repository root, `npm run build` produces `Map/Platform01/dist`; from `Map/Platform01` it produces `dist`. The public website remains at `/`.

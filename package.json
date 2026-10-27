@@ -2,7 +2,7 @@
   "name": "rfonline-workspace",
   "private": true,
   "scripts": {
-    "build": "node Platform01/scripts/build.mjs",
-    "test": "npm --prefix Platform01 test"
+    "build": "node Map/Platform01/scripts/build.mjs",
+    "test": "npm --prefix Map/Platform01 test"
   }
 }
