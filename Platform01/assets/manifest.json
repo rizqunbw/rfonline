@@ -13,7 +13,7 @@
       119.2739453125
     ]
   ],
-  "representation": "static BSP mesh with substitute materials",
+  "representation": "static BSP mesh with original terrain textures and lightmaps",
   "materials": [
     "snow_main_0",
     "cliff_01_1",
@@ -633,6 +633,36 @@
       "sha256": "5751a2553c3856aa716c859b7226f7524ada6f168739f3af3f4c0e08bfd9ff8c"
     },
     {
+      "name": "Platform01.r3t",
+      "bytes": 35978434,
+      "sha256": "13afeee1ddb2d90085f6d94912c4c3d2f714d7501460996f94f6b84219f6230c"
+    },
+    {
+      "name": "Platform01.r3x",
+      "bytes": 1036,
+      "sha256": "500f63b0e6bd7e23b108b8be2401b9a4093ab7d6aac3eace1be88485623da4dc"
+    },
+    {
+      "name": "Platform01.rvp",
+      "bytes": 8126,
+      "sha256": "455b03cdb424474e15946e3803600abc0191c033370232addb1f4dcfd286490e"
+    },
+    {
+      "name": "Platform01.spt",
+      "bytes": 426608,
+      "sha256": "cc13043ffddb4fd4b7f8a41d02dc253a191a74d21605404ba842a959ec65e9c9"
+    },
+    {
+      "name": "Platform01EXT.spt",
+      "bytes": 5088,
+      "sha256": "f6ac47e46a31db155510e6eb288fa6ed1fc5d6b4d90f0847f603a2504d44ae99"
+    },
+    {
+      "name": "Platform01Lgt.r3t",
+      "bytes": 18875564,
+      "sha256": "1242f906665a10808bc989b8a6e8ce435aacc7b4936b232c5ab85ec4dc3fadd4"
+    },
+    {
       "name": "Platform01Sky.mtf",
       "bytes": 1168,
       "sha256": "43746f47411120a2fcb8771abd6dfb2d1a871a60d68f4679d14d4ebd4b2ca583"
@@ -651,6 +681,11 @@
       "name": "Platform01Sky.r3t",
       "bytes": 2301820,
       "sha256": "b7a6b040d38b657355b1c066fc39393dc3a68795cd9fca9a03f52f8d391996ee"
+    },
+    {
+      "name": "Platform01_dummy.spt",
+      "bytes": 17083,
+      "sha256": "65c1a2c2793446b5c47ec2bccc8fcfcd56080b6e88081893874ae6918a44b9c2"
     },
     {
       "name": "Platform01sky2.mtf",
@@ -673,6 +708,11 @@
       "sha256": "cb0bb337419497d6ccfc2ac5e835ca3ed367614a144c6426556845b74c007137"
     },
     {
+      "name": "Platformb.rvp",
+      "bytes": 967,
+      "sha256": "5c14cfadc0fa931ecbb821a0a94ebd32c07a7be2af2ccc11f7b3f6c5bf230b80"
+    },
+    {
       "name": "am16.dds",
       "bytes": 87504,
       "sha256": "f66caff78f2278e5ecf6e9f4246afc771745995bae090722e8d3043295c3efb5"
@@ -684,7 +724,7 @@
   "decoderReference": "https://github.com/Cardboard-box-a/cbb-rf-online-addon/tree/02dfdc4f62fac8f266cf4c0ff85c57172b48bcbf",
   "limitations": [
     "Animated and invisible groups omitted",
-    "R3T textures/lightmaps missing",
-    "EBP/CAM not interpreted"
+    "Only the first terrain material layer is rendered",
+    "EBP/CAM and R3X/RVP/SPT behavior not interpreted"
   ]
 }

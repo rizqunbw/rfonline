@@ -1,0 +1,62 @@
+//캐릭터의 등록...
+[Object]
+
+*b_01 .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+
+
+*b_02  .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+
+*b_03  .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame	2370
+*b_01 *Dummy01
+*b_02 *Dummy02
+*b_03 *Dummy03
+
+
+
+
+
+camera	*camera01	;시작 카메라는 camera01이다.
+fade_out 0
+_no_camera		;카메라 강제진행이 아닌경우.
+logo
+wide
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+
+ *frame 1
+fade_in 3
+
+*frame 1
+ani *b_01 0
+
+*frame 2370
+fade_out 1
+

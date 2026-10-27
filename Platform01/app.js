@@ -1,9 +1,10 @@
 import {createSkyRenderer} from './sky.js';
+import {createTerrainRenderer} from './terrain.js';
 const $ = id => document.getElementById(id);
 const canvas = $('world');
 const gl = canvas.getContext('webgl', {antialias:true, alpha:false});
-let running = false, started = false, completed = false, last = 0, elapsed = 0, skyRenderer;
-let yaw = Math.PI, pitch = -0.15, camera = [0, 35, 105], points, manifest, gpu, beaconGPU, meshGPU, meshPoints;
+let running = false, started = false, completed = false, last = 0, elapsed = 0, skyRenderer, terrainRenderer;
+let yaw = Math.PI, pitch = -0.15, camera = [0, 35, 105], points, manifest, beaconGPU;
 const keys = new Set(), beacons = [], m = new Float32Array(16), view = new Float32Array(16);
 const mobile = matchMedia('(pointer:coarse)').matches;
 function fail(e) { $('status').textContent = 'GAGAL MEMUAT'; $('play').textContent = 'MUAT ULANG HALAMAN'; $('play').disabled = true; $('assetInfo').textContent = e.message; console.error(e); }
@@ -71,7 +72,7 @@ function frame(t){const dt=Math.min((t-last)/1000,.05);last=t;
   for(const b of beacons)if(!b.found&&distance(camera,b.p)<9){b.found=true;progress();$('toast').textContent=`SIGNAL ${b.id} ACQUIRED`;setTimeout(()=>$('toast').textContent='',2500);}
   if(!completed&&beacons.every(b=>b.found)){completed=true;running=false;$('finish').hidden=false;$('hud').hidden=true;$('touch').hidden=true;$('result').textContent=`Lima beacon ditemukan dalam ${Math.floor(elapsed)} detik. Semua sektor ekspedisi berhasil dijelajahi.`;document.exitPointerLock?.();}
  }else if(!started){const a=t*.000025;camera=[Math.sin(a)*185,95,Math.cos(a)*185];yaw=a+Math.PI;pitch=-.43;}
- gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(program);matrices(w/h);skyRenderer.draw(m,view);gl.useProgram(program);bind(meshGPU);gl.uniform1f(u.mesh,1);gl.uniform1f(u.beacon,0);gl.drawArrays(gl.TRIANGLES,0,meshPoints.length/6);
+ gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(program);matrices(w/h);skyRenderer.draw(m,view);terrainRenderer.draw(m,view);gl.useProgram(program);
  bind(beaconGPU);gl.uniform1f(u.mesh,0);gl.uniform1f(u.size,2200);gl.uniform1f(u.beacon,1);for(let i=0;i<beacons.length;i++)if(!beacons[i].found)gl.drawArrays(gl.POINTS,i*40,40);
  const remaining=beacons.filter(b=>!b.found).sort((a,b)=>distance(camera,a.p)-distance(camera,b.p));const target=remaining[0];
  $('target').textContent=target?`SIGNAL ${target.id} · ${distance(camera,target.p).toFixed(0)} m · Q/E atur ketinggian`:'SEMUA SINYAL DITEMUKAN';
@@ -79,19 +80,20 @@ function frame(t){const dt=Math.min((t-last)/1000,.05);last=t;
  drawMap(); requestAnimationFrame(frame);
 }
 async function load(){if(!gl||!program)return;
+ terrainRenderer=await createTerrainRenderer(gl,(n,total)=>{$('play').textContent=`MEMUAT TEKSTUR ${n} / ${total}`;});
  skyRenderer=await createSkyRenderer(gl);$('skySelect').disabled=false;
  $('skySelect').onchange=()=>skyRenderer.select(Number($('skySelect').value));
- const responses=await Promise.all([fetch('assets/platform.points'),fetch('assets/manifest.json'),fetch('assets/platform.mesh')]);for(const r of responses)if(!r.ok)throw Error(`Aset gagal dimuat: ${r.status}`);
+ const responses=await Promise.all([fetch('assets/platform.points'),fetch('assets/manifest.json')]);for(const r of responses)if(!r.ok)throw Error(`Aset gagal dimuat: ${r.status}`);
  manifest=await responses[1].json();points=new Float32Array(await responses[0].arrayBuffer());if(points.length!==manifest.vertices*6)throw Error('Ukuran data map tidak cocok dengan manifest');
- gpu=buffer(points);meshPoints=new Float32Array(await responses[2].arrayBuffer());if(meshPoints.length!==manifest.triangles*18)throw Error("Data mesh tidak lengkap");meshGPU=buffer(meshPoints);
+
  // Select separated, existing map positions at accessible heights for flight objectives.
  const targets=[[-30,0,65],[65,0,35],[65,0,-65],[-65,0,-65],[-70,0,10]];
  for(let k=0;k<targets.length;k++){let best=Infinity,p;for(let i=0;i<points.length;i+=6){const q=[points[i],points[i+1],points[i+2]];if(q[1]<-5||q[1]>35)continue;const d=Math.hypot(q[0]-targets[k][0],q[2]-targets[k][2]);if(d<best){best=d;p=q;}} if(!p)throw Error('Tidak menemukan posisi beacon');p[1]+=5;beacons.push({id:String(k+1).padStart(2,'0'),p,found:false});}
  const beaconVertices=[];for(const b of beacons)for(let j=0;j<40;j++)beaconVertices.push(b.p[0],b.p[1]+j*.35,b.p[2],1,1,1);beaconGPU=buffer(new Float32Array(beaconVertices));
  mapBackground=document.createElement('canvas');mapBackground.width=240;mapBackground.height=190;const ctx=mapBackground.getContext('2d');ctx.fillStyle='#7ca7a329';for(let i=0;i<points.length;i+=24){const [x,y]=mapXY([points[i],points[i+1],points[i+2]]);ctx.fillRect(x,y,1,1);}
  $('pointCount').textContent=manifest.vertices.toLocaleString('en-US');$('assetInfo').textContent=`${manifest.sources.length} file sumber tersimpan; ${manifest.materials.length} nama material terdeteksi. BSP: ${manifest.triangles.toLocaleString()} segitiga statis; ${manifest.skippedGroups} grup animasi/tak terlihat dilewati. EBP dan CAM belum dipakai.`;
- $('status').textContent='STATIC MESH / ORIGINAL MAP DATA';$('play').disabled=false;$('play').innerHTML='MULAI EKSPEDISI <span>↗</span>';progress();requestAnimationFrame(frame);
+ $('status').textContent='ORIGINAL TEXTURES / BAKED LIGHTING';$('play').disabled=false;$('play').innerHTML='MULAI EKSPEDISI <span>↗</span>';progress();requestAnimationFrame(frame);
  // Read-only diagnostics for browser validation, no gameplay mutation API.
- window.platformDiagnostics=()=>({vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
+ window.platformDiagnostics=()=>({vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
 }
 load().catch(fail);

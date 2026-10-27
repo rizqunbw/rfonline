@@ -1,0 +1,498 @@
+//캐릭터의 등록...
+[Object]
+
+*b_01 .\Chef\RealTime_00\Mesh\s_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\s_fight.bn
+ani 	.\Chef\RealTime_00\Ani\s_fight.ani
+mesh_id 13
+color 255 255 255
+_collision
+
+
+*b_02 .\Chef\RealTime_00\Mesh\s_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\s_fight.bn
+ani 	.\Chef\RealTime_00\Ani\s_fight.ani
+mesh_id 13
+color 255 255 255
+_collision
+
+
+*b_03 .\Chef\RealTime_00\Mesh\s_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\s_fight.bn
+ani 	.\Chef\RealTime_00\Ani\s_fight.ani
+mesh_id 13
+color 255 255 255
+_collision
+
+
+*b_04 .\Chef\RealTime_00\Mesh\s_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\s_fight.bn
+ani 	.\Chef\RealTime_00\Ani\s_fight.ani
+mesh_id 13
+color 255 255 255
+_collision
+
+
+*b_05 .\Character\Bfly\Bfly.msh
+texpath .\Chef\RealTime_00\TEX\
+bone	.\Character\Bfly\Bfly.bn
+ani 	.\Character\Bfly\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_06 .\Character\Bfly\Bfly.msh
+texpath .\Chef\RealTime_00\TEX\
+bone	.\Character\Bfly\Bfly.bn
+ani 	.\Character\Bfly\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_07 .\Character\Bfly\Bfly.msh
+texpath .\Chef\RealTime_00\TEX\
+bone	.\Character\Bfly\Bfly.bn
+ani 	.\Character\Bfly\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_08 .\Character\Bfly\Bfly.msh
+texpath .\Chef\RealTime_00\TEX\
+bone	.\Character\Bfly\Bfly.bn
+ani 	.\Character\Bfly\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_09 .\Character\c_fight\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\c_fight\c_fight.bn
+ani 	.\Character\c_fight\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_10 .\Character\c_fight\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\c_fight\c_fight.bn
+ani 	.\Character\c_fight\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_11 .\Character\c_fight\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\c_fight\c_fight.bn
+ani 	.\Character\c_fight\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_12 .\Character\c_fight\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\c_fight\c_fight.bn
+ani 	.\Character\c_fight\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_13 .\Chef\RealTime_00\Mesh\Trans.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Trans.bn
+ani 	.\Chef\RealTime_00\Ani\Trans.ani
+mesh_id 10
+color 255 255 255
+_collision
+
+
+*b_14 .\Chef\RealTime_00\Mesh\Trans.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Trans.bn
+ani 	.\Chef\RealTime_00\Ani\Trans.ani
+mesh_id 10
+color 255 255 255
+_collision
+
+
+*b_15 .\Chef\RealTime_00\Mesh\Trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Trans2.bn
+ani 	.\Chef\RealTime_00\Ani\Trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_16 .\Chef\RealTime_00\Mesh\Trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Trans2.bn
+ani 	.\Chef\RealTime_00\Ani\Trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_17 .\Chef\RealTime_00\Mesh\accship.msh
+texpath .\Chef\RealTime_00\TEX\
+bone	.\Chef\RealTime_00\accship.bn
+ani 	.\Chef\RealTime_00\Ani\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+*b_18 .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+*b_19 .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+*b_20 .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+*b_21 .\Chef\RealTime_00\Mesh\TRANSHIP_02_01.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\TRANSHIP_02_01.bn
+mesh_id 3
+color 255 255 255
+_collision
+
+
+*b_22 .\Chef\RealTime_00\Mesh\TRANSHIP_02_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\TRANSHIP_02_00.bn
+mesh_id 3
+color 255 255 255
+_collision
+
+
+*b_23 .\Chef\RealTime_00\Mesh\TRANSHIP_02_02.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\TRANSHIP_02_02.bn
+mesh_id 3
+color 255 255 255
+_collision
+
+
+*magic 11
+magic_id	0x1e8480
+char_link	*b_18 		
+char_dummy	P11
+map_dummy	*Dummy18
+
+*magic 12
+magic_id	0x1e8480
+char_link	*b_18 		
+char_dummy	P12
+map_dummy	*Dummy18
+
+
+*magic 13
+magic_id	0x1e8480
+char_link	*b_19 		
+char_dummy	P11
+map_dummy	*Dummy19
+
+*magic 14
+magic_id	0x1e8480
+char_link	*b_19 		
+char_dummy	P12
+map_dummy	*Dummy19
+
+
+*magic 15
+magic_id	0x1e8480
+char_link	*b_20 		
+char_dummy	P11
+map_dummy	*Dummy20
+
+*magic 16
+magic_id	0x1e8480
+char_link	*b_20 		
+char_dummy	P12
+map_dummy	*Dummy20
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame 5000
+*b_01 *Dummy01
+*b_02 *Dummy02
+*b_03 *Dummy03
+*b_04 *Dummy04
+*b_05 *Dummy05
+*b_06 *Dummy06
+*b_07 *Dummy07
+*b_08 *Dummy08
+*b_09 *Dummy09
+*b_10 *Dummy10
+*b_11 *Dummy11
+*b_12 *Dummy12
+*b_13 *Dummy13
+*b_14 *Dummy14
+*b_15 *Dummy15
+*b_16 *Dummy16
+*b_17 *Dummy17
+*b_18 *Dummy18
+*b_19 *Dummy19
+*b_20 *Dummy20
+*b_21 *Dummy21
+*b_22 *Dummy22
+*b_23 *Dummy23
+
+
+
+
+ani *b_01 0
+ani *b_02 0
+ani *b_03 0
+ani *b_04 0
+ani *b_05 0
+ani *b_06 0
+ani *b_07 0
+ani *b_08 0
+ani *b_09 0
+ani *b_10 0
+ani *b_11 0
+ani *b_12 0
+ani *b_13 0
+ani *b_14 0
+ani *b_15 0
+ani *b_16 0
+ani *b_17 0
+ani *b_18 0
+ani *b_19 0
+ani *b_20 0
+ani *b_21 0
+ani *b_22 0
+ani *b_23 0
+
+
+
+
+camera	*camera01	;시작 카메라는 camera01이다.
+_fade_out 0
+_no_camera		;카메라 강제진행이 아닌경우.
+logo
+wide
+
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+*frame 1
+camera	 *camera01
+
+
+
+
+----------------------------
+;방향전환(벨라)
+
+*frame 1420
+magic 12
+
+*frame 1420
+magic 11
+
+*frame 1440
+wav 	*Dummy18 .\Snd\ambience\Steam_01.wav  5000.0f
+
+*frame 1520
+magic 12
+
+*frame 1520
+magic 11
+
+*frame 1550
+wav 	*Dummy18 .\Snd\ambience\Steam_01.wav  5000.0f
+
+----------------------------
+;방향전환(코라)
+
+*frame 1620
+magic 13
+
+*frame 1620
+magic 14
+
+*frame 1640
+wav 	*Dummy19  .\Snd\ambience\Steam_01.wav  5000.0f
+
+
+*frame 1720
+magic 13
+
+*frame 1720
+magic 14
+
+*frame 1750
+wav 	*Dummy19 .\Snd\ambience\Steam_01.wav  5000.0f
+
+----------------------------
+;방향전환(아크)
+
+*frame 1840
+magic 15
+
+*frame 1840
+magic 16
+
+*frame 1860
+wav 	*Dummy20 .\Snd\ambience\Steam_01.wav  5000.0f
+
+
+*frame 1940
+magic 15
+
+*frame 1940
+magic 16
+
+*frame 1970
+wav 	*Dummy20 .\Snd\ambience\Steam_01.wav  5000.0f
+
+----------------------------
+
+;착륙(벨라)
+
+*frame 2160
+wav 	*Dummy18 .\Snd\ambience\SHIP_01.wav 	5000.0f
+
+*frame 2160
+wav 	*Dummy19 .\Snd\ambience\SHIP_01.wav 	5000.0f
+
+*frame 2160
+wav 	*Dummy20 .\Snd\ambience\SHIP_01.wav 	5000.0f
+
+
+*frame 2200
+wav 	*Dummy18 .\Snd\ambience\Steam_01.wav  5000.0f
+
+*frame 2200
+wav 	*Dummy19 .\Snd\ambience\Steam_01.wav  5000.0f
+
+*frame 2200
+wav 	*Dummy20 .\Snd\ambience\Steam_01.wav  5000.0f
+
+
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 12
+
+*frame 2200
+magic 12
+
+*frame 2200
+magic 12
+
+*frame 2200
+magic 12
+----------------------------
+----------------------------
+;착륙(코라)
+
+
+*frame 2200
+magic 13
+
+*frame 2200
+magic 13
+
+*frame 2200
+magic 13
+
+*frame 2200
+magic 13
+
+*frame 2200
+magic 14
+
+*frame 2200
+magic 14
+
+*frame 2200
+magic 14
+
+*frame 2200
+magic 14
+
+----------------------------
+
+----------------------------
+;착륙(아크)
+
+*frame 2200
+magic 15
+
+*frame 2200
+magic 15
+
+*frame 2200
+magic 15
+
+*frame 2200
+magic 15
+
+*frame 2200
+magic 16
+
+*frame 2200
+magic 16
+
+*frame 2200
+magic 16
+
+*frame 2200
+magic 16
+
+
+
+*frame 2210
+wav 	*Dummy18 .\Snd\ambience\Steam_01.wav  5000.0f
+
+*frame 2210
+wav 	*Dummy19 .\Snd\ambience\Steam_01.wav  5000.0f
+
+*frame 2210
+wav 	*Dummy20 .\Snd\ambience\Steam_01.wav  5000.0f
+----------------------------
+

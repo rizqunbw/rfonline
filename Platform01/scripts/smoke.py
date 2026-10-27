@@ -8,8 +8,10 @@ with sync_playwright() as p:
     errors = []
     page.on('pageerror', lambda e: errors.append(str(e)))
     page.goto('http://127.0.0.1:3000')
-    page.wait_for_function('window.platformDiagnostics !== undefined')
+    page.wait_for_function('window.platformDiagnostics !== undefined', timeout=120000)
     assert page.evaluate('platformDiagnostics().triangles') == 271641
+    assert page.evaluate('platformDiagnostics().terrain.textures') == 368
+    assert page.evaluate('platformDiagnostics().terrain.lightmaps') == 9
     page.wait_for_function('platformDiagnostics().sky.frames > 0')
     assert page.evaluate('platformDiagnostics().sky.textures') == 9
     page.select_option('#skySelect','1')
@@ -54,7 +56,7 @@ with sync_playwright() as p:
     mobile = browser.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
     page = mobile.new_page()
     page.goto('http://127.0.0.1:3000')
-    page.wait_for_function('window.platformDiagnostics !== undefined')
+    page.wait_for_function('window.platformDiagnostics !== undefined', timeout=120000)
     page.select_option('#skySelect','1')
     page.wait_for_function('platformDiagnostics().sky.name === "Platform01sky2"')
     page.tap('#play')
@@ -64,7 +66,7 @@ with sync_playwright() as p:
     failure_page=browser.new_page()
     failure_page.route('**/assets/sky/Platform01Sky/1.png',lambda route:route.abort())
     failure_page.goto('http://127.0.0.1:3000')
-    failure_page.wait_for_function('document.getElementById("status").textContent === "GAGAL MEMUAT"')
+    failure_page.wait_for_function('document.getElementById("status").textContent === "GAGAL MEMUAT"', timeout=120000)
     assert failure_page.locator('#play').is_disabled()
     print('PASS: missing sky texture reports a load error and prevents incomplete startup')
     browser.close()

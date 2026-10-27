@@ -1,0 +1,2 @@
+# Preserve original game files byte-for-byte, including legacy text encodings.
+assets/source/** binary

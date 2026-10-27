@@ -1,6 +1,6 @@
 # Platform01 Expedition
 
-Dependency-free WebGL static-map exploration game using uploaded RF Online Platform01 data. Fly through the geometry and find five beacons. This is not a full RF Online client and does not include the original complete materials. No collision, combat, characters, networking, or persistence is implemented.
+Dependency-free WebGL static-map exploration game using uploaded RF Online Platform01 data. Fly through the geometry and find five beacons. This is not a full RF Online client ; it renders original base textures and baked lightmaps with the first material layer. No collision, combat, characters, networking, or persistence is implemented.
 
 ## Run
 
@@ -21,7 +21,7 @@ Open port 3000 in a browser. WASD moves horizontally, mouse (pointer lock) or ar
 
 Original uploads remain in `assets/source`. BSP version/header value is 39. The experimental extraction reads 253,803 float32 XYZ records starting at byte 2,603,235, followed by BGRA vertex colors at byte 5,648,871. Positions are scaled by 0.01 for navigation; this scale is an application choice. Tests compare every exported coordinate and color with the source bytes. Structural consistency does not establish complete format semantics.
 
-`scripts/convert.py` regenerates `assets/platform.points` and the manifest for this specific sample. The BSP header identifies vertices, colors, face records, face IDs, vertex IDs, and material groups. Polygon fans decode into 271,641 static triangles; 19 animated/invisible material groups are omitted. R3M records supply 595 material names. Original face topology is used; colors are substitutes with baked directional shading. EBP and CAM are retained for later decoding. `am16.dds` was decoded to PNG using Pillow; it appears only in the asset panel because its material mapping is not established. A complete original appearance requires Platform01.r3t (texture dictionary and packed textures/lightmaps) and handling of animated objects/effects. Beacon missions and flight controls are new prototype gameplay.
+`scripts/convert.py` regenerates `assets/platform.points` and the manifest for this specific sample. The BSP header identifies vertices, colors, face records, face IDs, vertex IDs, and material groups. Polygon fans decode into 271,641 static triangles; 19 animated/invisible material groups are omitted. R3M records supply 595 material names. Original face topology is used. The browser now uses the terrain export from `scripts/convert_terrain.py`, with original base textures, per-corner UVs and baked lightmaps. The earlier flat-color mesh is retained for source-integrity tests. EBP and CAM are retained for later decoding. `am16.dds` was decoded to PNG using Pillow; it appears only in the asset panel because its material mapping is not established. Platform01.r3t and Platform01Lgt.r3t are now included. Remaining differences include secondary material layers, animated objects and effects. Beacon missions and flight controls are new prototype gameplay.
 
 ## Vercel
 
@@ -37,6 +37,12 @@ Browser validation: `python scripts/smoke.py` against the running server (requir
 
 The menu now switches between **Platform01 Sky 1** (2,132 static triangles, 9 textures) and **Platform01 Sky 2** (1,158 static triangles, 13 textures). Geometry comes from the uploaded R3E files, texture references and tints from R3M, and images from embedded DDS payloads in R3T. All 22 textures are decoded losslessly to PNG. UVs are indexed by polygon corner. Both sets are loaded locally without external services.
 
-The sky is rendered around the camera using rotation only. These are static previews: Sky 2's two animated object groups are omitted, and secondary material layers and UV scroll effects are not simulated. MTF files are retained as metadata; rendering uses R3T's embedded texture directory. The original game's sky selection, animation timing and full rendering behavior have not been reproduced. These sky archives do not replace the missing terrain texture archive `Platform01.r3t` (or its lightmap archive).
+The sky is rendered around the camera using rotation only. These are static previews: Sky 2's two animated object groups are omitted, and secondary material layers and UV scroll effects are not simulated. MTF files are retained as metadata; rendering uses R3T's embedded texture directory. The original game's sky selection, animation timing and full rendering behavior have not been reproduced. Terrain textures and lightmaps are provided separately by the newly uploaded Platform01 archives.
 
 To regenerate the sky outputs, run `python scripts/convert_sky.py` (requires Pillow), then `npm run build`. Validate original source hashes, all decoded texture pixels, and every exported sky position/UV/color using `python scripts/test_sky.py`. Browser tests also switch both skies, test mobile selection, and verify that missing textures produce an explicit load failure.
+
+## Terrain textures and deployment fix
+
+368 original terrain textures and 9 lightmaps are decoded by `python scripts/convert_terrain.py` (Pillow required) and rendered by terrain.js. DDS header obfuscation is decoded using the MIT reference format. Run `python scripts/test_terrain.py` to verify exported pixels, topology and UVs. The R3X/RVP/SPT files are retained but their gameplay/effect behavior is not interpreted.
+
+A repository-root package.json and vercel.json now support Vercel projects imported with the default root directory. No dashboard change is required unless custom build/output overrides conflict. The alternative Platform01 root remains supported.
