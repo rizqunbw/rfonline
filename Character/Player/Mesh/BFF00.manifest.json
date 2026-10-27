@@ -1,0 +1,1729 @@
+{
+  "archive": "BFF00.rfs",
+  "sha256": "0f35bef3f0a62b3f9aae36320b31a2063e2dc8941983dffc3a782e00bd12e566",
+  "files": [
+    {
+      "name": "BELFEMALE_ARMOR_GLOVES_168.msh",
+      "offset": 1284,
+      "size": 50164,
+      "sha256": "0b9e54d790536fc8ab0c47709eee0725f5a68b5137918186b639aeb03eda4bae",
+      "mesh": {
+        "objects": [
+          {
+            "name": "G0",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 R Hand",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7872002124786377,
+                -0.4984999895095825,
+                -0.9863996505737305
+              ],
+              [
+                0.5994000434875488,
+                0.6244000196456909,
+                0.8189001083374023
+              ]
+            ]
+          },
+          {
+            "name": "G1",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 L Hand",
+              "Bip01 L Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6933999061584473,
+                -0.4883999824523926,
+                -0.9863996505737305
+              ],
+              [
+                0.7871999740600586,
+                0.6345000267028809,
+                0.9026002883911133
+              ]
+            ]
+          }
+        ],
+        "vertices": 204,
+        "triangles": 392,
+        "bytesConsumed": 50164
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_GLOVES_171.msh",
+      "offset": 51448,
+      "size": 50164,
+      "sha256": "34eb491847d0bc44c11f322de5de710a9f60c0b20b2cbce0547e47ba49d29713",
+      "mesh": {
+        "objects": [
+          {
+            "name": "G1",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 L Forearm",
+              "Bip01 L Hand"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7405998706817627,
+                -0.5475000143051147,
+                -1.0138001441955566
+              ],
+              [
+                0.7405002117156982,
+                0.5475000143051147,
+                1.0137996673583984
+              ]
+            ]
+          },
+          {
+            "name": "G0",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 R Forearm",
+              "Bip01 R Hand"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7405002117156982,
+                -0.5475000143051147,
+                -1.0138001441955566
+              ],
+              [
+                0.7405998706817627,
+                0.5475000143051147,
+                1.0137996673583984
+              ]
+            ]
+          }
+        ],
+        "vertices": 204,
+        "triangles": 392,
+        "bytesConsumed": 50164
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_GLOVES_172.msh",
+      "offset": 101612,
+      "size": 50164,
+      "sha256": "0b9e54d790536fc8ab0c47709eee0725f5a68b5137918186b639aeb03eda4bae",
+      "mesh": {
+        "objects": [
+          {
+            "name": "G0",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 R Hand",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7872002124786377,
+                -0.4984999895095825,
+                -0.9863996505737305
+              ],
+              [
+                0.5994000434875488,
+                0.6244000196456909,
+                0.8189001083374023
+              ]
+            ]
+          },
+          {
+            "name": "G1",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 L Hand",
+              "Bip01 L Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6933999061584473,
+                -0.4883999824523926,
+                -0.9863996505737305
+              ],
+              [
+                0.7871999740600586,
+                0.6345000267028809,
+                0.9026002883911133
+              ]
+            ]
+          }
+        ],
+        "vertices": 204,
+        "triangles": 392,
+        "bytesConsumed": 50164
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_GLOVES_176.msh",
+      "offset": 151776,
+      "size": 50164,
+      "sha256": "0b9e54d790536fc8ab0c47709eee0725f5a68b5137918186b639aeb03eda4bae",
+      "mesh": {
+        "objects": [
+          {
+            "name": "G0",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 R Hand",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7872002124786377,
+                -0.4984999895095825,
+                -0.9863996505737305
+              ],
+              [
+                0.5994000434875488,
+                0.6244000196456909,
+                0.8189001083374023
+              ]
+            ]
+          },
+          {
+            "name": "G1",
+            "parent": "NULL",
+            "vertices": 102,
+            "triangles": 196,
+            "weightedVertices": 102,
+            "bones": [
+              "Bip01 L Hand",
+              "Bip01 L Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_GLOVES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6933999061584473,
+                -0.4883999824523926,
+                -0.9863996505737305
+              ],
+              [
+                0.7871999740600586,
+                0.6345000267028809,
+                0.9026002883911133
+              ]
+            ]
+          }
+        ],
+        "vertices": 204,
+        "triangles": 392,
+        "bytesConsumed": 50164
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_HELMET_168.msh",
+      "offset": 201940,
+      "size": 6059,
+      "sha256": "e1cf00ebe7a402e3c7065d3b91488de7eab6a80c44699200c01c42c0cf0385c6",
+      "mesh": {
+        "objects": [
+          {
+            "name": "H0",
+            "parent": "Bip01 Head",
+            "vertices": 28,
+            "triangles": 52,
+            "weightedVertices": 0,
+            "bones": [],
+            "texture": "BELFEMALE_ARMOR_HELMET_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.8357999920845032,
+                -0.3776000142097473,
+                -0.15779972076416016
+              ],
+              [
+                0.8357999920845032,
+                0.3774999976158142,
+                0.15780067443847656
+              ]
+            ]
+          }
+        ],
+        "vertices": 28,
+        "triangles": 52,
+        "bytesConsumed": 6059
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_HELMET_171.msh",
+      "offset": 207999,
+      "size": 21215,
+      "sha256": "83320b2c513917599aec3cc4b4dc1652dd0d0efb345c622c14091ac467df9302",
+      "mesh": {
+        "objects": [
+          {
+            "name": "H0",
+            "parent": "Bip01 Head",
+            "vertices": 123,
+            "triangles": 194,
+            "weightedVertices": 0,
+            "bones": [],
+            "texture": "BELFEMALE_ARMOR_HELMET_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.2934999465942383,
+                -1.2076001167297363,
+                -1.0824003219604492
+              ],
+              [
+                1.2934999465942383,
+                1.2074999809265137,
+                1.0824995040893555
+              ]
+            ]
+          }
+        ],
+        "vertices": 123,
+        "triangles": 194,
+        "bytesConsumed": 21215
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_HELMET_172.msh",
+      "offset": 229214,
+      "size": 6059,
+      "sha256": "e1cf00ebe7a402e3c7065d3b91488de7eab6a80c44699200c01c42c0cf0385c6",
+      "mesh": {
+        "objects": [
+          {
+            "name": "H0",
+            "parent": "Bip01 Head",
+            "vertices": 28,
+            "triangles": 52,
+            "weightedVertices": 0,
+            "bones": [],
+            "texture": "BELFEMALE_ARMOR_HELMET_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.8357999920845032,
+                -0.3776000142097473,
+                -0.15779972076416016
+              ],
+              [
+                0.8357999920845032,
+                0.3774999976158142,
+                0.15780067443847656
+              ]
+            ]
+          }
+        ],
+        "vertices": 28,
+        "triangles": 52,
+        "bytesConsumed": 6059
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_HELMET_176.msh",
+      "offset": 235273,
+      "size": 6059,
+      "sha256": "e1cf00ebe7a402e3c7065d3b91488de7eab6a80c44699200c01c42c0cf0385c6",
+      "mesh": {
+        "objects": [
+          {
+            "name": "H0",
+            "parent": "Bip01 Head",
+            "vertices": 28,
+            "triangles": 52,
+            "weightedVertices": 0,
+            "bones": [],
+            "texture": "BELFEMALE_ARMOR_HELMET_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.8357999920845032,
+                -0.3776000142097473,
+                -0.15779972076416016
+              ],
+              [
+                0.8357999920845032,
+                0.3774999976158142,
+                0.15780067443847656
+              ]
+            ]
+          }
+        ],
+        "vertices": 28,
+        "triangles": 52,
+        "bytesConsumed": 6059
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_LOWER_168.msh",
+      "offset": 241332,
+      "size": 89398,
+      "sha256": "b94ce659531bc8f160cdcae41458fafd976c96eda80280c47228531ed15f81ef",
+      "mesh": {
+        "objects": [
+          {
+            "name": "L0",
+            "parent": "NULL",
+            "vertices": 141,
+            "triangles": 232,
+            "weightedVertices": 141,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 R Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9088999629020691,
+                -1.2372000217437744,
+                -2.119500160217285
+              ],
+              [
+                0.9089000225067139,
+                1.2371999025344849,
+                2.1219000816345215
+              ]
+            ]
+          },
+          {
+            "name": "L1",
+            "parent": "NULL",
+            "vertices": 141,
+            "triangles": 232,
+            "weightedVertices": 141,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 L Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9088999629020691,
+                -1.2372000217437744,
+                -2.119500160217285
+              ],
+              [
+                0.9088999629020691,
+                1.2371999025344849,
+                2.1219000816345215
+              ]
+            ]
+          },
+          {
+            "name": "L3",
+            "parent": "NULL",
+            "vertices": 59,
+            "triangles": 101,
+            "weightedVertices": 59,
+            "bones": [
+              "Bip01 L Thigh",
+              "Bip01 L Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6026000380516052,
+                -0.8767000436782837,
+                -2.719099998474121
+              ],
+              [
+                0.6025999784469604,
+                0.8767000436782837,
+                2.719099998474121
+              ]
+            ]
+          },
+          {
+            "name": "L2",
+            "parent": "NULL",
+            "vertices": 59,
+            "triangles": 101,
+            "weightedVertices": 59,
+            "bones": [
+              "Bip01 R Thigh",
+              "Bip01 R Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6026000380516052,
+                -0.8767000436782837,
+                -2.719099998474121
+              ],
+              [
+                0.6025999784469604,
+                0.8767000436782837,
+                2.719099998474121
+              ]
+            ]
+          }
+        ],
+        "vertices": 400,
+        "triangles": 666,
+        "bytesConsumed": 89398
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_LOWER_171.msh",
+      "offset": 330730,
+      "size": 132502,
+      "sha256": "b598d9da4891a089d6f41c024dfd46657f8f8d04e69718bb24d08586ac8d309b",
+      "mesh": {
+        "objects": [
+          {
+            "name": "L1",
+            "parent": "NULL",
+            "vertices": 210,
+            "triangles": 341,
+            "weightedVertices": 210,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 L Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7975000143051147,
+                -1.2128000259399414,
+                -1.3621001243591309
+              ],
+              [
+                0.7976000308990479,
+                1.2127999067306519,
+                1.3620996475219727
+              ]
+            ]
+          },
+          {
+            "name": "L2",
+            "parent": "NULL",
+            "vertices": 96,
+            "triangles": 155,
+            "weightedVertices": 96,
+            "bones": [
+              "Bip01 R Thigh",
+              "Bip01 R Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9406000375747681,
+                -1.2095999717712402,
+                -4.622799873352051
+              ],
+              [
+                0.9405999779701233,
+                1.2095999717712402,
+                1.196199893951416
+              ]
+            ]
+          },
+          {
+            "name": "L3",
+            "parent": "NULL",
+            "vertices": 96,
+            "triangles": 155,
+            "weightedVertices": 96,
+            "bones": [
+              "Bip01 L Thigh",
+              "Bip01 L Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9174999594688416,
+                -1.2095999717712402,
+                -4.622799873352051
+              ],
+              [
+                0.9637000560760498,
+                1.2095999717712402,
+                1.196199893951416
+              ]
+            ]
+          },
+          {
+            "name": "L0",
+            "parent": "NULL",
+            "vertices": 210,
+            "triangles": 341,
+            "weightedVertices": 210,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 R Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7976000308990479,
+                -1.2128000259399414,
+                -1.3621001243591309
+              ],
+              [
+                0.7975000143051147,
+                1.2127999067306519,
+                1.3620996475219727
+              ]
+            ]
+          }
+        ],
+        "vertices": 612,
+        "triangles": 992,
+        "bytesConsumed": 132502
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_LOWER_172.msh",
+      "offset": 463232,
+      "size": 89398,
+      "sha256": "b94ce659531bc8f160cdcae41458fafd976c96eda80280c47228531ed15f81ef",
+      "mesh": {
+        "objects": [
+          {
+            "name": "L0",
+            "parent": "NULL",
+            "vertices": 141,
+            "triangles": 232,
+            "weightedVertices": 141,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 R Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9088999629020691,
+                -1.2372000217437744,
+                -2.119500160217285
+              ],
+              [
+                0.9089000225067139,
+                1.2371999025344849,
+                2.1219000816345215
+              ]
+            ]
+          },
+          {
+            "name": "L1",
+            "parent": "NULL",
+            "vertices": 141,
+            "triangles": 232,
+            "weightedVertices": 141,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 L Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9088999629020691,
+                -1.2372000217437744,
+                -2.119500160217285
+              ],
+              [
+                0.9088999629020691,
+                1.2371999025344849,
+                2.1219000816345215
+              ]
+            ]
+          },
+          {
+            "name": "L3",
+            "parent": "NULL",
+            "vertices": 59,
+            "triangles": 101,
+            "weightedVertices": 59,
+            "bones": [
+              "Bip01 L Thigh",
+              "Bip01 L Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6026000380516052,
+                -0.8767000436782837,
+                -2.719099998474121
+              ],
+              [
+                0.6025999784469604,
+                0.8767000436782837,
+                2.719099998474121
+              ]
+            ]
+          },
+          {
+            "name": "L2",
+            "parent": "NULL",
+            "vertices": 59,
+            "triangles": 101,
+            "weightedVertices": 59,
+            "bones": [
+              "Bip01 R Thigh",
+              "Bip01 R Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6026000380516052,
+                -0.8767000436782837,
+                -2.719099998474121
+              ],
+              [
+                0.6025999784469604,
+                0.8767000436782837,
+                2.719099998474121
+              ]
+            ]
+          }
+        ],
+        "vertices": 400,
+        "triangles": 666,
+        "bytesConsumed": 89398
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_LOWER_176.msh",
+      "offset": 552630,
+      "size": 89398,
+      "sha256": "b94ce659531bc8f160cdcae41458fafd976c96eda80280c47228531ed15f81ef",
+      "mesh": {
+        "objects": [
+          {
+            "name": "L0",
+            "parent": "NULL",
+            "vertices": 141,
+            "triangles": 232,
+            "weightedVertices": 141,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 R Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9088999629020691,
+                -1.2372000217437744,
+                -2.119500160217285
+              ],
+              [
+                0.9089000225067139,
+                1.2371999025344849,
+                2.1219000816345215
+              ]
+            ]
+          },
+          {
+            "name": "L1",
+            "parent": "NULL",
+            "vertices": 141,
+            "triangles": 232,
+            "weightedVertices": 141,
+            "bones": [
+              "Bip01 Pelvis",
+              "Bip01 L Thigh"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9088999629020691,
+                -1.2372000217437744,
+                -2.119500160217285
+              ],
+              [
+                0.9088999629020691,
+                1.2371999025344849,
+                2.1219000816345215
+              ]
+            ]
+          },
+          {
+            "name": "L3",
+            "parent": "NULL",
+            "vertices": 59,
+            "triangles": 101,
+            "weightedVertices": 59,
+            "bones": [
+              "Bip01 L Thigh",
+              "Bip01 L Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6026000380516052,
+                -0.8767000436782837,
+                -2.719099998474121
+              ],
+              [
+                0.6025999784469604,
+                0.8767000436782837,
+                2.719099998474121
+              ]
+            ]
+          },
+          {
+            "name": "L2",
+            "parent": "NULL",
+            "vertices": 59,
+            "triangles": 101,
+            "weightedVertices": 59,
+            "bones": [
+              "Bip01 R Thigh",
+              "Bip01 R Calf"
+            ],
+            "texture": "BELFEMALE_ARMOR_LOWER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.6026000380516052,
+                -0.8767000436782837,
+                -2.719099998474121
+              ],
+              [
+                0.6025999784469604,
+                0.8767000436782837,
+                2.719099998474121
+              ]
+            ]
+          }
+        ],
+        "vertices": 400,
+        "triangles": 666,
+        "bytesConsumed": 89398
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_SHOES_168.msh",
+      "offset": 642028,
+      "size": 27932,
+      "sha256": "3fe4e45b0b80dfbba369a82d498bb937e4f4a545158c507d87dccd5b5e819c0d",
+      "mesh": {
+        "objects": [
+          {
+            "name": "S0",
+            "parent": "NULL",
+            "vertices": 55,
+            "triangles": 106,
+            "weightedVertices": 55,
+            "bones": [
+              "Bip01 R Calf",
+              "Bip01 R Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5713000297546387,
+                -1.287100076675415,
+                -0.8482000231742859
+              ],
+              [
+                0.5514000058174133,
+                1.287100076675415,
+                0.8482000231742859
+              ]
+            ]
+          },
+          {
+            "name": "S1",
+            "parent": "NULL",
+            "vertices": 55,
+            "triangles": 106,
+            "weightedVertices": 55,
+            "bones": [
+              "Bip01 L Calf",
+              "Bip01 L Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5432999730110168,
+                -1.287100076675415,
+                -0.8482000231742859
+              ],
+              [
+                0.5794000625610352,
+                1.287100076675415,
+                0.8482000231742859
+              ]
+            ]
+          }
+        ],
+        "vertices": 110,
+        "triangles": 212,
+        "bytesConsumed": 27932
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_SHOES_171.msh",
+      "offset": 669960,
+      "size": 30564,
+      "sha256": "791aaf127582f9d24028ec52858163b0c6dd8f808f067c9166deb450c101785b",
+      "mesh": {
+        "objects": [
+          {
+            "name": "S1",
+            "parent": "NULL",
+            "vertices": 64,
+            "triangles": 114,
+            "weightedVertices": 64,
+            "bones": [
+              "Bip01 L Calf",
+              "Bip01 L Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.4934999644756317,
+                -1.3447999954223633,
+                -1.0882999897003174
+              ],
+              [
+                0.4935000538825989,
+                1.3447000980377197,
+                1.088300108909607
+              ]
+            ]
+          },
+          {
+            "name": "S0",
+            "parent": "NULL",
+            "vertices": 64,
+            "triangles": 114,
+            "weightedVertices": 64,
+            "bones": [
+              "Bip01 R Calf",
+              "Bip01 R Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.4935000538825989,
+                -1.3447999954223633,
+                -1.0882999897003174
+              ],
+              [
+                0.4934999644756317,
+                1.3447000980377197,
+                1.088300108909607
+              ]
+            ]
+          }
+        ],
+        "vertices": 128,
+        "triangles": 228,
+        "bytesConsumed": 30564
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_SHOES_172.msh",
+      "offset": 700524,
+      "size": 27932,
+      "sha256": "3fe4e45b0b80dfbba369a82d498bb937e4f4a545158c507d87dccd5b5e819c0d",
+      "mesh": {
+        "objects": [
+          {
+            "name": "S0",
+            "parent": "NULL",
+            "vertices": 55,
+            "triangles": 106,
+            "weightedVertices": 55,
+            "bones": [
+              "Bip01 R Calf",
+              "Bip01 R Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5713000297546387,
+                -1.287100076675415,
+                -0.8482000231742859
+              ],
+              [
+                0.5514000058174133,
+                1.287100076675415,
+                0.8482000231742859
+              ]
+            ]
+          },
+          {
+            "name": "S1",
+            "parent": "NULL",
+            "vertices": 55,
+            "triangles": 106,
+            "weightedVertices": 55,
+            "bones": [
+              "Bip01 L Calf",
+              "Bip01 L Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5432999730110168,
+                -1.287100076675415,
+                -0.8482000231742859
+              ],
+              [
+                0.5794000625610352,
+                1.287100076675415,
+                0.8482000231742859
+              ]
+            ]
+          }
+        ],
+        "vertices": 110,
+        "triangles": 212,
+        "bytesConsumed": 27932
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_SHOES_176.msh",
+      "offset": 728456,
+      "size": 27932,
+      "sha256": "3fe4e45b0b80dfbba369a82d498bb937e4f4a545158c507d87dccd5b5e819c0d",
+      "mesh": {
+        "objects": [
+          {
+            "name": "S0",
+            "parent": "NULL",
+            "vertices": 55,
+            "triangles": 106,
+            "weightedVertices": 55,
+            "bones": [
+              "Bip01 R Calf",
+              "Bip01 R Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5713000297546387,
+                -1.287100076675415,
+                -0.8482000231742859
+              ],
+              [
+                0.5514000058174133,
+                1.287100076675415,
+                0.8482000231742859
+              ]
+            ]
+          },
+          {
+            "name": "S1",
+            "parent": "NULL",
+            "vertices": 55,
+            "triangles": 106,
+            "weightedVertices": 55,
+            "bones": [
+              "Bip01 L Calf",
+              "Bip01 L Foot"
+            ],
+            "texture": "BELFEMALE_ARMOR_SHOES_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5432999730110168,
+                -1.287100076675415,
+                -0.8482000231742859
+              ],
+              [
+                0.5794000625610352,
+                1.287100076675415,
+                0.8482000231742859
+              ]
+            ]
+          }
+        ],
+        "vertices": 110,
+        "triangles": 212,
+        "bytesConsumed": 27932
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_UPPER_168.msh",
+      "offset": 756388,
+      "size": 71248,
+      "sha256": "a114e7a12715b4293f566cec2da5dd8565835a51f9bf6773d9f47e212201aa83",
+      "mesh": {
+        "objects": [
+          {
+            "name": "U0",
+            "parent": "NULL",
+            "vertices": 158,
+            "triangles": 292,
+            "weightedVertices": 158,
+            "bones": [
+              "Bip01 Spine1",
+              "Bip01 Spine"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.229099988937378,
+                -1.0436999797821045,
+                -1.4598007202148438
+              ],
+              [
+                1.229099988937378,
+                1.0437999963760376,
+                1.4596996307373047
+              ]
+            ]
+          },
+          {
+            "name": "U5",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 L Forearm",
+              "Bip01 L UpperArm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.0220999717712402,
+                -0.39889997243881226,
+                -1.153700828552246
+              ],
+              [
+                1.0220000743865967,
+                0.39670002460479736,
+                1.1561994552612305
+              ]
+            ]
+          },
+          {
+            "name": "U1",
+            "parent": "NULL",
+            "vertices": 30,
+            "triangles": 40,
+            "weightedVertices": 30,
+            "bones": [
+              "Bip01 Spine",
+              "Bip01 Pelvis"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9513000249862671,
+                -0.7490999698638916,
+                -0.4562997817993164
+              ],
+              [
+                0.951200008392334,
+                0.7481000423431396,
+                0.4588003158569336
+              ]
+            ]
+          },
+          {
+            "name": "U4",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.0220000743865967,
+                -0.39889997243881226,
+                -1.153700828552246
+              ],
+              [
+                1.021899938583374,
+                0.39670002460479736,
+                1.1561994552612305
+              ]
+            ]
+          },
+          {
+            "name": "U3",
+            "parent": "NULL",
+            "vertices": 25,
+            "triangles": 35,
+            "weightedVertices": 25,
+            "bones": [
+              "Bip01 L UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5730000734329224,
+                -0.44519999623298645,
+                -0.753199577331543
+              ],
+              [
+                0.5730000734329224,
+                0.44520002603530884,
+                0.7557001113891602
+              ]
+            ]
+          },
+          {
+            "name": "U2",
+            "parent": "NULL",
+            "vertices": 25,
+            "triangles": 35,
+            "weightedVertices": 25,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5731000900268555,
+                -0.44519999623298645,
+                -0.7532997131347656
+              ],
+              [
+                0.5730999708175659,
+                0.44520002603530884,
+                0.7557001113891602
+              ]
+            ]
+          }
+        ],
+        "vertices": 306,
+        "triangles": 512,
+        "bytesConsumed": 71248
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_UPPER_171.msh",
+      "offset": 827636,
+      "size": 173059,
+      "sha256": "35201845ba35ecdf6582df10335725b5efed1140f69ad6288e59e8eb6f306fe0",
+      "mesh": {
+        "objects": [
+          {
+            "name": "U0",
+            "parent": "NULL",
+            "vertices": 635,
+            "triangles": 1040,
+            "weightedVertices": 635,
+            "bones": [
+              "Bip01 Spine1",
+              "Bip01 Pelvis"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -3.354599952697754,
+                -1.094499945640564,
+                -4.797900199890137
+              ],
+              [
+                3.354599952697754,
+                5.2621002197265625,
+                1.2933998107910156
+              ]
+            ]
+          },
+          {
+            "name": "U1",
+            "parent": "NULL",
+            "vertices": 52,
+            "triangles": 71,
+            "weightedVertices": 52,
+            "bones": [
+              "Bip01 Spine1",
+              "Bip01 R UpperArm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.3748999834060669,
+                -0.5501999855041504,
+                -0.559600830078125
+              ],
+              [
+                0.7008000612258911,
+                0.5502999424934387,
+                0.9517993927001953
+              ]
+            ]
+          },
+          {
+            "name": "U2",
+            "parent": "NULL",
+            "vertices": 52,
+            "triangles": 71,
+            "weightedVertices": 52,
+            "bones": [
+              "Bip01 L UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.7008000612258911,
+                -0.5501999855041504,
+                -0.559600830078125
+              ],
+              [
+                0.3748999834060669,
+                0.5502999424934387,
+                0.9517993927001953
+              ]
+            ]
+          },
+          {
+            "name": "U3",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.9099000692367554,
+                -0.43240001797676086,
+                -2.4564008712768555
+              ],
+              [
+                0.13409996032714844,
+                0.36320000886917114,
+                -0.1490001678466797
+              ]
+            ]
+          },
+          {
+            "name": "U4",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 L UpperArm",
+              "Bip01 L Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_171.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.13409996032714844,
+                -0.43240001797676086,
+                -2.4564008712768555
+              ],
+              [
+                1.9099000692367554,
+                0.36320000886917114,
+                -0.1490001678466797
+              ]
+            ]
+          }
+        ],
+        "vertices": 807,
+        "triangles": 1292,
+        "bytesConsumed": 173059
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_UPPER_172.msh",
+      "offset": 1000695,
+      "size": 71248,
+      "sha256": "a114e7a12715b4293f566cec2da5dd8565835a51f9bf6773d9f47e212201aa83",
+      "mesh": {
+        "objects": [
+          {
+            "name": "U0",
+            "parent": "NULL",
+            "vertices": 158,
+            "triangles": 292,
+            "weightedVertices": 158,
+            "bones": [
+              "Bip01 Spine1",
+              "Bip01 Spine"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.229099988937378,
+                -1.0436999797821045,
+                -1.4598007202148438
+              ],
+              [
+                1.229099988937378,
+                1.0437999963760376,
+                1.4596996307373047
+              ]
+            ]
+          },
+          {
+            "name": "U5",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 L Forearm",
+              "Bip01 L UpperArm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.0220999717712402,
+                -0.39889997243881226,
+                -1.153700828552246
+              ],
+              [
+                1.0220000743865967,
+                0.39670002460479736,
+                1.1561994552612305
+              ]
+            ]
+          },
+          {
+            "name": "U1",
+            "parent": "NULL",
+            "vertices": 30,
+            "triangles": 40,
+            "weightedVertices": 30,
+            "bones": [
+              "Bip01 Spine",
+              "Bip01 Pelvis"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9513000249862671,
+                -0.7490999698638916,
+                -0.4562997817993164
+              ],
+              [
+                0.951200008392334,
+                0.7481000423431396,
+                0.4588003158569336
+              ]
+            ]
+          },
+          {
+            "name": "U4",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.0220000743865967,
+                -0.39889997243881226,
+                -1.153700828552246
+              ],
+              [
+                1.021899938583374,
+                0.39670002460479736,
+                1.1561994552612305
+              ]
+            ]
+          },
+          {
+            "name": "U3",
+            "parent": "NULL",
+            "vertices": 25,
+            "triangles": 35,
+            "weightedVertices": 25,
+            "bones": [
+              "Bip01 L UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5730000734329224,
+                -0.44519999623298645,
+                -0.753199577331543
+              ],
+              [
+                0.5730000734329224,
+                0.44520002603530884,
+                0.7557001113891602
+              ]
+            ]
+          },
+          {
+            "name": "U2",
+            "parent": "NULL",
+            "vertices": 25,
+            "triangles": 35,
+            "weightedVertices": 25,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5731000900268555,
+                -0.44519999623298645,
+                -0.7532997131347656
+              ],
+              [
+                0.5730999708175659,
+                0.44520002603530884,
+                0.7557001113891602
+              ]
+            ]
+          }
+        ],
+        "vertices": 306,
+        "triangles": 512,
+        "bytesConsumed": 71248
+      }
+    },
+    {
+      "name": "BELFEMALE_ARMOR_UPPER_176.msh",
+      "offset": 1071943,
+      "size": 71248,
+      "sha256": "a114e7a12715b4293f566cec2da5dd8565835a51f9bf6773d9f47e212201aa83",
+      "mesh": {
+        "objects": [
+          {
+            "name": "U0",
+            "parent": "NULL",
+            "vertices": 158,
+            "triangles": 292,
+            "weightedVertices": 158,
+            "bones": [
+              "Bip01 Spine1",
+              "Bip01 Spine"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.229099988937378,
+                -1.0436999797821045,
+                -1.4598007202148438
+              ],
+              [
+                1.229099988937378,
+                1.0437999963760376,
+                1.4596996307373047
+              ]
+            ]
+          },
+          {
+            "name": "U5",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 L Forearm",
+              "Bip01 L UpperArm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.0220999717712402,
+                -0.39889997243881226,
+                -1.153700828552246
+              ],
+              [
+                1.0220000743865967,
+                0.39670002460479736,
+                1.1561994552612305
+              ]
+            ]
+          },
+          {
+            "name": "U1",
+            "parent": "NULL",
+            "vertices": 30,
+            "triangles": 40,
+            "weightedVertices": 30,
+            "bones": [
+              "Bip01 Spine",
+              "Bip01 Pelvis"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.9513000249862671,
+                -0.7490999698638916,
+                -0.4562997817993164
+              ],
+              [
+                0.951200008392334,
+                0.7481000423431396,
+                0.4588003158569336
+              ]
+            ]
+          },
+          {
+            "name": "U4",
+            "parent": "NULL",
+            "vertices": 34,
+            "triangles": 55,
+            "weightedVertices": 34,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 R Forearm"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -1.0220000743865967,
+                -0.39889997243881226,
+                -1.153700828552246
+              ],
+              [
+                1.021899938583374,
+                0.39670002460479736,
+                1.1561994552612305
+              ]
+            ]
+          },
+          {
+            "name": "U3",
+            "parent": "NULL",
+            "vertices": 25,
+            "triangles": 35,
+            "weightedVertices": 25,
+            "bones": [
+              "Bip01 L UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5730000734329224,
+                -0.44519999623298645,
+                -0.753199577331543
+              ],
+              [
+                0.5730000734329224,
+                0.44520002603530884,
+                0.7557001113891602
+              ]
+            ]
+          },
+          {
+            "name": "U2",
+            "parent": "NULL",
+            "vertices": 25,
+            "triangles": 35,
+            "weightedVertices": 25,
+            "bones": [
+              "Bip01 R UpperArm",
+              "Bip01 Spine1"
+            ],
+            "texture": "BELFEMALE_ARMOR_UPPER_184.dds",
+            "effectTexture": "",
+            "boundsLocal": [
+              [
+                -0.5731000900268555,
+                -0.44519999623298645,
+                -0.7532997131347656
+              ],
+              [
+                0.5730999708175659,
+                0.44520002603530884,
+                0.7557001113891602
+              ]
+            ]
+          }
+        ],
+        "vertices": 306,
+        "triangles": 512,
+        "bytesConsumed": 71248
+      }
+    }
+  ]
+}
