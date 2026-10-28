@@ -1,5 +1,7 @@
 # Player mesh research — BFF00
 
+Player animations and their archive catalog are now stored in [Ani](Ani/README.md). Matching skeletons and mesh textures are the next dependencies for assembling and animating a character.
+
 Original upload: `Mesh/BFF00.rfs` (1,143,191 bytes), preserved byte-for-byte.
 Extracted RF meshes: `Mesh/BFF00/*.msh`.
 Archive offsets, payload checksums, mesh counts, bounds and texture/bone references: `Mesh/BFF00.manifest.json`.

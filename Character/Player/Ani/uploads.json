@@ -1,0 +1,287 @@
+[
+  {
+    "name": "CMRAA.RFS",
+    "bytes": 2845116,
+    "sha256": "d9983e6fa5abe46c4a0afb53e29bfe366fd6a2f6e9c0a69b83c2b44e060b912d"
+  },
+  {
+    "name": "CMMOA.RFS",
+    "bytes": 4264420,
+    "sha256": "1fda78cae5457fd0007c82919f77cdcce99e735ce890f67dff2c9b3c77cb86d4"
+  },
+  {
+    "name": "CMMHA.RFS",
+    "bytes": 3755038,
+    "sha256": "20820515d47da5211249c558421d4a479ff6c00efad0a59b3305253b8c76e9f7"
+  },
+  {
+    "name": "CMRHA.RFS",
+    "bytes": 2201242,
+    "sha256": "85427d1d313b407f0714e39c5e3197c670c5247fcb722c30b29a8ac678de2c14"
+  },
+  {
+    "name": "NewGESTURE.RFS",
+    "bytes": 1393818,
+    "sha256": "ff57e550d3722eb7924f71e7602c4ea671c7271aa0ebced29559b7814d69c7db"
+  },
+  {
+    "name": "RSTAFF.RFS",
+    "bytes": 609600,
+    "sha256": "8db2385e752b427c620ee36deb32f7cc2e725f96cbea558c478708191749c730"
+  },
+  {
+    "name": "BELMALE_COMBAT_STAND_NONE_NONE_01_00.ANI",
+    "bytes": 30086,
+    "sha256": "11a0682e9a3f46e902ef3a274b76651e3a2577e41e2652f39607796d4159c414"
+  },
+  {
+    "name": "BELMALE_PEACE_STAND_NONE_NONE_01_00.ANI.tmp",
+    "bytes": 12837,
+    "sha256": "921108e0b56c627efa8095bc06c1cdeb1af3824ec2efcd4fed2f4e46b3fd7c6d"
+  },
+  {
+    "name": "BELMALE_COMBAT_STAND_NONE_NONE_01_00.ANI.tmp",
+    "bytes": 13306,
+    "sha256": "9a7f70083067d44dbc8afaeb00db0e8d794fc7304de12d9ffbb0504844b46fc7"
+  },
+  {
+    "name": "RFSInfo.dat",
+    "bytes": 578,
+    "sha256": "f9cc96babbab7a2737ad66fa7c3212f2f353779e7d3eb59b3e3167a5a84eb332"
+  },
+  {
+    "name": "BELMALE_PEACE_STAND_NONE_NONE_01_00.ANI",
+    "bytes": 31282,
+    "sha256": "e88a37d8dd301c3c9eab6b719509b1c43cda3678c1ab8b0078f5f484da910153"
+  },
+  {
+    "name": "ACATA.RFS",
+    "bytes": 2856750,
+    "sha256": "0b7ed452e4f7ac5deafaaac69d452c2502f210370a68f20fcfd6241187d33f1e"
+  },
+  {
+    "name": "AC2CA.RFS",
+    "bytes": 919010,
+    "sha256": "56d35dd78602e21a1f7ac8a4f555ae235eb1cc6929dcd5805ffb006bd871305a"
+  },
+  {
+    "name": "ACETA.RFS",
+    "bytes": 591542,
+    "sha256": "58a9220e0d5d6f6ee378edbc853f4885f5540f364b3a604f7e93ab17c4956708"
+  },
+  {
+    "name": "ACCOA.RFS",
+    "bytes": 6164114,
+    "sha256": "d79584a37c88dad73f775f64e4efad4c6338beea5bbe9c3d2c62f02211f517f8"
+  },
+  {
+    "name": "ACMEA.RFS",
+    "bytes": 5436174,
+    "sha256": "dc71cdedb76f7d77cc1dc65294261cd82882fdcef445eb7585e290541d629751"
+  },
+  {
+    "name": "ACMHA.RFS",
+    "bytes": 3213250,
+    "sha256": "ca2ae5f057f491d659892f9c308fa9bcfa93c53987ad475691737e7a48be375f"
+  },
+  {
+    "name": "ACGEA.RFS",
+    "bytes": 1527924,
+    "sha256": "c4bd4f292176d410f73876f9ac2c55d695b5d3ae17a80b32530ae2c3f9e350c4"
+  },
+  {
+    "name": "ACRAA.RFS",
+    "bytes": 2700024,
+    "sha256": "5c63015c9e269339bbe9f4597905ac872e2c4e143abe47cbad1ba37b2256a862"
+  },
+  {
+    "name": "ACMOA.RFS",
+    "bytes": 4238448,
+    "sha256": "c549c3566b97b5b2e9db00070dbe012f343ed40a310dad2a6e9d319e01e95db4"
+  },
+  {
+    "name": "ACRHA.RFS",
+    "bytes": 1945498,
+    "sha256": "43003d34fe5a9fe4ad9c7d48f170899212dbb5307cdf8c42536b2e0560676eff"
+  },
+  {
+    "name": "BF2CA.RFS",
+    "bytes": 692842,
+    "sha256": "5de99dc84e8d9cee1b9a4b1f11174bf5868f4bd63b3d54ddaabb61874a1c509e"
+  },
+  {
+    "name": "BFATA.RFS",
+    "bytes": 2828912,
+    "sha256": "cadc718cdf7771a02728518c6c58fd1f5a9eaaf430a97691aec67f80ee5e34ab"
+  },
+  {
+    "name": "BFCOA.RFS",
+    "bytes": 2113070,
+    "sha256": "769935bc9781fd6c683cd2024250ab509f56da5a88284c2b54815e3d86fc84a7"
+  },
+  {
+    "name": "BFETA.RFS",
+    "bytes": 936174,
+    "sha256": "34eb2d1ed81640e07aefc92f8665d4e770002df8cc817af0ea2bb655a730cd8f"
+  },
+  {
+    "name": "BFGEA.RFS",
+    "bytes": 1184320,
+    "sha256": "61fca924b4ebcabb729266c9d38a3336f5455533e4b448edc210c6ee87be6a94"
+  },
+  {
+    "name": "BFMHA.RFS",
+    "bytes": 3683206,
+    "sha256": "974dc9aeb8fa8a647312bb8559a5cd5186da6306d10467fd39978ac8ffd69cdc"
+  },
+  {
+    "name": "BFMEA.RFS",
+    "bytes": 6014914,
+    "sha256": "c1f027575768a7215f1913e7aab89df39c62951b1d760244933739040e250bf1"
+  },
+  {
+    "name": "BFMOA.RFS",
+    "bytes": 4102120,
+    "sha256": "6fd5a546b99fb714e92ee807e07d953380cf4b44e4d4581e8acbc807d8e29fd3"
+  },
+  {
+    "name": "BFRAA.RFS",
+    "bytes": 2682568,
+    "sha256": "5c545cea5f62afb73db1b229a73c8172a6cfa2954cbb7114324cf5e85442c061"
+  },
+  {
+    "name": "BM2CA.RFS",
+    "bytes": 651830,
+    "sha256": "81701e16a67cc184845d7d4eeb293765cff5575f8889f2bf2aaf8c7d1b5bf86d"
+  },
+  {
+    "name": "BMATA.RFS",
+    "bytes": 2725448,
+    "sha256": "ca4749f134878c2ff57e7f61aaf8aa55fd875499b68fafede79d35774607716a"
+  },
+  {
+    "name": "BFRHA.RFS",
+    "bytes": 2115922,
+    "sha256": "cf41d28b2ea60873649df0ea2edf879888224b55f137bc6513e1e50cf0d01038"
+  },
+  {
+    "name": "BMETA.RFS",
+    "bytes": 927466,
+    "sha256": "00310d49a26907cabd8d6864886769f075164fd2fd75fd1d274e09721614e8c6"
+  },
+  {
+    "name": "BMCOA.RFS",
+    "bytes": 1980258,
+    "sha256": "ba2853236378ef47c8957771b53c3d13c780b95cf8431d7c67ae3bf909520c3e"
+  },
+  {
+    "name": "BMMEA.RFS",
+    "bytes": 6008194,
+    "sha256": "0ab75b1472cf341b4d047a896eee12145d106c735255fd2042cfb3a66ff4db30"
+  },
+  {
+    "name": "BMGEA.RFS",
+    "bytes": 1190636,
+    "sha256": "a9d6e65782be9c6d69f42392b439fd3e20133564857ce55f2709e64f63a66ec6"
+  },
+  {
+    "name": "BMMHA.RFS",
+    "bytes": 3622606,
+    "sha256": "613484c04744a7e17ab7676fd9a054d4de35265556b601934095685740a9ba03"
+  },
+  {
+    "name": "BMRAA.RFS",
+    "bytes": 2494768,
+    "sha256": "3e8c3eafc22ca3494fe479d3a8d0a2b1307ec2ab3e4bed3ad1d9932ae9b1beff"
+  },
+  {
+    "name": "BMMOA.RFS",
+    "bytes": 3979232,
+    "sha256": "5a4a04ed1049b5abd0e5db3b4123cf2e30c1272136db3a0518b281018d91e8a5"
+  },
+  {
+    "name": "BMRHA.RFS",
+    "bytes": 2113726,
+    "sha256": "5592b0e1f6e6307d8a139f3db0003c467fe58b56984f45bd8b1003f61660c3b3"
+  },
+  {
+    "name": "CF2CA.RFS",
+    "bytes": 947644,
+    "sha256": "590e2b5a5f84a2c424f9c8873c5e62632f377fe5bb1348a274051269f8ef2f91"
+  },
+  {
+    "name": "CFATA.RFS",
+    "bytes": 4616476,
+    "sha256": "132c53838fba70fa27b4e01cbff3225b7e3bc6262fb6100847926a5115fcef73"
+  },
+  {
+    "name": "CFCOA.RFS",
+    "bytes": 2519066,
+    "sha256": "47c40424fb089f4a2e7447b76f11f0605f61ced1e79d49e09ea5ea5744a63801"
+  },
+  {
+    "name": "CFETA.RFS",
+    "bytes": 1258032,
+    "sha256": "225a49d6fcd0b6484a7470fd991bf57fdbd1fd9a58aca62621efa8c74a1223d7"
+  },
+  {
+    "name": "CFGEA.RFS",
+    "bytes": 2776928,
+    "sha256": "bbc49be684a3912b1b5ce358d0deac2934b796a9777c9d232536d9f2be264d9a"
+  },
+  {
+    "name": "CFMEA.RFS",
+    "bytes": 6224614,
+    "sha256": "cb7d1e8ca61a05e11037d0ca6be1ac7acbead5c54422528f7937beac79e4ab6d"
+  },
+  {
+    "name": "CFMHA.RFS",
+    "bytes": 3873238,
+    "sha256": "2f72390f48fb1537de00deac3e45b8b2eb8257f45ad8f3b9bdff7d7eae493766"
+  },
+  {
+    "name": "CFMOA.RFS",
+    "bytes": 4373208,
+    "sha256": "ee792dec6fa92c04a90cc36db867120cfe9977150bbf487a547dba8b28875554"
+  },
+  {
+    "name": "CFRAA.RFS",
+    "bytes": 2780180,
+    "sha256": "65a757b2dc80d39d40b6e558f39e2ac5023dbf2062dea82bc107df5248ed82a6"
+  },
+  {
+    "name": "CFRHA.RFS",
+    "bytes": 2274706,
+    "sha256": "912a84d74b5114259592fd08766065ca79840601cf96caea50849616d1413353"
+  },
+  {
+    "name": "CM2CA.RFS",
+    "bytes": 892984,
+    "sha256": "cffd07ffceffac2bd81532f50036cb625ebf1be7a45b67b367a2bd6edfce5a3f"
+  },
+  {
+    "name": "CMATA.RFS",
+    "bytes": 2696268,
+    "sha256": "689efa9a431f22d2cb2fd659c838888f3757ab936bb3685d46d4238c438a14ab"
+  },
+  {
+    "name": "CMCOA.RFS",
+    "bytes": 1790118,
+    "sha256": "547b321a63495ce2b3851573a24ee2a9770192a438ef9c6648539e9cc6929d02"
+  },
+  {
+    "name": "CMETA.RFS",
+    "bytes": 989464,
+    "sha256": "5301b85deaf1f5ffd8d5e3d53751972ccbae75a347fb8b3e7a035146bd3599fe"
+  },
+  {
+    "name": "CMGEA.RFS",
+    "bytes": 1707420,
+    "sha256": "a45e59943e65e545098bacdc541f6d09cb80bdd157e47e64f9a3f351edc3ae7e"
+  },
+  {
+    "name": "CMMEA.RFS",
+    "bytes": 6121462,
+    "sha256": "8d626b340596f4de6cc078ccafb20bec8655c5451bfe01f2a0b2e509c55f0ab4"
+  }
+]
