@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09141b"><title>Bellato · RF Character Lab</title><link rel="stylesheet" href="character.css"></head>
+<body>
+  <canvas id="characterCanvas" aria-label="Karakter Bellato female 3D, seret untuk memutar kamera"></canvas>
+  <header><a class="brand" href="./">RF<span> / WORLD LAB</span></a><a class="map-link" href="./">PLATFORM01 ↗</a></header>
+  <main class="character-info">
+    <p class="eyebrow">CHARACTER / 01</p>
+    <h1>Bellato<span>Female.</span></h1>
+    <p class="subtitle">Armor 171 · Original RF assets</p>
+    <div class="stats"><div><strong>25</strong><span>BONES</span></div><div><strong>05</strong><span>ARMOR PARTS</span></div><div><strong>04</strong><span>ANIMATIONS</span></div></div>
+    <p class="description">Coba gerakan karakter dan periksa armornya dari semua sisi.</p>
+    <p class="asset-note">Mesh wajah dan rambut belum tersedia. Preview menampilkan armor yang sudah diunggah.</p>
+    <a class="enter" href="./?character=1">MASUK PLATFORM01 <span>↗</span></a>
+  </main>
+  <div class="view-tools"><button id="resetView" disabled aria-label="Atur ulang kamera dan posisi karakter">RESET VIEW</button><label><input id="skeleton" type="checkbox" disabled> TULANG</label></div>
+  <section class="controls" aria-label="Kontrol animasi">
+    <div class="control-heading"><span class="eyebrow">ANIMATION PREVIEW</span><span id="clipLabel">MEMUAT…</span></div>
+    <div class="clips"><button data-clip="idle" disabled aria-pressed="true">01 <span>Idle</span></button><button data-clip="walk" disabled aria-pressed="false">02 <span>Jalan</span></button><button data-clip="run" disabled aria-pressed="false">03 <span>Lari</span></button><button data-clip="combat" disabled aria-pressed="false">04 <span>Combat</span></button></div>
+    <div class="playback"><button id="togglePlayback" disabled aria-label="Jeda animasi">Ⅱ JEDA</button><label for="speed">KECEPATAN <select id="speed" disabled><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select></label></div>
+  </section>
+  <div id="loading" role="status"><span class="pulse"></span><span id="loadText">MERAKIT KARAKTER…</span><button id="retry" hidden>Muat ulang</button></div>
+  <footer><span>SERET UNTUK PUTAR · SCROLL / PINCH UNTUK ZOOM · WASD UNTUK BERGERAK</span><span id="status" role="status">LOADING ORIGINAL ASSETS</span></footer>
+  <script type="module" src="character.js"></script>
+</body>
+</html>

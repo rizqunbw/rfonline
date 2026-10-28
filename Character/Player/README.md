@@ -1,6 +1,22 @@
-# Player mesh research — BFF00
+# RF player assets and Bellato character
 
-Player animations and their archive catalog are now stored in [Ani](Ani/README.md). Matching skeletons and mesh textures are the next dependencies for assembling and animating a character.
+Original animations are in [Ani](Ani/README.md), skeletons in `Bone`, and textures in [Tex](Tex/README.md). The website now renders Bellato female armor 171 with `BelFemale.bn`, five matching RFT textures, and idle/walk/run/combat-stance ANI clips. Open `/character.html` for the interactive preview and `/?character=1` for third-person walking in Platform01.
+
+The renderer assembles five armor parts (14 mesh objects, 3,098 triangles), with 25 skeleton bones. Helmet parenting is exported as a rigid one-bone skin; all other parts retain the supplied skin weights. Face and hair geometry were not supplied. Other armor sets refer to texture suffix 184, which is absent from these uploads, so they are not offered as textured variants.
+
+`tools/build_character.py` produces the committed web assets under `Map/Platform01/assets/character`. Regeneration requires Python 3, numpy, scipy and Pillow; the static Vercel build only copies these outputs and needs no Python dependencies. The renderer vendors Three.js 0.152.2 locally with its MIT license.
+
+```sh
+python Character/Player/tools/build_character.py
+python Character/Player/tools/test_character.py
+npm run build
+```
+
+Coordinates are converted from source Max Z-up to right-handed Y-up; inverse bind matrices and matching bone-name ANI tracks drive real skeletal deformation. ANI quaternions are conjugated following the reference importer. Preview timing explicitly assumes 160 ticks/frame at 30 FPS and provides a speed selector. Root horizontal travel is removed for in-place animation; the movement controller supplies travel. Scalar/effect tracks and object channels outside the skeleton are omitted and listed in the generated manifest. Character height is normalized to 1.8 map units for this prototype; this is not a verified RF unit conversion.
+
+The map controller follows static walkable triangle surfaces and rejects excessive steps or gaps. It does not implement wall/camera collision, RF combat, equipment stats, networking or persistence.
+
+## Mesh archive research
 
 Original upload: `Mesh/BFF00.rfs` (1,143,191 bytes), preserved byte-for-byte.
 Extracted RF meshes: `Mesh/BFF00/*.msh`.
@@ -32,7 +48,7 @@ The extractor validates names, unique entries, bounds and non-overlapping ranges
 
 The extracted `.msh` files are still RF-specific binary meshes. A compatible RF MSH importer/plugin is needed in 3ds Max; no 3ds Max import was executed here. The format was cross-checked with the [MIT-licensed RF Blender importer](https://github.com/Cardboard-box-a/cbb-rf-online-addon/tree/02dfdc4f62fac8f266cf4c0ff85c57172b48bcbf). Its license is retained alongside this document.
 
-Next useful inputs: matching player texture files/archive, skeleton (`.bn`), and animations (`.ani`). A full character may also need separate body/head/face assets. This step extracts and validates the supplied armor meshes; it does not yet add a character to the browser game.
+The supplied skeleton, ANI and Tex archives now satisfy the armor preview dependencies. A complete face/hair appearance still needs the matching default head/face meshes and textures. 3ds Max compatibility has not been tested.
 
 ## RFS layout observed
 

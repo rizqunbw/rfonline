@@ -1,8 +1,10 @@
-export async function createTerrainRenderer(gl,onProgress=()=>{}) {
+import {createGroundSampler} from './ground.js';
+export async function createTerrainRenderer(gl,onProgress=()=>{},grounded=false) {
  const get=async url=>{const r=await fetch(url);if(!r.ok)throw Error(`Aset map gagal: ${url} (${r.status})`);return r;};
  const manifest=await (await get('assets/terrain/manifest.json')).json();
  const mesh=new Float32Array(await (await get('assets/terrain/mesh.bin')).arrayBuffer());
  if(mesh.length!==manifest.triangles*33)throw Error('Ukuran mesh terrain tidak cocok');
+ const groundAt=grounded?createGroundSampler(mesh):null;
  const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,mesh,gl.STATIC_DRAW);
  const infos=[...manifest.textures,...manifest.lights],textures=new Array(infos.length);let next=0,loaded=0;
  await Promise.all(Array.from({length:8},async()=>{while(next<infos.length){const i=next++,info=infos[i];const image=await createImageBitmap(await (await get(info.url)).blob(),{premultiplyAlpha:'none',colorSpaceConversion:'none'});
@@ -22,7 +24,7 @@ export async function createTerrainRenderer(gl,onProgress=()=>{}) {
  gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(p));
  const u=Object.fromEntries(['projection','view','surface','lighting','hasLight','opaque','materialTint'].map(n=>[n,gl.getUniformLocation(p,n)]));
  const attrs=[['position',3,0],['color',4,12],['uv',2,28],['lightUV',2,36]].map(([n,size,offset])=>({loc:gl.getAttribLocation(p,n),size,offset}));let frames=0;
- return {diagnostics:()=>({textures:manifest.textures.length,lightmaps:manifest.lights.length,triangles:manifest.triangles,frames}),draw(projection,view){
+ return {groundAt,diagnostics:()=>({textures:manifest.textures.length,lightmaps:manifest.lights.length,triangles:manifest.triangles,frames}),draw(projection,view){
   frames++;gl.useProgram(p);gl.uniformMatrix4fv(u.projection,false,projection);gl.uniformMatrix4fv(u.view,false,view);gl.uniform1i(u.surface,0);gl.uniform1i(u.lighting,1);gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
   for(const a of attrs){gl.enableVertexAttribArray(a.loc);gl.vertexAttribPointer(a.loc,a.size,gl.FLOAT,false,44,a.offset);}
   for(const d of manifest.draws){const layer=manifest.materials[d.material].layers[0];gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,textures[layer.texture]);gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,textures[manifest.textures.length+Math.max(0,d.light)]);gl.uniform1f(u.hasLight,d.light<0?0:1);gl.uniform1f(u.opaque,layer.blend===0?1:0);gl.uniform4fv(u.materialTint,layer.tint);gl.drawArrays(gl.TRIANGLES,d.first,d.count);}

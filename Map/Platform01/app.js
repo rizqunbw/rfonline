@@ -5,6 +5,12 @@ const canvas = $('world');
 const gl = canvas.getContext('webgl', {antialias:true, alpha:false});
 let running = false, started = false, completed = false, last = 0, elapsed = 0, skyRenderer, terrainRenderer;
 let yaw = Math.PI, pitch = -0.15, camera = [0, 35, 105], points, manifest, beaconGPU;
+const characterMode = new URLSearchParams(location.search).get('character') === '1';
+let characterWorld, player = [0,0,10], playerFacing = 0, playerClip = 'idle';
+function followPlayer() {
+  const cp=Math.cos(pitch), sp=Math.sin(pitch);
+  camera=[player[0]-Math.sin(yaw)*cp*4.5,player[1]+1.2-sp*4.5,player[2]-Math.cos(yaw)*cp*4.5];
+}
 const keys = new Set(), beacons = [], m = new Float32Array(16), view = new Float32Array(16);
 const mobile = matchMedia('(pointer:coarse)').matches;
 function fail(e) { $('status').textContent = 'GAGAL MEMUAT'; $('play').textContent = 'MUAT ULANG HALAMAN'; $('play').disabled = true; $('assetInfo').textContent = e.message; console.error(e); }
@@ -42,9 +48,10 @@ function distance(a,b){return Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]);}
 function progress(){ $('score').textContent = `${beacons.filter(b=>b.found).length} / 5 BEACONS`;$('progress').innerHTML=beacons.map(b=>`<i class="${b.found?'found':''}"></i>`).join(''); }
 function reset() {
   camera=[0,35,105];yaw=Math.PI;pitch=-.15;elapsed=0;completed=false;
+  if(characterMode){player=[0,terrainRenderer.groundAt(0,10),10];if(player[1]===null)throw Error('Tidak menemukan lantai spawn');playerFacing=0;pitch=-.22;followPlayer();}
   beacons.forEach(b=>b.found=false); progress(); $('finish').hidden=true;
 }
-function start(){ if(!points)return;if(!started)reset();started=true;running=true;$('menu').hidden=true;$('finish').hidden=true;$('hud').hidden=false;$('touch').hidden=!mobile;$('mode').textContent='EXPEDITION';if(!mobile)canvas.requestPointerLock?.()?.catch?.(()=>{}); }
+function start(){ if(!points)return;if(!started)reset();started=true;running=true;$('menu').hidden=true;$('finish').hidden=true;$('hud').hidden=false;$('touch').hidden=!mobile;$('mode').textContent=characterMode?'BELLATO / FREE WALK':'EXPEDITION';if(!mobile)canvas.requestPointerLock?.()?.catch?.(()=>{}); }
 function pause(){if(!running)return;running=false;keys.clear();$('menu').hidden=false;$('hud').hidden=true;$('touch').hidden=true;$('play').innerHTML='LANJUT EKSPEDISI <span>↗</span>';document.exitPointerLock?.();}
 $('play').onclick=start;$('pause').onclick=pause;$('restart').onclick=()=>{reset();start();};$('explore').onclick=start;
 document.addEventListener('keydown',e=>{if(['KeyW','KeyA','KeyS','KeyD','KeyQ','KeyE','ShiftLeft','ShiftRight','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.code)){if(running)e.preventDefault();keys.add(e.code);}if(e.code==='Escape')pause();});
@@ -60,27 +67,37 @@ for(const b of document.querySelectorAll('[data-key]')) {b.onpointerdown=e=>{e.p
 let mapBackground;
 function mapXY(p){return [(p[0]+145)/290*240,(p[2]+125)/250*190];}
 function drawMap(){const c=$('minimap').getContext('2d');c.clearRect(0,0,240,190);c.drawImage(mapBackground,0,0);
- for(const b of beacons){const [x,y]=mapXY(b.p);c.fillStyle=b.found?'#4b6662':'#b9f6ad';c.beginPath();c.arc(x,y,b.found?2:4,0,Math.PI*2);c.fill();}
- const [x,y]=mapXY(camera);c.save();c.translate(x,y);c.rotate(-yaw);c.fillStyle='#fff';c.beginPath();c.moveTo(0,6);c.lineTo(-3,-4);c.lineTo(3,-4);c.closePath();c.fill();c.restore();}
+ if(!characterMode)for(const b of beacons){const [x,y]=mapXY(b.p);c.fillStyle=b.found?'#4b6662':'#b9f6ad';c.beginPath();c.arc(x,y,b.found?2:4,0,Math.PI*2);c.fill();}
+ const [x,y]=mapXY(characterMode?player:camera);c.save();c.translate(x,y);c.rotate(-yaw);c.fillStyle='#fff';c.beginPath();c.moveTo(0,6);c.lineTo(-3,-4);c.lineTo(3,-4);c.closePath();c.fill();c.restore();}
 function frame(t){const dt=Math.min((t-last)/1000,.05);last=t;
  const w=Math.round(innerWidth*Math.min(devicePixelRatio,1.5)),h=Math.round(innerHeight*Math.min(devicePixelRatio,1.5));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;gl.viewport(0,0,w,h);}
  if(running){if(!completed)elapsed+=dt;const speed=(keys.has('ShiftLeft')||keys.has('ShiftRight')?45:16)*dt;
   yaw+=(Number(keys.has('ArrowLeft'))-Number(keys.has('ArrowRight')))*dt*1.5;pitch=Math.max(-1.5,Math.min(1.5,pitch+(Number(keys.has('ArrowUp'))-Number(keys.has('ArrowDown')))*dt));
   const forward=Number(keys.has('KeyW'))-Number(keys.has('KeyS')),side=Number(keys.has('KeyD'))-Number(keys.has('KeyA')),vertical=Number(keys.has('KeyE'))-Number(keys.has('KeyQ'));
-  camera[0]+=(Math.sin(yaw)*forward-Math.cos(yaw)*side)*speed;camera[2]+=(Math.cos(yaw)*forward+Math.sin(yaw)*side)*speed;camera[1]+=vertical*speed;
-  camera=camera.map((v,i)=>Math.max(manifest.bounds[0][i]-25,Math.min(manifest.bounds[1][i]+70,v)));
-  for(const b of beacons)if(!b.found&&distance(camera,b.p)<9){b.found=true;progress();$('toast').textContent=`SIGNAL ${b.id} ACQUIRED`;setTimeout(()=>$('toast').textContent='',2500);}
-  if(!completed&&beacons.every(b=>b.found)){completed=true;running=false;$('finish').hidden=false;$('hud').hidden=true;$('touch').hidden=true;$('result').textContent=`Lima beacon ditemukan dalam ${Math.floor(elapsed)} detik. Semua sektor ekspedisi berhasil dijelajahi.`;document.exitPointerLock?.();}
- }else if(!started){const a=t*.000025;camera=[Math.sin(a)*185,95,Math.cos(a)*185];yaw=a+Math.PI;pitch=-.43;}
+  if(characterMode){
+   pitch=Math.max(-.8,Math.min(.05,pitch));
+   const dx=Math.sin(yaw)*forward-Math.cos(yaw)*side,dz=Math.cos(yaw)*forward+Math.sin(yaw)*side,len=Math.hypot(dx,dz);
+   const sprint=keys.has('ShiftLeft')||keys.has('ShiftRight'),step=(sprint?5:2.2)*dt;
+   playerClip='idle';
+   if(len){const x=player[0]+dx/len*step,z=player[2]+dz/len*step,y=terrainRenderer.groundAt(x,z,player[1]+.45,player[1]-1.0);if(y!==null){player=[x,y,z];playerFacing=Math.atan2(-dx,-dz);playerClip=sprint?'run':'walk';}}
+   followPlayer();
+  }else{
+   camera[0]+=(Math.sin(yaw)*forward-Math.cos(yaw)*side)*speed;camera[2]+=(Math.cos(yaw)*forward+Math.sin(yaw)*side)*speed;camera[1]+=vertical*speed;
+   camera=camera.map((v,i)=>Math.max(manifest.bounds[0][i]-25,Math.min(manifest.bounds[1][i]+70,v)));
+   for(const b of beacons)if(!b.found&&distance(camera,b.p)<9){b.found=true;progress();$('toast').textContent=`SIGNAL ${b.id} ACQUIRED`;setTimeout(()=>$('toast').textContent='',2500);}
+   if(!completed&&beacons.every(b=>b.found)){completed=true;running=false;$('finish').hidden=false;$('hud').hidden=true;$('touch').hidden=true;$('result').textContent=`Lima beacon ditemukan dalam ${Math.floor(elapsed)} detik. Semua sektor ekspedisi berhasil dijelajahi.`;document.exitPointerLock?.();}
+  }
+ }else if(!started&&!characterMode){const a=t*.000025;camera=[Math.sin(a)*185,95,Math.cos(a)*185];yaw=a+Math.PI;pitch=-.43;}
  gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(program);matrices(w/h);skyRenderer.draw(m,view);terrainRenderer.draw(m,view);gl.useProgram(program);
- bind(beaconGPU);gl.uniform1f(u.mesh,0);gl.uniform1f(u.size,2200);gl.uniform1f(u.beacon,1);for(let i=0;i<beacons.length;i++)if(!beacons[i].found)gl.drawArrays(gl.POINTS,i*40,40);
+ if(!characterMode){bind(beaconGPU);gl.uniform1f(u.mesh,0);gl.uniform1f(u.size,2200);gl.uniform1f(u.beacon,1);for(let i=0;i<beacons.length;i++)if(!beacons[i].found)gl.drawArrays(gl.POINTS,i*40,40);}
+ if(characterWorld)characterWorld.draw(m,view,player,playerFacing,running?playerClip:'idle',running?dt:0);
  const remaining=beacons.filter(b=>!b.found).sort((a,b)=>distance(camera,a.p)-distance(camera,b.p));const target=remaining[0];
- $('target').textContent=target?`SIGNAL ${target.id} · ${distance(camera,target.p).toFixed(0)} m · Q/E atur ketinggian`:'SEMUA SINYAL DITEMUKAN';
- $('coords').textContent=camera.map(v=>v.toFixed(0)).join(' / ');$('timer').textContent=`${String(Math.floor(elapsed/60)).padStart(2,'0')}:${String(Math.floor(elapsed%60)).padStart(2,'0')}`;
+ $('target').textContent=characterMode?'BELLATO · WASD GERAK · SHIFT LARI':target?`SIGNAL ${target.id} · ${distance(camera,target.p).toFixed(0)} m · Q/E atur ketinggian`:'SEMUA SINYAL DITEMUKAN';
+ $('coords').textContent=(characterMode?player:camera).map(v=>v.toFixed(0)).join(' / ');$('timer').textContent=`${String(Math.floor(elapsed/60)).padStart(2,'0')}:${String(Math.floor(elapsed%60)).padStart(2,'0')}`;
  drawMap(); requestAnimationFrame(frame);
 }
 async function load(){if(!gl||!program)return;
- terrainRenderer=await createTerrainRenderer(gl,(n,total)=>{$('play').textContent=`MEMUAT TEKSTUR ${n} / ${total}`;});
+ terrainRenderer=await createTerrainRenderer(gl,(n,total)=>{$('play').textContent=`MEMUAT TEKSTUR ${n} / ${total}`;},characterMode);
  skyRenderer=await createSkyRenderer(gl);$('skySelect').disabled=false;
  $('skySelect').onchange=()=>skyRenderer.select(Number($('skySelect').value));
  const responses=await Promise.all([fetch('assets/platform.points'),fetch('assets/manifest.json')]);for(const r of responses)if(!r.ok)throw Error(`Aset gagal dimuat: ${r.status}`);
@@ -93,7 +110,19 @@ async function load(){if(!gl||!program)return;
  mapBackground=document.createElement('canvas');mapBackground.width=240;mapBackground.height=190;const ctx=mapBackground.getContext('2d');ctx.fillStyle='#7ca7a329';for(let i=0;i<points.length;i+=24){const [x,y]=mapXY([points[i],points[i+1],points[i+2]]);ctx.fillRect(x,y,1,1);}
  $('pointCount').textContent=manifest.vertices.toLocaleString('en-US');$('assetInfo').textContent=`${manifest.sources.length} file sumber tersimpan; ${manifest.materials.length} nama material terdeteksi. BSP: ${manifest.triangles.toLocaleString()} segitiga statis; ${manifest.skippedGroups} grup animasi/tak terlihat dilewati. EBP dan CAM belum dipakai.`;
  $('status').textContent='ORIGINAL TEXTURES / BAKED LIGHTING';$('play').disabled=false;$('play').innerHTML='MULAI EKSPEDISI <span>↗</span>';progress();requestAnimationFrame(frame);
+ if(characterMode){
+  $('play').disabled=true;
+  characterWorld=await (await import('./character-world.js')).createCharacterWorld(gl,canvas);
+  reset();
+  document.querySelector('#menu h1').innerHTML='Bellato.<br><em>Platform01.</em>';
+  document.querySelector('#menu > p').textContent='Jelajahi Platform01 dengan armor Bellato dan animasi asli. WASD untuk jalan, Shift untuk lari, mouse untuk mengatur kamera.';
+  $('scopeNote').textContent='Kaki mengikuti permukaan map. Tabrakan dinding dan kamera, wajah/rambut, combat, serta multiplayer belum tersedia.';
+  document.querySelector('.mission').hidden=true;document.querySelector('.crosshair').hidden=true;
+  document.querySelector('footer > span:first-child').textContent='WASD GERAK · MOUSE / ← → LIHAT · SHIFT LARI';
+  for(const key of ['KeyQ','KeyE'])document.querySelector(`[data-key="${key}"]`).hidden=true;
+  $('play').innerHTML='MASUK SEKTOR <span>↗</span>';$('play').disabled=false;
+ }
  // Read-only diagnostics for browser validation, no gameplay mutation API.
- window.platformDiagnostics=()=>({vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
+ window.platformDiagnostics=()=>({vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),character:characterWorld?.diagnostics(),player:[...player],characterMode,beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
 }
 load().catch(fail);

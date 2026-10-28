@@ -1,0 +1,1163 @@
+[
+  {
+    "name": "AAR00.RFS",
+    "bytes": 569420,
+    "sha256": "96504414bfbc4a404c4753925e4ae05198d8725badfccfad6ff739a8e0e65d86",
+    "entries": [
+      {
+        "name": "ACCRETIA_ARMOR_BOOSTER_087.RFT",
+        "offset": 452,
+        "size": 43832,
+        "sha256": "675aab2f63db84f9de3fbf58ab76e2f037cd0b75833d1c593df10d5825048206"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_FA_087.RFT",
+        "offset": 44284,
+        "size": 43832,
+        "sha256": "0fd179a8c33dc5aed8494b60fac6dcada2d7540bbb4b0f4edd442c2ad2b86596"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_087.RFT",
+        "offset": 88116,
+        "size": 43832,
+        "sha256": "6c61a0044bfbeeaa336cc424732ad334ce3863e052509e170d5aebd7346ba299"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_087.RFT",
+        "offset": 131948,
+        "size": 43832,
+        "sha256": "40b838398d29c685e9429c5ce5d25af1b4541c6119e1ca3896765eb123cdbf08"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_087.RFT",
+        "offset": 175780,
+        "size": 174904,
+        "sha256": "69766f92775b3c4ad5109bdd8f5cc1453e4ae6d95e08871e5d064668b803366c"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_087.RFT",
+        "offset": 350684,
+        "size": 43832,
+        "sha256": "b0debabdc4fff080e93b24b0a1caaf20723533b8518d21c4c89e8d626321090e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_087.RFT",
+        "offset": 394516,
+        "size": 174904,
+        "sha256": "8c2052ab08c37b0806619670a12edb7256ae18a9339d88e70446265e2bc8b6eb"
+      }
+    ]
+  },
+  {
+    "name": "AAF00.RFS",
+    "bytes": 525524,
+    "sha256": "d4292b450207764637e5903d65b15f8c9231028a7fd5fa2aff644fea37cc28eb",
+    "entries": [
+      {
+        "name": "ACCRETIA_ARMOR_FA_171.RFT",
+        "offset": 388,
+        "size": 43832,
+        "sha256": "b1259c3e126fcbfb34cde3589b6bbdd74516240b80394c34edbaae9b0cda443b"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_171.RFT",
+        "offset": 44220,
+        "size": 43832,
+        "sha256": "31a9dc40234177002a2b28c84506597617f8ab9e9b79e9b51f86f58fac50197f"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_171.RFT",
+        "offset": 88052,
+        "size": 43832,
+        "sha256": "2ecace8bbdaf6a074839b0e1eda93df7456ae08abbc75cfda0a99957d8c61e0e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_171.RFT",
+        "offset": 131884,
+        "size": 174904,
+        "sha256": "66bbda3b373a341445d0819c660da36c9e52e09a0c7902405a19269e0508d8af"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_171.RFT",
+        "offset": 306788,
+        "size": 43832,
+        "sha256": "3654b7a5255bb64b8009e170224dc396cc903cc6a9c9fc6da92582d80f7c1a09"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_171.RFT",
+        "offset": 350620,
+        "size": 174904,
+        "sha256": "40a6d063cf1c177c1491906212906335c46a9b1ab78babc276018d85bb1b7c4c"
+      }
+    ]
+  },
+  {
+    "name": "CMW00.RFS",
+    "bytes": 3521380,
+    "sha256": "350a3cd49e6deaec18d70cb9ff9ab7c070ebfc183737e9d5c0d5439961cdd2f5",
+    "entries": [
+      {
+        "name": "CORMALE_ARMOR_GLOVES_003.RFT",
+        "offset": 1412,
+        "size": 43832,
+        "sha256": "28f57077d582ba24b6a7dd2dcc0c5e6c28b979b51686ffa40a3b95cb0d951996"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_006.rft",
+        "offset": 45244,
+        "size": 87504,
+        "sha256": "39c82870d651d0e4821b73db1794c5bf7f1f963b4b866ae75a4ef8c66632e2e8"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_007.rft",
+        "offset": 132748,
+        "size": 87504,
+        "sha256": "72e2f195f06371091f227ac65899ff2e974a5102a76e6b9041d442e1fdd37262"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_008.RFT",
+        "offset": 220252,
+        "size": 43832,
+        "sha256": "0167aeea90f51edead90be7bd07aca87344d3ae69e5005fa3f5435828cd6fe3e"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_010.rft",
+        "offset": 264084,
+        "size": 87504,
+        "sha256": "fc5853683a6392d7bc75b88ce1d3fc487c5c19af3e8c043efbcad6bf660fac92"
+      },
+      {
+        "name": "CORMALE_ARMOR_HELMET_003.RFT",
+        "offset": 351588,
+        "size": 11064,
+        "sha256": "fa632049c684a07b5625df957b13a60db08c0a22daa7a61a8c0cb3c3e6ce4dd7"
+      },
+      {
+        "name": "CORMALE_ARMOR_HELMET_008.RFT",
+        "offset": 362652,
+        "size": 11064,
+        "sha256": "1c64ec014d82faa2159070b6155f325a361dd289924363991debbbf4dbe49259"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_003.RFT",
+        "offset": 373716,
+        "size": 174904,
+        "sha256": "30702e57d5f26cd28d4e66c3d2786c5254d4acead892d1f66c7150f81ef9fdd2"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_006.rft",
+        "offset": 548620,
+        "size": 349648,
+        "sha256": "c4802c2343d9727304e99597f4fa0c7448a854a368d212366200ea42a016c0c2"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_007.rft",
+        "offset": 898268,
+        "size": 349648,
+        "sha256": "abb1e92a3876481650a16029776076a182793f6d6c577b554149da76ec36f20d"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_008.RFT",
+        "offset": 1247916,
+        "size": 174904,
+        "sha256": "b65228fef944a1748613890c2993bee07d41c153e784cd71ec631e545b165ec5"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_010.rft",
+        "offset": 1422820,
+        "size": 349648,
+        "sha256": "69be068cd8d8168cfc7c9660ffe998185b68d0dc573185a0cbb76d4d1ae988e1"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_003.RFT",
+        "offset": 1772468,
+        "size": 43832,
+        "sha256": "e3e469ffd2600b018df82f5ea8c6664681e38d6652264a6a2b7f8b53b6296cad"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_006.rft",
+        "offset": 1816300,
+        "size": 87504,
+        "sha256": "c036d1b69252829a68ad417f39d0c2d96b1cbf5bd9b65ba93a52c817372cdeb0"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_007.rft",
+        "offset": 1903804,
+        "size": 87504,
+        "sha256": "7b33a1b5a6034e184af17b6420467e5fec4f5e49622923e9d57be68b74c28881"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_008.RFT",
+        "offset": 1991308,
+        "size": 43832,
+        "sha256": "1b241fb772c4a0da26303cedcb054c9d74275dc5d1dddb45aeb256d586ba0248"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_010.rft",
+        "offset": 2035140,
+        "size": 87504,
+        "sha256": "7b33a1b5a6034e184af17b6420467e5fec4f5e49622923e9d57be68b74c28881"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_003.RFT",
+        "offset": 2122644,
+        "size": 174888,
+        "sha256": "8dcf2b94bebd24c5254af76486bf42496aabfbf91d506b494ea39915ce6d461b"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_006.rft",
+        "offset": 2297532,
+        "size": 349648,
+        "sha256": "85554a9c8ccf60f9e71bb0296e70e4655ae0e8a982a9cea6f51fc43cd4be2eea"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_007.rft",
+        "offset": 2647180,
+        "size": 349648,
+        "sha256": "aca6d672d0ea100ac28d264e5f904f2d9efe39d44c8b0ac313121150b1d3d383"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_008.RFT",
+        "offset": 2996828,
+        "size": 174904,
+        "sha256": "eba43aa0faf2bb7f69c5e2cd963bceb0c3a7e4f97a63daf98ce7c7c0685f5dad"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_010.rft",
+        "offset": 3171732,
+        "size": 349648,
+        "sha256": "2e1cdaf1ea01e17904064d357470fe7b71fc97802472e6b0fa09e3dcf227c4ce"
+      }
+    ]
+  },
+  {
+    "name": "BFF00.RFS",
+    "bytes": 481628,
+    "sha256": "9e254cada8bef67c2c847dc1882b3169085120f7fcafef24f15b6f19c37de368",
+    "entries": [
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_171.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "1c232fc602950bf7b2974edb410a9343bac2ba8a18037e6b6d393648b626405c"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_171.RFT",
+        "offset": 44156,
+        "size": 43832,
+        "sha256": "4f7979b16c6eef52e08fea8ec34d21e028c6a9f713e4a89dca78eb1c6905a06b"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_171.RFT",
+        "offset": 87988,
+        "size": 174904,
+        "sha256": "37e35de8b6bda78caf5157fac379c8a523eaa007ec5a4d0b70a5911aa3067a7f"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_171.RFT",
+        "offset": 262892,
+        "size": 43832,
+        "sha256": "3b219f086a5598fc09bd8ef582ea27326e4619332702863dfcd9cdf708d8aabb"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_171.RFT",
+        "offset": 306724,
+        "size": 174904,
+        "sha256": "337b4f76501735198cc34a14c5ee16ea5f1e5987fd7d010ac9f9b663b1130205"
+      }
+    ]
+  },
+  {
+    "name": "AAW00.RFS",
+    "bytes": 4331316,
+    "sha256": "e216ab9158df604931149b74c734a8f712c60716dde18d8ea7824ff97c0ec2bc",
+    "entries": [
+      {
+        "name": "ACCRETIA_ARMOR_BOOSTER_003.RFT",
+        "offset": 1924,
+        "size": 43832,
+        "sha256": "0401846a28c9323a45f6da69fb04daff45e82c68281a37fd8db3d81b2ba6637e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_006.rft",
+        "offset": 45756,
+        "size": 174904,
+        "sha256": "789418a41a2c24502f2ce6f41c75802631ceb47806afa643d98741ef7bc43b2e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_007.rft",
+        "offset": 220660,
+        "size": 349648,
+        "sha256": "0ed5fc676d3786d7fb9eefe85e1839ecf3aed4dd96bc533efe907618b2f0d042"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_010.rft",
+        "offset": 570308,
+        "size": 349648,
+        "sha256": "4ed6b20db100d01a8ef25a98cd4039c52e7d6e414d6c347b0b31016c68867a02"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_FA_003.RFT",
+        "offset": 919956,
+        "size": 43832,
+        "sha256": "9012bc179ed0e584dc1019cb7c0fd343d2b9bc6e57c07806bb1fa290f4e838f9"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_003.RFT",
+        "offset": 963788,
+        "size": 43832,
+        "sha256": "3dac1607cc2f510e8ef02a81e29d0617497f6896610666196386f093209f8661"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_006.rft",
+        "offset": 1007620,
+        "size": 43832,
+        "sha256": "80aa48f872219ae003bf151cdd9f14947de44752c37d189be5dbd7a19e2dcd26"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_007.rft",
+        "offset": 1051452,
+        "size": 87504,
+        "sha256": "a5914df6bc9a018da8478b04828c094f268c6d5b388473c4724083b677770c64"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_008.RFT",
+        "offset": 1138956,
+        "size": 43832,
+        "sha256": "18abda8eea8d4d877a753f5c80e931300513042c3f80362da4ae41b55ce61c59"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_010.rft",
+        "offset": 1182788,
+        "size": 87504,
+        "sha256": "a5914df6bc9a018da8478b04828c094f268c6d5b388473c4724083b677770c64"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_003.RFT",
+        "offset": 1270292,
+        "size": 43832,
+        "sha256": "947e8079c9208d967e7e96a414a9bcbc635c026ed5dd294fede11335f322500e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_006.rft",
+        "offset": 1314124,
+        "size": 43832,
+        "sha256": "1af6c94b57f1118cb013b65cdc8ca3fa5293a6bbdf3ac841a9ac6aa8b95069ad"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_007.rft",
+        "offset": 1357956,
+        "size": 87504,
+        "sha256": "f39af334e526d195a0eb01d368a1a3750fc11321abee635095685bede8ff9dfc"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_008.RFT",
+        "offset": 1445460,
+        "size": 43832,
+        "sha256": "aecdaaab1faca1146c169f6a8901b99188f12abbce87763dab02c0005981d00c"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_010.rft",
+        "offset": 1489292,
+        "size": 87504,
+        "sha256": "2001bb452ed75b245a0a5fa55636d74b799b56f7aceb47b26978a5684654d09c"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_003.RFT",
+        "offset": 1576796,
+        "size": 174904,
+        "sha256": "8ab578b2795788e1a7026e0b79afeacc491ed9ae2d06cdbbd8878edc85cafa95"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_006.rft",
+        "offset": 1751700,
+        "size": 174904,
+        "sha256": "d27b8974166cbf3492b77f126cd20982b6751565922af7f2cb22b9eb3a39d329"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_007.rft",
+        "offset": 1926604,
+        "size": 349648,
+        "sha256": "9e53a133e43d0d0d0da4f3a609645ab9b92907a797f8381e034e1cc794e1467d"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_008.RFT",
+        "offset": 2276252,
+        "size": 174904,
+        "sha256": "4ddc1f7c702110c99d4f7e233b07cf8c789083216fd7a61b274ca585fd8c71ce"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_010.rft",
+        "offset": 2451156,
+        "size": 349648,
+        "sha256": "e34d9d6cc924a9ddedb72350527a44e6fccd7709a2755c716143f6fd2535fca0"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_003.RFT",
+        "offset": 2800804,
+        "size": 43832,
+        "sha256": "eb3666b4c7ea5074a5add779b5741fdc940bd1e068f243c8cb8e6fb69c0c0ac5"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_006.rft",
+        "offset": 2844636,
+        "size": 43832,
+        "sha256": "d44d255c1ac89454f7ab242f09d8a77a4e3da6de8e58855f96222bcff7681b79"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_007.rft",
+        "offset": 2888468,
+        "size": 87504,
+        "sha256": "59dd03255688d1cfb00ecc072e2d4dce4d7a02c6e96c79ac0566c48fad6e3825"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_008.RFT",
+        "offset": 2975972,
+        "size": 43832,
+        "sha256": "48c9ce4d9cbfb6b6e0d1458da66c46f4c21f468cce00b69acd3e8d77f3d240cd"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_010.rft",
+        "offset": 3019804,
+        "size": 87504,
+        "sha256": "e23ec2bf981237fc279e6b04c8f404f71beef0f06c9ffd0159f97e816a427d4f"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_003.RFT",
+        "offset": 3107308,
+        "size": 174904,
+        "sha256": "17408cf57f9b442d9d5a36c537f4f69b7f178e65f94ac0c595ae2fcc436916ae"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_006.rft",
+        "offset": 3282212,
+        "size": 174904,
+        "sha256": "698b48739a4002d7ed61180b68c5e2b4227925b9cb3fcb10da55adc9898b4b4d"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_007.rft",
+        "offset": 3457116,
+        "size": 349648,
+        "sha256": "a3fa6ddbf3abb7ec78250880631355d882b0b777745cc1970d7fbd27602a7807"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_008.RFT",
+        "offset": 3806764,
+        "size": 174904,
+        "sha256": "ba39aa124cfe0bc4c95df09e3e42aebcdab5f979f2ccd06e69a90e5a76c6fb6c"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_010.rft",
+        "offset": 3981668,
+        "size": 349648,
+        "sha256": "00ad2c91bc5da9f394dfb074940871f3f33db3456263297853d247dcb42f545a"
+      }
+    ]
+  },
+  {
+    "name": "BFR00.RFS",
+    "bytes": 448860,
+    "sha256": "18468ddbce5649d186a9c590e47aa4aa4c72dd00ef69197f54c1643a3e6162c8",
+    "entries": [
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_087.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "3e68e75fd31b9e7b6ab612d768afb4a1c6397b1e1efd9339d17dc54e794a71bf"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_087.RFT",
+        "offset": 44156,
+        "size": 11064,
+        "sha256": "4d000a97f475698a2dc80a2b695ecfd0806e3102b7b4f1d067aa3593286b7b51"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_087.RFT",
+        "offset": 55220,
+        "size": 174904,
+        "sha256": "1177e1b45f382bad07ddfd167ec876e095d8eca38b66d447bf599211640280f9"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_087.RFT",
+        "offset": 230124,
+        "size": 43832,
+        "sha256": "4907f568cae4a65cb0de1c9961ecd4ea04de043338fc6010716148df51a0168b"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_087.RFT",
+        "offset": 273956,
+        "size": 174904,
+        "sha256": "a8bd07b6624bbec148ceb9d749c99e18c233dac92b8c4e25193e40c0d01cd9fa"
+      }
+    ]
+  },
+  {
+    "name": "BFW00.RFS",
+    "bytes": 3565780,
+    "sha256": "db0a1ae9fc1ffde98ebe1b5157c47b8f94aeb5e890f596d1ddc79d83874f13a7",
+    "entries": [
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_003.RFT",
+        "offset": 1604,
+        "size": 43832,
+        "sha256": "08d03249527bbd94ddd976e23e5f25d6fbd84f0de9be440566c80a262e137b80"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_006.rft",
+        "offset": 45436,
+        "size": 43832,
+        "sha256": "9d437cf3e8acf5974138111b3a5547cc616f199b03227621163c36197715b186"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_007.rft",
+        "offset": 89268,
+        "size": 87504,
+        "sha256": "1de17b49c82323cd3c7ffcc2a70a66307ef603364e6481d6ab388e8daa36c0ad"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_008.RFT",
+        "offset": 176772,
+        "size": 43832,
+        "sha256": "87c2d42eb7ddebaf563ec63df0eecd55dba864602859c3c74352e028680f4683"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_010.rft",
+        "offset": 220604,
+        "size": 87504,
+        "sha256": "1de17b49c82323cd3c7ffcc2a70a66307ef603364e6481d6ab388e8daa36c0ad"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_003.RFT",
+        "offset": 308108,
+        "size": 43832,
+        "sha256": "36e5c042e67e01c3484023654b70c400f2bfecd9d08fcb8087306d17cdef58ac"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_006.rft",
+        "offset": 351940,
+        "size": 87536,
+        "sha256": "e59987798b8b4ac6e432ef878d2899c91c835dfac5b2d432e10248e3a14d381a"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_007.rft",
+        "offset": 439476,
+        "size": 87504,
+        "sha256": "3915f45e898442a8325cd85fc2bc4e64c27056b2e05e602275d4132db5b95d68"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_008.RFT",
+        "offset": 526980,
+        "size": 22000,
+        "sha256": "bff78cfd8056bca0bffc2ce58e013aefb5b9c689672cab67aa71fc5a5ea4709b"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_010.rft",
+        "offset": 548980,
+        "size": 87504,
+        "sha256": "0f60d4962fc3b2c88e3578f3336ba98bd0b80663d0f71db8c17808adfcf8b0a4"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_003.RFT",
+        "offset": 636484,
+        "size": 174904,
+        "sha256": "25034faaa5b52880f100a70a8cd5c16df3120f2fa325722145664b55ce8950a5"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_006.rft",
+        "offset": 811388,
+        "size": 349680,
+        "sha256": "1ab037f0bc423cb4b18f2e1f2b4f293b788a83df4f3104170d10017ebbb064bb"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_007.rft",
+        "offset": 1161068,
+        "size": 349648,
+        "sha256": "87cbabf544732e8061b3eddee2bc3e2f821994b41e340f74ba7abad4d0fbe312"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_008.RFT",
+        "offset": 1510716,
+        "size": 174904,
+        "sha256": "570997bbb77ade3809a056d1e7359320c07dbdeb143ae527c057a2d5bf23aa83"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_010.rft",
+        "offset": 1685620,
+        "size": 349648,
+        "sha256": "fc2dd7590e243782877ffb7907521417a8aa84df6dfd9c5e11a4805d6318b4ea"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_003.RFT",
+        "offset": 2035268,
+        "size": 43832,
+        "sha256": "15d612a51250a218d87953a539b6983aadae0b91086705f724b190e7a551ebc3"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_006.rft",
+        "offset": 2079100,
+        "size": 43832,
+        "sha256": "427a4b8f6cd654a840e095f4ddc65c29c2071a7abdecc620bd9cfe3c6861d728"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_007.rft",
+        "offset": 2122932,
+        "size": 87504,
+        "sha256": "2cb4709ea6370b50faa1236a7a0a151f8de0ff2a1d711a6e86198fa0e6fe35f8"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_008.RFT",
+        "offset": 2210436,
+        "size": 43832,
+        "sha256": "c87a0e1d96407ac9a6bfeeb5e366d44590625e5976fbc7da2f09b0d2cdf2f668"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_010.rft",
+        "offset": 2254268,
+        "size": 87504,
+        "sha256": "2cb4709ea6370b50faa1236a7a0a151f8de0ff2a1d711a6e86198fa0e6fe35f8"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_003.RFT",
+        "offset": 2341772,
+        "size": 174904,
+        "sha256": "34a43601667c8c8eb590b78ebdd093217db15e679db0af36f9e8772cc660b005"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_006.rft",
+        "offset": 2516676,
+        "size": 174904,
+        "sha256": "060638b44e86bb283a6401b2608b66e8cd5ddb24616252f7f9804bb5cbaceceb"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_007.rft",
+        "offset": 2691580,
+        "size": 349648,
+        "sha256": "4585299bfb5eb06cc64a675b15b54d9f57164c82aa466035969456f9cb68700c"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_008.RFT",
+        "offset": 3041228,
+        "size": 174904,
+        "sha256": "6dd9c17e80614069d2f72c748db121424c83bcba240c54a240883737c68fdc68"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_010.rft",
+        "offset": 3216132,
+        "size": 349648,
+        "sha256": "73b052ce39eb5356cc01a563bcf3b6063818f5a68a516f9be93ca322ba583021"
+      }
+    ]
+  },
+  {
+    "name": "BMR00.RFS",
+    "bytes": 448860,
+    "sha256": "f5eb887efcb5a082483fe4b7eba67478b4821c4332fbff8dd4679bd1b29d5a46",
+    "entries": [
+      {
+        "name": "BELMALE_ARMOR_GLOVES_087.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "e7e4a6c5868895a4e46cac4ef4a063fc579e428c5fcc6c2b612995cbf0d3b21a"
+      },
+      {
+        "name": "BELMALE_ARMOR_HELMET_087.RFT",
+        "offset": 44156,
+        "size": 11064,
+        "sha256": "cbad54b261209b9ee99c77767f6a7b752c0b1cc008be4cf8db8c9e6e2a165dc2"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_087.RFT",
+        "offset": 55220,
+        "size": 174904,
+        "sha256": "6278648bbcb39d08f01619fe7c3505d3f6a8a4a484ffc6ef4b86b21d20d21643"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_087.RFT",
+        "offset": 230124,
+        "size": 43832,
+        "sha256": "29e88ac1ea7e36997ee2e1dd07204d1c43095bcf07d93fff5ae69dc41b69183f"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_087.RFT",
+        "offset": 273956,
+        "size": 174904,
+        "sha256": "be63b8745e1c32aa6204496de76e26421d247685974f8b8bebcbcd935ba7fb8b"
+      }
+    ]
+  },
+  {
+    "name": "BMF00.RFS",
+    "bytes": 448860,
+    "sha256": "5ff78e0f65d35a1479c9c11603a2ed53bcadd7bfeaad2a96fc5dc38edc36cfe6",
+    "entries": [
+      {
+        "name": "BELMALE_ARMOR_HELMET_171.RFT",
+        "offset": 324,
+        "size": 11064,
+        "sha256": "79c4fa6eeafcb0e9689e77cb85e01fd17122b4d5e1e532bebdf8963457a5a996"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_171.RFT",
+        "offset": 11388,
+        "size": 174904,
+        "sha256": "61052a845f3bbb8feecc3bd6ee1c37e6ce1b5280a071acf94b2b89063165b940"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_171.RFT",
+        "offset": 186292,
+        "size": 43832,
+        "sha256": "8e0237b5698ed4d54e3820a7c1d318ab752ab4135bffc66f859b502e1301d594"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_171.RFT",
+        "offset": 230124,
+        "size": 174904,
+        "sha256": "d571ffb0ca3583169b8fff5b217923d969adb4e603dd2e1e6158c8e0fc8372a6"
+      },
+      {
+        "name": "BELMALE__ARMOR_GLOVES_171.RFT",
+        "offset": 405028,
+        "size": 43832,
+        "sha256": "fc7e3636c38e4744c723300816e9cea98444dac004db739f6d6d84e7e3329b0c"
+      }
+    ]
+  },
+  {
+    "name": "BMW00.RFS",
+    "bytes": 2953580,
+    "sha256": "c29332650a87ccfd144339a2c688c85ababff93565db65998febd89e506ca5d1",
+    "entries": [
+      {
+        "name": "BELMALE_ARMOR_GLOVES_003.RFT",
+        "offset": 1412,
+        "size": 43832,
+        "sha256": "55a96cabee38b2daca0e847d0a071b76cebf6710794c872d9bcc9e1eb3274168"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_006.rft",
+        "offset": 45244,
+        "size": 43832,
+        "sha256": "b131387c8b12e2f881dec44117d900faabbb8faf2fac7705f78a4ced087ccf14"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_007.rft",
+        "offset": 89076,
+        "size": 43832,
+        "sha256": "b131387c8b12e2f881dec44117d900faabbb8faf2fac7705f78a4ced087ccf14"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_008.RFT",
+        "offset": 132908,
+        "size": 43832,
+        "sha256": "78805b710b709e530ffcf04783a5cb6b1d9287cf6572a36a933500f9f96408a8"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_010.rft",
+        "offset": 176740,
+        "size": 43832,
+        "sha256": "b131387c8b12e2f881dec44117d900faabbb8faf2fac7705f78a4ced087ccf14"
+      },
+      {
+        "name": "BELMALE_ARMOR_HELMET_003.RFT",
+        "offset": 220572,
+        "size": 43832,
+        "sha256": "c0d14752f4b2129e3daa67cc1eb868c9af5971ac68c1758ce4f5cb489b1f11c9"
+      },
+      {
+        "name": "BELMALE_ARMOR_HELMET_008.RFT",
+        "offset": 264404,
+        "size": 22000,
+        "sha256": "78771b06f54aa0733badef4007763a57def6c3efc2a27bffc7edfd39ef761c79"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_003.RFT",
+        "offset": 286404,
+        "size": 174904,
+        "sha256": "95523809ddeb897e512863bb82bc85b162f84f5bd322eb40470cecfb0dc1bfa0"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_006.rft",
+        "offset": 461308,
+        "size": 174904,
+        "sha256": "4b777a5214113726a6429152e90599f51ed5c793bff814f41d70300f24e4bd97"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_007.rft",
+        "offset": 636212,
+        "size": 349648,
+        "sha256": "6ddf9da4347766a99fafb46d1d2a5b3ba492c17c957f3ee15560102f16765f67"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_008.RFT",
+        "offset": 985860,
+        "size": 174904,
+        "sha256": "959841b61817b59dacffa4d81b9d170d4c88445f55f5a34f44d3ca69b4713c8a"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_010.rft",
+        "offset": 1160764,
+        "size": 349648,
+        "sha256": "a767f83240240d2a04263d3fc3e6ddfbda20a2f46afbf25a382529cb2f9a455f"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_003.RFT",
+        "offset": 1510412,
+        "size": 43832,
+        "sha256": "23e4e16c001f0c8b3546a538899f9ad7b3ba2b048e4236e407943b2474b95eea"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_006.rft",
+        "offset": 1554244,
+        "size": 43832,
+        "sha256": "c948cd6ee9fc93139bc59a28381519e48d879de25587d48b38947f5090d1d336"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_007.rft",
+        "offset": 1598076,
+        "size": 43832,
+        "sha256": "c948cd6ee9fc93139bc59a28381519e48d879de25587d48b38947f5090d1d336"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_008.RFT",
+        "offset": 1641908,
+        "size": 43832,
+        "sha256": "95a66ac94bf1c684de3b4405f4e3ff03070f5aac576d102e3e2ec4dc969b1f2f"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_010.rft",
+        "offset": 1685740,
+        "size": 43832,
+        "sha256": "c948cd6ee9fc93139bc59a28381519e48d879de25587d48b38947f5090d1d336"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_003.RFT",
+        "offset": 1729572,
+        "size": 174904,
+        "sha256": "492d213ae4e4973dd2b6e4a48c114ff4870fda058d38fae3fa43a5e9adaab89d"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_006.rft",
+        "offset": 1904476,
+        "size": 174904,
+        "sha256": "9433f232a64b1f84b13586dc2c07dec4209331bf58c582536dd820989bfb6d79"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_007.rft",
+        "offset": 2079380,
+        "size": 349648,
+        "sha256": "a900af4e847e2b782961a5faf71f3266a884926d53030083f43314ec1ed9b9f8"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_008.RFT",
+        "offset": 2429028,
+        "size": 174904,
+        "sha256": "4888e63ea3377d3a9d38c80ec9181aa03781489bbe0582243a8acfea894e10ae"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_010.rft",
+        "offset": 2603932,
+        "size": 349648,
+        "sha256": "7c1df0adacb4e478c908c31a59b0c169e1ca3d92790046d36359ce6c2b1b6acd"
+      }
+    ]
+  },
+  {
+    "name": "CFR00.RFS",
+    "bytes": 481628,
+    "sha256": "2077f3116f1de46181317d2d2296a3b77c04afe7317115f35f88bcbc38a186f6",
+    "entries": [
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_087.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "ccd6143ec57bac74d79eab016537946491ce5632d517e7b475e941e2ecae2bd4"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_087.RFT",
+        "offset": 44156,
+        "size": 43832,
+        "sha256": "afc9917e8b12f7fc3fac23b08d966ffed20bbb8011ea699455e7f9ef74801961"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_087.RFT",
+        "offset": 87988,
+        "size": 174904,
+        "sha256": "99544278312f8f8c713b24808b3e9f2ad9554bb9a9ae5ea23c04a44610651ce5"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_087.RFT",
+        "offset": 262892,
+        "size": 43832,
+        "sha256": "59b3ba030132e109745bc9bc387a7638194d8a023d84c1b09eecdcc843a7f692"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_087.RFT",
+        "offset": 306724,
+        "size": 174904,
+        "sha256": "17d7923e8a6c3020ede93b39baeadd7a341de512da4bc0561236e2584430f7c2"
+      }
+    ]
+  },
+  {
+    "name": "CMF00.RFS",
+    "bytes": 481628,
+    "sha256": "0eed7af76bbad9e1e88b7bbb74385b935ac41eaeb221b53ac747a014e672ea3a",
+    "entries": [
+      {
+        "name": "CORMALE_ARMOR_GLOVES_171.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "61d6c8ff282d132e75beb839ff73481ddd3a48dbcec064f17441c56bd001a7de"
+      },
+      {
+        "name": "CORMALE_ARMOR_HELMET_171.RFT",
+        "offset": 44156,
+        "size": 43832,
+        "sha256": "4cec654479cadb19bb812b8dc152eff51e639bcd296c808a33a70822ad592678"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_171.RFT",
+        "offset": 87988,
+        "size": 174904,
+        "sha256": "2ec01681484e3b05e34573a647e67abcc5478782fcf776075fd3cef7e4fbf58d"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_171.RFT",
+        "offset": 262892,
+        "size": 43832,
+        "sha256": "cb80b8578856a6449dadaf76534d9c821ce4df1ef7c12ee6aac142d362d8a0b7"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_171.RFT",
+        "offset": 306724,
+        "size": 174904,
+        "sha256": "ea34e3d7d8313367895dd2e7d0a1476e88dbb89509f7fdbcdcecfe21307561eb"
+      }
+    ]
+  },
+  {
+    "name": "CFW00.RFS",
+    "bytes": 3805676,
+    "sha256": "1b94e4b1356767584af4a40cab4c0cac6b051fc53fdc4f860855de67a43759ac",
+    "entries": [
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_003.RFT",
+        "offset": 1540,
+        "size": 43832,
+        "sha256": "a8fcacd86d26bbe9a23842e68bd3632b506076f31458f2324ce6ba8aff728d03"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_006.rft",
+        "offset": 45372,
+        "size": 87504,
+        "sha256": "977873755adacfe87362bb3bdf1b1ea24b7b1335a1016e39a02d6053b82d5c88"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_007.rft",
+        "offset": 132876,
+        "size": 87504,
+        "sha256": "11ea2aa61e17decf5cc9a964c12d54ec7759525ac2a7dfbb3fa4adac2fea9c23"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_008.RFT",
+        "offset": 220380,
+        "size": 43816,
+        "sha256": "8ec12c1a8edfd61b1425b6e4d238314368e928f3e3aa07f0a21355ddc65c346c"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_010.rft",
+        "offset": 264196,
+        "size": 87504,
+        "sha256": "ce09e94e86681f147da436d35f46741f1fe0c065abe4e4ff878107a3f249d648"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_003.RFT",
+        "offset": 351700,
+        "size": 43832,
+        "sha256": "50486ea6dee04d2d99dbf95608f4d8cf0f061e12838161565beff371dfadae91"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_006.rft",
+        "offset": 395532,
+        "size": 87504,
+        "sha256": "9b5f9857059a7d83dc6812225d1492a005afae2dfad42056478d300771b1286b"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_007.rft",
+        "offset": 483036,
+        "size": 87504,
+        "sha256": "5b422b7735257704561746d017bb7ee395bab41f62ee215edf14017468123337"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_010.rft",
+        "offset": 570540,
+        "size": 87504,
+        "sha256": "38c7edaad5da754d23f0cdbce6cd79d2d6bcb8814ec709efb354e923a44ecda5"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_003.RFT",
+        "offset": 658044,
+        "size": 174904,
+        "sha256": "49fed7ac321ad0e6f965f756c813c0a13f2b483e0935814ee3c33edd0411cdd8"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_006.rft",
+        "offset": 832948,
+        "size": 349648,
+        "sha256": "efe39f44c02504374c510cfa2081f69dc73bfceddbccecf8b17413759092991e"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_007.rft",
+        "offset": 1182596,
+        "size": 349648,
+        "sha256": "870cc8a9dc8be0eca4fce35585ccc4f576c15a0ba6231f21c6b99116ff748d90"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_008.RFT",
+        "offset": 1532244,
+        "size": 174888,
+        "sha256": "838d539f233255f6dba1a9d98b96cd1f1be755feca9f3c2dac48b7db062e88df"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_010.rft",
+        "offset": 1707132,
+        "size": 349648,
+        "sha256": "160b41401574c086318f16d9de03e5696da8de72c68dedfa95723e440eeef4c1"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_003.RFT",
+        "offset": 2056780,
+        "size": 43832,
+        "sha256": "348af041f499cc104818e97bf52ecdfb3194ade3a9e37dceb51ff8b4e9155428"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_006.rft",
+        "offset": 2100612,
+        "size": 87504,
+        "sha256": "5579447c12e00451a8f9096a5a3472ee5226c42d5c4b8ac7e942e5e4f039c4c2"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_007.rft",
+        "offset": 2188116,
+        "size": 87504,
+        "sha256": "09b79ca729713a32036173bc3452f81ce5d0e43d03b24abda9443fcb6060e771"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_008.RFT",
+        "offset": 2275620,
+        "size": 43816,
+        "sha256": "d256b3ae383e0232e5d6a66ded76d5dd5e4e6c78d1a622eaa85fcf12c63e2f84"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_010.rft",
+        "offset": 2319436,
+        "size": 87504,
+        "sha256": "8a22bc703b8dd192e97216ca565c45b29273059e01761f35ecfaf4bbea503ade"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_003.RFT",
+        "offset": 2406940,
+        "size": 174904,
+        "sha256": "13ade331f6f531c09497f4704e76b23163636a6526dc540ba7f85f6b5ff6865b"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_006.rft",
+        "offset": 2581844,
+        "size": 349648,
+        "sha256": "ee464fb7249c7541f2a1f8bcc8627bb783aead2a0701735efbd277b72e630feb"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_007.rft",
+        "offset": 2931492,
+        "size": 349648,
+        "sha256": "5b61a0c80fe88cc6fc9d1be17f4a1df5170b194ad75659234c2948d0e512d49d"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_008.RFT",
+        "offset": 3281140,
+        "size": 174888,
+        "sha256": "dc718746a181258ba6165137cd29b47fadb89f622587d32d476f80d01f32226e"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_010.rft",
+        "offset": 3456028,
+        "size": 349648,
+        "sha256": "a3c0e107ec06fd9cd1d46fc3a04be95a1eea53f1f323bedcc615fc5c913f4e9a"
+      }
+    ]
+  },
+  {
+    "name": "CFF00.RFS",
+    "bytes": 481628,
+    "sha256": "ff0afbf97afaf26a53817e94da4e68841232d594580a9aa74f1a3af30b063340",
+    "entries": [
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_171.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "7a32e50bdcf039c904315ee4375fd2692c2f50942e2f40d685dce35f4cd7b37b"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_171.RFT",
+        "offset": 44156,
+        "size": 43832,
+        "sha256": "c4d31b1a45f1bd5083a7f2caf2ee5ae43a36557ffb82e44185364f5f5215e16c"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_171.RFT",
+        "offset": 87988,
+        "size": 174904,
+        "sha256": "61969655fb523ee588ff28e42ba47a147e8e9e44da6911af9205550e27a72732"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_171.RFT",
+        "offset": 262892,
+        "size": 43832,
+        "sha256": "686ec2fc35642eb1f9a62a8c99d25485fb315ce239aedd63a476a66097b09b24"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_171.RFT",
+        "offset": 306724,
+        "size": 174904,
+        "sha256": "33f3a3e0662e8a300335f72cda37b7134c6ee07252668ccb98e201959d38683e"
+      }
+    ]
+  },
+  {
+    "name": "CMR00.RFS",
+    "bytes": 448860,
+    "sha256": "0d03fbb49be6d63ed797193a5231b9a21a48cf2da097462d1363c3dcbc57f4e8",
+    "entries": [
+      {
+        "name": "CORMALE_ARMOR_GLOVES_087.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "0d10e372b59f6b92238417fcd6a338c3bc98c20740842ff3576b023e3a40ed51"
+      },
+      {
+        "name": "CORMALE_ARMOR_HELMET_087.RFT",
+        "offset": 44156,
+        "size": 11064,
+        "sha256": "8cd915d9747660b18b83439546f1175165558766f9a6c74dfae70e7f3f868482"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_087.RFT",
+        "offset": 55220,
+        "size": 174904,
+        "sha256": "98e4f9101502a23781ac4d39d486cf8d9f0c3c10eb133c6bb448c60411097390"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_087.RFT",
+        "offset": 230124,
+        "size": 43832,
+        "sha256": "d3c4a99304d21b69d0f60d595b1470d68b4295655170738c9690c1c4b9a01dc5"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_087.RFT",
+        "offset": 273956,
+        "size": 174904,
+        "sha256": "6628216d85caa54e3f9ba9cf3b2aeeb4503631dc8acc7497003e8c7ac4a3b5a0"
+      }
+    ]
+  }
+]

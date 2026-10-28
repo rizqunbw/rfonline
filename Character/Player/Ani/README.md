@@ -33,4 +33,4 @@ Layout reference: [cbb-rf-online-addon](https://github.com/Cardboard-box-a/cbb-r
 
 ## Current scope
 
-This step preserves, catalogs and validates animation data. It does not yet play animations on the browser character or establish that clips from different player groups share a compatible rig. Matching skeleton (`.bn`) files are still needed to establish hierarchy and rest pose; textures are also needed for the previously supplied BFF00 armor meshes. Object/bone names in the catalog support that next compatibility check.
+The complete archive catalog preserves all source data. The browser now plays four Bellato female clips from `BFETA.RFS` and `BFCOA.RFS` on `Bone/BelFemale.bn` and armor 171; see the [player renderer notes](../README.md). Only named skeleton tracks are used, with explicit preview timing of 160 ticks/frame at 30 FPS. Other races/clips have not been assembled or retargeted, and non-skeleton/effect channels remain unrendered.

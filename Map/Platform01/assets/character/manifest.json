@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "name": "Bellato Female \u00b7 Armor 171",
+  "textures": [
+    {
+      "file": "belfemale_armor_gloves_171.png",
+      "original": "BELFEMALE_ARMOR_GLOVES_171.RFT",
+      "size": [
+        256,
+        256
+      ],
+      "pixelsSha256": "7009662afa0ce9029f5bb5e745485760769da8a3ab627de0865651a546b3bc9a"
+    },
+    {
+      "file": "belfemale_armor_helmet_171.png",
+      "original": "BELFEMALE_ARMOR_HELMET_171.RFT",
+      "size": [
+        256,
+        256
+      ],
+      "pixelsSha256": "5188f55f46a0adf92b88675103b9eae04fc7c8750197981310b34329470befbe"
+    },
+    {
+      "file": "belfemale_armor_lower_171.png",
+      "original": "BELFEMALE_ARMOR_LOWER_171.RFT",
+      "size": [
+        512,
+        512
+      ],
+      "pixelsSha256": "e1d66d0948010c8006e64a3ebea21472de03dd8af596f02f1880f8028dcd06ee"
+    },
+    {
+      "file": "belfemale_armor_shoes_171.png",
+      "original": "BELFEMALE_ARMOR_SHOES_171.RFT",
+      "size": [
+        256,
+        256
+      ],
+      "pixelsSha256": "d7fcbee59143ed2fca5fa359d02ac140c966703e713d448ad7db504a5c3b15e4"
+    },
+    {
+      "file": "belfemale_armor_upper_171.png",
+      "original": "BELFEMALE_ARMOR_UPPER_171.RFT",
+      "size": [
+        512,
+        512
+      ],
+      "pixelsSha256": "6a0138d610d08c8de2d0ae9d06b569d2005b42329e42423c35cb329283350dbd"
+    }
+  ],
+  "bounds": [
+    [
+      -4.439000129699707,
+      0.0012999773025512695,
+      -1.5663999915122986
+    ],
+    [
+      4.439000129699707,
+      15.119799613952637,
+      5.381800219416618
+    ]
+  ],
+  "previewTicksPerSecond": 4800,
+  "limitations": [
+    "Face/hair mesh not supplied",
+    "Only armor set 171 has matching supplied textures",
+    "Scalar and non-skeleton ANI channels are not rendered",
+    "Preview assumes 30 FPS (160 ticks/frame)"
+  ],
+  "sources": [
+    {
+      "path": "Bone/BelFemale.bn",
+      "bytes": 67423,
+      "sha256": "415b66b940e7cf0da973ac151a3ad7cd47eef1af813f37452c5573c5f6ecd6f0"
+    },
+    {
+      "path": "Mesh/BFF00/BELFEMALE_ARMOR_GLOVES_171.msh",
+      "bytes": 50164,
+      "sha256": "34eb491847d0bc44c11f322de5de710a9f60c0b20b2cbce0547e47ba49d29713"
+    },
+    {
+      "path": "Mesh/BFF00/BELFEMALE_ARMOR_HELMET_171.msh",
+      "bytes": 21215,
+      "sha256": "83320b2c513917599aec3cc4b4dc1652dd0d0efb345c622c14091ac467df9302"
+    },
+    {
+      "path": "Mesh/BFF00/BELFEMALE_ARMOR_LOWER_171.msh",
+      "bytes": 132502,
+      "sha256": "b598d9da4891a089d6f41c024dfd46657f8f8d04e69718bb24d08586ac8d309b"
+    },
+    {
+      "path": "Mesh/BFF00/BELFEMALE_ARMOR_SHOES_171.msh",
+      "bytes": 30564,
+      "sha256": "791aaf127582f9d24028ec52858163b0c6dd8f808f067c9166deb450c101785b"
+    },
+    {
+      "path": "Mesh/BFF00/BELFEMALE_ARMOR_UPPER_171.msh",
+      "bytes": 173059,
+      "sha256": "35201845ba35ecdf6582df10335725b5efed1140f69ad6288e59e8eb6f306fe0"
+    },
+    {
+      "path": "Tex/BFF00.RFS",
+      "bytes": 481628,
+      "sha256": "9e254cada8bef67c2c847dc1882b3169085120f7fcafef24f15b6f19c37de368"
+    },
+    {
+      "path": "Ani/BFETA.RFS",
+      "bytes": 936174,
+      "sha256": "34eb2d1ed81640e07aefc92f8665d4e770002df8cc817af0ea2bb655a730cd8f"
+    },
+    {
+      "path": "Ani/BFCOA.RFS",
+      "bytes": 2113070,
+      "sha256": "769935bc9781fd6c683cd2024250ab509f56da5a88284c2b54815e3d86fc84a7"
+    }
+  ],
+  "bones": 25,
+  "meshObjects": 14,
+  "triangles": 3098,
+  "clips": [
+    {
+      "name": "idle",
+      "source": "BELFEMALE_PEACE_STAND_NONE_NONE_01_00.ANI",
+      "archive": "BFETA.RFS",
+      "duration": 1.5,
+      "omittedObjects": [
+        "G1",
+        "S1",
+        "U0",
+        "L1",
+        "L0",
+        "S0",
+        "U5",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "G0",
+        "L3",
+        "L2",
+        "H0",
+        "H1",
+        "G3",
+        "U8",
+        "G2",
+        "U7",
+        "U6",
+        "L4",
+        "F0"
+      ]
+    },
+    {
+      "name": "walk",
+      "source": "BELFEMALE_PEACE_WALK_NONE_NONE_01_00.ANI",
+      "archive": "BFETA.RFS",
+      "duration": 1.0333333333333334,
+      "omittedObjects": [
+        "G1",
+        "S1",
+        "U0",
+        "L1",
+        "L0",
+        "S0",
+        "U5",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "G0",
+        "L3",
+        "L2",
+        "H0",
+        "H1",
+        "G3",
+        "U8",
+        "G2",
+        "U7",
+        "U6",
+        "L4",
+        "F0"
+      ]
+    },
+    {
+      "name": "run",
+      "source": "BELFEMALE_PEACE_RUN_NONE_NONE_01_00.ANI",
+      "archive": "BFETA.RFS",
+      "duration": 0.8,
+      "omittedObjects": [
+        "G1",
+        "S1",
+        "U0",
+        "L1",
+        "L0",
+        "S0",
+        "U5",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "G0",
+        "L3",
+        "L2",
+        "H0",
+        "H1",
+        "G3",
+        "U8",
+        "G2",
+        "U7",
+        "U6",
+        "L4",
+        "F0"
+      ]
+    },
+    {
+      "name": "combat",
+      "source": "BELFEMALE_COMBAT_STAND_NONE_NONE_01_00.ANI",
+      "archive": "BFCOA.RFS",
+      "duration": 1.5,
+      "omittedObjects": [
+        "G1",
+        "S1",
+        "U0",
+        "L1",
+        "L0",
+        "S0",
+        "U5",
+        "U4",
+        "U3",
+        "U2",
+        "U1",
+        "G0",
+        "L3",
+        "L2",
+        "H0",
+        "H1",
+        "G3",
+        "U8",
+        "G2",
+        "U7",
+        "U6",
+        "L4",
+        "F0"
+      ]
+    }
+  ]
+}
