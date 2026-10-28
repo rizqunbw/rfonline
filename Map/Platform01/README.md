@@ -17,7 +17,7 @@ npm start
 
 Open port 3000 in a browser. WASD moves horizontally, mouse (pointer lock) or arrow keys looks around, Q/E changes height, Shift boosts, Escape pauses. Touch devices use on-screen controls and drag to look. Five illuminated beacons are collected within 9 scene units. Flight has no collision. The overhead map shows position and objectives.
 
-Character preview: drag to orbit, scroll/pinch to zoom, choose idle/walk/run/combat stance, pause or change playback speed, and optionally show bones. WASD moves on the preview floor. In third-person map mode, WASD walks and Shift runs, with static terrain height sampling. This mode has no beacon objective. The supplied armor is rendered without the missing default face/hair meshes. See `../../Character/Player/README.md` for source conversion details and reproducible validation.
+Character preview: drag to orbit, scroll/pinch to zoom, choose idle/walk/run/combat stance, pause or change playback speed, and optionally show bones. The original default face is included; choose default hair or the armor helmet, with the selection carried into the map link. WASD moves on the preview floor. In third-person map mode, WASD walks and Shift runs, with static terrain height sampling. This mode has no beacon objective. See `../../Character/Player/README.md` for source conversion details and reproducible validation.
 
 Character browser tests: serve `dist` then run `python scripts/smoke_character.py http://127.0.0.1:3000` (Playwright and Chromium). This checks all four clips, pause, orbit, movement, mobile controls, map rendering and explicit missing-texture errors. Python converter dependencies are only needed to regenerate the committed character assets.
 

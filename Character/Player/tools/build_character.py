@@ -149,7 +149,8 @@ def build():
     source(ROOT / 'resources.json')
     # Resource IDs are selected equipment slots from the uploaded workbook.
     # Actual archive payloads and the skeleton are resolved through ID/BoneID.
-    resource_ids = ['001004AB', '001000AB', '001003AB', '001005AB', '001002AB']
+    resource_ids = ['001004AB', '001000AB', '001003AB', '001005AB', '001002AB', '00150100', '00150000']
+    slots = ['gloves', 'helmet', 'lower', 'shoes', 'upper', 'face', 'hair']
     selected = [registry.mesh(resource_id) for resource_id in resource_ids]
     bone_paths = {r['bone'] for r in selected}
     if len(bone_paths) != 1:
@@ -157,13 +158,15 @@ def build():
     bones = read_bones(source(selected[0]['bone']))
     names = {b['name']: i for i, b in enumerate(bones)}
     meshes = []
-    for resource in selected:
+    for resource, slot in zip(selected, slots):
         source(resource['archive'])
-        meshes.extend(read_mesh(resource['payload'], names))
-    texture_data = source(ROOT / 'Tex/BFF00.RFS')
+        meshes.extend(dict(**mesh, slot=slot, resourceId=resource['record']['resourceId']) for mesh in read_mesh(resource['payload'], names))
+    source(ROOT / 'Tex/manifest.json')
     textures = []
-    for e in entries(texture_data):
-        blob = texture_data[e['offset']:e['offset']+e['size']]
+    for filename in sorted({m['texture'] for m in meshes}):
+        texture = registry.texture(filename)
+        source(texture['archive'])
+        blob = texture['payload']
         if blob[:4] != b'DDS ':
             if len(blob) < 128:
                 raise ValueError('Truncated RFT')
@@ -171,9 +174,8 @@ def build():
         if blob[:4] != b'DDS ':
             raise ValueError('Invalid decoded DDS')
         image = Image.open(io.BytesIO(blob)).convert('RGBA')
-        filename = Path(e['name']).stem.lower() + '.png'
         image.save(OUT / filename)
-        textures.append(dict(file=filename, original=e['name'], size=list(image.size), pixelsSha256=hashlib.sha256(image.tobytes()).hexdigest()))
+        textures.append(dict(file=filename, original=texture['name'], archive=str(texture['archive'].relative_to(ROOT)), size=list(image.size), pixelsSha256=hashlib.sha256(image.tobytes()).hexdigest()))
     if set(m['texture'] for m in meshes) != set(t['file'] for t in textures):
         raise ValueError('Mesh/texture mismatch')
     clips = []
@@ -226,7 +228,7 @@ def build():
                  meshes=meshes, textures=textures, clips=clips,
                  bounds=[points.min(axis=0).tolist(), points.max(axis=0).tolist()],
                  previewTicksPerSecond=4800,
-                 limitations=['Face/hair mesh not supplied', 'Only armor set 171 has matching supplied textures',
+                 limitations=['Only Bellato female armor 171 is assembled in this viewer',
                               'Scalar and non-skeleton ANI channels are not rendered', 'Preview assumes 30 FPS (160 ticks/frame)'], sources=sources)
     (OUT / 'bellato-171.json').write_text(json.dumps(model, separators=(',', ':'), allow_nan=False)+'\n')
     summary = {k: v for k, v in model.items() if k not in ['meshes', 'bones', 'clips']}

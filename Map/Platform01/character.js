@@ -74,6 +74,10 @@ async function init() {
   $('togglePlayback').onclick = () => { paused = !paused; keys.clear(); syncControls(); };
   $('skeleton').onchange = () => helper.visible = $('skeleton').checked;
   $('resetView').onclick = reset;
+  $('headwear').onchange = () => {
+    character.setHeadwear($('headwear').value);
+    $('enterMap').href = `./?character=1&headwear=${$('headwear').value}`;
+  };
   canvas.addEventListener('pointerdown', e => { canvas.setPointerCapture(e.pointerId); pointers.set(e.pointerId, [e.clientX, e.clientY]); });
   canvas.addEventListener('pointermove', e => {
     const prev = pointers.get(e.pointerId); if (!prev) return;

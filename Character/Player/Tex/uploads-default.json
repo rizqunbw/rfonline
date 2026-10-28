@@ -1,0 +1,86 @@
+[
+  {
+    "uploadedName": "DEFAULTAA.RFS",
+    "path": "Tex/DEFAULTAA.RFS",
+    "bytes": 4462612,
+    "sha256": "9453ac67a8caf07003f434c444022cb1bf16654955ad09f9722a928c457b6f93"
+  },
+  {
+    "uploadedName": "DEFAULTBF.RFS",
+    "path": "Tex/DEFAULTBF.RFS",
+    "bytes": 5161516,
+    "sha256": "d58f265340078211745a50f7ad64a1112993d003c8132efa71a2b3e26c6f80a9"
+  },
+  {
+    "uploadedName": "DEFAULTCF.RFS",
+    "path": "Tex/DEFAULTCF.RFS",
+    "bytes": 4812060,
+    "sha256": "4633ba234c367e4abd71cc4adfb2dc9c41dd31d4e1389928f8d4cbe80b52fdd2"
+  },
+  {
+    "uploadedName": "DEFAULTBM.RFS",
+    "path": "Tex/DEFAULTBM.RFS",
+    "bytes": 4986740,
+    "sha256": "d6f1c4b7218aa32e7ce3ed341273a5cd7aadfe1929749da4a6795108201ddbbb"
+  },
+  {
+    "uploadedName": "PLETCT.RFS",
+    "path": "Tex/PLETCT.RFS",
+    "bytes": 175588,
+    "sha256": "1fc7d0b8d0c53099a9cd415500663e6397f972232ea54a9c87a2c5754d4254ce"
+  },
+  {
+    "uploadedName": "DEFAULTCM.RFS",
+    "path": "Tex/DEFAULTCM.RFS",
+    "bytes": 5336492,
+    "sha256": "ba4991d992ec623a11bf78f57e29975f2cb593ccabecf3508c4a844c016e7020"
+  },
+  {
+    "uploadedName": "MASKT.RFS",
+    "path": "Tex/MASKT.RFS",
+    "bytes": 2973620,
+    "sha256": "4282e15e25ed6758c2ec249b1e69216bc4bb7b663039a86c711aa9237ae3cb8e"
+  },
+  {
+    "uploadedName": "RFSInfo.dat",
+    "path": "Tex/RFSInfo.dat",
+    "bytes": 1030,
+    "sha256": "1f826145394adb4c1cdc96944b6482643793ff7c7547c83dc0266a01832584a7"
+  },
+  {
+    "uploadedName": "NWHITET.RFS",
+    "path": "Tex/NWHITET.RFS",
+    "bytes": 13603348,
+    "sha256": "85d2e080001a38a8939d459fa96a6a38121c6f7c3f5946a24ea9511ca0051bcd"
+  },
+  {
+    "uploadedName": "WHITET.RFS",
+    "path": "Tex/WHITET.RFS",
+    "bytes": 13603348,
+    "sha256": "812d2b4ce4354ff98eda901f1095447b1f4301c84135e2add324499a7a9ae614"
+  },
+  {
+    "uploadedName": "ori6770.RFS",
+    "path": "Tex/ori6770.RFS",
+    "bytes": 19637220,
+    "sha256": "ba20b4259731812d5963bb1935b91b9915ede2fd819e822a9a8249b08b37aa36"
+  },
+  {
+    "uploadedName": "XMAST.RFS",
+    "path": "Tex/XMAST.RFS",
+    "bytes": 1749012,
+    "sha256": "3da8c308944dc0922ccc50a47f43aba3adbc59e7171496bcb2dbf9872901ade0"
+  },
+  {
+    "uploadedName": "RFMASTER.RFS",
+    "path": "Tex/RFMASTER.RFS",
+    "bytes": 14960644,
+    "sha256": "4e6caa016cbacd7547ac440fe1d1ca07876623a92a8a71f8345e54a209fb57a1"
+  },
+  {
+    "uploadedName": "DARKT60.RFS",
+    "path": "Tex/DARKT60.RFS",
+    "bytes": 14564084,
+    "sha256": "e639aeaac4f214753532d8237b5a787c0a769427b83aa30e7e2cf796b9fb8fc4"
+  }
+]

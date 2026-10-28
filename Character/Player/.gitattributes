@@ -9,3 +9,5 @@ Ani/*.dat binary
 Bone/*.bn binary
 Bone/*.BBX binary
 Tex/*.RFS binary
+Mesh/*.dat binary
+Tex/*.dat binary

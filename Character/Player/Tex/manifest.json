@@ -1,5 +1,48 @@
 [
   {
+    "name": "AAF00.RFS",
+    "bytes": 525524,
+    "sha256": "d4292b450207764637e5903d65b15f8c9231028a7fd5fa2aff644fea37cc28eb",
+    "entries": [
+      {
+        "name": "ACCRETIA_ARMOR_FA_171.RFT",
+        "offset": 388,
+        "size": 43832,
+        "sha256": "b1259c3e126fcbfb34cde3589b6bbdd74516240b80394c34edbaae9b0cda443b"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_171.RFT",
+        "offset": 44220,
+        "size": 43832,
+        "sha256": "31a9dc40234177002a2b28c84506597617f8ab9e9b79e9b51f86f58fac50197f"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_171.RFT",
+        "offset": 88052,
+        "size": 43832,
+        "sha256": "2ecace8bbdaf6a074839b0e1eda93df7456ae08abbc75cfda0a99957d8c61e0e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_171.RFT",
+        "offset": 131884,
+        "size": 174904,
+        "sha256": "66bbda3b373a341445d0819c660da36c9e52e09a0c7902405a19269e0508d8af"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_171.RFT",
+        "offset": 306788,
+        "size": 43832,
+        "sha256": "3654b7a5255bb64b8009e170224dc396cc903cc6a9c9fc6da92582d80f7c1a09"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_171.RFT",
+        "offset": 350620,
+        "size": 174904,
+        "sha256": "40a6d063cf1c177c1491906212906335c46a9b1ab78babc276018d85bb1b7c4c"
+      }
+    ]
+  },
+  {
     "name": "AAR00.RFS",
     "bytes": 569420,
     "sha256": "96504414bfbc4a404c4753925e4ae05198d8725badfccfad6ff739a8e0e65d86",
@@ -45,225 +88,6 @@
         "offset": 394516,
         "size": 174904,
         "sha256": "8c2052ab08c37b0806619670a12edb7256ae18a9339d88e70446265e2bc8b6eb"
-      }
-    ]
-  },
-  {
-    "name": "AAF00.RFS",
-    "bytes": 525524,
-    "sha256": "d4292b450207764637e5903d65b15f8c9231028a7fd5fa2aff644fea37cc28eb",
-    "entries": [
-      {
-        "name": "ACCRETIA_ARMOR_FA_171.RFT",
-        "offset": 388,
-        "size": 43832,
-        "sha256": "b1259c3e126fcbfb34cde3589b6bbdd74516240b80394c34edbaae9b0cda443b"
-      },
-      {
-        "name": "ACCRETIA_ARMOR_GLOVES_171.RFT",
-        "offset": 44220,
-        "size": 43832,
-        "sha256": "31a9dc40234177002a2b28c84506597617f8ab9e9b79e9b51f86f58fac50197f"
-      },
-      {
-        "name": "ACCRETIA_ARMOR_HELMET_171.RFT",
-        "offset": 88052,
-        "size": 43832,
-        "sha256": "2ecace8bbdaf6a074839b0e1eda93df7456ae08abbc75cfda0a99957d8c61e0e"
-      },
-      {
-        "name": "ACCRETIA_ARMOR_LOWER_171.RFT",
-        "offset": 131884,
-        "size": 174904,
-        "sha256": "66bbda3b373a341445d0819c660da36c9e52e09a0c7902405a19269e0508d8af"
-      },
-      {
-        "name": "ACCRETIA_ARMOR_SHOES_171.RFT",
-        "offset": 306788,
-        "size": 43832,
-        "sha256": "3654b7a5255bb64b8009e170224dc396cc903cc6a9c9fc6da92582d80f7c1a09"
-      },
-      {
-        "name": "ACCRETIA_ARMOR_UPPER_171.RFT",
-        "offset": 350620,
-        "size": 174904,
-        "sha256": "40a6d063cf1c177c1491906212906335c46a9b1ab78babc276018d85bb1b7c4c"
-      }
-    ]
-  },
-  {
-    "name": "CMW00.RFS",
-    "bytes": 3521380,
-    "sha256": "350a3cd49e6deaec18d70cb9ff9ab7c070ebfc183737e9d5c0d5439961cdd2f5",
-    "entries": [
-      {
-        "name": "CORMALE_ARMOR_GLOVES_003.RFT",
-        "offset": 1412,
-        "size": 43832,
-        "sha256": "28f57077d582ba24b6a7dd2dcc0c5e6c28b979b51686ffa40a3b95cb0d951996"
-      },
-      {
-        "name": "CORMALE_ARMOR_GLOVES_006.rft",
-        "offset": 45244,
-        "size": 87504,
-        "sha256": "39c82870d651d0e4821b73db1794c5bf7f1f963b4b866ae75a4ef8c66632e2e8"
-      },
-      {
-        "name": "CORMALE_ARMOR_GLOVES_007.rft",
-        "offset": 132748,
-        "size": 87504,
-        "sha256": "72e2f195f06371091f227ac65899ff2e974a5102a76e6b9041d442e1fdd37262"
-      },
-      {
-        "name": "CORMALE_ARMOR_GLOVES_008.RFT",
-        "offset": 220252,
-        "size": 43832,
-        "sha256": "0167aeea90f51edead90be7bd07aca87344d3ae69e5005fa3f5435828cd6fe3e"
-      },
-      {
-        "name": "CORMALE_ARMOR_GLOVES_010.rft",
-        "offset": 264084,
-        "size": 87504,
-        "sha256": "fc5853683a6392d7bc75b88ce1d3fc487c5c19af3e8c043efbcad6bf660fac92"
-      },
-      {
-        "name": "CORMALE_ARMOR_HELMET_003.RFT",
-        "offset": 351588,
-        "size": 11064,
-        "sha256": "fa632049c684a07b5625df957b13a60db08c0a22daa7a61a8c0cb3c3e6ce4dd7"
-      },
-      {
-        "name": "CORMALE_ARMOR_HELMET_008.RFT",
-        "offset": 362652,
-        "size": 11064,
-        "sha256": "1c64ec014d82faa2159070b6155f325a361dd289924363991debbbf4dbe49259"
-      },
-      {
-        "name": "CORMALE_ARMOR_LOWER_003.RFT",
-        "offset": 373716,
-        "size": 174904,
-        "sha256": "30702e57d5f26cd28d4e66c3d2786c5254d4acead892d1f66c7150f81ef9fdd2"
-      },
-      {
-        "name": "CORMALE_ARMOR_LOWER_006.rft",
-        "offset": 548620,
-        "size": 349648,
-        "sha256": "c4802c2343d9727304e99597f4fa0c7448a854a368d212366200ea42a016c0c2"
-      },
-      {
-        "name": "CORMALE_ARMOR_LOWER_007.rft",
-        "offset": 898268,
-        "size": 349648,
-        "sha256": "abb1e92a3876481650a16029776076a182793f6d6c577b554149da76ec36f20d"
-      },
-      {
-        "name": "CORMALE_ARMOR_LOWER_008.RFT",
-        "offset": 1247916,
-        "size": 174904,
-        "sha256": "b65228fef944a1748613890c2993bee07d41c153e784cd71ec631e545b165ec5"
-      },
-      {
-        "name": "CORMALE_ARMOR_LOWER_010.rft",
-        "offset": 1422820,
-        "size": 349648,
-        "sha256": "69be068cd8d8168cfc7c9660ffe998185b68d0dc573185a0cbb76d4d1ae988e1"
-      },
-      {
-        "name": "CORMALE_ARMOR_SHOES_003.RFT",
-        "offset": 1772468,
-        "size": 43832,
-        "sha256": "e3e469ffd2600b018df82f5ea8c6664681e38d6652264a6a2b7f8b53b6296cad"
-      },
-      {
-        "name": "CORMALE_ARMOR_SHOES_006.rft",
-        "offset": 1816300,
-        "size": 87504,
-        "sha256": "c036d1b69252829a68ad417f39d0c2d96b1cbf5bd9b65ba93a52c817372cdeb0"
-      },
-      {
-        "name": "CORMALE_ARMOR_SHOES_007.rft",
-        "offset": 1903804,
-        "size": 87504,
-        "sha256": "7b33a1b5a6034e184af17b6420467e5fec4f5e49622923e9d57be68b74c28881"
-      },
-      {
-        "name": "CORMALE_ARMOR_SHOES_008.RFT",
-        "offset": 1991308,
-        "size": 43832,
-        "sha256": "1b241fb772c4a0da26303cedcb054c9d74275dc5d1dddb45aeb256d586ba0248"
-      },
-      {
-        "name": "CORMALE_ARMOR_SHOES_010.rft",
-        "offset": 2035140,
-        "size": 87504,
-        "sha256": "7b33a1b5a6034e184af17b6420467e5fec4f5e49622923e9d57be68b74c28881"
-      },
-      {
-        "name": "CORMALE_ARMOR_UPPER_003.RFT",
-        "offset": 2122644,
-        "size": 174888,
-        "sha256": "8dcf2b94bebd24c5254af76486bf42496aabfbf91d506b494ea39915ce6d461b"
-      },
-      {
-        "name": "CORMALE_ARMOR_UPPER_006.rft",
-        "offset": 2297532,
-        "size": 349648,
-        "sha256": "85554a9c8ccf60f9e71bb0296e70e4655ae0e8a982a9cea6f51fc43cd4be2eea"
-      },
-      {
-        "name": "CORMALE_ARMOR_UPPER_007.rft",
-        "offset": 2647180,
-        "size": 349648,
-        "sha256": "aca6d672d0ea100ac28d264e5f904f2d9efe39d44c8b0ac313121150b1d3d383"
-      },
-      {
-        "name": "CORMALE_ARMOR_UPPER_008.RFT",
-        "offset": 2996828,
-        "size": 174904,
-        "sha256": "eba43aa0faf2bb7f69c5e2cd963bceb0c3a7e4f97a63daf98ce7c7c0685f5dad"
-      },
-      {
-        "name": "CORMALE_ARMOR_UPPER_010.rft",
-        "offset": 3171732,
-        "size": 349648,
-        "sha256": "2e1cdaf1ea01e17904064d357470fe7b71fc97802472e6b0fa09e3dcf227c4ce"
-      }
-    ]
-  },
-  {
-    "name": "BFF00.RFS",
-    "bytes": 481628,
-    "sha256": "9e254cada8bef67c2c847dc1882b3169085120f7fcafef24f15b6f19c37de368",
-    "entries": [
-      {
-        "name": "BELFEMALE_ARMOR_GLOVES_171.RFT",
-        "offset": 324,
-        "size": 43832,
-        "sha256": "1c232fc602950bf7b2974edb410a9343bac2ba8a18037e6b6d393648b626405c"
-      },
-      {
-        "name": "BELFEMALE_ARMOR_HELMET_171.RFT",
-        "offset": 44156,
-        "size": 43832,
-        "sha256": "4f7979b16c6eef52e08fea8ec34d21e028c6a9f713e4a89dca78eb1c6905a06b"
-      },
-      {
-        "name": "BELFEMALE_ARMOR_LOWER_171.RFT",
-        "offset": 87988,
-        "size": 174904,
-        "sha256": "37e35de8b6bda78caf5157fac379c8a523eaa007ec5a4d0b70a5911aa3067a7f"
-      },
-      {
-        "name": "BELFEMALE_ARMOR_SHOES_171.RFT",
-        "offset": 262892,
-        "size": 43832,
-        "sha256": "3b219f086a5598fc09bd8ef582ea27326e4619332702863dfcd9cdf708d8aabb"
-      },
-      {
-        "name": "BELFEMALE_ARMOR_UPPER_171.RFT",
-        "offset": 306724,
-        "size": 174904,
-        "sha256": "337b4f76501735198cc34a14c5ee16ea5f1e5987fd7d010ac9f9b663b1130205"
       }
     ]
   },
@@ -451,6 +275,43 @@
         "offset": 3981668,
         "size": 349648,
         "sha256": "00ad2c91bc5da9f394dfb074940871f3f33db3456263297853d247dcb42f545a"
+      }
+    ]
+  },
+  {
+    "name": "BFF00.RFS",
+    "bytes": 481628,
+    "sha256": "9e254cada8bef67c2c847dc1882b3169085120f7fcafef24f15b6f19c37de368",
+    "entries": [
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_171.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "1c232fc602950bf7b2974edb410a9343bac2ba8a18037e6b6d393648b626405c"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_171.RFT",
+        "offset": 44156,
+        "size": 43832,
+        "sha256": "4f7979b16c6eef52e08fea8ec34d21e028c6a9f713e4a89dca78eb1c6905a06b"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_171.RFT",
+        "offset": 87988,
+        "size": 174904,
+        "sha256": "37e35de8b6bda78caf5157fac379c8a523eaa007ec5a4d0b70a5911aa3067a7f"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_171.RFT",
+        "offset": 262892,
+        "size": 43832,
+        "sha256": "3b219f086a5598fc09bd8ef582ea27326e4619332702863dfcd9cdf708d8aabb"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_171.RFT",
+        "offset": 306724,
+        "size": 174904,
+        "sha256": "337b4f76501735198cc34a14c5ee16ea5f1e5987fd7d010ac9f9b663b1130205"
       }
     ]
   },
@@ -649,43 +510,6 @@
     ]
   },
   {
-    "name": "BMR00.RFS",
-    "bytes": 448860,
-    "sha256": "f5eb887efcb5a082483fe4b7eba67478b4821c4332fbff8dd4679bd1b29d5a46",
-    "entries": [
-      {
-        "name": "BELMALE_ARMOR_GLOVES_087.RFT",
-        "offset": 324,
-        "size": 43832,
-        "sha256": "e7e4a6c5868895a4e46cac4ef4a063fc579e428c5fcc6c2b612995cbf0d3b21a"
-      },
-      {
-        "name": "BELMALE_ARMOR_HELMET_087.RFT",
-        "offset": 44156,
-        "size": 11064,
-        "sha256": "cbad54b261209b9ee99c77767f6a7b752c0b1cc008be4cf8db8c9e6e2a165dc2"
-      },
-      {
-        "name": "BELMALE_ARMOR_LOWER_087.RFT",
-        "offset": 55220,
-        "size": 174904,
-        "sha256": "6278648bbcb39d08f01619fe7c3505d3f6a8a4a484ffc6ef4b86b21d20d21643"
-      },
-      {
-        "name": "BELMALE_ARMOR_SHOES_087.RFT",
-        "offset": 230124,
-        "size": 43832,
-        "sha256": "29e88ac1ea7e36997ee2e1dd07204d1c43095bcf07d93fff5ae69dc41b69183f"
-      },
-      {
-        "name": "BELMALE_ARMOR_UPPER_087.RFT",
-        "offset": 273956,
-        "size": 174904,
-        "sha256": "be63b8745e1c32aa6204496de76e26421d247685974f8b8bebcbcd935ba7fb8b"
-      }
-    ]
-  },
-  {
     "name": "BMF00.RFS",
     "bytes": 448860,
     "sha256": "5ff78e0f65d35a1479c9c11603a2ed53bcadd7bfeaad2a96fc5dc38edc36cfe6",
@@ -719,6 +543,43 @@
         "offset": 405028,
         "size": 43832,
         "sha256": "fc7e3636c38e4744c723300816e9cea98444dac004db739f6d6d84e7e3329b0c"
+      }
+    ]
+  },
+  {
+    "name": "BMR00.RFS",
+    "bytes": 448860,
+    "sha256": "f5eb887efcb5a082483fe4b7eba67478b4821c4332fbff8dd4679bd1b29d5a46",
+    "entries": [
+      {
+        "name": "BELMALE_ARMOR_GLOVES_087.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "e7e4a6c5868895a4e46cac4ef4a063fc579e428c5fcc6c2b612995cbf0d3b21a"
+      },
+      {
+        "name": "BELMALE_ARMOR_HELMET_087.RFT",
+        "offset": 44156,
+        "size": 11064,
+        "sha256": "cbad54b261209b9ee99c77767f6a7b752c0b1cc008be4cf8db8c9e6e2a165dc2"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_087.RFT",
+        "offset": 55220,
+        "size": 174904,
+        "sha256": "6278648bbcb39d08f01619fe7c3505d3f6a8a4a484ffc6ef4b86b21d20d21643"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_087.RFT",
+        "offset": 230124,
+        "size": 43832,
+        "sha256": "29e88ac1ea7e36997ee2e1dd07204d1c43095bcf07d93fff5ae69dc41b69183f"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_087.RFT",
+        "offset": 273956,
+        "size": 174904,
+        "sha256": "be63b8745e1c32aa6204496de76e26421d247685974f8b8bebcbcd935ba7fb8b"
       }
     ]
   },
@@ -862,6 +723,43 @@
     ]
   },
   {
+    "name": "CFF00.RFS",
+    "bytes": 481628,
+    "sha256": "ff0afbf97afaf26a53817e94da4e68841232d594580a9aa74f1a3af30b063340",
+    "entries": [
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_171.RFT",
+        "offset": 324,
+        "size": 43832,
+        "sha256": "7a32e50bdcf039c904315ee4375fd2692c2f50942e2f40d685dce35f4cd7b37b"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_171.RFT",
+        "offset": 44156,
+        "size": 43832,
+        "sha256": "c4d31b1a45f1bd5083a7f2caf2ee5ae43a36557ffb82e44185364f5f5215e16c"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_171.RFT",
+        "offset": 87988,
+        "size": 174904,
+        "sha256": "61969655fb523ee588ff28e42ba47a147e8e9e44da6911af9205550e27a72732"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_171.RFT",
+        "offset": 262892,
+        "size": 43832,
+        "sha256": "686ec2fc35642eb1f9a62a8c99d25485fb315ce239aedd63a476a66097b09b24"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_171.RFT",
+        "offset": 306724,
+        "size": 174904,
+        "sha256": "33f3a3e0662e8a300335f72cda37b7134c6ee07252668ccb98e201959d38683e"
+      }
+    ]
+  },
+  {
     "name": "CFR00.RFS",
     "bytes": 481628,
     "sha256": "2077f3116f1de46181317d2d2296a3b77c04afe7317115f35f88bcbc38a186f6",
@@ -895,43 +793,6 @@
         "offset": 306724,
         "size": 174904,
         "sha256": "17d7923e8a6c3020ede93b39baeadd7a341de512da4bc0561236e2584430f7c2"
-      }
-    ]
-  },
-  {
-    "name": "CMF00.RFS",
-    "bytes": 481628,
-    "sha256": "0eed7af76bbad9e1e88b7bbb74385b935ac41eaeb221b53ac747a014e672ea3a",
-    "entries": [
-      {
-        "name": "CORMALE_ARMOR_GLOVES_171.RFT",
-        "offset": 324,
-        "size": 43832,
-        "sha256": "61d6c8ff282d132e75beb839ff73481ddd3a48dbcec064f17441c56bd001a7de"
-      },
-      {
-        "name": "CORMALE_ARMOR_HELMET_171.RFT",
-        "offset": 44156,
-        "size": 43832,
-        "sha256": "4cec654479cadb19bb812b8dc152eff51e639bcd296c808a33a70822ad592678"
-      },
-      {
-        "name": "CORMALE_ARMOR_LOWER_171.RFT",
-        "offset": 87988,
-        "size": 174904,
-        "sha256": "2ec01681484e3b05e34573a647e67abcc5478782fcf776075fd3cef7e4fbf58d"
-      },
-      {
-        "name": "CORMALE_ARMOR_SHOES_171.RFT",
-        "offset": 262892,
-        "size": 43832,
-        "sha256": "cb80b8578856a6449dadaf76534d9c821ce4df1ef7c12ee6aac142d362d8a0b7"
-      },
-      {
-        "name": "CORMALE_ARMOR_UPPER_171.RFT",
-        "offset": 306724,
-        "size": 174904,
-        "sha256": "ea34e3d7d8313367895dd2e7d0a1476e88dbb89509f7fdbcdcecfe21307561eb"
       }
     ]
   },
@@ -1087,39 +948,39 @@
     ]
   },
   {
-    "name": "CFF00.RFS",
+    "name": "CMF00.RFS",
     "bytes": 481628,
-    "sha256": "ff0afbf97afaf26a53817e94da4e68841232d594580a9aa74f1a3af30b063340",
+    "sha256": "0eed7af76bbad9e1e88b7bbb74385b935ac41eaeb221b53ac747a014e672ea3a",
     "entries": [
       {
-        "name": "CORFEMALE_ARMOR_GLOVES_171.RFT",
+        "name": "CORMALE_ARMOR_GLOVES_171.RFT",
         "offset": 324,
         "size": 43832,
-        "sha256": "7a32e50bdcf039c904315ee4375fd2692c2f50942e2f40d685dce35f4cd7b37b"
+        "sha256": "61d6c8ff282d132e75beb839ff73481ddd3a48dbcec064f17441c56bd001a7de"
       },
       {
-        "name": "CORFEMALE_ARMOR_HELMET_171.RFT",
+        "name": "CORMALE_ARMOR_HELMET_171.RFT",
         "offset": 44156,
         "size": 43832,
-        "sha256": "c4d31b1a45f1bd5083a7f2caf2ee5ae43a36557ffb82e44185364f5f5215e16c"
+        "sha256": "4cec654479cadb19bb812b8dc152eff51e639bcd296c808a33a70822ad592678"
       },
       {
-        "name": "CORFEMALE_ARMOR_LOWER_171.RFT",
+        "name": "CORMALE_ARMOR_LOWER_171.RFT",
         "offset": 87988,
         "size": 174904,
-        "sha256": "61969655fb523ee588ff28e42ba47a147e8e9e44da6911af9205550e27a72732"
+        "sha256": "2ec01681484e3b05e34573a647e67abcc5478782fcf776075fd3cef7e4fbf58d"
       },
       {
-        "name": "CORFEMALE_ARMOR_SHOES_171.RFT",
+        "name": "CORMALE_ARMOR_SHOES_171.RFT",
         "offset": 262892,
         "size": 43832,
-        "sha256": "686ec2fc35642eb1f9a62a8c99d25485fb315ce239aedd63a476a66097b09b24"
+        "sha256": "cb80b8578856a6449dadaf76534d9c821ce4df1ef7c12ee6aac142d362d8a0b7"
       },
       {
-        "name": "CORFEMALE_ARMOR_UPPER_171.RFT",
+        "name": "CORMALE_ARMOR_UPPER_171.RFT",
         "offset": 306724,
         "size": 174904,
-        "sha256": "33f3a3e0662e8a300335f72cda37b7134c6ee07252668ccb98e201959d38683e"
+        "sha256": "ea34e3d7d8313367895dd2e7d0a1476e88dbb89509f7fdbcdcecfe21307561eb"
       }
     ]
   },
@@ -1157,6 +1018,3692 @@
         "offset": 273956,
         "size": 174904,
         "sha256": "6628216d85caa54e3f9ba9cf3b2aeeb4503631dc8acc7497003e8c7ac4a3b5a0"
+      }
+    ]
+  },
+  {
+    "name": "CMW00.RFS",
+    "bytes": 3521380,
+    "sha256": "350a3cd49e6deaec18d70cb9ff9ab7c070ebfc183737e9d5c0d5439961cdd2f5",
+    "entries": [
+      {
+        "name": "CORMALE_ARMOR_GLOVES_003.RFT",
+        "offset": 1412,
+        "size": 43832,
+        "sha256": "28f57077d582ba24b6a7dd2dcc0c5e6c28b979b51686ffa40a3b95cb0d951996"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_006.rft",
+        "offset": 45244,
+        "size": 87504,
+        "sha256": "39c82870d651d0e4821b73db1794c5bf7f1f963b4b866ae75a4ef8c66632e2e8"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_007.rft",
+        "offset": 132748,
+        "size": 87504,
+        "sha256": "72e2f195f06371091f227ac65899ff2e974a5102a76e6b9041d442e1fdd37262"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_008.RFT",
+        "offset": 220252,
+        "size": 43832,
+        "sha256": "0167aeea90f51edead90be7bd07aca87344d3ae69e5005fa3f5435828cd6fe3e"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_010.rft",
+        "offset": 264084,
+        "size": 87504,
+        "sha256": "fc5853683a6392d7bc75b88ce1d3fc487c5c19af3e8c043efbcad6bf660fac92"
+      },
+      {
+        "name": "CORMALE_ARMOR_HELMET_003.RFT",
+        "offset": 351588,
+        "size": 11064,
+        "sha256": "fa632049c684a07b5625df957b13a60db08c0a22daa7a61a8c0cb3c3e6ce4dd7"
+      },
+      {
+        "name": "CORMALE_ARMOR_HELMET_008.RFT",
+        "offset": 362652,
+        "size": 11064,
+        "sha256": "1c64ec014d82faa2159070b6155f325a361dd289924363991debbbf4dbe49259"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_003.RFT",
+        "offset": 373716,
+        "size": 174904,
+        "sha256": "30702e57d5f26cd28d4e66c3d2786c5254d4acead892d1f66c7150f81ef9fdd2"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_006.rft",
+        "offset": 548620,
+        "size": 349648,
+        "sha256": "c4802c2343d9727304e99597f4fa0c7448a854a368d212366200ea42a016c0c2"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_007.rft",
+        "offset": 898268,
+        "size": 349648,
+        "sha256": "abb1e92a3876481650a16029776076a182793f6d6c577b554149da76ec36f20d"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_008.RFT",
+        "offset": 1247916,
+        "size": 174904,
+        "sha256": "b65228fef944a1748613890c2993bee07d41c153e784cd71ec631e545b165ec5"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_010.rft",
+        "offset": 1422820,
+        "size": 349648,
+        "sha256": "69be068cd8d8168cfc7c9660ffe998185b68d0dc573185a0cbb76d4d1ae988e1"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_003.RFT",
+        "offset": 1772468,
+        "size": 43832,
+        "sha256": "e3e469ffd2600b018df82f5ea8c6664681e38d6652264a6a2b7f8b53b6296cad"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_006.rft",
+        "offset": 1816300,
+        "size": 87504,
+        "sha256": "c036d1b69252829a68ad417f39d0c2d96b1cbf5bd9b65ba93a52c817372cdeb0"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_007.rft",
+        "offset": 1903804,
+        "size": 87504,
+        "sha256": "7b33a1b5a6034e184af17b6420467e5fec4f5e49622923e9d57be68b74c28881"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_008.RFT",
+        "offset": 1991308,
+        "size": 43832,
+        "sha256": "1b241fb772c4a0da26303cedcb054c9d74275dc5d1dddb45aeb256d586ba0248"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_010.rft",
+        "offset": 2035140,
+        "size": 87504,
+        "sha256": "7b33a1b5a6034e184af17b6420467e5fec4f5e49622923e9d57be68b74c28881"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_003.RFT",
+        "offset": 2122644,
+        "size": 174888,
+        "sha256": "8dcf2b94bebd24c5254af76486bf42496aabfbf91d506b494ea39915ce6d461b"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_006.rft",
+        "offset": 2297532,
+        "size": 349648,
+        "sha256": "85554a9c8ccf60f9e71bb0296e70e4655ae0e8a982a9cea6f51fc43cd4be2eea"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_007.rft",
+        "offset": 2647180,
+        "size": 349648,
+        "sha256": "aca6d672d0ea100ac28d264e5f904f2d9efe39d44c8b0ac313121150b1d3d383"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_008.RFT",
+        "offset": 2996828,
+        "size": 174904,
+        "sha256": "eba43aa0faf2bb7f69c5e2cd963bceb0c3a7e4f97a63daf98ce7c7c0685f5dad"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_010.rft",
+        "offset": 3171732,
+        "size": 349648,
+        "sha256": "2e1cdaf1ea01e17904064d357470fe7b71fc97802472e6b0fa09e3dcf227c4ce"
+      }
+    ]
+  },
+  {
+    "name": "DARKT60.RFS",
+    "bytes": 14564084,
+    "sha256": "e639aeaac4f214753532d8237b5a787c0a769427b83aa30e7e2cf796b9fb8fc4",
+    "entries": [
+      {
+        "name": "A_A_G_055fb.rft",
+        "offset": 4420,
+        "size": 87536,
+        "sha256": "4572241923d227eb6b882757dd0bc27ed3677e1fdcd70a7cbda87c4108ff8032"
+      },
+      {
+        "name": "A_A_G_055rb.rft",
+        "offset": 91956,
+        "size": 87536,
+        "sha256": "231b4b0f61795c928063f337c8caf0b4f1f73dfe9e98c42d73ea2e163a4727ce"
+      },
+      {
+        "name": "A_A_G_055wb.rft",
+        "offset": 179492,
+        "size": 87536,
+        "sha256": "ebfa2fdfb8448cf3b6de28b93b9df8d43963da1ee75a4b487939ad7ee88ba1f7"
+      },
+      {
+        "name": "A_A_H_055fb.rft",
+        "offset": 267028,
+        "size": 87536,
+        "sha256": "13de6d9953f809420ff1f1a0f9296a26f188e8c71d5a2a2655e9c724429ccb57"
+      },
+      {
+        "name": "A_A_H_055rb.rft",
+        "offset": 354564,
+        "size": 87536,
+        "sha256": "702004d4c02d4effa241272138895be1f17278f1104ee22057ee10ea464a5e51"
+      },
+      {
+        "name": "A_A_H_055wb.rft",
+        "offset": 442100,
+        "size": 87536,
+        "sha256": "ca2525ed1d86c858752ceefffd01e9f1eaacbc9ed5c2320751865c454fcd0449"
+      },
+      {
+        "name": "A_A_L_055fb.rft",
+        "offset": 529636,
+        "size": 349680,
+        "sha256": "a51516d07a10c6fcdc29d37f9e577e3dac1ceef9c7537138b20ec413e917541d"
+      },
+      {
+        "name": "A_A_L_055rb.rft",
+        "offset": 879316,
+        "size": 349680,
+        "sha256": "9210c77d4adcebdd48c1335a5447087a22bd16dbfacc5b931d441e94518283ac"
+      },
+      {
+        "name": "A_A_L_055wb.rft",
+        "offset": 1228996,
+        "size": 349680,
+        "sha256": "571bd9175735a15ea484d6f64f797eb924aa4764cef95f5f89045ae64344ef60"
+      },
+      {
+        "name": "A_A_S_055fb.rft",
+        "offset": 1578676,
+        "size": 87536,
+        "sha256": "7e22c4c0435da7d61712c1446780bf22fc735a60c905a3a424d6257c4fc317f2"
+      },
+      {
+        "name": "A_A_S_055rb.rft",
+        "offset": 1666212,
+        "size": 87536,
+        "sha256": "d69a3305ad7e0b8600c095b20a59f86d242014dd18b6f54733453cbb3cc4f371"
+      },
+      {
+        "name": "A_A_S_055wb.rft",
+        "offset": 1753748,
+        "size": 87536,
+        "sha256": "df947e762c0899c073ac2d2af51c5a3efe37fc8dfa86806422da7949d27fcf52"
+      },
+      {
+        "name": "A_A_U_055fb.rft",
+        "offset": 1841284,
+        "size": 349680,
+        "sha256": "e03fd55510216bf32d162e4909c81236d7e85983d53e008a0a02bb1657987970"
+      },
+      {
+        "name": "A_A_U_055rb.rft",
+        "offset": 2190964,
+        "size": 349680,
+        "sha256": "72293e8aecf12fc4388cbf185690217f6501c427216317c95fbfbd64758d92fe"
+      },
+      {
+        "name": "A_A_U_055wb.rft",
+        "offset": 2540644,
+        "size": 349680,
+        "sha256": "7a3eb750d2459277e2d5b9c385e048dd48eb8e8a9c48c314e848f155db45a055"
+      },
+      {
+        "name": "B_A_G_055FB.rft",
+        "offset": 2890324,
+        "size": 87536,
+        "sha256": "bc0df603b2c411c5b679741712017a706ffd094e81305b8c8606a4fa2eec1446"
+      },
+      {
+        "name": "B_A_G_055RB.rft",
+        "offset": 2977860,
+        "size": 87536,
+        "sha256": "055c6f4e97f25403fd245feae1d7df0eea77ab3e23e3325c9264f10af2f2e593"
+      },
+      {
+        "name": "B_A_G_055WB.rft",
+        "offset": 3065396,
+        "size": 87536,
+        "sha256": "6fd7d2a3bdf64563f8f585cef784503712225b5eac4f1927b87b825fb983f3d2"
+      },
+      {
+        "name": "B_A_G_M055FB.rft",
+        "offset": 3152932,
+        "size": 87536,
+        "sha256": "f572d86cf63321dcce489d0e698ef21a2228dd83a9ff58378a1f25fac7071509"
+      },
+      {
+        "name": "B_A_G_M055RB.rft",
+        "offset": 3240468,
+        "size": 87536,
+        "sha256": "b7778dcdc1ef2a423b44653714237c075c1fd9ec6a435feb369bd99cccacd042"
+      },
+      {
+        "name": "B_A_G_M055WB.rft",
+        "offset": 3328004,
+        "size": 87536,
+        "sha256": "2ed7e9740a92e66843e82b6806c9fadda455d74eba17169aa76790fca34c00b8"
+      },
+      {
+        "name": "B_A_H_055FB.rft",
+        "offset": 3415540,
+        "size": 87536,
+        "sha256": "233c8da19fe505ea22e8809ea9c3fc4d2feff8574466500f82ec2c96c0559bd8"
+      },
+      {
+        "name": "B_A_H_055RB.rft",
+        "offset": 3503076,
+        "size": 87536,
+        "sha256": "5e43fcbfcbfc380cb7ed060af7250559accefc992a4965913fa6f38e6cdb86d1"
+      },
+      {
+        "name": "B_A_H_055WB.rft",
+        "offset": 3590612,
+        "size": 87536,
+        "sha256": "71a9af718aace475d63637bf7dff54f8fb1e9bd20b0383ba0ce331bdb960db07"
+      },
+      {
+        "name": "B_A_H_M055FB.rft",
+        "offset": 3678148,
+        "size": 87536,
+        "sha256": "94080ad47e2502b2a29e9dae377880920da5bf4939a8e0e7546501ec7d85922d"
+      },
+      {
+        "name": "B_A_H_M055RB.rft",
+        "offset": 3765684,
+        "size": 22000,
+        "sha256": "d7eb5cba3903b1006ed4ef41606187b89e5fdcd3adc0e6eb29535bad027cd9f7"
+      },
+      {
+        "name": "B_A_H_M055WB.rft",
+        "offset": 3787684,
+        "size": 22000,
+        "sha256": "d8431568bec03a1a1824c57b8b1f35d93232fc4eb60c78616577035b4523aa9c"
+      },
+      {
+        "name": "B_A_L_055FB.rft",
+        "offset": 3809684,
+        "size": 349680,
+        "sha256": "068517999995a2b5ac39cc37e43ace1f7ad60b9a474be3c4715def19f919533d"
+      },
+      {
+        "name": "B_A_L_055RB.rft",
+        "offset": 4159364,
+        "size": 349680,
+        "sha256": "556c863f3df621cceb4feb2624b7521f430ae1eb13e39e487461db01a903b483"
+      },
+      {
+        "name": "B_A_L_055WB.rft",
+        "offset": 4509044,
+        "size": 349680,
+        "sha256": "a3c5cd3b914a3f24f542578e47c530b7bec2f1f4cbaf5ce0c2d6fa006a253e61"
+      },
+      {
+        "name": "B_A_L_M055FB.rft",
+        "offset": 4858724,
+        "size": 349680,
+        "sha256": "d56614f499faf716868a3785bb9d1b901fe3ca4af5ec8ee1902729e9f6791012"
+      },
+      {
+        "name": "B_A_L_M055RB.rft",
+        "offset": 5208404,
+        "size": 349680,
+        "sha256": "cda3909bbc0a33ea2f2f504326c00753e337be2b5e09f87b29b600d332b38ba2"
+      },
+      {
+        "name": "B_A_L_M055WB.rft",
+        "offset": 5558084,
+        "size": 349680,
+        "sha256": "bb0df2fc2b4941926a45ceb1fa53a0b2df61511e96408da21249d02b1eb5eaa9"
+      },
+      {
+        "name": "B_A_S_055FB.rft",
+        "offset": 5907764,
+        "size": 87536,
+        "sha256": "e91633032586e9a22e9d43b0d0c4841c4b6e2fa656323d973de2ccdc45946f17"
+      },
+      {
+        "name": "B_A_S_055RB.rft",
+        "offset": 5995300,
+        "size": 87536,
+        "sha256": "3c7f08b91d5c3679fb6f45e0ec9844318d908b39ee7504e88121a87596a39b7a"
+      },
+      {
+        "name": "B_A_S_055WB.rft",
+        "offset": 6082836,
+        "size": 349680,
+        "sha256": "035d4918fed7a6e268dfc48dddb9f757e2f607a6b28ce391e4e0b09f52654f56"
+      },
+      {
+        "name": "B_A_S_M055FB.rft",
+        "offset": 6432516,
+        "size": 87536,
+        "sha256": "fc5bfced258322ba709f3be260033012cfe4b63cad31a2e3bcd8669a21fa9ca0"
+      },
+      {
+        "name": "B_A_S_M055RB.rft",
+        "offset": 6520052,
+        "size": 87536,
+        "sha256": "a248d5bac7f980a7833b4e2e020c1c797b4a1a5abcd08f27c169febc016d2c75"
+      },
+      {
+        "name": "B_A_S_M055WB.rft",
+        "offset": 6607588,
+        "size": 87536,
+        "sha256": "8a4ab0fc24aba0b2990c1d6a072c2b46be4df58d09bfb7e9fa9c5ea9df68d35b"
+      },
+      {
+        "name": "B_A_U_055FB.rft",
+        "offset": 6695124,
+        "size": 349680,
+        "sha256": "216be3dda23382db9e571ce1852b606d1406b44a6ed19ca6d8c6cd6f4e08acb1"
+      },
+      {
+        "name": "B_A_U_055RB.rft",
+        "offset": 7044804,
+        "size": 349680,
+        "sha256": "d4c3df378918ced4729c299a3e8493ff643de46591aed7a0d16122a08b0b7750"
+      },
+      {
+        "name": "B_A_U_055WB.rft",
+        "offset": 7394484,
+        "size": 349680,
+        "sha256": "7092a4d551d212896a007b755d659d535b5090b58257f938def936804f885209"
+      },
+      {
+        "name": "B_A_U_M055FB.rft",
+        "offset": 7744164,
+        "size": 349680,
+        "sha256": "f68cdc9b0c67906f59222cb30f3b9ef484ca63e32284063d8eab41296d05b187"
+      },
+      {
+        "name": "B_A_U_M055RB.rft",
+        "offset": 8093844,
+        "size": 349680,
+        "sha256": "26b10f52614a6247356b804bf8884285df6d67ae8626d94301dab61f86d1220b"
+      },
+      {
+        "name": "B_A_U_M055WB.rft",
+        "offset": 8443524,
+        "size": 349680,
+        "sha256": "69d3b4c9b91dcdc65b3c5543ab5efa874b8af822b35ecd9ad90c9d591e4b0ff7"
+      },
+      {
+        "name": "C_A_G_055FB.rft",
+        "offset": 8793204,
+        "size": 87536,
+        "sha256": "f97cfd8cacfdb851c37c886887d051e2dd36a0b91a64c78152e531e3681c6281"
+      },
+      {
+        "name": "C_A_G_055RB.rft",
+        "offset": 8880740,
+        "size": 87536,
+        "sha256": "dd9cfbc7db95ba523c564da3ea99341dd1adc67974b7fb4df4393a9cfb1106c5"
+      },
+      {
+        "name": "C_A_G_055WB.rft",
+        "offset": 8968276,
+        "size": 349680,
+        "sha256": "f3f6dc22d5897d2bb50201219439e36c335f98af9bc4750176e6387f9e7e8501"
+      },
+      {
+        "name": "C_A_G_M055FB.rft",
+        "offset": 9317956,
+        "size": 87536,
+        "sha256": "19c10d60dea3d4fc1dacb227ab2daa7f7f899f4a9340796c4c941b0047c0d423"
+      },
+      {
+        "name": "C_A_G_M055RB.rft",
+        "offset": 9405492,
+        "size": 87536,
+        "sha256": "19c10d60dea3d4fc1dacb227ab2daa7f7f899f4a9340796c4c941b0047c0d423"
+      },
+      {
+        "name": "C_A_G_M055WB.rft",
+        "offset": 9493028,
+        "size": 349680,
+        "sha256": "d479ad94be6f3f2efce89abc2790a03c11758e7ca692a66e887aa42f478dbb47"
+      },
+      {
+        "name": "C_A_L_055FB.rft",
+        "offset": 9842708,
+        "size": 349680,
+        "sha256": "934e979c29e76404cc242e9091990be8a8b50be0b25bc5934607c5135e927883"
+      },
+      {
+        "name": "C_A_L_055RB.rft",
+        "offset": 10192388,
+        "size": 349680,
+        "sha256": "552fcf06a0ccefe7f187b4ff90d2636875ec97266a9109b69ad3a91f4ba32b42"
+      },
+      {
+        "name": "C_A_L_055WB.rft",
+        "offset": 10542068,
+        "size": 349680,
+        "sha256": "0cccb33cd4d68fe965d61e8b447431c9387382965bc5fed3b89ec0c27fed21e4"
+      },
+      {
+        "name": "C_A_L_M055FB.rft",
+        "offset": 10891748,
+        "size": 349680,
+        "sha256": "f8cadecbabfecce5bbe31dd003b499a232e35db90fb39da3226fe4d0cf869292"
+      },
+      {
+        "name": "C_A_L_M055RB.rft",
+        "offset": 11241428,
+        "size": 349680,
+        "sha256": "f8cadecbabfecce5bbe31dd003b499a232e35db90fb39da3226fe4d0cf869292"
+      },
+      {
+        "name": "C_A_L_M055WB.rft",
+        "offset": 11591108,
+        "size": 349680,
+        "sha256": "6d47d01cef69ca9a63df201cc805a06782939d6e66de070f30e2fa83728cb3b0"
+      },
+      {
+        "name": "C_A_S_055FB.rft",
+        "offset": 11940788,
+        "size": 87536,
+        "sha256": "be08edb4e6ceb512adcdeeaf217f15a398693b41e336f62c979050a97b46cb60"
+      },
+      {
+        "name": "C_A_S_055RB.rft",
+        "offset": 12028324,
+        "size": 87536,
+        "sha256": "814a11b131a2e6e8c38c3bfa91eed15125df619c0dce02f56cd31a2e781c2268"
+      },
+      {
+        "name": "C_A_S_055WB.rft",
+        "offset": 12115860,
+        "size": 87536,
+        "sha256": "3b805fd0ed55d7945ad2f15c4e865ea948138527da5c92979d511b80eeae8db6"
+      },
+      {
+        "name": "C_A_S_M055FB.rft",
+        "offset": 12203396,
+        "size": 87536,
+        "sha256": "9a0ef7358e2077129850635025433302d7eb8bb9fbe4070cc94edf8a3486f1f8"
+      },
+      {
+        "name": "C_A_S_M055RB.rft",
+        "offset": 12290932,
+        "size": 87536,
+        "sha256": "9a0ef7358e2077129850635025433302d7eb8bb9fbe4070cc94edf8a3486f1f8"
+      },
+      {
+        "name": "C_A_S_M055WB.rft",
+        "offset": 12378468,
+        "size": 87536,
+        "sha256": "ec0c055dd2cf308fe099c3a28bb4cec8d74447bbc114c345da83feeaa0185a35"
+      },
+      {
+        "name": "C_A_U_055FB.rft",
+        "offset": 12466004,
+        "size": 349680,
+        "sha256": "0ce0712f9ca5735770dcfe327941b0462f976336fe082af23114526b6356533b"
+      },
+      {
+        "name": "C_A_U_055RB.rft",
+        "offset": 12815684,
+        "size": 349680,
+        "sha256": "2367146460dbea5f1b64bf3e1182d007145da0c5c93816158d394b39d0b3d2eb"
+      },
+      {
+        "name": "C_A_U_055WB.rft",
+        "offset": 13165364,
+        "size": 349680,
+        "sha256": "67c9f5f05231020e89efbab23ec5b51b8b82d1a230266bb0e807d1f113477bc8"
+      },
+      {
+        "name": "C_A_U_M055FB.rft",
+        "offset": 13515044,
+        "size": 349680,
+        "sha256": "0b5186681f66c4abff76bd7c82503706b18887321de59542c01d4bce22d1a80a"
+      },
+      {
+        "name": "C_A_U_M055RB.rft",
+        "offset": 13864724,
+        "size": 349680,
+        "sha256": "0b5186681f66c4abff76bd7c82503706b18887321de59542c01d4bce22d1a80a"
+      },
+      {
+        "name": "C_A_U_M055WB.rft",
+        "offset": 14214404,
+        "size": 349680,
+        "sha256": "f1f2025d794e02817f47eea944dd9cd51506df8ca3b9ef26a25ad8ed8f289774"
+      }
+    ]
+  },
+  {
+    "name": "DEFAULTAA.RFS",
+    "bytes": 4462612,
+    "sha256": "9453ac67a8caf07003f434c444022cb1bf16654955ad09f9722a928c457b6f93",
+    "entries": [
+      {
+        "name": "ACCRETIA_DEFAULT_FACE_000.RFT",
+        "offset": 1924,
+        "size": 43832,
+        "sha256": "0fd179a8c33dc5aed8494b60fac6dcada2d7540bbb4b0f4edd442c2ad2b86596"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_FACE_001.RFT",
+        "offset": 45756,
+        "size": 43832,
+        "sha256": "b9fba9929bae38fedae73ba70acc304e5c7d37cbc96fd2a25d4fc5f467a32323"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_FACE_002.RFT",
+        "offset": 89588,
+        "size": 43832,
+        "sha256": "9012bc179ed0e584dc1019cb7c0fd343d2b9bc6e57c07806bb1fa290f4e838f9"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_FACE_003.RFT",
+        "offset": 133420,
+        "size": 43832,
+        "sha256": "493b5012e619209701cf702cfa9a8a9216d063e4d384e214109f0f6ddae33087"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_FACE_004.RFT",
+        "offset": 177252,
+        "size": 43832,
+        "sha256": "0f611b16d83e511dd6d2e6755ec74c6b08f8cd06f498bda2e1a7a2f587c5977c"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_GLOVES_000.RFT",
+        "offset": 221084,
+        "size": 174904,
+        "sha256": "71ec2ef076411f7510d875955c5ffc8f9df18fce57fe5cecf0ad83a1bf1cfc44"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_GLOVES_001.RFT",
+        "offset": 395988,
+        "size": 43832,
+        "sha256": "82426c94a09bcc386a78cb3d87a98c9050a6632e12aa0c50686e2049a57923cc"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_GLOVES_002.RFT",
+        "offset": 439820,
+        "size": 43832,
+        "sha256": "52291a204258f6ec184ab96a14dc8664227c5b6f02928ab05f9d4d661509e4f2"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_GLOVES_003.RFT",
+        "offset": 483652,
+        "size": 174904,
+        "sha256": "75a785d01f9a1352a5b480ea382c485aefb276e51e2e9aa8244ea299065d7a51"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_GLOVES_004.RFT",
+        "offset": 658556,
+        "size": 43832,
+        "sha256": "a4a06c267ea35f1f7a5754a19e4ce5881d2f542c9acec8b22bbf36c18b567566"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_HELMET_000.RFT",
+        "offset": 702388,
+        "size": 174904,
+        "sha256": "74f2659acf74d93bc7c56c7234fe7731196a1331283fde2c642c426cf99fd756"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_HELMET_001.RFT",
+        "offset": 877292,
+        "size": 43832,
+        "sha256": "4ddb854955bc4b290995398d48be5840efb08008a9de03157a3c5b567df55b88"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_HELMET_002.RFT",
+        "offset": 921124,
+        "size": 43832,
+        "sha256": "e929c654718c044e7ca7c4055e2094b59c82d21ff1f224406d6f232d89fe3402"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_HELMET_003.RFT",
+        "offset": 964956,
+        "size": 174904,
+        "sha256": "0c6009736aee468c81286827fa6cc45b7780bfafe17d3f9c12761e2850d8f675"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_HELMET_004.RFT",
+        "offset": 1139860,
+        "size": 43832,
+        "sha256": "0db6c37f47af5deefc786d07e4a17e6d8e97de42ad579e1498078a4b8b43635b"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_LOWER_000.RFT",
+        "offset": 1183692,
+        "size": 174904,
+        "sha256": "fc89e319726223fa916e06173c3f30366f80ab856731a8e7e5da820841bd45c5"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_LOWER_001.RFT",
+        "offset": 1358596,
+        "size": 174904,
+        "sha256": "7cf0e9b7c97402ec881587986f72dfb75e49b78d653cc8fd72f971da8cd91c54"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_LOWER_002.RFT",
+        "offset": 1533500,
+        "size": 174904,
+        "sha256": "9b9d7b40863fa0fd231bd80a7390ceaebbadadfd722acecd07a8d076ffb6165c"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_LOWER_003.RFT",
+        "offset": 1708404,
+        "size": 699192,
+        "sha256": "17638137cdc7a90e8b07569237d39ea1bfd59ca8183f3549db29b91d2de4814e"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_LOWER_004.RFT",
+        "offset": 2407596,
+        "size": 174904,
+        "sha256": "318b60ada13db83fee055cfc57e429a91cab799d32390f3ea910ed8cea63cc3d"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_SHOES_000.RFT",
+        "offset": 2582500,
+        "size": 174904,
+        "sha256": "a574e8bbc08c54642ec1016462f040763e830f02064ec2a1e2ffd89173c23b57"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_SHOES_001.RFT",
+        "offset": 2757404,
+        "size": 43832,
+        "sha256": "207ae87339375b2aca77744da96cd6be8bf02704373874de382bb917bf163a8e"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_SHOES_002.RFT",
+        "offset": 2801236,
+        "size": 43832,
+        "sha256": "749ac0e5206fd8b6a024e181c7c6642d08ebe2455b273fb719c47971d7fa5c23"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_SHOES_003.RFT",
+        "offset": 2845068,
+        "size": 174904,
+        "sha256": "41eedbccdb911daa44ed89df5ad1d3a79bde81a3d2f15f7eefdea48d04ced3e3"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_SHOES_004.RFT",
+        "offset": 3019972,
+        "size": 43832,
+        "sha256": "1cfc85dc5702b44d6a3d14fb5a7836e339462ca4a96ef23747f5c403b6321b2d"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_UPPER_000.RFT",
+        "offset": 3063804,
+        "size": 174904,
+        "sha256": "e0c1be56e6decb79d771efcbadb83e36507fe1fa1432891bea5cda4fc7567a97"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_UPPER_001.RFT",
+        "offset": 3238708,
+        "size": 174904,
+        "sha256": "6218121d820262f44ed0d404191eda97d61a2155a7d8fe76784bc46ac45a40b3"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_UPPER_002.RFT",
+        "offset": 3413612,
+        "size": 174904,
+        "sha256": "f306352137333bd3a58ca4163348f20e032101d045fba87cb6ed15c5f92cf6fa"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_UPPER_003.RFT",
+        "offset": 3588516,
+        "size": 699192,
+        "sha256": "66680e3d721392f6f0cd2e71dfbfe77bce3bbb2728185bc4bb11f0c09f23e1b8"
+      },
+      {
+        "name": "ACCRETIA_DEFAULT_UPPER_004.RFT",
+        "offset": 4287708,
+        "size": 174904,
+        "sha256": "a5bcce4db973f369e12a74fd808eb3abd296de06d19c740f6d45007f3882d132"
+      }
+    ]
+  },
+  {
+    "name": "DEFAULTBF.RFS",
+    "bytes": 5161516,
+    "sha256": "d58f265340078211745a50f7ad64a1112993d003c8132efa71a2b3e26c6f80a9",
+    "entries": [
+      {
+        "name": "BELFEMALE_DEFAULT_FACE_000.RFT",
+        "offset": 1924,
+        "size": 174888,
+        "sha256": "1a3e70354a8d88b4d619f574e66d2aba462b8937d5767841a134fabd4a26edf7"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_FACE_001.RFT",
+        "offset": 176812,
+        "size": 174888,
+        "sha256": "17e5b816fe8a916f0a212b3ee5d701c9ed51f2be2038cd37413c7b168ad37eeb"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_FACE_002.RFT",
+        "offset": 351700,
+        "size": 174888,
+        "sha256": "0918e62d86d46b2bcbc3f81da055212fe3461ded90af582786a8358aaf3d73d8"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_FACE_003.RFT",
+        "offset": 526588,
+        "size": 174888,
+        "sha256": "d6d89894f28102d2f89814330827fd12b796a38fb53345bb827eddc0b6a1e9b9"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_FACE_004.RFT",
+        "offset": 701476,
+        "size": 174888,
+        "sha256": "1fef1b7d3c6da0ccaeaca79c863f86ed41478876747c6f9214fee31e6c1135f6"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_GLOVES_000.RFT",
+        "offset": 876364,
+        "size": 43832,
+        "sha256": "b38fdef091a7b573600be0a5571e8930a871867834f009477735e0b61d2bd949"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_GLOVES_001.RFT",
+        "offset": 920196,
+        "size": 43832,
+        "sha256": "9077922f0623cdf9286060a2157066cd0090a59e097258a6d93533642555730a"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_GLOVES_002.RFT",
+        "offset": 964028,
+        "size": 43832,
+        "sha256": "3cb380ea10de274e48f0347ce51ad19c225d84ee14174d460effc1a353a961da"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_GLOVES_003.RFT",
+        "offset": 1007860,
+        "size": 43832,
+        "sha256": "2c920500d50c323844fd8e74ad10d7f38b0a088cbf77feacd69744baf9c67d52"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_GLOVES_004.RFT",
+        "offset": 1051692,
+        "size": 43832,
+        "sha256": "f63aadefb49973d571b6c8524d10de53116dcb582f7693283189c31a8171bf1b"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_HELMET_000.RFT",
+        "offset": 1095524,
+        "size": 349648,
+        "sha256": "eb2088a95848deb5c8d95e2dcad6e79085cfa8bd17cf65f80aeb8b266a44573b"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_HELMET_001.RFT",
+        "offset": 1445172,
+        "size": 349648,
+        "sha256": "9772c198b817bed34825a21e8496b0b8014629ce56511651ecefb4be234a7924"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_HELMET_002.RFT",
+        "offset": 1794820,
+        "size": 349648,
+        "sha256": "9927a8b1644922041cb845ccd762922b2cd6945910a148809694f63cdea724be"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_HELMET_003.RFT",
+        "offset": 2144468,
+        "size": 349648,
+        "sha256": "a9fcbf9f5804f4c938d5e9b38cb0f9f5c1ee1981979e5f36ba31daa735fd21bb"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_HELMET_004.RFT",
+        "offset": 2494116,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_LOWER_000.RFT",
+        "offset": 2843764,
+        "size": 174904,
+        "sha256": "a03646ab7c71e124e5f18f59d03f1a94186e42d4f0efcb455594d18fe190b346"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_LOWER_001.RFT",
+        "offset": 3018668,
+        "size": 349680,
+        "sha256": "b220318cf0ed6902af484dfb9dde2e7b25937ef3435fd54d80c74ba0fbaa06e4"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_LOWER_002.RFT",
+        "offset": 3368348,
+        "size": 174904,
+        "sha256": "2b8b44448e82cd0a2ab36969f76f7d51f77f2ca2826ab34dc8eff4115ef91c81"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_LOWER_003.RFT",
+        "offset": 3543252,
+        "size": 349680,
+        "sha256": "57572dc8407f13e0032f23bfa2790bbe8428711e30491f20f4dc75ff12f50b8d"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_LOWER_004.RFT",
+        "offset": 3892932,
+        "size": 174904,
+        "sha256": "7fb95051603a1fc59b6b55d47b8c802ca90ae1307c7f1c8fd1b0ca99552f4e4e"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_SHOES_000.RFT",
+        "offset": 4067836,
+        "size": 43832,
+        "sha256": "63552477d05d1023020a5ad7164e0cb1eb6e591703113d75104ff0a853d136cc"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_SHOES_001.RFT",
+        "offset": 4111668,
+        "size": 43832,
+        "sha256": "16dc47f62e42b3885baede4b299edd068d0753c8ad4267c0bb1c7047c3c7b698"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_SHOES_002.RFT",
+        "offset": 4155500,
+        "size": 43832,
+        "sha256": "6e6bb5643cf415f39f2604a38426c27dbd71320f1008bc711e913c3e565d7a78"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_SHOES_003.RFT",
+        "offset": 4199332,
+        "size": 43832,
+        "sha256": "60654c93d98eb1be9f1e62d35efe1fde6560a33683ef0223ad761df89b836c42"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_SHOES_004.RFT",
+        "offset": 4243164,
+        "size": 43832,
+        "sha256": "cd647265a2d7b0678615279646da4b2aac455a52fcd960f428ae86149c314265"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_UPPER_000.RFT",
+        "offset": 4286996,
+        "size": 174904,
+        "sha256": "2cbb54cff67ac4c644ba42ccd31e6f58040dd092b87424d3f0cfbb504bfe5f54"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_UPPER_001.RFT",
+        "offset": 4461900,
+        "size": 174904,
+        "sha256": "53493520a709a5181b61438708b6c866218b86c3938eb438e58f7f632c1bf294"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_UPPER_002.RFT",
+        "offset": 4636804,
+        "size": 174904,
+        "sha256": "0302ab92cde0baf1a7dd729334f4d63c053874179459f73d7e2d666e47570dae"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_UPPER_003.RFT",
+        "offset": 4811708,
+        "size": 174904,
+        "sha256": "f9e7eab5b7efe4f12220d4453a25ff5abaaeddf65a4d51ccd1b7addbffe75572"
+      },
+      {
+        "name": "BELFEMALE_DEFAULT_UPPER_004.RFT",
+        "offset": 4986612,
+        "size": 174904,
+        "sha256": "6a7eacdc0ec761484909e7b8e30d5dcbeaddd6ffe84328ed12208a1700eada40"
+      }
+    ]
+  },
+  {
+    "name": "DEFAULTBM.RFS",
+    "bytes": 4986740,
+    "sha256": "d6f1c4b7218aa32e7ce3ed341273a5cd7aadfe1929749da4a6795108201ddbbb",
+    "entries": [
+      {
+        "name": "BELMALE_DEFAULT_FACE_000.RFT",
+        "offset": 1924,
+        "size": 174888,
+        "sha256": "0324af0485013b8b501ec48881d92adc693d8b40a7038d9f5da858933f61da89"
+      },
+      {
+        "name": "BELMALE_DEFAULT_FACE_001.RFT",
+        "offset": 176812,
+        "size": 174888,
+        "sha256": "a8f80ecfd06c611d014e17a4e2a1ced38decb1c65f502e4b4ea43e9c46b23d0e"
+      },
+      {
+        "name": "BELMALE_DEFAULT_FACE_002.RFT",
+        "offset": 351700,
+        "size": 174888,
+        "sha256": "4744adc7a301ef6f198f3bfb6e06749ce6a3891b6fb9d64be17838498162252b"
+      },
+      {
+        "name": "BELMALE_DEFAULT_FACE_003.RFT",
+        "offset": 526588,
+        "size": 174888,
+        "sha256": "c3f642916426ab888fbea79d3371f29f211c65e69705daf058a23d5be650b81c"
+      },
+      {
+        "name": "BELMALE_DEFAULT_FACE_004.RFT",
+        "offset": 701476,
+        "size": 174888,
+        "sha256": "bb1de8dd70476365086bcf818a5369fe0647811810a386487e52b0e919bc0250"
+      },
+      {
+        "name": "BELMALE_DEFAULT_GLOVES_000.RFT",
+        "offset": 876364,
+        "size": 43832,
+        "sha256": "cc1e52507e118b121ff33b572b34da7c112ccd562ab2dee8a11c4b1cde8b64d1"
+      },
+      {
+        "name": "BELMALE_DEFAULT_GLOVES_001.RFT",
+        "offset": 920196,
+        "size": 43832,
+        "sha256": "304d8a18d85d29dd0d6284484911278d076497424325468a1d020c96afd1a123"
+      },
+      {
+        "name": "BELMALE_DEFAULT_GLOVES_002.RFT",
+        "offset": 964028,
+        "size": 43832,
+        "sha256": "5fd6fb49a322c178153f51f91b796bdaf2d0fd97f127584129684566a8869d43"
+      },
+      {
+        "name": "BELMALE_DEFAULT_GLOVES_003.RFT",
+        "offset": 1007860,
+        "size": 43832,
+        "sha256": "717517d7bd8bcac82ea6ff5f52904ee6576e5a03f501bdba39eb0c41e3fe511f"
+      },
+      {
+        "name": "BELMALE_DEFAULT_GLOVES_004.RFT",
+        "offset": 1051692,
+        "size": 43832,
+        "sha256": "2d8d6ccfc4e3f5b0731aa7f7eb0dca9cb436a96a89684ff1f876e42edc50a3bb"
+      },
+      {
+        "name": "BELMALE_DEFAULT_HELMET_000.RFT",
+        "offset": 1095524,
+        "size": 349648,
+        "sha256": "a9fcbf9f5804f4c938d5e9b38cb0f9f5c1ee1981979e5f36ba31daa735fd21bb"
+      },
+      {
+        "name": "BELMALE_DEFAULT_HELMET_001.RFT",
+        "offset": 1445172,
+        "size": 349648,
+        "sha256": "8e64899d0019d9e88edc7be5ce0038560db87e6233da51a15d4509b55a29e9ad"
+      },
+      {
+        "name": "BELMALE_DEFAULT_HELMET_002.RFT",
+        "offset": 1794820,
+        "size": 349648,
+        "sha256": "2a5ec7f7de11c17b2c8130075f2442e2eba0e1eb6a69a46ac6b793413e30bd9d"
+      },
+      {
+        "name": "BELMALE_DEFAULT_HELMET_003.RFT",
+        "offset": 2144468,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BELMALE_DEFAULT_HELMET_004.RFT",
+        "offset": 2494116,
+        "size": 349648,
+        "sha256": "27d8eba8c4e82fffa092c3311508a1f64d3bf10a59a853980f637abe67f11d5f"
+      },
+      {
+        "name": "BELMALE_DEFAULT_LOWER_000.RFT",
+        "offset": 2843764,
+        "size": 174904,
+        "sha256": "1e4cb7553ee5b2194cdbdc559b6e2194e11a3c7d8dd7da8de99c23e44a19f136"
+      },
+      {
+        "name": "BELMALE_DEFAULT_LOWER_001.RFT",
+        "offset": 3018668,
+        "size": 174904,
+        "sha256": "b921be9d8f815db803ae0188d77f2144556db8102fa5346aeb33202de15c16a4"
+      },
+      {
+        "name": "BELMALE_DEFAULT_LOWER_002.RFT",
+        "offset": 3193572,
+        "size": 174904,
+        "sha256": "84d9574991130878f33f0d216cb4830b4245acc4d02d7c17ca64f56a93bcaee8"
+      },
+      {
+        "name": "BELMALE_DEFAULT_LOWER_003.RFT",
+        "offset": 3368476,
+        "size": 174904,
+        "sha256": "9e6a8167ddace9cb8ff60fbe6671c6113fbbc03e90e6dec102136cd4987c38ed"
+      },
+      {
+        "name": "BELMALE_DEFAULT_LOWER_004.RFT",
+        "offset": 3543380,
+        "size": 174904,
+        "sha256": "994980bf5e6607a0bf5b07b761c8a42746e60297916266838330cec81f0ed691"
+      },
+      {
+        "name": "BELMALE_DEFAULT_SHOES_000.RFT",
+        "offset": 3718284,
+        "size": 43832,
+        "sha256": "feb4043e6b1ba0d6d13a8d04548f082d03b2a9dab38d18ba464493724f4991f8"
+      },
+      {
+        "name": "BELMALE_DEFAULT_SHOES_001.RFT",
+        "offset": 3762116,
+        "size": 43832,
+        "sha256": "632177c2dc4a2a72a5fc20c872385d63060581107e2dc2ca71f9e9973369af6a"
+      },
+      {
+        "name": "BELMALE_DEFAULT_SHOES_002.RFT",
+        "offset": 3805948,
+        "size": 43832,
+        "sha256": "bf24a0b26baf45258791a4090de3b3f46d57a6842831c5a44f13a04df8de0d7e"
+      },
+      {
+        "name": "BELMALE_DEFAULT_SHOES_003.RFT",
+        "offset": 3849780,
+        "size": 43832,
+        "sha256": "394833507487547a3acd99df8f99931f5fd9db4fe07cf1f7388c383bf0613791"
+      },
+      {
+        "name": "BELMALE_DEFAULT_SHOES_004.RFT",
+        "offset": 3893612,
+        "size": 43832,
+        "sha256": "5ba785ed8bec28ac42b01c394345b08c90196633b147601b4803b88db38fd710"
+      },
+      {
+        "name": "BELMALE_DEFAULT_UPPER_000.RFT",
+        "offset": 3937444,
+        "size": 174904,
+        "sha256": "bf5cb6cda67d09321ee8a8d7c26a6fb087377413db537525611ae87b99557ccb"
+      },
+      {
+        "name": "BELMALE_DEFAULT_UPPER_001.RFT",
+        "offset": 4112348,
+        "size": 174904,
+        "sha256": "12c24ac311a94887e37ba71bbdcca6cf0f5fcee1b04d5ef53044d8f9c9ea9e60"
+      },
+      {
+        "name": "BELMALE_DEFAULT_UPPER_002.RFT",
+        "offset": 4287252,
+        "size": 349680,
+        "sha256": "10544eb328bd38ff57ce82c8891a88f2a88ef73f16a50bb6f1c5391f5afb1a65"
+      },
+      {
+        "name": "BELMALE_DEFAULT_UPPER_003.RFT",
+        "offset": 4636932,
+        "size": 174904,
+        "sha256": "5ce899d5b793d466ca0e063059a2382d3bab6f6713d9466d6518f27c6a4c5470"
+      },
+      {
+        "name": "BELMALE_DEFAULT_UPPER_004.RFT",
+        "offset": 4811836,
+        "size": 174904,
+        "sha256": "164544fafee1e6f29b3c010834ecbcb8ef6837841fb041fbdd0017c299d47b38"
+      }
+    ]
+  },
+  {
+    "name": "DEFAULTCF.RFS",
+    "bytes": 4812060,
+    "sha256": "4633ba234c367e4abd71cc4adfb2dc9c41dd31d4e1389928f8d4cbe80b52fdd2",
+    "entries": [
+      {
+        "name": "CORFEMALE_DEFAULT_FACE_000.RFT",
+        "offset": 1924,
+        "size": 174904,
+        "sha256": "08ae1d5685f3f13ce459a9b0def6cfdb6a45eec6659ba6ea163024960b7b797a"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_FACE_001.RFT",
+        "offset": 176828,
+        "size": 174904,
+        "sha256": "ee7bc5e123c8632f37f68a9c6d642a642131c996d244cd40e1e20bafbc6a9d5e"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_FACE_002.RFT",
+        "offset": 351732,
+        "size": 174904,
+        "sha256": "8f7068fb9bcccd63c628c86e50809d8f95f5e82ed3508ef0abaef52914b440df"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_FACE_003.RFT",
+        "offset": 526636,
+        "size": 174904,
+        "sha256": "3819cd7633e81089b2c642617150ec467d53dd1c4e7f32aa5b7fc200fb493589"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_FACE_004.RFT",
+        "offset": 701540,
+        "size": 174904,
+        "sha256": "458ec71e81c32df9321907ba5778a486f145591be4eed95a6e52247ba0fa2f1b"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_GLOVES_000.RFT",
+        "offset": 876444,
+        "size": 43816,
+        "sha256": "6a001212f97ae019d5d68370e90206e507c4c875de453a795b9a491d9bb6c413"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_GLOVES_001.RFT",
+        "offset": 920260,
+        "size": 43832,
+        "sha256": "c2d92a942f449bacd1f1ab1f86ff5222aa3bf6577840ca9caf7b02fb3d9e4e78"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_GLOVES_002.RFT",
+        "offset": 964092,
+        "size": 43816,
+        "sha256": "edf550d9c84e95095281e504f49ec492450b493d89c1fe2feb526ee1271e7a9c"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_GLOVES_003.RFT",
+        "offset": 1007908,
+        "size": 43832,
+        "sha256": "e4ffd62a6a736f1153decf54eecb0223d136638aa8a53d81dfb5e0dc2720bca0"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_GLOVES_004.RFT",
+        "offset": 1051740,
+        "size": 43816,
+        "sha256": "d8d25424af0d39d0b3b2cc9b56e0c509e29303c0e0fa4e91ca51dcf3d12fb135"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_HELMET_000.RFT",
+        "offset": 1095556,
+        "size": 349680,
+        "sha256": "e49c3e496278095005510862eccbeaf982eede6ad331d8d2569f638a5e252fc4"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_HELMET_001.RFT",
+        "offset": 1445236,
+        "size": 349680,
+        "sha256": "cecfe1d1bfe9689a7acf12b6f9a3db89e6ce57eb8ff4e35b775fe8190b22f7b8"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_HELMET_002.RFT",
+        "offset": 1794916,
+        "size": 349680,
+        "sha256": "b0af0f54141b28a492011f5c0bca415e5a768316a708992e22af9944551dcfeb"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_HELMET_003.RFT",
+        "offset": 2144596,
+        "size": 349680,
+        "sha256": "0d7b92e6698c62b714358ef4aebdfb684c82b22a8e1a2c50214cfde22c5e2ef0"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_HELMET_004.RFT",
+        "offset": 2494276,
+        "size": 349680,
+        "sha256": "9b561ac58f47fb787a8eb880f0a9eee3c4173dd9d896c0fa42714a023f679846"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_LOWER_000.RFT",
+        "offset": 2843956,
+        "size": 174904,
+        "sha256": "295f5b1d9ff50fc5bceea5dcccc2d06359c88d7fb3f231119665dbb36b5af535"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_LOWER_001.RFT",
+        "offset": 3018860,
+        "size": 174904,
+        "sha256": "ca60b0c9ed9f9704f1ad26a7230264b0bd827fd124bf7563a47ebc47bd797b97"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_LOWER_002.RFT",
+        "offset": 3193764,
+        "size": 174888,
+        "sha256": "b75d388f57ecabfee07a3c4ebc8770efd7f9d3b4f93fe6bb5b3a8986f92d9346"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_LOWER_003.RFT",
+        "offset": 3368652,
+        "size": 174904,
+        "sha256": "3862ef85cf142bccc348ec25aa80acdac0bfe4bfa3d2a6e26d9887e2a444a105"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_LOWER_004.RFT",
+        "offset": 3543556,
+        "size": 174904,
+        "sha256": "6b180554dfca67a46644af394c93bf3d28e36f4a3567a12bdc8cfa063697a06e"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_SHOES_000.RFT",
+        "offset": 3718460,
+        "size": 43816,
+        "sha256": "ee1efc9d0a20a3428315c8627e958dc48e982182174cb97183437a9022b4345a"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_SHOES_001.RFT",
+        "offset": 3762276,
+        "size": 43832,
+        "sha256": "320fcd061525383f87847a64ac46f9787e0d7fdac8c457f22b6c55a73fb48a65"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_SHOES_002.RFT",
+        "offset": 3806108,
+        "size": 43816,
+        "sha256": "766680aaf0ffefe37589b3ab60a14a59f9331bd052707eac2ce07c7cef40bf46"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_SHOES_003.RFT",
+        "offset": 3849924,
+        "size": 43832,
+        "sha256": "ba3331fdba4e926f3e3627880011c4d1558acaf1e9edae802ca9362902ce219b"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_SHOES_004.RFT",
+        "offset": 3893756,
+        "size": 43816,
+        "sha256": "0e2d022db0009f877c36594391f580dcee5e22414b7c17d6966ba859ca10bbfd"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_UPPER_000.RFT",
+        "offset": 3937572,
+        "size": 174904,
+        "sha256": "c648f3c30668c93fe6ce8b3aea8dc693f2cdd722d51d577789db76af5532b172"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_UPPER_001.RFT",
+        "offset": 4112476,
+        "size": 174904,
+        "sha256": "60024dec41118ffa9ce2c037481d1b0d069d6189995ae5f0ea12f0f45e4b5cf6"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_UPPER_002.RFT",
+        "offset": 4287380,
+        "size": 174888,
+        "sha256": "0a174570d383c41002b1f347afd69dea45d7fdaf577ecf63a3798d10c8d54d0b"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_UPPER_003.RFT",
+        "offset": 4462268,
+        "size": 174904,
+        "sha256": "49cd8a56fe0be3c85695d4c1d5082abecf7ee7d0c58956738c0b39bb25f3b6b6"
+      },
+      {
+        "name": "CORFEMALE_DEFAULT_UPPER_004.RFT",
+        "offset": 4637172,
+        "size": 174888,
+        "sha256": "302a48b2e351ed6295847cb0fcdecccbd7f5f16562df8a3ce8b3fa13e4b6a0b7"
+      }
+    ]
+  },
+  {
+    "name": "DEFAULTCM.RFS",
+    "bytes": 5336492,
+    "sha256": "ba4991d992ec623a11bf78f57e29975f2cb593ccabecf3508c4a844c016e7020",
+    "entries": [
+      {
+        "name": "CORMALE_DEFAULT_FACE_000.RFT",
+        "offset": 1924,
+        "size": 174904,
+        "sha256": "304889c74dbcd827f75ed5bb1087835ff5f032bf8f9c3c7923aeb311477220c7"
+      },
+      {
+        "name": "CORMALE_DEFAULT_FACE_001.RFT",
+        "offset": 176828,
+        "size": 174904,
+        "sha256": "304889c74dbcd827f75ed5bb1087835ff5f032bf8f9c3c7923aeb311477220c7"
+      },
+      {
+        "name": "CORMALE_DEFAULT_FACE_002.RFT",
+        "offset": 351732,
+        "size": 174904,
+        "sha256": "304889c74dbcd827f75ed5bb1087835ff5f032bf8f9c3c7923aeb311477220c7"
+      },
+      {
+        "name": "CORMALE_DEFAULT_FACE_003.RFT",
+        "offset": 526636,
+        "size": 174904,
+        "sha256": "304889c74dbcd827f75ed5bb1087835ff5f032bf8f9c3c7923aeb311477220c7"
+      },
+      {
+        "name": "CORMALE_DEFAULT_FACE_004.RFT",
+        "offset": 701540,
+        "size": 174904,
+        "sha256": "304889c74dbcd827f75ed5bb1087835ff5f032bf8f9c3c7923aeb311477220c7"
+      },
+      {
+        "name": "CORMALE_DEFAULT_GLOVES_000.RFT",
+        "offset": 876444,
+        "size": 43832,
+        "sha256": "1d695502841194007e22e5784cb1adb501dc06826348f4694f924cf457e826ef"
+      },
+      {
+        "name": "CORMALE_DEFAULT_GLOVES_001.RFT",
+        "offset": 920276,
+        "size": 43832,
+        "sha256": "a8fcf1d6ca4eb52c62c3b5f57c5840e47f884ef3d7b08919a839db3971e3e2a3"
+      },
+      {
+        "name": "CORMALE_DEFAULT_GLOVES_002.RFT",
+        "offset": 964108,
+        "size": 43832,
+        "sha256": "91bc2880fbc1b53b2b33f22fab08e07bc980332b03ec2586f2468287fddf69e9"
+      },
+      {
+        "name": "CORMALE_DEFAULT_GLOVES_003.RFT",
+        "offset": 1007940,
+        "size": 43832,
+        "sha256": "f45d9b105ad0ebe14319c94e6d83437919d86f42f119ad1271a7faef95081a0c"
+      },
+      {
+        "name": "CORMALE_DEFAULT_GLOVES_004.RFT",
+        "offset": 1051772,
+        "size": 43832,
+        "sha256": "974de90840fccbd76a0fd128d89acbbab7925a1c645cbc1197eba84495985bac"
+      },
+      {
+        "name": "CORMALE_DEFAULT_HELMET_000.RFT",
+        "offset": 1095604,
+        "size": 349680,
+        "sha256": "90b1238e073605808872b0fc3aeb073e7f285561c9cdde497d5959813c988509"
+      },
+      {
+        "name": "CORMALE_DEFAULT_HELMET_001.RFT",
+        "offset": 1445284,
+        "size": 349680,
+        "sha256": "939893adfa8ae8fb24df68fa36496a73b7794c58126e3c68d528c60c85d8d7ab"
+      },
+      {
+        "name": "CORMALE_DEFAULT_HELMET_002.RFT",
+        "offset": 1794964,
+        "size": 349680,
+        "sha256": "ef7f7b97be8c6b325a847489308621a375ab1cbbba88861c5faf82bfe8483263"
+      },
+      {
+        "name": "CORMALE_DEFAULT_HELMET_003.RFT",
+        "offset": 2144644,
+        "size": 349680,
+        "sha256": "5bd3d01f257066de3eba2e54dec3cdd1fdd046b9095470bbe57c7afba669821c"
+      },
+      {
+        "name": "CORMALE_DEFAULT_HELMET_004.RFT",
+        "offset": 2494324,
+        "size": 349680,
+        "sha256": "3ec7462cd076b4c37eeb06cfb7796669999aee17ee72d9ad18c1bf3bac4ec5bd"
+      },
+      {
+        "name": "CORMALE_DEFAULT_LOWER_000.RFT",
+        "offset": 2844004,
+        "size": 174904,
+        "sha256": "c7c120a49dfb7d38004c2812b0d0bc47de6d63a6d682c1b2c27b623ed7222fc5"
+      },
+      {
+        "name": "CORMALE_DEFAULT_LOWER_001.RFT",
+        "offset": 3018908,
+        "size": 174904,
+        "sha256": "fe98bf836b76b2389a71ebb3f9b8e24920184ecf856bf5e9ab3666cd979abdf8"
+      },
+      {
+        "name": "CORMALE_DEFAULT_LOWER_002.RFT",
+        "offset": 3193812,
+        "size": 174904,
+        "sha256": "a4c2228acfbb64debb8c0445b5f466efbfed1409eec42f19c2abd017a25cd5e2"
+      },
+      {
+        "name": "CORMALE_DEFAULT_LOWER_003.RFT",
+        "offset": 3368716,
+        "size": 174904,
+        "sha256": "10e5ef99d3aa73bd1d75a0710bec54127664c2a45d9359f278a07ad3ae2f06d2"
+      },
+      {
+        "name": "CORMALE_DEFAULT_LOWER_004.RFT",
+        "offset": 3543620,
+        "size": 699192,
+        "sha256": "8a6a48706354e11c6e32b29585270345e8939334ed70dd4df8e116650177fd16"
+      },
+      {
+        "name": "CORMALE_DEFAULT_SHOES_000.RFT",
+        "offset": 4242812,
+        "size": 43832,
+        "sha256": "4321df1b364936d56eeaf6f9c971371ae878507eb158954415291df1b26b0e4b"
+      },
+      {
+        "name": "CORMALE_DEFAULT_SHOES_001.RFT",
+        "offset": 4286644,
+        "size": 43832,
+        "sha256": "c5fdb7891dfecf6a6e707a198d322585f350c4cf400bd9adfb618142a36f51f9"
+      },
+      {
+        "name": "CORMALE_DEFAULT_SHOES_002.RFT",
+        "offset": 4330476,
+        "size": 43832,
+        "sha256": "571132e2acdded7c59b92e7761eca3487a21511fbcecf0c258c58676c7427498"
+      },
+      {
+        "name": "CORMALE_DEFAULT_SHOES_003.RFT",
+        "offset": 4374308,
+        "size": 43832,
+        "sha256": "be5618678682e883ed7f1bdf61383301540480116a9b44c6cbbbcdfcb068ebee"
+      },
+      {
+        "name": "CORMALE_DEFAULT_SHOES_004.RFT",
+        "offset": 4418140,
+        "size": 43832,
+        "sha256": "7af4402bd81fe6ee2c1e11c2031e5d3623673973eafa44286411d1d279eb5c52"
+      },
+      {
+        "name": "CORMALE_DEFAULT_UPPER_000.RFT",
+        "offset": 4461972,
+        "size": 174904,
+        "sha256": "b4dac4fdea4fa039eb79f2d0a78171e48ce935f3c4a75f5f46af7e302b739aeb"
+      },
+      {
+        "name": "CORMALE_DEFAULT_UPPER_001.RFT",
+        "offset": 4636876,
+        "size": 174904,
+        "sha256": "e28b18e13afe45bd39c6f317b62978605797e519df0ff8801636adc58c116472"
+      },
+      {
+        "name": "CORMALE_DEFAULT_UPPER_002.RFT",
+        "offset": 4811780,
+        "size": 174904,
+        "sha256": "4f6f54d25116ac16fa3c6959ccd574b02b9648f43103bd2d833b5cd433dd7694"
+      },
+      {
+        "name": "CORMALE_DEFAULT_UPPER_003.RFT",
+        "offset": 4986684,
+        "size": 174904,
+        "sha256": "0b8944e6fc1515c7f179e3cf65c518ae1e72d34620915bc678da1662ebcf2792"
+      },
+      {
+        "name": "CORMALE_DEFAULT_UPPER_004.RFT",
+        "offset": 5161588,
+        "size": 174904,
+        "sha256": "9d7c6126217e5206bba0c99377b117692da275780f5b739b3a337547115fcade"
+      }
+    ]
+  },
+  {
+    "name": "MASKT.RFS",
+    "bytes": 2973620,
+    "sha256": "4282e15e25ed6758c2ec249b1e69216bc4bb7b663039a86c711aa9237ae3cb8e",
+    "entries": [
+      {
+        "name": "cap_horse.RFT",
+        "offset": 836,
+        "size": 349648,
+        "sha256": "62ef64e857f321c2d07aa1ad5b7c131c08c4c048a7f736c6e03f2bf59319bb01"
+      },
+      {
+        "name": "cap_scream.RFT",
+        "offset": 350484,
+        "size": 174904,
+        "sha256": "c5b14b8f0c2f8362a7db6962c73d0719008bd876878040de5076c499c0900e71"
+      },
+      {
+        "name": "mask01.RFT",
+        "offset": 525388,
+        "size": 174904,
+        "sha256": "01af9abb3008f82061a27d36459605f50cdf7c75aa5cfa189c295d1f2fa34eff"
+      },
+      {
+        "name": "mask01_alpha01.RFT",
+        "offset": 700292,
+        "size": 174904,
+        "sha256": "92c7d04b6deb2ffa6415dedf88ae3c2ae930df85e9db19bc8aae80a29ce7909d"
+      },
+      {
+        "name": "mask02.RFT",
+        "offset": 875196,
+        "size": 174904,
+        "sha256": "22956f8632a9793f79fd5ebaf2488ed1e10534b79118b6ef3beddcedfd4c4aea"
+      },
+      {
+        "name": "mask02_alpha01.RFT",
+        "offset": 1050100,
+        "size": 174904,
+        "sha256": "a30edacdc0b8557846bc2064a6e21697be8705bea570544c28e4540866c3f6cd"
+      },
+      {
+        "name": "mask03.RFT",
+        "offset": 1225004,
+        "size": 174904,
+        "sha256": "e7338f00bbd9a1ee5c09dacb7635c277c89535208ab6f079068f9b4ce489ff27"
+      },
+      {
+        "name": "mask04.RFT",
+        "offset": 1399908,
+        "size": 699192,
+        "sha256": "aba912ad911b769a28b16194953610f8842a40159a9d7bc9474352a45d09fb67"
+      },
+      {
+        "name": "mask05.RFT",
+        "offset": 2099100,
+        "size": 174904,
+        "sha256": "48bdedef129f0e91008abf3edaee59854ef9f509973cea0c6cdae52b9c0cc3df"
+      },
+      {
+        "name": "mask05_alpha.RFT",
+        "offset": 2274004,
+        "size": 174904,
+        "sha256": "6aeb2d3a107110bfba1433f1382cad83cad2e469e6d370876b2258570ec4b3a9"
+      },
+      {
+        "name": "mask_dung.RFT",
+        "offset": 2448908,
+        "size": 174904,
+        "sha256": "658823dc8c081fd784c9869923d8bfccc80f49ce08be9903c262b07f760fe03f"
+      },
+      {
+        "name": "mask_dung_alpha.RFT",
+        "offset": 2623812,
+        "size": 174904,
+        "sha256": "a4d0765c458c94e5edd4a0f1905a6dcb3ab353e91a6f135ce75906259acd2289"
+      },
+      {
+        "name": "mask_pig.RFT",
+        "offset": 2798716,
+        "size": 174904,
+        "sha256": "0171e1dd335347d886507a09aa4cce0847131f8687686eceb5feacb08584ee27"
+      }
+    ]
+  },
+  {
+    "name": "NWHITET.RFS",
+    "bytes": 13603348,
+    "sha256": "85d2e080001a38a8939d459fa96a6a38121c6f7c3f5946a24ea9511ca0051bcd",
+    "entries": [
+      {
+        "name": "A_A_G_076.RFT",
+        "offset": 4548,
+        "size": 87536,
+        "sha256": "3ca591b2b3dcde39fc966154139eebf6381020037681dce10584d62db7d0bdff"
+      },
+      {
+        "name": "A_A_G_160.RFT",
+        "offset": 92084,
+        "size": 87536,
+        "sha256": "f9a47750639416b4aad469daa189e48c384ede5b52c5ebc3752407bd78580fcf"
+      },
+      {
+        "name": "A_A_G_244.RFT",
+        "offset": 179620,
+        "size": 87536,
+        "sha256": "e2b28eb35df8604151bcc4221ce3241b34ec4a6d502c00211278d144f6bea1c2"
+      },
+      {
+        "name": "A_A_H_076.RFT",
+        "offset": 267156,
+        "size": 87536,
+        "sha256": "9d5cbc457b58a4423283255f7aa99f5b8b9af8cb3fd1b001762f2a234adffa8c"
+      },
+      {
+        "name": "A_A_H_160.RFT",
+        "offset": 354692,
+        "size": 87536,
+        "sha256": "f6abd49fa11ff5ac4089212e4939fa400d482330dca714f1c26bb5a271e00142"
+      },
+      {
+        "name": "A_A_H_244.RFT",
+        "offset": 442228,
+        "size": 87536,
+        "sha256": "4ca0f9ef16a0d43e75ea9c203a3655a2e462517b2b5c3604547b1ee95db13a4c"
+      },
+      {
+        "name": "A_A_L_076.RFT",
+        "offset": 529764,
+        "size": 349680,
+        "sha256": "a728218e04fe278f788fc57088e7f714689fe38da6a7ad6dafe3644bc69e4d62"
+      },
+      {
+        "name": "A_A_L_160.RFT",
+        "offset": 879444,
+        "size": 349680,
+        "sha256": "53c7cfc74bb0e0812ffb4add7c240d4c5248d22b119f98c57409341021d3c554"
+      },
+      {
+        "name": "A_A_L_244.RFT",
+        "offset": 1229124,
+        "size": 349680,
+        "sha256": "81bac868c8a60bad715ce8766e22e2a7179686dc6e0802357fd642b99c8efc46"
+      },
+      {
+        "name": "A_A_S_076.RFT",
+        "offset": 1578804,
+        "size": 87536,
+        "sha256": "3364412f4520271c9808a343bbd848a9344fe361a79dbf4bc87b4143a24c6893"
+      },
+      {
+        "name": "A_A_S_160.RFT",
+        "offset": 1666340,
+        "size": 87536,
+        "sha256": "41f120ff0fd133f375467d5d676b331d6b5df3d11a83cf1b8a950bc6f8e01388"
+      },
+      {
+        "name": "A_A_S_244.RFT",
+        "offset": 1753876,
+        "size": 87536,
+        "sha256": "a46aa10c3efcbcde2aaca35059270eff7db1bcf30ab7ecd90452aa2847a21561"
+      },
+      {
+        "name": "A_A_U_076.RFT",
+        "offset": 1841412,
+        "size": 349680,
+        "sha256": "3c29615398c10e5426cd03cf030a112ecbb6f715f228c7a60465a1806449dbcb"
+      },
+      {
+        "name": "A_A_U_160.RFT",
+        "offset": 2191092,
+        "size": 349680,
+        "sha256": "ef0c50ffecbd28eef390d6236ba4d2322c22a0cb43b39a90bb6a8e10bc8b12ee"
+      },
+      {
+        "name": "A_A_U_244.RFT",
+        "offset": 2540772,
+        "size": 349680,
+        "sha256": "49f6b1f128d7c69cea064a730c67acad71a7eefc55714af4ec40ffed1491ae4a"
+      },
+      {
+        "name": "BF_A_G_076.RFT",
+        "offset": 2890452,
+        "size": 87536,
+        "sha256": "9b47976479a7cca58ea8bba6231ee37e0125383d0667c4f4d196e07140eb8ec0"
+      },
+      {
+        "name": "BF_A_G_160.RFT",
+        "offset": 2977988,
+        "size": 87536,
+        "sha256": "dbaea64745bab08395a797ff1ad3e5a6745054fbda126a1caaf0c3844acbbfd4"
+      },
+      {
+        "name": "BF_A_G_244.RFT",
+        "offset": 3065524,
+        "size": 87536,
+        "sha256": "5f8ea28b9aefdd0711344a9fd650b76249a338a27906b06e834eeca4591de3bb"
+      },
+      {
+        "name": "BF_A_H_076.RFT",
+        "offset": 3153060,
+        "size": 22000,
+        "sha256": "52eb50b60ff33d88b6f42b9f71195ee336a301bf9af7963afc5fc9095f768eeb"
+      },
+      {
+        "name": "BF_A_H_160.RFT",
+        "offset": 3175060,
+        "size": 22000,
+        "sha256": "dedeae9b3a268dab1bbbf3522c1b876cc99ff354de84ab7b696e4c9a553fd52f"
+      },
+      {
+        "name": "BF_A_H_244.RFT",
+        "offset": 3197060,
+        "size": 22000,
+        "sha256": "195f66aa7056baf6a43a99ceba418c38e6ec39982d4aa28d606044cc3ad27c96"
+      },
+      {
+        "name": "BF_A_L_076.RFT",
+        "offset": 3219060,
+        "size": 349680,
+        "sha256": "d643828c84d424c62845a89b14710b351560a9c89d59d5cb5e1e4c13d7fa6c13"
+      },
+      {
+        "name": "BF_A_L_160.RFT",
+        "offset": 3568740,
+        "size": 349680,
+        "sha256": "02af579ef99cdb861590a67892b0b6790f0d4276faa32b1360a8eb3909c87da5"
+      },
+      {
+        "name": "BF_A_L_244.RFT",
+        "offset": 3918420,
+        "size": 349680,
+        "sha256": "1ebde87abf52bc495f0f5576ebf8633de3a8d36385aa51ea49661266ed581587"
+      },
+      {
+        "name": "BF_A_S_076.RFT",
+        "offset": 4268100,
+        "size": 87536,
+        "sha256": "80455ca3462d9454bf822ed6fa11320cd9ae355ee5489504d65a817385198e09"
+      },
+      {
+        "name": "BF_A_S_160.RFT",
+        "offset": 4355636,
+        "size": 87536,
+        "sha256": "a9a27eda8d57b29031f176d2ca5fe1e2860c257891c6898c653d78db950299b6"
+      },
+      {
+        "name": "BF_A_S_244.RFT",
+        "offset": 4443172,
+        "size": 87536,
+        "sha256": "f34ad1c9d25e18d080fb08aac06e620e7b7dec2572364aa0d7238e699c7bc039"
+      },
+      {
+        "name": "BF_A_U_076.RFT",
+        "offset": 4530708,
+        "size": 349680,
+        "sha256": "82fc0dc6b0e49e7da2bf53e2bb3e397101feb0d8049f1cc4dcd550286d6b034a"
+      },
+      {
+        "name": "BF_A_U_160.RFT",
+        "offset": 4880388,
+        "size": 349680,
+        "sha256": "74c169518d15d3b7ea7f0be58cd9e963c0aad9f3c2213be8fa54498be4e4179c"
+      },
+      {
+        "name": "BF_A_U_244.RFT",
+        "offset": 5230068,
+        "size": 349680,
+        "sha256": "e584dc7e5b61675e5e89d55d2b03e77dd5d7c2a075ae2d296c9cee00f761984b"
+      },
+      {
+        "name": "BM_A_G_076.RFT",
+        "offset": 5579748,
+        "size": 87536,
+        "sha256": "b41c05b69756389bb5f7c00719a05923a84b576d474ca94ca4260af45e021898"
+      },
+      {
+        "name": "BM_A_G_160.RFT",
+        "offset": 5667284,
+        "size": 87536,
+        "sha256": "e0f3dc73db7c700a13bfa3133986299e536584fb9d95108bc0d813ffaa615808"
+      },
+      {
+        "name": "BM_A_G_244.RFT",
+        "offset": 5754820,
+        "size": 87536,
+        "sha256": "b44d72ac9a3719b79d3961f3ab9d5a2ccd38371791bd9829547b86f10aa89048"
+      },
+      {
+        "name": "BM_A_H_076.RFT",
+        "offset": 5842356,
+        "size": 22000,
+        "sha256": "018aa24fb21cfab6ab7e36aa3862db5a08064fb79bd0523a0cca346f655f0212"
+      },
+      {
+        "name": "BM_A_H_160.RFT",
+        "offset": 5864356,
+        "size": 22000,
+        "sha256": "e24b893f4ea325ebb7165dc1f2ffecd04312963d58f3fe9aab3d4a74583828ae"
+      },
+      {
+        "name": "BM_A_H_244.RFT",
+        "offset": 5886356,
+        "size": 22000,
+        "sha256": "f2500307ff7bc24ae9dd3f471c7a53731556acff2c7783c546dca9d5b1dc4204"
+      },
+      {
+        "name": "BM_A_L_076.RFT",
+        "offset": 5908356,
+        "size": 349680,
+        "sha256": "e0cefa735fdf9f887cf9d671f9de94b55a136a4b5fa3b95f163f66546c60a1ad"
+      },
+      {
+        "name": "BM_A_L_160.RFT",
+        "offset": 6258036,
+        "size": 349680,
+        "sha256": "20ce353030d166ebcf33d05c466480366cf5b5f61d831dcdcf5ee3850027e6b5"
+      },
+      {
+        "name": "BM_A_L_244.RFT",
+        "offset": 6607716,
+        "size": 349680,
+        "sha256": "bec190f7edc548930cbc912666c9604e60aba3e922a2cf9d4bf361742f9cfa6f"
+      },
+      {
+        "name": "BM_A_S_076.RFT",
+        "offset": 6957396,
+        "size": 87536,
+        "sha256": "b117a4761089900a96b98b99c1a7f67f7f12347ae8d9c9bb3ebeb67c3bed37f0"
+      },
+      {
+        "name": "BM_A_S_160.RFT",
+        "offset": 7044932,
+        "size": 87536,
+        "sha256": "a6810b0180f48927bc8c1b855debaa037147ac1887f2fee3d51e6e5d4cfdc9b0"
+      },
+      {
+        "name": "BM_A_S_244.RFT",
+        "offset": 7132468,
+        "size": 87536,
+        "sha256": "499a62000b55327f0286b071c8eceb3e9e5df06f14ba4000a6d873e652b75146"
+      },
+      {
+        "name": "BM_A_U_076.RFT",
+        "offset": 7220004,
+        "size": 349680,
+        "sha256": "30897cffe2eef076bb0edf91c25f4faa35c3eb44013ab49cb152319d079e5b60"
+      },
+      {
+        "name": "BM_A_U_160.RFT",
+        "offset": 7569684,
+        "size": 349680,
+        "sha256": "311979e598f8ce5a1437b53e5cd62fa542631ba7a3b270b628916e591b5152fd"
+      },
+      {
+        "name": "BM_A_U_244.RFT",
+        "offset": 7919364,
+        "size": 349680,
+        "sha256": "7d3af10f965dafde7091f0ced9ab7cd261db43c3c7df61f54d9796dc11cb3226"
+      },
+      {
+        "name": "CF_A_GLOVES_076.RFT",
+        "offset": 8269044,
+        "size": 87536,
+        "sha256": "9e82074f684968131910bc2da4550339124b8671381950b881431513317ced38"
+      },
+      {
+        "name": "CF_A_GLOVES_160.RFT",
+        "offset": 8356580,
+        "size": 87536,
+        "sha256": "6ef78e2a5d296ad177a36c4120d18ed30a1cf3c7becbe24d0f8f0a0f8cc0642e"
+      },
+      {
+        "name": "CF_A_GLOVES_244.RFT",
+        "offset": 8444116,
+        "size": 87536,
+        "sha256": "1ca272b4a9dce38368d13e95efe8d3f6ce69fa8317931b96ab0ddb864b17a1b0"
+      },
+      {
+        "name": "CF_A_LOWER_076.RFT",
+        "offset": 8531652,
+        "size": 349680,
+        "sha256": "60e7214d0becb86ef2bef04253d8187f52e51552b8c6b5a57717c1131901b4ec"
+      },
+      {
+        "name": "CF_A_LOWER_160.RFT",
+        "offset": 8881332,
+        "size": 349680,
+        "sha256": "d80ff92faa79d9b61f74eff343945dabcb438152a2051ca303140d5b386e8a25"
+      },
+      {
+        "name": "CF_A_LOWER_244.RFT",
+        "offset": 9231012,
+        "size": 349680,
+        "sha256": "f194812f36d8f70dcf1f50f061bac9f7da88c99d71548adc6becfd7f245e1024"
+      },
+      {
+        "name": "CF_A_SHOES_076.RFT",
+        "offset": 9580692,
+        "size": 87536,
+        "sha256": "ac271fa7b769a3d5e21d2cc679a601f2f74c64d4153601bd7ecebeb9430a9c7d"
+      },
+      {
+        "name": "CF_A_SHOES_160.RFT",
+        "offset": 9668228,
+        "size": 87536,
+        "sha256": "7599fe38d3f007283ba59ed0e6218d5164e0c5a11f7173212815d628c51b7f67"
+      },
+      {
+        "name": "CF_A_SHOES_244.RFT",
+        "offset": 9755764,
+        "size": 87536,
+        "sha256": "0f61e3965db0c9629636917a9acfd4a7d539e4eb376f1df9e1049ded2b88ce9c"
+      },
+      {
+        "name": "CF_A_UPPER-1_160.RFT",
+        "offset": 9843300,
+        "size": 43856,
+        "sha256": "2a8b5c2c403333f6c42bbf3f20798fbe401c462ab37bf8aff75d9c9614f1a9a8"
+      },
+      {
+        "name": "CF_A_UPPER_076.RFT",
+        "offset": 9887156,
+        "size": 349680,
+        "sha256": "3394a10353f4bd20d46ce616e30730b3d631848dc16885b55a93e75351e725d3"
+      },
+      {
+        "name": "CF_A_UPPER_160.RFT",
+        "offset": 10236836,
+        "size": 349680,
+        "sha256": "7fa30ee75f314187c2209dfaf10f2a85947d2960a095a93004e286ce577a0959"
+      },
+      {
+        "name": "CF_A_UPPER_244.RFT",
+        "offset": 10586516,
+        "size": 349680,
+        "sha256": "88e5449aec3dc77b673a36842834c1822ed719ab3c865f9615c40d9f6f7b690f"
+      },
+      {
+        "name": "CM_A_GLOVES_076.RFT",
+        "offset": 10936196,
+        "size": 87536,
+        "sha256": "b662137541f7601066aca7cbcbb75ce87ba6b93ff40436f96b40db10e34f6094"
+      },
+      {
+        "name": "CM_A_GLOVES_160.RFT",
+        "offset": 11023732,
+        "size": 87536,
+        "sha256": "19f8207b166c9e0ede3bd706727ca87380c9c57a366431fe7a8e2368a32723cb"
+      },
+      {
+        "name": "CM_A_GLOVES_244.RFT",
+        "offset": 11111268,
+        "size": 87536,
+        "sha256": "0873fef73d7e2c6a58ce8049e955538cfdc26858e8e16f78d417f5708c1e60ef"
+      },
+      {
+        "name": "CM_A_LOWER_076.RFT",
+        "offset": 11198804,
+        "size": 349680,
+        "sha256": "e7b56b00ee2a42d36e99474e817a28142acd7e965ccac8e11738488f196fd08b"
+      },
+      {
+        "name": "CM_A_LOWER_160.RFT",
+        "offset": 11548484,
+        "size": 349680,
+        "sha256": "728c17cb48dc56b43fdc9dd355d9d3f49a23b9998cbec2965bcf10396ea9a8d6"
+      },
+      {
+        "name": "CM_A_LOWER_244.RFT",
+        "offset": 11898164,
+        "size": 349680,
+        "sha256": "07b9224f920c7ca6000d92d40de03ca04b76669b47c06a27321710a0edefc253"
+      },
+      {
+        "name": "CM_A_SHOES_076.RFT",
+        "offset": 12247844,
+        "size": 87536,
+        "sha256": "0db4d9d741d53596273ddc796971e149b3d45a9bed31274f35950f34d2d3975d"
+      },
+      {
+        "name": "CM_A_SHOES_160.RFT",
+        "offset": 12335380,
+        "size": 87536,
+        "sha256": "ef3e85db360a4368b7fbc54c617d2895fcc64665b3308b82d8c7804d0a920e26"
+      },
+      {
+        "name": "CM_A_SHOES_244.RFT",
+        "offset": 12422916,
+        "size": 87536,
+        "sha256": "81ee9a42cf843b05805d17f06f462d7ecb55f0d2dc56d1eccf0c5a3b235354f2"
+      },
+      {
+        "name": "CM_A_UPPER-1_160.RFT",
+        "offset": 12510452,
+        "size": 43856,
+        "sha256": "a49faa2bb5b0acc41340631ff53b85521b17fd2c04172c5e12c08a5f6459de06"
+      },
+      {
+        "name": "CM_A_UPPER_076.RFT",
+        "offset": 12554308,
+        "size": 349680,
+        "sha256": "c8dac9d005770e75c19eff0f0a2244885bd285e2a8ddc7a3fd421ca13eb6a9c2"
+      },
+      {
+        "name": "CM_A_UPPER_160.RFT",
+        "offset": 12903988,
+        "size": 349680,
+        "sha256": "90d67cdd7252d0bc42fe9ccdccd2609248bef7e8f7b0ec26fc22282eaa3bc73b"
+      },
+      {
+        "name": "CM_A_UPPER_244.RFT",
+        "offset": 13253668,
+        "size": 349680,
+        "sha256": "aac2d0abaedaf8e52cb8df622c7c5d402e28c51f0a187262db1d5f3aff04daf7"
+      }
+    ]
+  },
+  {
+    "name": "PLETCT.RFS",
+    "bytes": 175588,
+    "sha256": "1fc7d0b8d0c53099a9cd415500663e6397f972232ea54a9c87a2c5754d4254ce",
+    "entries": [
+      {
+        "name": "PC_ENV_000.RFT",
+        "offset": 260,
+        "size": 43832,
+        "sha256": "d62ae2e84712e22847693e30f80750ed6e0919308edac8524824d36a848504be"
+      },
+      {
+        "name": "PC_ENV_001.RFT",
+        "offset": 44092,
+        "size": 43832,
+        "sha256": "28751b0e5b5a44c44b5bd9f194c026f02ac56df5d7b4daf921567b05e4af4fb2"
+      },
+      {
+        "name": "PC_ENV_002.RFT",
+        "offset": 87924,
+        "size": 43832,
+        "sha256": "924bba69a5029ae580f8ecfc3a3393e3be55dbfbde1ff634e739c2beadecffb8"
+      },
+      {
+        "name": "PC_ENV_003.RFT",
+        "offset": 131756,
+        "size": 43832,
+        "sha256": "86f1219e6d3f8ecc3782d01e070105800bdb875186dad1e4e86709688231b4ba"
+      }
+    ]
+  },
+  {
+    "name": "RFMASTER.RFS",
+    "bytes": 14960644,
+    "sha256": "4e6caa016cbacd7547ac440fe1d1ca07876623a92a8a71f8345e54a209fb57a1",
+    "entries": [
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_101.RFT",
+        "offset": 6148,
+        "size": 262272,
+        "sha256": "eeae59d4fec6e3f864125fe7f4b77e12a8c8c4d215aeb1ecf77effd51b20e128"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_102.RFT",
+        "offset": 268420,
+        "size": 262272,
+        "sha256": "d1b965a4ae63740156134c2acb29634835d3f8467a1de8f886da1eca93aa2482"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_103.RFT",
+        "offset": 530692,
+        "size": 262272,
+        "sha256": "2e4d3c2db86874de62aab3b0bf542d167f05f9f98d520b14dcd6cf6c70cd5279"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_CLOAK_105.RFT",
+        "offset": 792964,
+        "size": 262272,
+        "sha256": "6b25d8e475cf90053780fd19d11f4bdf39c3a7d95d2343891760c7535e651ee4"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_101.RFT",
+        "offset": 1055236,
+        "size": 65664,
+        "sha256": "f4d5a2501d83491050247eba2e1fc2963e1fbe4347c9669751287bd53c54bd95"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_102.RFT",
+        "offset": 1120900,
+        "size": 65664,
+        "sha256": "cc8e15d1d6e385dfed9837fd2a6b0e54572de00ce58b21c062e5d9d7177312d4"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_103.RFT",
+        "offset": 1186564,
+        "size": 65664,
+        "sha256": "6071fc3cc2ac50e1b7612c8a569c642ddb543360b1527deffd7088a57bed5e6b"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_GLOVES_105.RFT",
+        "offset": 1252228,
+        "size": 65664,
+        "sha256": "29a6578fd10b5120c9cc291e7173434f2c711c7451ccd04ca8cfb5d0be204d25"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_101.RFT",
+        "offset": 1317892,
+        "size": 65664,
+        "sha256": "2c12c7a2ba2c4a728dc79db70c53479fb740f96f520eb835b258f96294eb71e1"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_102.RFT",
+        "offset": 1383556,
+        "size": 65664,
+        "sha256": "9a0a85db6819a03bf6b3338e2de16cb34cdf3f5ceada811ad7da76feb23ccc1b"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_103.RFT",
+        "offset": 1449220,
+        "size": 65664,
+        "sha256": "3806316ebaa593ac32d22d28a40e15b942661e6df4388830dc846a54870f6ced"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_HELMET_105.RFT",
+        "offset": 1514884,
+        "size": 65664,
+        "sha256": "66ef43c2e0ed046c40e0f0511965075ce46dc4f145ab6389d18d854db4160141"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_101.RFT",
+        "offset": 1580548,
+        "size": 262272,
+        "sha256": "10024d3b6f4113d186b184d1115b7214e6ea2ee5b015684171fb3ee0d052dbe2"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_102.RFT",
+        "offset": 1842820,
+        "size": 262272,
+        "sha256": "068a86ce250acfdfe31badb3bbe61b1d101d792fc7d1c54d42fe103022b5e61c"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_103.RFT",
+        "offset": 2105092,
+        "size": 262272,
+        "sha256": "222533fdca32b93eb68c1e691065f38ce6f5fcd85bc4d50e789caeff7f54105f"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_LOWER_105.RFT",
+        "offset": 2367364,
+        "size": 262272,
+        "sha256": "9a760100c5901bc783059949da06d1f98170c54ab8d619cb2de26b775253c3db"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_101.RFT",
+        "offset": 2629636,
+        "size": 65664,
+        "sha256": "d7b428eef7f243de205fe9f9584437319a5013886593d69d215b250f4dd02eb5"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_102.RFT",
+        "offset": 2695300,
+        "size": 65664,
+        "sha256": "a95a2d19d6c8dc62d4f35b2119d5e39a45b8cbdb5f152a4818967fd59cc9502e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_103.RFT",
+        "offset": 2760964,
+        "size": 65664,
+        "sha256": "505deddadb3e445fa9a6ed2ae45ef19858ef4d78c83a03fb43a100f2e02fc8f4"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_SHOES_105.RFT",
+        "offset": 2826628,
+        "size": 65664,
+        "sha256": "a0c70d6c5c7713d6d1390c99a73d985412cc38a9f544739b7459ef58c956d6fa"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_101.RFT",
+        "offset": 2892292,
+        "size": 262272,
+        "sha256": "fa5e6c7b4272cbd1feaa840f61332e1f51e79676f28f83235c2c35a9bd5bd48e"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_102.RFT",
+        "offset": 3154564,
+        "size": 262272,
+        "sha256": "5348df8dc65c463b954b5e010c5d4da6aad73c7c7a7e6060a50ea46b63dd9a26"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_103.RFT",
+        "offset": 3416836,
+        "size": 262272,
+        "sha256": "e81c2c2b0fd0bd6c49c4c3fa22b2ee8fd488b0aba6458334375d41ce09c9090a"
+      },
+      {
+        "name": "ACCRETIA_ARMOR_UPPER_105.RFT",
+        "offset": 3679108,
+        "size": 262272,
+        "sha256": "1ec9903df53b9f94401d8f8cc2de33242bead69434d6f9cc629a24d9d012c3f5"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_101.RFT",
+        "offset": 3941380,
+        "size": 65664,
+        "sha256": "3d248341b5a7db51147d108cb72f42dd2983b63361718847567560f942b39370"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_102.RFT",
+        "offset": 4007044,
+        "size": 65664,
+        "sha256": "148ba8420b8ae05a377e96d61758e3f1f3b20ef976af541e22d58e33009b13db"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_103.RFT",
+        "offset": 4072708,
+        "size": 65664,
+        "sha256": "3e1540f744ed7d3cd97f021c885a9915324e22af29024a9bd8ab714bde4dfe3f"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_GLOVES_105.RFT",
+        "offset": 4138372,
+        "size": 65664,
+        "sha256": "d8d7de05386dbdde5293dffb3ff7313afed549510edf41039846d753c9145d93"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_101.RFT",
+        "offset": 4204036,
+        "size": 65664,
+        "sha256": "c2554b5ef7c7393d2e1e092076187b9985ad07845b00818c9e1ba9678d632914"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_102.RFT",
+        "offset": 4269700,
+        "size": 65664,
+        "sha256": "2f20754974d6b935ccd04e904f4f8515bb1bd1ccd973c127b92e9229b5ebd554"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_103.RFT",
+        "offset": 4335364,
+        "size": 65664,
+        "sha256": "c0d1a81cc26f6dfeb1f3ab1084b1d6171f5034d679a469213ea8a8672dce2b64"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_HELMET_105.RFT",
+        "offset": 4401028,
+        "size": 65664,
+        "sha256": "e143f0663fa4e5bbfef590c1b23504655d2dbf893840a305bd4851c20c7b22f8"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_101.RFT",
+        "offset": 4466692,
+        "size": 262272,
+        "sha256": "36ad8b59e6910215d3e3f885c2bae19a619c2ce94a92929664e3e623bb203e9f"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_102.RFT",
+        "offset": 4728964,
+        "size": 262272,
+        "sha256": "53220e08e76cb59b0663f7e7d770e1b3d02640ea7e98cb3598c037f87d90c0a0"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_103.RFT",
+        "offset": 4991236,
+        "size": 262272,
+        "sha256": "ca91f64f55db3f725dd0f97c93e46563006b63310d0daca349d7570ab8bbe219"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_LOWER_105.RFT",
+        "offset": 5253508,
+        "size": 262272,
+        "sha256": "372b1f4179674308feb1da5811b41c4edd4bb631250f1254355aaeea1397844c"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_101.RFT",
+        "offset": 5515780,
+        "size": 65664,
+        "sha256": "0d42865a7c57b0eb48cf74cecbe33db7c61aa04deb1c113141dec20686a94152"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_102.RFT",
+        "offset": 5581444,
+        "size": 65664,
+        "sha256": "0d42865a7c57b0eb48cf74cecbe33db7c61aa04deb1c113141dec20686a94152"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_103.RFT",
+        "offset": 5647108,
+        "size": 65664,
+        "sha256": "0d42865a7c57b0eb48cf74cecbe33db7c61aa04deb1c113141dec20686a94152"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_SHOES_105.RFT",
+        "offset": 5712772,
+        "size": 65664,
+        "sha256": "0d42865a7c57b0eb48cf74cecbe33db7c61aa04deb1c113141dec20686a94152"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_101.RFT",
+        "offset": 5778436,
+        "size": 262272,
+        "sha256": "50e4c615324745e63231f556f49d57f9eda1f8666e93c7cb1c46cbe8cc0a8464"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_102.RFT",
+        "offset": 6040708,
+        "size": 262272,
+        "sha256": "6c53e7022f0a11d8026ad95a9cd578524adba355359889f73b7fd2c364d7c581"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_103.RFT",
+        "offset": 6302980,
+        "size": 262272,
+        "sha256": "3ef80e60b246e63f1d6b3e1ee0c078dfc060555708bbbce331a960782dc55ba6"
+      },
+      {
+        "name": "BELFEMALE_ARMOR_UPPER_105.RFT",
+        "offset": 6565252,
+        "size": 262272,
+        "sha256": "2617a11a6978aab7d994a7c401318b4c7a8889b8dc39243b6e8e111ba17ed044"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_101.RFT",
+        "offset": 6827524,
+        "size": 65664,
+        "sha256": "3f9fa4cfd3858acefdc6876d04b88a4f6a8f6962dcd4afa1f23ad4d99c283e45"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_102.RFT",
+        "offset": 6893188,
+        "size": 65664,
+        "sha256": "73c2b40d41de87beab27c99e22da22fe95ee57db1898d535f3548847d7f7c949"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_103.RFT",
+        "offset": 6958852,
+        "size": 65664,
+        "sha256": "6ccba6ecea348f5785173934b0ff19f7c63b3e381a26431f4dd7b7f92af3fe5f"
+      },
+      {
+        "name": "BELMALE_ARMOR_GLOVES_105.RFT",
+        "offset": 7024516,
+        "size": 65664,
+        "sha256": "6ccba6ecea348f5785173934b0ff19f7c63b3e381a26431f4dd7b7f92af3fe5f"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_101.RFT",
+        "offset": 7090180,
+        "size": 262272,
+        "sha256": "4819fc928a9159f28da115d347cf8bedb7746e941dc8fd76f225915bb1e0b42a"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_102.RFT",
+        "offset": 7352452,
+        "size": 262272,
+        "sha256": "3f84c82881d0394de2ef38cf4c0ab4810e1b627b307c2d1e5a0fe864c3abcb66"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_103.RFT",
+        "offset": 7614724,
+        "size": 262272,
+        "sha256": "499ed196fdc270d8d9b301ae4dbc5909a12fdd7dba840da9526caa6524ea05cb"
+      },
+      {
+        "name": "BELMALE_ARMOR_LOWER_105.RFT",
+        "offset": 7876996,
+        "size": 262272,
+        "sha256": "dc66bfd883025a7cf6527265a198c8b8686147c6a50f288a75c936bf32b11449"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_101.RFT",
+        "offset": 8139268,
+        "size": 65664,
+        "sha256": "454ab85befa26db14bd48a76ce4fa6ecea91f983744353a71ad1cce8e73d375e"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_102.RFT",
+        "offset": 8204932,
+        "size": 65664,
+        "sha256": "860cef7de0b12d1de3a00deda76546a6237f5e85f71e9ae95aa40224780acb0a"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_103.RFT",
+        "offset": 8270596,
+        "size": 65664,
+        "sha256": "fb0dcfd1a16d6f4638e65c1a0f67d219b8d4e6055c0d23e6e299e4b2903c350e"
+      },
+      {
+        "name": "BELMALE_ARMOR_SHOES_105.RFT",
+        "offset": 8336260,
+        "size": 65664,
+        "sha256": "70d1a30d7a51e69dc007c897055b6b376c11e3cbce49893678276ef1acc81e4e"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_101.RFT",
+        "offset": 8401924,
+        "size": 262272,
+        "sha256": "7eb2478d03768c7755df269b2f9c42eef882b9a81d363afa950e2ddbac328323"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_102.RFT",
+        "offset": 8664196,
+        "size": 262272,
+        "sha256": "9d59cc58da14ad0a99254c0d89747b2de937daffc024515a77f98e5a8f67e8d1"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_103.RFT",
+        "offset": 8926468,
+        "size": 262272,
+        "sha256": "9c53cd925e368c5bc5dbf75b51258174e7d680719062ba8d4cd625c6ab064586"
+      },
+      {
+        "name": "BELMALE_ARMOR_UPPER_105.RFT",
+        "offset": 9188740,
+        "size": 262272,
+        "sha256": "cb2fc685ebc4675999a26a0e2f2f918f8edc5b4bf9ec3bd3792eda2832ea78d6"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_101.RFT",
+        "offset": 9451012,
+        "size": 65664,
+        "sha256": "c9cb9b6726ec9c80be4d7769b3d1b5affab097d5da42ce3bcd4cbf79a96e563c"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_102.RFT",
+        "offset": 9516676,
+        "size": 65664,
+        "sha256": "23e245c8f1954294d6027d1a19b8c6e7630f4688294524fa13100b185f607627"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_103.RFT",
+        "offset": 9582340,
+        "size": 65664,
+        "sha256": "406e8e09e89760c3037416a9bf5baa9486c65ac3d61e3b4b3bb327903fe8a811"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_GLOVES_105.RFT",
+        "offset": 9648004,
+        "size": 65664,
+        "sha256": "41047e6c68f6fb21fcb252ea27b1fe978fc99982a289d8e12e01b1d2761dc93c"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_101.RFT",
+        "offset": 9713668,
+        "size": 65664,
+        "sha256": "de183c5e1079edbc9b12afa902b03d756bb1cbe551c2248a11000b32c7934f6c"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_102.RFT",
+        "offset": 9779332,
+        "size": 65664,
+        "sha256": "ef8080b3db98687e4cb7c3fe42ee99edf627800aec8ade16de94ab07f1712c74"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_103.RFT",
+        "offset": 9844996,
+        "size": 65664,
+        "sha256": "64442ab613b71630d9e8ab42b0585b8907638ae96bcdde46783b33b25a6775f1"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_HELMET_105.RFT",
+        "offset": 9910660,
+        "size": 65664,
+        "sha256": "f6f5dd2e7f6c3bb526c4b7c9e3ddfc86561dc6e3303aff7a82877dfb202a0817"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_101.RFT",
+        "offset": 9976324,
+        "size": 262272,
+        "sha256": "02e6b1344bf160432c10ab87e4b9fedbfa51872d0c88c1fdd78c5548856cd77a"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_102.RFT",
+        "offset": 10238596,
+        "size": 262272,
+        "sha256": "bad3c22dd9e6fecae404b4d94e65e014d7e90028ff2a65ea532475aac8ae8d78"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_103.RFT",
+        "offset": 10500868,
+        "size": 262272,
+        "sha256": "9a675c77d2cc37bc5dd29ec674d91449480806065b531349a6734afc2feeca3d"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_LOWER_105.RFT",
+        "offset": 10763140,
+        "size": 262272,
+        "sha256": "aebea498fd0b8fa467c34a8ffbb5a3765fb6afc35e1224fbce40d1bccbc20c8d"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_101.RFT",
+        "offset": 11025412,
+        "size": 65664,
+        "sha256": "88138b6e776db99ac9cb3ce90a6e0c8e685e76814d695aa543a5e387d14fd880"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_102.RFT",
+        "offset": 11091076,
+        "size": 65664,
+        "sha256": "88138b6e776db99ac9cb3ce90a6e0c8e685e76814d695aa543a5e387d14fd880"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_103.RFT",
+        "offset": 11156740,
+        "size": 65664,
+        "sha256": "88138b6e776db99ac9cb3ce90a6e0c8e685e76814d695aa543a5e387d14fd880"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_SHOES_105.RFT",
+        "offset": 11222404,
+        "size": 65664,
+        "sha256": "88138b6e776db99ac9cb3ce90a6e0c8e685e76814d695aa543a5e387d14fd880"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_101.RFT",
+        "offset": 11288068,
+        "size": 262272,
+        "sha256": "6da39a7dc31978b6dc0d110977f04398fe34486abb031d7ec875bdf36b8871a0"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_102.RFT",
+        "offset": 11550340,
+        "size": 262272,
+        "sha256": "86127d1c5f20f1cb355e1bd8b9a0afe5611e747bdb8b72a49fa379a13416ca5f"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_103.RFT",
+        "offset": 11812612,
+        "size": 262272,
+        "sha256": "4748663938530d72196c8c93eae7574830685aef2e617daad37d5a0384c54f12"
+      },
+      {
+        "name": "CORFEMALE_ARMOR_UPPER_105.RFT",
+        "offset": 12074884,
+        "size": 262272,
+        "sha256": "65cb872205baecdb92b7e6444522f5605234a6f86262de46d27ced3bc18e97c4"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_101.RFT",
+        "offset": 12337156,
+        "size": 65664,
+        "sha256": "9aaef2af3b1d6989bcf207ddfa3bc137a91a2c2c9cea6c46977ba90da58f1853"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_102.RFT",
+        "offset": 12402820,
+        "size": 65664,
+        "sha256": "9aaef2af3b1d6989bcf207ddfa3bc137a91a2c2c9cea6c46977ba90da58f1853"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_103.RFT",
+        "offset": 12468484,
+        "size": 65664,
+        "sha256": "9aaef2af3b1d6989bcf207ddfa3bc137a91a2c2c9cea6c46977ba90da58f1853"
+      },
+      {
+        "name": "CORMALE_ARMOR_GLOVES_105.RFT",
+        "offset": 12534148,
+        "size": 65664,
+        "sha256": "9aaef2af3b1d6989bcf207ddfa3bc137a91a2c2c9cea6c46977ba90da58f1853"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_101.RFT",
+        "offset": 12599812,
+        "size": 262272,
+        "sha256": "43e967d30419de5ebbfc64b2b9ba3df291949a08dac4119438275c1975703da9"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_102.RFT",
+        "offset": 12862084,
+        "size": 262272,
+        "sha256": "154d79c4e9d48d0abbafae2dd90c325b5ea934783d85f0fd7e82bf41469262d3"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_103.RFT",
+        "offset": 13124356,
+        "size": 262272,
+        "sha256": "fceb741452f4c53abffd1fdd249fc2564f8dfc3e2c86dced9aa92890186556a4"
+      },
+      {
+        "name": "CORMALE_ARMOR_LOWER_105.RFT",
+        "offset": 13386628,
+        "size": 262272,
+        "sha256": "2720568155bfba6a29427dad9234c1e01a3a930ef4db917304d4bde9a3973151"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_101.RFT",
+        "offset": 13648900,
+        "size": 65664,
+        "sha256": "7bb41ca9582aabdfd182d2f142a82cbe9d9249a63b8b115daa29dcb8ed051a9d"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_102.RFT",
+        "offset": 13714564,
+        "size": 65664,
+        "sha256": "4c9696a20e01e3f4829a61840b3691ac8c33c91b0159f833aff93d2d1bc899ab"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_103.RFT",
+        "offset": 13780228,
+        "size": 65664,
+        "sha256": "08f77b2ef40586d906267828c2b609e2a094657b2decc78ffd996eb26aea66a9"
+      },
+      {
+        "name": "CORMALE_ARMOR_SHOES_105.RFT",
+        "offset": 13845892,
+        "size": 65664,
+        "sha256": "6129601118b5add29bf0f687274fc0b6bcb54b253a5dccc718245ae350e50f0a"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_101.RFT",
+        "offset": 13911556,
+        "size": 262272,
+        "sha256": "79a8d1ae582ed1eee88df487ec47d17431acd21b8417919b4a3db33ea13d341a"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_102.RFT",
+        "offset": 14173828,
+        "size": 262272,
+        "sha256": "8006ef9e2bf83fa5c8d90479115000ff811f1630a793c8fc3a23e886e0ab29e0"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_103.RFT",
+        "offset": 14436100,
+        "size": 262272,
+        "sha256": "94d69ae91a2a20fa3604141b2add9f0256193a8b8f999005b523f336d65c558a"
+      },
+      {
+        "name": "CORMALE_ARMOR_UPPER_105.RFT",
+        "offset": 14698372,
+        "size": 262272,
+        "sha256": "ae24da56dea714855a32e46dadc0b288a9dabe3e085860f8026e4828d290f545"
+      }
+    ]
+  },
+  {
+    "name": "WHITET.RFS",
+    "bytes": 13603348,
+    "sha256": "812d2b4ce4354ff98eda901f1095447b1f4301c84135e2add324499a7a9ae614",
+    "entries": [
+      {
+        "name": "A_A_G_076.RFT",
+        "offset": 4548,
+        "size": 87536,
+        "sha256": "3ca591b2b3dcde39fc966154139eebf6381020037681dce10584d62db7d0bdff"
+      },
+      {
+        "name": "A_A_G_160.RFT",
+        "offset": 92084,
+        "size": 87536,
+        "sha256": "f9a47750639416b4aad469daa189e48c384ede5b52c5ebc3752407bd78580fcf"
+      },
+      {
+        "name": "A_A_G_244.RFT",
+        "offset": 179620,
+        "size": 87536,
+        "sha256": "e2b28eb35df8604151bcc4221ce3241b34ec4a6d502c00211278d144f6bea1c2"
+      },
+      {
+        "name": "A_A_H_076.RFT",
+        "offset": 267156,
+        "size": 87536,
+        "sha256": "9d5cbc457b58a4423283255f7aa99f5b8b9af8cb3fd1b001762f2a234adffa8c"
+      },
+      {
+        "name": "A_A_H_160.RFT",
+        "offset": 354692,
+        "size": 87536,
+        "sha256": "f6abd49fa11ff5ac4089212e4939fa400d482330dca714f1c26bb5a271e00142"
+      },
+      {
+        "name": "A_A_H_244.RFT",
+        "offset": 442228,
+        "size": 87536,
+        "sha256": "4ca0f9ef16a0d43e75ea9c203a3655a2e462517b2b5c3604547b1ee95db13a4c"
+      },
+      {
+        "name": "A_A_L_076.RFT",
+        "offset": 529764,
+        "size": 349680,
+        "sha256": "a728218e04fe278f788fc57088e7f714689fe38da6a7ad6dafe3644bc69e4d62"
+      },
+      {
+        "name": "A_A_L_160.RFT",
+        "offset": 879444,
+        "size": 349680,
+        "sha256": "53c7cfc74bb0e0812ffb4add7c240d4c5248d22b119f98c57409341021d3c554"
+      },
+      {
+        "name": "A_A_L_244.RFT",
+        "offset": 1229124,
+        "size": 349680,
+        "sha256": "81bac868c8a60bad715ce8766e22e2a7179686dc6e0802357fd642b99c8efc46"
+      },
+      {
+        "name": "A_A_S_076.RFT",
+        "offset": 1578804,
+        "size": 87536,
+        "sha256": "3364412f4520271c9808a343bbd848a9344fe361a79dbf4bc87b4143a24c6893"
+      },
+      {
+        "name": "A_A_S_160.RFT",
+        "offset": 1666340,
+        "size": 87536,
+        "sha256": "41f120ff0fd133f375467d5d676b331d6b5df3d11a83cf1b8a950bc6f8e01388"
+      },
+      {
+        "name": "A_A_S_244.RFT",
+        "offset": 1753876,
+        "size": 87536,
+        "sha256": "a46aa10c3efcbcde2aaca35059270eff7db1bcf30ab7ecd90452aa2847a21561"
+      },
+      {
+        "name": "A_A_U_076.RFT",
+        "offset": 1841412,
+        "size": 349680,
+        "sha256": "3c29615398c10e5426cd03cf030a112ecbb6f715f228c7a60465a1806449dbcb"
+      },
+      {
+        "name": "A_A_U_160.RFT",
+        "offset": 2191092,
+        "size": 349680,
+        "sha256": "ef0c50ffecbd28eef390d6236ba4d2322c22a0cb43b39a90bb6a8e10bc8b12ee"
+      },
+      {
+        "name": "A_A_U_244.RFT",
+        "offset": 2540772,
+        "size": 349680,
+        "sha256": "49f6b1f128d7c69cea064a730c67acad71a7eefc55714af4ec40ffed1491ae4a"
+      },
+      {
+        "name": "BF_A_G_076.RFT",
+        "offset": 2890452,
+        "size": 87536,
+        "sha256": "9b47976479a7cca58ea8bba6231ee37e0125383d0667c4f4d196e07140eb8ec0"
+      },
+      {
+        "name": "BF_A_G_160.RFT",
+        "offset": 2977988,
+        "size": 87536,
+        "sha256": "dbaea64745bab08395a797ff1ad3e5a6745054fbda126a1caaf0c3844acbbfd4"
+      },
+      {
+        "name": "BF_A_G_244.RFT",
+        "offset": 3065524,
+        "size": 87536,
+        "sha256": "5f8ea28b9aefdd0711344a9fd650b76249a338a27906b06e834eeca4591de3bb"
+      },
+      {
+        "name": "BF_A_H_076.RFT",
+        "offset": 3153060,
+        "size": 22000,
+        "sha256": "52eb50b60ff33d88b6f42b9f71195ee336a301bf9af7963afc5fc9095f768eeb"
+      },
+      {
+        "name": "BF_A_H_160.RFT",
+        "offset": 3175060,
+        "size": 22000,
+        "sha256": "dedeae9b3a268dab1bbbf3522c1b876cc99ff354de84ab7b696e4c9a553fd52f"
+      },
+      {
+        "name": "BF_A_H_244.RFT",
+        "offset": 3197060,
+        "size": 22000,
+        "sha256": "195f66aa7056baf6a43a99ceba418c38e6ec39982d4aa28d606044cc3ad27c96"
+      },
+      {
+        "name": "BF_A_L_076.RFT",
+        "offset": 3219060,
+        "size": 349680,
+        "sha256": "d643828c84d424c62845a89b14710b351560a9c89d59d5cb5e1e4c13d7fa6c13"
+      },
+      {
+        "name": "BF_A_L_160.RFT",
+        "offset": 3568740,
+        "size": 349680,
+        "sha256": "02af579ef99cdb861590a67892b0b6790f0d4276faa32b1360a8eb3909c87da5"
+      },
+      {
+        "name": "BF_A_L_244.RFT",
+        "offset": 3918420,
+        "size": 349680,
+        "sha256": "1ebde87abf52bc495f0f5576ebf8633de3a8d36385aa51ea49661266ed581587"
+      },
+      {
+        "name": "BF_A_S_076.RFT",
+        "offset": 4268100,
+        "size": 87536,
+        "sha256": "80455ca3462d9454bf822ed6fa11320cd9ae355ee5489504d65a817385198e09"
+      },
+      {
+        "name": "BF_A_S_160.RFT",
+        "offset": 4355636,
+        "size": 87536,
+        "sha256": "a9a27eda8d57b29031f176d2ca5fe1e2860c257891c6898c653d78db950299b6"
+      },
+      {
+        "name": "BF_A_S_244.RFT",
+        "offset": 4443172,
+        "size": 87536,
+        "sha256": "f34ad1c9d25e18d080fb08aac06e620e7b7dec2572364aa0d7238e699c7bc039"
+      },
+      {
+        "name": "BF_A_U_076.RFT",
+        "offset": 4530708,
+        "size": 349680,
+        "sha256": "82fc0dc6b0e49e7da2bf53e2bb3e397101feb0d8049f1cc4dcd550286d6b034a"
+      },
+      {
+        "name": "BF_A_U_160.RFT",
+        "offset": 4880388,
+        "size": 349680,
+        "sha256": "74c169518d15d3b7ea7f0be58cd9e963c0aad9f3c2213be8fa54498be4e4179c"
+      },
+      {
+        "name": "BF_A_U_244.RFT",
+        "offset": 5230068,
+        "size": 349680,
+        "sha256": "e584dc7e5b61675e5e89d55d2b03e77dd5d7c2a075ae2d296c9cee00f761984b"
+      },
+      {
+        "name": "BM_A_G_076.RFT",
+        "offset": 5579748,
+        "size": 87536,
+        "sha256": "b41c05b69756389bb5f7c00719a05923a84b576d474ca94ca4260af45e021898"
+      },
+      {
+        "name": "BM_A_G_160.RFT",
+        "offset": 5667284,
+        "size": 87536,
+        "sha256": "e0f3dc73db7c700a13bfa3133986299e536584fb9d95108bc0d813ffaa615808"
+      },
+      {
+        "name": "BM_A_G_244.RFT",
+        "offset": 5754820,
+        "size": 87536,
+        "sha256": "b44d72ac9a3719b79d3961f3ab9d5a2ccd38371791bd9829547b86f10aa89048"
+      },
+      {
+        "name": "BM_A_H_076.RFT",
+        "offset": 5842356,
+        "size": 22000,
+        "sha256": "018aa24fb21cfab6ab7e36aa3862db5a08064fb79bd0523a0cca346f655f0212"
+      },
+      {
+        "name": "BM_A_H_160.RFT",
+        "offset": 5864356,
+        "size": 22000,
+        "sha256": "e24b893f4ea325ebb7165dc1f2ffecd04312963d58f3fe9aab3d4a74583828ae"
+      },
+      {
+        "name": "BM_A_H_244.RFT",
+        "offset": 5886356,
+        "size": 22000,
+        "sha256": "f2500307ff7bc24ae9dd3f471c7a53731556acff2c7783c546dca9d5b1dc4204"
+      },
+      {
+        "name": "BM_A_L_076.RFT",
+        "offset": 5908356,
+        "size": 349680,
+        "sha256": "e0cefa735fdf9f887cf9d671f9de94b55a136a4b5fa3b95f163f66546c60a1ad"
+      },
+      {
+        "name": "BM_A_L_160.RFT",
+        "offset": 6258036,
+        "size": 349680,
+        "sha256": "20ce353030d166ebcf33d05c466480366cf5b5f61d831dcdcf5ee3850027e6b5"
+      },
+      {
+        "name": "BM_A_L_244.RFT",
+        "offset": 6607716,
+        "size": 349680,
+        "sha256": "bec190f7edc548930cbc912666c9604e60aba3e922a2cf9d4bf361742f9cfa6f"
+      },
+      {
+        "name": "BM_A_S_076.RFT",
+        "offset": 6957396,
+        "size": 87536,
+        "sha256": "b117a4761089900a96b98b99c1a7f67f7f12347ae8d9c9bb3ebeb67c3bed37f0"
+      },
+      {
+        "name": "BM_A_S_160.RFT",
+        "offset": 7044932,
+        "size": 87536,
+        "sha256": "a6810b0180f48927bc8c1b855debaa037147ac1887f2fee3d51e6e5d4cfdc9b0"
+      },
+      {
+        "name": "BM_A_S_244.RFT",
+        "offset": 7132468,
+        "size": 87536,
+        "sha256": "499a62000b55327f0286b071c8eceb3e9e5df06f14ba4000a6d873e652b75146"
+      },
+      {
+        "name": "BM_A_U_076.RFT",
+        "offset": 7220004,
+        "size": 349680,
+        "sha256": "30897cffe2eef076bb0edf91c25f4faa35c3eb44013ab49cb152319d079e5b60"
+      },
+      {
+        "name": "BM_A_U_160.RFT",
+        "offset": 7569684,
+        "size": 349680,
+        "sha256": "311979e598f8ce5a1437b53e5cd62fa542631ba7a3b270b628916e591b5152fd"
+      },
+      {
+        "name": "BM_A_U_244.RFT",
+        "offset": 7919364,
+        "size": 349680,
+        "sha256": "7d3af10f965dafde7091f0ced9ab7cd261db43c3c7df61f54d9796dc11cb3226"
+      },
+      {
+        "name": "CF_A_GLOVES_076.RFT",
+        "offset": 8269044,
+        "size": 87536,
+        "sha256": "9dfb8e567f64eddd178827946bff046d84f98e623651f48db30bb926e509d2a0"
+      },
+      {
+        "name": "CF_A_GLOVES_160.RFT",
+        "offset": 8356580,
+        "size": 87536,
+        "sha256": "ed6403a40f8df2731d384a8e194fb686d929dbf7dcb94e017eaa5f94b4f44df7"
+      },
+      {
+        "name": "CF_A_GLOVES_244.RFT",
+        "offset": 8444116,
+        "size": 87536,
+        "sha256": "6929a3dda5a19cc7a56ce416d081af3d08e9e0a2c0e46bbb105fbe739a732325"
+      },
+      {
+        "name": "CF_A_LOWER_076.RFT",
+        "offset": 8531652,
+        "size": 349680,
+        "sha256": "6a573afbbc87df27d22b45ebed2232bf26f37f0754b918e1735874fb8a8c1a1e"
+      },
+      {
+        "name": "CF_A_LOWER_160.RFT",
+        "offset": 8881332,
+        "size": 349680,
+        "sha256": "d72daae4be7b8f76eec1dcc4410bf55e13b8a98cedf0060873da6c22548c4b34"
+      },
+      {
+        "name": "CF_A_LOWER_244.RFT",
+        "offset": 9231012,
+        "size": 349680,
+        "sha256": "802fead7995bfc65a6d91420f1ce1f1cebbfb7cfd05b0041eb0ad7f05ede4bb7"
+      },
+      {
+        "name": "CF_A_SHOES_076.RFT",
+        "offset": 9580692,
+        "size": 87536,
+        "sha256": "768a0d490ac2a783a2af08a728d9178121ea79f7c5dec897a65fdebe62dd7ba4"
+      },
+      {
+        "name": "CF_A_SHOES_160.RFT",
+        "offset": 9668228,
+        "size": 87536,
+        "sha256": "a8ba166856a9d35b5abe082030c0f2804c07e45a90babb86984c0da376720a11"
+      },
+      {
+        "name": "CF_A_SHOES_244.RFT",
+        "offset": 9755764,
+        "size": 87536,
+        "sha256": "4c6fd01e74e9c14ddde6c3b7d6617345591812393f9bc54c49745db627fffa7e"
+      },
+      {
+        "name": "CF_A_UPPER-1_160.RFT",
+        "offset": 9843300,
+        "size": 43856,
+        "sha256": "30528859687b1e1b310623b7ba94399cf2ef5e70d930be526503cee9e4c084c5"
+      },
+      {
+        "name": "CF_A_UPPER_076.RFT",
+        "offset": 9887156,
+        "size": 349680,
+        "sha256": "c8f2cef263f79562a95fcd0c0651981879002f3e6cd80246b3ecf26cbab83b33"
+      },
+      {
+        "name": "CF_A_UPPER_160.RFT",
+        "offset": 10236836,
+        "size": 349680,
+        "sha256": "fc91fe2cc8f02b740fea927202636e2651bf82b4ca98a53141cd4c9bd3f4d99d"
+      },
+      {
+        "name": "CF_A_UPPER_244.RFT",
+        "offset": 10586516,
+        "size": 349680,
+        "sha256": "dfbebe107d62b906f3c7eced9b3f5ea6770f4f603b7c19bea218051ab746d9c8"
+      },
+      {
+        "name": "CM_A_GLOVES_076.RFT",
+        "offset": 10936196,
+        "size": 87536,
+        "sha256": "bef2e8d227a23dedffe6fb9afa2fc9eef91532572ee1d3412d1b1335f4b60e04"
+      },
+      {
+        "name": "CM_A_GLOVES_160.RFT",
+        "offset": 11023732,
+        "size": 87536,
+        "sha256": "950469e9b0e093fb8b10b60ffdf1cdbf5d95d50da4e7d807cabe855a53c7b2b5"
+      },
+      {
+        "name": "CM_A_GLOVES_244.RFT",
+        "offset": 11111268,
+        "size": 87536,
+        "sha256": "084dd4bf5be2579bc647d75b2085bc1bdc779316984ca2bfc2bc800fd02e4dac"
+      },
+      {
+        "name": "CM_A_LOWER_076.RFT",
+        "offset": 11198804,
+        "size": 349680,
+        "sha256": "ae74df92b5ee10835332b725bd8705a03fadf8d83b3917cb10919e32e87df7c1"
+      },
+      {
+        "name": "CM_A_LOWER_160.RFT",
+        "offset": 11548484,
+        "size": 349680,
+        "sha256": "a2d4e2667ca04e1936cc4facc3e0e8a8c155adbace946b08823dfedf05fc0b7f"
+      },
+      {
+        "name": "CM_A_LOWER_244.RFT",
+        "offset": 11898164,
+        "size": 349680,
+        "sha256": "a5e19fe390877b228b17097a6c64eb5d32414c6d6a5147f9c5285935ae49e143"
+      },
+      {
+        "name": "CM_A_SHOES_076.RFT",
+        "offset": 12247844,
+        "size": 87536,
+        "sha256": "b878b341e67a752ea463468e44519e035f5809da194951132aef49dcf7274581"
+      },
+      {
+        "name": "CM_A_SHOES_160.RFT",
+        "offset": 12335380,
+        "size": 87536,
+        "sha256": "c16cede9cae42a16f36fbf1db4e89e5d263c8422bf6411424c6a2f29ed0c33e5"
+      },
+      {
+        "name": "CM_A_SHOES_244.RFT",
+        "offset": 12422916,
+        "size": 87536,
+        "sha256": "1ca311a3ef6928fae9508ec5994bd8797772c408be9e7469447e301721a9e56c"
+      },
+      {
+        "name": "CM_A_UPPER-1_160.RFT",
+        "offset": 12510452,
+        "size": 43856,
+        "sha256": "5e5c6a022320eb96bf1fd869d33acb2aeb53fb24b7703e45d81de6cdfdc57bd7"
+      },
+      {
+        "name": "CM_A_UPPER_076.RFT",
+        "offset": 12554308,
+        "size": 349680,
+        "sha256": "fa1975ae6bc93f6ab64ce6a90be7719189b18cf743439f1ca369a5e767993f6e"
+      },
+      {
+        "name": "CM_A_UPPER_160.RFT",
+        "offset": 12903988,
+        "size": 349680,
+        "sha256": "4fcc509069c8748cf89e5853ba7858bc45b0ffadc2fff7d7cab6e4988ca054a1"
+      },
+      {
+        "name": "CM_A_UPPER_244.RFT",
+        "offset": 13253668,
+        "size": 349680,
+        "sha256": "63c7c18c172171cd2b64c194b0f66d13efec326f26fe608fcf979746d9fafff7"
+      }
+    ]
+  },
+  {
+    "name": "XMAST.RFS",
+    "bytes": 1749012,
+    "sha256": "3da8c308944dc0922ccc50a47f43aba3adbc59e7171496bcb2dbf9872901ade0",
+    "entries": [
+      {
+        "name": "A_Xmas_01.RFT",
+        "offset": 452,
+        "size": 349648,
+        "sha256": "4ed6b20db100d01a8ef25a98cd4039c52e7d6e414d6c347b0b31016c68867a02"
+      },
+      {
+        "name": "A_Xmas_02.RFT",
+        "offset": 350100,
+        "size": 174904,
+        "sha256": "433ecab982d4bceec6f4b0cc39b7844f00d24341fe7b767b0c9f66431d0ab125"
+      },
+      {
+        "name": "A_Xmas_HELMET.RFT",
+        "offset": 525004,
+        "size": 174904,
+        "sha256": "74f2659acf74d93bc7c56c7234fe7731196a1331283fde2c642c426cf99fd756"
+      },
+      {
+        "name": "B_Xmas_01.RFT",
+        "offset": 699908,
+        "size": 349648,
+        "sha256": "4ed6b20db100d01a8ef25a98cd4039c52e7d6e414d6c347b0b31016c68867a02"
+      },
+      {
+        "name": "B_Xmas_02.RFT",
+        "offset": 1049556,
+        "size": 174904,
+        "sha256": "433ecab982d4bceec6f4b0cc39b7844f00d24341fe7b767b0c9f66431d0ab125"
+      },
+      {
+        "name": "C_Xmas_01.RFT",
+        "offset": 1224460,
+        "size": 349648,
+        "sha256": "4ed6b20db100d01a8ef25a98cd4039c52e7d6e414d6c347b0b31016c68867a02"
+      },
+      {
+        "name": "C_Xmas_02.RFT",
+        "offset": 1574108,
+        "size": 174904,
+        "sha256": "433ecab982d4bceec6f4b0cc39b7844f00d24341fe7b767b0c9f66431d0ab125"
+      }
+    ]
+  },
+  {
+    "name": "ori6770.RFS",
+    "bytes": 19637220,
+    "sha256": "ba20b4259731812d5963bb1935b91b9915ede2fd819e822a9a8249b08b37aa36",
+    "entries": [
+      {
+        "name": "AC_ARMOR_GLOVES_070fa.rft",
+        "offset": 6084,
+        "size": 65664,
+        "sha256": "5716cee0cdcd301c38c4bea100c4b64c82ce05214cb5df3e7811dfffaa609778"
+      },
+      {
+        "name": "AC_ARMOR_GLOVES_070ra.rft",
+        "offset": 71748,
+        "size": 87536,
+        "sha256": "3bf55d1fdcd03170a1f985a3ffbc16edeebb9b3defe6a5389d866c5df7294637"
+      },
+      {
+        "name": "AC_ARMOR_GLOVES_070wa.rft",
+        "offset": 159284,
+        "size": 87536,
+        "sha256": "ce193188b95891e795426fabf7f4c387f094f5ab578c53badd517b1dc8627ccf"
+      },
+      {
+        "name": "AC_ARMOR_HELMET_070fa.rft",
+        "offset": 246820,
+        "size": 87536,
+        "sha256": "7337bc188bb2180dfa0f1d268bb528e94e6023c20b59c1974974733bf67ceefb"
+      },
+      {
+        "name": "AC_ARMOR_HELMET_070ra.rft",
+        "offset": 334356,
+        "size": 87536,
+        "sha256": "49f6ec8bacb0481885526ed5ae3d08f6a75d2b4b9e123f214725c552f491fc22"
+      },
+      {
+        "name": "AC_ARMOR_HELMET_070wa.rft",
+        "offset": 421892,
+        "size": 87536,
+        "sha256": "063cf4cce6762f57828671858a34e42935e8f409a434d988a56363c6d257ed36"
+      },
+      {
+        "name": "AC_ARMOR_LOWER_070fa.rft",
+        "offset": 509428,
+        "size": 349680,
+        "sha256": "b9c10d69d627a9602fa0f5839298cd6cef7226e919d9e7686acfb9c4c2f81bf0"
+      },
+      {
+        "name": "AC_ARMOR_LOWER_070ra.rft",
+        "offset": 859108,
+        "size": 349680,
+        "sha256": "a962f201d8f52583a8b8aaca5937f50ca7a16d69c2ad4045631f11e784c38ff4"
+      },
+      {
+        "name": "AC_ARMOR_LOWER_070wa.rft",
+        "offset": 1208788,
+        "size": 349680,
+        "sha256": "10c8f5dfe41ea7ed1d8c3f2bafbbdb0736f2e30861460f10606f59387dd75d4d"
+      },
+      {
+        "name": "AC_ARMOR_SHOES_070fa.rft",
+        "offset": 1558468,
+        "size": 65664,
+        "sha256": "9f19660f7ebdcc25ec24967ff25f32f96fe9986530bfea7b198f67db91796d2f"
+      },
+      {
+        "name": "AC_ARMOR_SHOES_070ra.rft",
+        "offset": 1624132,
+        "size": 87536,
+        "sha256": "10fb3450c513b02ba99213e52ce3f4256223d4758c1466f334618de963e582dc"
+      },
+      {
+        "name": "AC_ARMOR_SHOES_070wa.rft",
+        "offset": 1711668,
+        "size": 87536,
+        "sha256": "2469ced7b4a82a5ec5eee6fd8f8f61925239b3596fde1e67be467060a0cdc226"
+      },
+      {
+        "name": "AC_ARMOR_UPPER_070fa.rft",
+        "offset": 1799204,
+        "size": 349680,
+        "sha256": "c6d284e1e1f9e8455038c2f5fa4b0242fb7f2dcbb3d4a7a38d3ccd847edb6e95"
+      },
+      {
+        "name": "AC_ARMOR_UPPER_070ra.rft",
+        "offset": 2148884,
+        "size": 349680,
+        "sha256": "d41b21f805988fa1334caeccf2fd5f187c6969f57b602539e8a7ccd94eb492b5"
+      },
+      {
+        "name": "AC_ARMOR_UPPER_070wa.rft",
+        "offset": 2498564,
+        "size": 349680,
+        "sha256": "99cd6baad697d5bb79e099e7a6ba43b0a15a7474ea48b03ac494c58280de758a"
+      },
+      {
+        "name": "BEFE_FACE_070FA.rft",
+        "offset": 2848244,
+        "size": 174888,
+        "sha256": "0918e62d86d46b2bcbc3f81da055212fe3461ded90af582786a8358aaf3d73d8"
+      },
+      {
+        "name": "BEFE_FACE_070RA.rft",
+        "offset": 3023132,
+        "size": 174888,
+        "sha256": "0918e62d86d46b2bcbc3f81da055212fe3461ded90af582786a8358aaf3d73d8"
+      },
+      {
+        "name": "BEFE_FACE_070WA.rft",
+        "offset": 3198020,
+        "size": 174888,
+        "sha256": "0918e62d86d46b2bcbc3f81da055212fe3461ded90af582786a8358aaf3d73d8"
+      },
+      {
+        "name": "BEFE_GLOVES_070FA.rft",
+        "offset": 3372908,
+        "size": 87536,
+        "sha256": "bfd31f0b00036919ef9862e2d4e3a73a261d0cc993a12499c1e63482536f5c03"
+      },
+      {
+        "name": "BEFE_GLOVES_070RA.rft",
+        "offset": 3460444,
+        "size": 87536,
+        "sha256": "b9f4b554b794eaf1a794169d9399196c75985cbdfe98e693a0eaeaca007ac5e2"
+      },
+      {
+        "name": "BEFE_GLOVES_070WA.rft",
+        "offset": 3547980,
+        "size": 87536,
+        "sha256": "dcec27af91c93ecff9945b6b4ced2ddb0bf73e1df7a57288c62d90f8e05eab71"
+      },
+      {
+        "name": "BEFE_HAIR_070FA.rft",
+        "offset": 3635516,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BEFE_HAIR_070RA.rft",
+        "offset": 3985164,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BEFE_HAIR_070WA.rft",
+        "offset": 4334812,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BEFE_HELMET_070FA.rft",
+        "offset": 4684460,
+        "size": 22000,
+        "sha256": "1d8423f8177d07ad7b3242fb068060d4b372fb07d7943571d223b884972a1340"
+      },
+      {
+        "name": "BEFE_HELMET_070RA.rft",
+        "offset": 4706460,
+        "size": 22000,
+        "sha256": "5d97678ba739247dc9ae0abf31ccd0ffed3dabc5eac4e0a6b9cdbf80f852845d"
+      },
+      {
+        "name": "BEFE_HELMET_070WA.rft",
+        "offset": 4728460,
+        "size": 22000,
+        "sha256": "f95d13169f9b57ed746d0d90f5f6989678afe9b1421dd3e5e23dcf6865ca94b2"
+      },
+      {
+        "name": "BEFE_LOWER_070FA.rft",
+        "offset": 4750460,
+        "size": 349680,
+        "sha256": "ef1805aff0e81cb84ecd6bc358a0ed7aad00926ccf17b441545ff6c1fdf80c9f"
+      },
+      {
+        "name": "BEFE_LOWER_070RA.rft",
+        "offset": 5100140,
+        "size": 349680,
+        "sha256": "cf1f23988a91cdc2bae1fb73de7e2560270eacfdf51cbb5ce7e084a4cf103654"
+      },
+      {
+        "name": "BEFE_LOWER_070WA.rft",
+        "offset": 5449820,
+        "size": 349680,
+        "sha256": "2599f80e2e6db6b277aaea6458988c0c7de76bd6f6dc08598de08f64232adbfe"
+      },
+      {
+        "name": "BEFE_SHOES_070FA.rft",
+        "offset": 5799500,
+        "size": 87536,
+        "sha256": "fee91540ef34feb1daa42c017e22274d34c8e7a16ffd0b554c5aa4389a14e5ac"
+      },
+      {
+        "name": "BEFE_SHOES_070RA.rft",
+        "offset": 5887036,
+        "size": 65664,
+        "sha256": "5ff58895595b6d4411de925deb0732b1dd08d36cd25161e3a660a2077537b38a"
+      },
+      {
+        "name": "BEFE_SHOES_070WA.rft",
+        "offset": 5952700,
+        "size": 87536,
+        "sha256": "6e9f7f84f6a046ebfef9a360d720477fef87de57e254485e53dd95f416c9f75f"
+      },
+      {
+        "name": "BEFE_UPPER_070FA.rft",
+        "offset": 6040236,
+        "size": 349680,
+        "sha256": "3d95e21f3ae3f09a4ff44126ae212cecb37af117a5aa5ad337be35271a62c884"
+      },
+      {
+        "name": "BEFE_UPPER_070RA.rft",
+        "offset": 6389916,
+        "size": 349680,
+        "sha256": "51caa3653fe6df47ab683ef2d5f4db7f6045d7466959bfc4d3daf9654d99f61e"
+      },
+      {
+        "name": "BEFE_UPPER_070WA.rft",
+        "offset": 6739596,
+        "size": 349680,
+        "sha256": "906919b938f52d1718055c2ea75a94ebc63b7a6dc265dcd54b58cb0ff73ba1c2"
+      },
+      {
+        "name": "BEMA_FACE_070FA.rft",
+        "offset": 7089276,
+        "size": 174888,
+        "sha256": "c3f642916426ab888fbea79d3371f29f211c65e69705daf058a23d5be650b81c"
+      },
+      {
+        "name": "BEMA_FACE_070RA.rft",
+        "offset": 7264164,
+        "size": 174888,
+        "sha256": "c3f642916426ab888fbea79d3371f29f211c65e69705daf058a23d5be650b81c"
+      },
+      {
+        "name": "BEMA_FACE_070WA.rft",
+        "offset": 7439052,
+        "size": 174888,
+        "sha256": "c3f642916426ab888fbea79d3371f29f211c65e69705daf058a23d5be650b81c"
+      },
+      {
+        "name": "BEMA_GLOVES_070FA.rft",
+        "offset": 7613940,
+        "size": 87536,
+        "sha256": "763d83a34dc2504dcdf0616490bd6a90fe6059845f068c3283f77fc47ea562e0"
+      },
+      {
+        "name": "BEMA_GLOVES_070RA.rft",
+        "offset": 7701476,
+        "size": 87536,
+        "sha256": "55ffaed81fd365b0732b530be77a5d799d88a2b01d3e544a966b0b5a4822440a"
+      },
+      {
+        "name": "BEMA_GLOVES_070WA.rft",
+        "offset": 7789012,
+        "size": 87536,
+        "sha256": "311313b25eddb280d1e8df758fa7896e8406962d8c7b9da0964b6d2e1bfc4ece"
+      },
+      {
+        "name": "BEMA_HAIR_070FA.rft",
+        "offset": 7876548,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BEMA_HAIR_070RA.rft",
+        "offset": 8226196,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BEMA_HAIR_070WA.rft",
+        "offset": 8575844,
+        "size": 349648,
+        "sha256": "b9ea47181f70779bd73059ef029b05581fbcfb693b4610c714f1b1bb46597dec"
+      },
+      {
+        "name": "BEMA_HELMET_070FA.rft",
+        "offset": 8925492,
+        "size": 87536,
+        "sha256": "902bd0ffb3c32f64b24ef80023e55040bab91e9f84e5e3c66c8e0b0bb5b7aa48"
+      },
+      {
+        "name": "BEMA_HELMET_070RA.rft",
+        "offset": 9013028,
+        "size": 22000,
+        "sha256": "2cf4d6a3590e8a8fdbd6e83ade896d4841148aa53a1d173fb8a28d2519e29b21"
+      },
+      {
+        "name": "BEMA_HELMET_070WA.rft",
+        "offset": 9035028,
+        "size": 22000,
+        "sha256": "55ff26c578c1a35ea6529ee2f09737f165659138ad6c0814d667dbaae65ab886"
+      },
+      {
+        "name": "BEMA_LOWER_070FA.rft",
+        "offset": 9057028,
+        "size": 349680,
+        "sha256": "b63eb31fc326ec8c660e0d41bf0094d70c178e109ee8394985a24a1fd379fda7"
+      },
+      {
+        "name": "BEMA_LOWER_070RA.rft",
+        "offset": 9406708,
+        "size": 349680,
+        "sha256": "424f9b54ad5bde14c4bc5913efc48f8338552fdfecf9fe738184eb4b75b1b9f6"
+      },
+      {
+        "name": "BEMA_LOWER_070WA.rft",
+        "offset": 9756388,
+        "size": 349680,
+        "sha256": "33860eea02b005001fa7400177eb7bed4d6e580952d21629c8600fa15f306f93"
+      },
+      {
+        "name": "BEMA_SHOES_070FA.rft",
+        "offset": 10106068,
+        "size": 87536,
+        "sha256": "ecde2dc52c3d6e430e1799b304fb0ae1745d5a5d4e63288a8460c3d61b2d02c0"
+      },
+      {
+        "name": "BEMA_SHOES_070RA.rft",
+        "offset": 10193604,
+        "size": 65664,
+        "sha256": "0c2d2d78b049b10c3760143afb28b8a0fb3925351e2717efd04e8c9abdd1f0be"
+      },
+      {
+        "name": "BEMA_SHOES_070WA.rft",
+        "offset": 10259268,
+        "size": 87536,
+        "sha256": "92bd9f45827aae75e4869bc14d3177aacbefde56a4a0db9b735d83697cb8692a"
+      },
+      {
+        "name": "BEMA_UPPER_070FA.rft",
+        "offset": 10346804,
+        "size": 349680,
+        "sha256": "b95cfb8dde4118deb69092bdf9681f843ddb77ae7761f0c706b2e548ca9bd8d3"
+      },
+      {
+        "name": "BEMA_UPPER_070RA.rft",
+        "offset": 10696484,
+        "size": 349680,
+        "sha256": "1ad160113f44ac42117ca2de08cd4c3e40107106928ade204b57f8290d66474d"
+      },
+      {
+        "name": "BEMA_UPPER_070WA.rft",
+        "offset": 11046164,
+        "size": 349680,
+        "sha256": "76a0d7cf208b63ad111efd446946029bc2518d62ee65cbd44170cc4837c735a7"
+      },
+      {
+        "name": "COFE_FACE_070FA.rft",
+        "offset": 11395844,
+        "size": 174904,
+        "sha256": "8f7068fb9bcccd63c628c86e50809d8f95f5e82ed3508ef0abaef52914b440df"
+      },
+      {
+        "name": "COFE_FACE_070RA.rft",
+        "offset": 11570748,
+        "size": 174904,
+        "sha256": "8f7068fb9bcccd63c628c86e50809d8f95f5e82ed3508ef0abaef52914b440df"
+      },
+      {
+        "name": "COFE_FACE_070WA.rft",
+        "offset": 11745652,
+        "size": 174904,
+        "sha256": "8f7068fb9bcccd63c628c86e50809d8f95f5e82ed3508ef0abaef52914b440df"
+      },
+      {
+        "name": "COFE_GLOVES_070FA.rft",
+        "offset": 11920556,
+        "size": 87536,
+        "sha256": "32147499edaa8fbdd468ee2a3d38e7a4a61d5f1c641edf6a06e47c405dbbeebd"
+      },
+      {
+        "name": "COFE_GLOVES_070RA.rft",
+        "offset": 12008092,
+        "size": 87536,
+        "sha256": "745c8d548015bfbaaa031a211aea0ca505d01c9f32eb8dc83fce27f362d79b8e"
+      },
+      {
+        "name": "COFE_GLOVES_070WA.rft",
+        "offset": 12095628,
+        "size": 87536,
+        "sha256": "8598c9332fd667960e82418a482f6182f88cbd70a8e6e9f564ee7997563f875a"
+      },
+      {
+        "name": "COFE_HAIR_070FA.rft",
+        "offset": 12183164,
+        "size": 349680,
+        "sha256": "e49c3e496278095005510862eccbeaf982eede6ad331d8d2569f638a5e252fc4"
+      },
+      {
+        "name": "COFE_HAIR_070RA.rft",
+        "offset": 12532844,
+        "size": 349680,
+        "sha256": "e49c3e496278095005510862eccbeaf982eede6ad331d8d2569f638a5e252fc4"
+      },
+      {
+        "name": "COFE_HAIR_070WA.rft",
+        "offset": 12882524,
+        "size": 349680,
+        "sha256": "e49c3e496278095005510862eccbeaf982eede6ad331d8d2569f638a5e252fc4"
+      },
+      {
+        "name": "COFE_LOWER_070FA.rft",
+        "offset": 13232204,
+        "size": 349680,
+        "sha256": "b48b346a99989ad11bb1faa98ef5d49b4d37897b85dee669e647170a1969b4be"
+      },
+      {
+        "name": "COFE_LOWER_070RA.rft",
+        "offset": 13581884,
+        "size": 262272,
+        "sha256": "7d58fde735ae1da6d9ad65ef54d0a3cfd510bfe11f7b025d8d2673cd2f578eeb"
+      },
+      {
+        "name": "COFE_LOWER_070WA.rft",
+        "offset": 13844156,
+        "size": 349680,
+        "sha256": "a2ebf5fedde3f251e023e3f7a803fde3d3e1068948257dd57f8fdf78fa73b3c7"
+      },
+      {
+        "name": "COFE_SHOES_070FA.rft",
+        "offset": 14193836,
+        "size": 65664,
+        "sha256": "f1cc66829b5e81505263b575dabcc7bac0fc88737609303182687c8d1b994aab"
+      },
+      {
+        "name": "COFE_SHOES_070RA.rft",
+        "offset": 14259500,
+        "size": 65664,
+        "sha256": "6ac68ea7864fb9955c00ee0f0cf96339c3a34755d5db88ef7b6fcd91ff436826"
+      },
+      {
+        "name": "COFE_SHOES_070WA.rft",
+        "offset": 14325164,
+        "size": 65664,
+        "sha256": "75cb2b3234a38212ef94aa0da3cb5c5ec53a2e09f6741d4496d315a6de544006"
+      },
+      {
+        "name": "COFE_UPPER_070FA.rft",
+        "offset": 14390828,
+        "size": 349680,
+        "sha256": "ee065c2aae084d3a8f0dcf9b01f1dc81267b13350ffc056b9d2d1e09b7f7aaba"
+      },
+      {
+        "name": "COFE_UPPER_070RA.rft",
+        "offset": 14740508,
+        "size": 262272,
+        "sha256": "d41c70cac3806fdb1791a29dcd7cebe88eaa2ee9896e4ef67459d26551ca4457"
+      },
+      {
+        "name": "COFE_UPPER_070RA_1RA.rft",
+        "offset": 15002780,
+        "size": 43856,
+        "sha256": "dd5a86dc3ce926a402bb6f67f2c02e7a058cef4b6b32abc96f74f5a1cccb9e22"
+      },
+      {
+        "name": "COFE_UPPER_070WA.rft",
+        "offset": 15046636,
+        "size": 349680,
+        "sha256": "7b72df015ba8f17cc7da93c12ee65ffaa4de02c284598c4f807df0d362c11f16"
+      },
+      {
+        "name": "COMA_FACE_070FA.rft",
+        "offset": 15396316,
+        "size": 174904,
+        "sha256": "57ee9641b3efa1919f2e65408b2b5bba2856def0702094cdeec2636aec5e247e"
+      },
+      {
+        "name": "COMA_FACE_070RA.rft",
+        "offset": 15571220,
+        "size": 174904,
+        "sha256": "57ee9641b3efa1919f2e65408b2b5bba2856def0702094cdeec2636aec5e247e"
+      },
+      {
+        "name": "COMA_FACE_070WA.rft",
+        "offset": 15746124,
+        "size": 174904,
+        "sha256": "57ee9641b3efa1919f2e65408b2b5bba2856def0702094cdeec2636aec5e247e"
+      },
+      {
+        "name": "COMA_GLOVES_070FA.rft",
+        "offset": 15921028,
+        "size": 87536,
+        "sha256": "0cc0609b6fcf4f5508db7eee5f9776a98330304d13305608a5697af298ec0d1b"
+      },
+      {
+        "name": "COMA_GLOVES_070RA.rft",
+        "offset": 16008564,
+        "size": 87536,
+        "sha256": "b5766f87b10be1e7acb7a41d532e801e5c825ba51df39496c49b3a607907e908"
+      },
+      {
+        "name": "COMA_GLOVES_070WA.rft",
+        "offset": 16096100,
+        "size": 87536,
+        "sha256": "4f167cc798d172d55a3b09abc4e37d915bcb3f8c328e351bbd6c3d7ed39ca6e7"
+      },
+      {
+        "name": "COMA_HAIR_070FA.rft",
+        "offset": 16183636,
+        "size": 349680,
+        "sha256": "90b1238e073605808872b0fc3aeb073e7f285561c9cdde497d5959813c988509"
+      },
+      {
+        "name": "COMA_HAIR_070RA.rft",
+        "offset": 16533316,
+        "size": 349680,
+        "sha256": "90b1238e073605808872b0fc3aeb073e7f285561c9cdde497d5959813c988509"
+      },
+      {
+        "name": "COMA_HAIR_070WA.rft",
+        "offset": 16882996,
+        "size": 349680,
+        "sha256": "90b1238e073605808872b0fc3aeb073e7f285561c9cdde497d5959813c988509"
+      },
+      {
+        "name": "COMA_LOWER_070FA.rft",
+        "offset": 17232676,
+        "size": 349680,
+        "sha256": "524ce6f75ca3a798966805e9f6f209c0554d27e685d164cb6d924a8915486954"
+      },
+      {
+        "name": "COMA_LOWER_070RA.rft",
+        "offset": 17582356,
+        "size": 349680,
+        "sha256": "b274efc4c5177db1397b102ff52e82b99d88a3adb618225c370e4a48b597ceeb"
+      },
+      {
+        "name": "COMA_LOWER_070WA.rft",
+        "offset": 17932036,
+        "size": 349680,
+        "sha256": "2fc743f3d61f9cac5945cd27b0011be6dc4eccf19626a44bd4ec274a597a34a7"
+      },
+      {
+        "name": "COMA_SHOES_070FA.rft",
+        "offset": 18281716,
+        "size": 87536,
+        "sha256": "4bb32f475a1354acaf074fb5ac79d9c2e02fdee911fe867a073917070ab2dc6e"
+      },
+      {
+        "name": "COMA_SHOES_070RA.rft",
+        "offset": 18369252,
+        "size": 87536,
+        "sha256": "c11df1abccf297caae64b1e97fe97e40aa6a620080f13b4456f96a8d365312c8"
+      },
+      {
+        "name": "COMA_SHOES_070WA.rft",
+        "offset": 18456788,
+        "size": 87536,
+        "sha256": "75255a5747cb88d510c79d4cd96ed53d23358d41f4de05e9a77f82fc0f1f7591"
+      },
+      {
+        "name": "COMA_UPPER_070FA.rft",
+        "offset": 18544324,
+        "size": 349680,
+        "sha256": "4d5e4e6857d7d681046a5852dce1c34f52b5d185d1d7c94abff86c3ec49d89bf"
+      },
+      {
+        "name": "COMA_UPPER_070RA.rft",
+        "offset": 18894004,
+        "size": 349680,
+        "sha256": "eafd17c8e2ff4acfddc64b1f6a0ad30cbc3faa9999059a941c7e593fe74d0a7b"
+      },
+      {
+        "name": "COMA_UPPER_070RA_1RA.rft",
+        "offset": 19243684,
+        "size": 43856,
+        "sha256": "b9bc05d5b65d29283c1b6c720b59238be128081f5cd24f2ecaf9c1d7bd31f85f"
+      },
+      {
+        "name": "COMA_UPPER_070WA.rft",
+        "offset": 19287540,
+        "size": 349680,
+        "sha256": "ccb3f5c9142dffbda0f10373c3412ff421ae5c041ddbd2892af8567354ee348f"
       }
     ]
   }

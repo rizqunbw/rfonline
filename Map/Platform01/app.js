@@ -116,7 +116,7 @@ async function load(){if(!gl||!program)return;
   reset();
   document.querySelector('#menu h1').innerHTML='Bellato.<br><em>Platform01.</em>';
   document.querySelector('#menu > p').textContent='Jelajahi Platform01 dengan armor Bellato dan animasi asli. WASD untuk jalan, Shift untuk lari, mouse untuk mengatur kamera.';
-  $('scopeNote').textContent='Kaki mengikuti permukaan map. Tabrakan dinding dan kamera, wajah/rambut, combat, serta multiplayer belum tersedia.';
+  $('scopeNote').textContent='Kaki mengikuti permukaan map. Tabrakan dinding dan kamera, combat, serta multiplayer belum tersedia.';
   document.querySelector('.mission').hidden=true;document.querySelector('.crosshair').hidden=true;
   document.querySelector('footer > span:first-child').textContent='WASD GERAK · MOUSE / ← → LIHAT · SHIFT LARI';
   for(const key of ['KeyQ','KeyE'])document.querySelector(`[data-key="${key}"]`).hidden=true;

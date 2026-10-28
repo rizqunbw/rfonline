@@ -19,7 +19,7 @@ class CharacterTests(unittest.TestCase):
 
     def test_uploaded_texture_archives_and_rendered_source_hashes(self):
         manifest = json.loads((ROOT / 'Tex/manifest.json').read_text())
-        self.assertEqual(len(manifest), 15)
+        self.assertEqual(len(manifest), 28)
         self.assertEqual({p.name for p in (ROOT/'Tex').glob('*.RFS')}, {r['name'] for r in manifest})
         for record in manifest:
             raw = (ROOT / 'Tex' / record['name']).read_bytes()
@@ -40,8 +40,13 @@ class CharacterTests(unittest.TestCase):
         expected = []
         for slot in ['GLOVES', 'HELMET', 'LOWER', 'SHOES', 'UPPER']:
             expected.extend(read_mesh((ROOT/f'Mesh/BFF00/BELFEMALE_ARMOR_{slot}_171.msh').read_bytes(), names))
-        self.assertEqual(expected, self.model['meshes'])
-        self.assertEqual(sum(len(m['positions'])//9 for m in expected), 3098)
+        raw = (ROOT/'Mesh/DEFAULTBF.RFS').read_bytes()
+        for name in ['BELFEMALE_DEFAULT_FACE_000.msh', 'BELFEMALE_DEFAULT_HELMET_000.msh']:
+            entry = next(e for e in entries(raw) if e['name']==name)
+            expected.extend(read_mesh(raw[entry['offset']:entry['offset']+entry['size']], names))
+        self.assertEqual(expected, [{k:v for k,v in m.items() if k not in ['slot','resourceId']} for m in self.model['meshes']])
+        self.assertEqual(sum(len(m['positions'])//9 for m in expected), 4056)
+        self.assertEqual({m['slot'] for m in self.model['meshes']}, {'gloves','helmet','lower','shoes','upper','face','hair'})
         skin = []
         for bone, exported in zip(self.bones, self.model['bones']):
             inverse = np.array(exported['inverseBind']).reshape(4, 4).T
@@ -59,8 +64,10 @@ class CharacterTests(unittest.TestCase):
             self.assertTrue(np.allclose(posed, positions, atol=1e-5))
 
     def test_decoded_textures_are_lossless(self):
-        raw = (ROOT / 'Tex/BFF00.RFS').read_bytes()
-        for e, texture in zip(entries(raw), self.model['textures']):
+        self.assertEqual(len(self.model['textures']), 7)
+        for texture in self.model['textures']:
+            raw = (ROOT/texture['archive']).read_bytes()
+            e = next(e for e in entries(raw) if e['name']==texture['original'])
             data = raw[e['offset']:e['offset']+e['size']]
             data = bytes(a ^ b for a, b in zip(data[:128], KEY)) + data[128:]
             expected = Image.open(io.BytesIO(data)).convert('RGBA')

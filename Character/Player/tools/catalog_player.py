@@ -42,14 +42,14 @@ def read_tables(path):
     return tables
 
 
-def references(directory):
+def references(directory, root=ROOT):
     index = defaultdict(list)
     for archive in sorted(directory.iterdir()):
         if archive.suffix.lower() != '.rfs':
             continue
         data = archive.read_bytes()
         for entry in entries(data):
-            index[entry['name'].casefold()].append(dict(archive=str(archive.relative_to(ROOT)), **entry))
+            index[entry['name'].casefold()].append(dict(archive=str(archive.relative_to(root)), **entry))
     return index
 
 
@@ -63,7 +63,7 @@ def resolve(record, index, folder):
 def catalog(root=ROOT):
     # All archive payload bounds and digests are re-read, never trusted from a previous catalog.
     tables = read_tables(root / 'Player.xlsx')
-    mesh_index, ani_index, tex_index = [references(root / d) for d in ['Mesh', 'Ani', 'Tex']]
+    mesh_index, ani_index, tex_index = [references(root / d, root) for d in ['Mesh', 'Ani', 'Tex']]
     bone_files = {p.name.casefold(): p for p in (root / 'Bone').iterdir() if p.is_file()}
     bones = []
     for record in tables['Bone']:
@@ -89,26 +89,48 @@ def catalog(root=ROOT):
         if mesh['status'] != 'missing':
             resource_ids[mesh['fields']['FileName'].casefold()].append(mesh['resourceId'])
     archive_data = {}
-    parsed_meshes = []
+    parsed_meshes, ancillary = [], []
     for key, refs in sorted(mesh_index.items()):
         for ref in refs:
             if ref['archive'] not in archive_data:
                 archive_data[ref['archive']] = (root / ref['archive']).read_bytes()
             raw = archive_data[ref['archive']]
-            result = inspect(raw[ref['offset']:ref['offset']+ref['size']])
+            payload = raw[ref['offset']:ref['offset']+ref['size']]
+            if Path(ref['name']).suffix.lower() != '.msh':
+                ancillary.append(ref)
+                continue
+            try:
+                result = inspect(payload)
+                inspection = dict(status='parsed')
+            except ValueError as error:
+                result = None
+                inspection = dict(status='unsupported' if payload.startswith(b'MESH08') else 'inspection_failed', reason=str(error))
             textures = []
-            for name in sorted({o['texture'] for o in result['objects'] if o['texture']}):
+            for name in sorted({o['texture'] for o in result['objects'] if o['texture']} if result else []):
                 candidates = tex_by_stem.get(Path(name).stem.casefold(), [])
                 textures.append(dict(name=name, status='missing' if not candidates else 'available' if len({c['sha256'] for c in candidates}) == 1 else 'ambiguous', candidates=candidates))
-            parsed_meshes.append(dict(**ref, resourceIds=resource_ids.get(key, []), mesh=result, textures=textures))
+            parsed_meshes.append(dict(**ref, resourceIds=resource_ids.get(key, []), inspection=inspection, mesh=result, textures=textures))
     summary = dict(workbookRows={k: len(v) for k, v in tables.items()},
                    boneStatus=dict(Counter(r['status'] for r in bones)),
                    meshStatus=dict(Counter(r['status'] for r in meshes)),
                    animationStatus=dict(Counter(r['status'] for r in animations)),
                    uploadedMeshArchives=len(archive_data), uploadedMeshes=len(parsed_meshes),
                    uploadedMeshesWithWorkbookId=sum(bool(m['resourceIds']) for m in parsed_meshes),
-                   uploadedMeshesWithAllTextures=sum(all(t['status']=='available' for t in m['textures']) for m in parsed_meshes),
+                   inspectionStatus=dict(Counter(m['inspection']['status'] for m in parsed_meshes)),
+                   uploadedMeshesWithAllTextures=sum(m['mesh'] is not None and bool(m['textures']) and all(t['status']=='available' for t in m['textures']) for m in parsed_meshes),
+                   ancillaryMeshFolderPayloads=ancillary,
                    missingTextureNames=sorted({t['name'] for m in parsed_meshes for t in m['textures'] if t['status']=='missing'}))
+    registries = {}
+    for folder in ['Mesh', 'Tex']:
+        registry_path = root/folder/'RFSInfo.dat'
+        if registry_path.exists():
+            listed = [line.strip() for line in registry_path.read_text(encoding='ascii').splitlines() if line.strip()]
+            available = {p.name.casefold(): p.name for p in (root/folder).iterdir() if p.suffix.lower()=='.rfs'}
+            listed_lower = {n.casefold() for n in listed}
+            registries[folder] = dict(listed=len(listed), availableListed=sum(n.casefold() in available for n in listed),
+                missing=[n for n in listed if n.casefold() not in available],
+                unlisted=[n for key, n in sorted(available.items()) if key not in listed_lower])
+    summary['archiveRegistries'] = registries
     resources = dict(workbook=dict(path='Player.xlsx', sha256=hashlib.sha256((root/'Player.xlsx').read_bytes()).hexdigest()),
                      summary=summary, bones=bones, meshes=meshes, animations=animations)
     return resources, parsed_meshes

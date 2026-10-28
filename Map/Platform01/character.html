@@ -10,8 +10,9 @@
     <p class="subtitle">Armor 171 · Original RF assets</p>
     <div class="stats"><div><strong>25</strong><span>BONES</span></div><div><strong>05</strong><span>ARMOR PARTS</span></div><div><strong>04</strong><span>ANIMATIONS</span></div></div>
     <p class="description">Coba gerakan karakter dan periksa armornya dari semua sisi.</p>
-    <p class="asset-note">Mesh wajah dan rambut belum tersedia. Preview menampilkan armor yang sudah diunggah.</p>
-    <a class="enter" href="./?character=1">MASUK PLATFORM01 <span>↗</span></a>
+    <label class="headwear-choice" for="headwear">TAMPILAN KEPALA <select id="headwear" disabled><option value="hair">Rambut default</option><option value="helmet">Helm armor 171</option></select></label>
+    <p class="asset-note">Pilih rambut atau helm, lalu coba karaktermu di Platform01.</p>
+    <a class="enter" id="enterMap" href="./?character=1">MASUK PLATFORM01 <span>↗</span></a>
   </main>
   <div class="view-tools"><button id="resetView" disabled aria-label="Atur ulang kamera dan posisi karakter">RESET VIEW</button><label><input id="skeleton" type="checkbox" disabled> TULANG</label></div>
   <section class="controls" aria-label="Kontrol animasi">

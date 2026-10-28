@@ -4,6 +4,7 @@ import {loadCharacter} from './character-model.js';
 // Share Platform01's existing WebGL context; do not duplicate terrain assets.
 export async function createCharacterWorld(gl, canvas) {
   const character = await loadCharacter();
+  character.setHeadwear(new URLSearchParams(location.search).get('headwear') === 'helmet' ? 'helmet' : 'hair');
   const renderer = new THREE.WebGLRenderer({canvas, context:gl, antialias:true});
   renderer.useLegacyLights = false;
   renderer.autoClear = false;

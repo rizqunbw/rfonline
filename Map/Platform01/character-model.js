@@ -33,6 +33,7 @@ export async function loadCharacter() {
     const material = new THREE.MeshStandardMaterial({map: textures.get(info.texture), roughness: .76, metalness: .12, side: THREE.DoubleSide, alphaTest: .15});
     const mesh = new THREE.SkinnedMesh(geometry, material);
     mesh.name = info.name;
+    mesh.userData.slot = info.slot;
     mesh.frustumCulled = false;
     mesh.castShadow = true;
     root.add(mesh);
@@ -61,8 +62,17 @@ export async function loadCharacter() {
   }
   const height = data.bounds[1][1] - data.bounds[0][1];
   root.scale.setScalar(1.8 / height);
+  let headwear = 'hair';
+  function setHeadwear(value) {
+    if (!['hair','helmet'].includes(value)) throw Error('Pilihan kepala tidak dikenal');
+    headwear = value;
+    for (const mesh of meshes) {
+      if (['hair','helmet'].includes(mesh.userData.slot)) mesh.visible = mesh.userData.slot === value;
+    }
+  }
+  setHeadwear(headwear);
   play('idle', 0);
-  return {root, skeleton, meshes, data, mixer, play,
+  return {root, skeleton, meshes, data, mixer, play, setHeadwear,
     update(dt) { mixer.update(dt); ticks++; },
     diagnostics() {
       root.updateMatrixWorld(true);
@@ -71,6 +81,7 @@ export async function loadCharacter() {
       meshes[0].applyBoneTransform(0, point);
       return {name: data.name, bones: bones.length, meshes: meshes.length, textures: textures.size,
         triangles: data.meshes.reduce((sum, m) => sum + m.positions.length / 9, 0),
+        headwear, visibleSlots: [...new Set(meshes.filter(m=>m.visible).map(m=>m.userData.slot))],
         clip: current, time: mixer.time, frames: ticks, sampleVertex: point.toArray(),
         finitePose: Array.from(skeleton.boneMatrices).every(Number.isFinite)};
     }

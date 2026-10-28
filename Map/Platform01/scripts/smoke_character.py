@@ -16,6 +16,16 @@ with sync_playwright() as p:
     page.goto(BASE + '/character.html')
     page.wait_for_function('window.characterDiagnostics !== undefined', timeout=90000)
     page.wait_for_function('characterDiagnostics().frames > 3')
+    assert page.evaluate('characterDiagnostics().textures') == 7
+    assert 'face' in page.evaluate('characterDiagnostics().visibleSlots')
+    assert 'hair' in page.evaluate('characterDiagnostics().visibleSlots')
+    assert 'helmet' not in page.evaluate('characterDiagnostics().visibleSlots')
+    page.select_option('#headwear', 'helmet')
+    assert 'helmet' in page.evaluate('characterDiagnostics().visibleSlots')
+    assert 'hair' not in page.evaluate('characterDiagnostics().visibleSlots')
+    assert 'headwear=helmet' in page.locator('#enterMap').get_attribute('href')
+    page.screenshot(path='/tmp/rf-character-helmet.png')
+    page.select_option('#headwear', 'hair')
     for name in ['idle', 'walk', 'run', 'combat']:
         page.click(f'[data-clip="{name}"]')
         page.wait_for_function('(name) => characterDiagnostics().clip === name', arg=name)
@@ -49,7 +59,8 @@ with sync_playwright() as p:
     page.goto(BASE + '/?character=1')
     page.wait_for_function('window.platformDiagnostics !== undefined', timeout=120000)
     initial = page.evaluate('platformDiagnostics()')
-    assert initial['character']['triangles'] == 3098 and initial['glError'] == 0
+    assert initial['character']['triangles'] == 4056 and initial['glError'] == 0
+    assert initial['character']['headwear'] == 'hair'
     page.click('#play')
     page.keyboard.down('KeyW')
     page.wait_for_function('(z) => platformDiagnostics().player[2] < z - .35', arg=initial['player'][2])

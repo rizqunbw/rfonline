@@ -1,0 +1,92 @@
+[
+  {
+    "uploadedName": "DEFAULTBF.RFS",
+    "path": "Mesh/DEFAULTBF.RFS",
+    "bytes": 1621332,
+    "sha256": "e05c137652139d3d283c08470b3e5754f920538ce8d86ac9df81d4b0fcc9fca7"
+  },
+  {
+    "uploadedName": "DEFAULTAA.RFS",
+    "path": "Mesh/DEFAULTAA.RFS",
+    "bytes": 2397199,
+    "sha256": "bcd573096daa75e3f1a984e6394ca1ddf6e6d636d5041db8b16c2484179f1c72"
+  },
+  {
+    "uploadedName": "DEFAULTBM.RFS",
+    "path": "Mesh/DEFAULTBM.RFS",
+    "bytes": 1550601,
+    "sha256": "2523e50d4e1d11f7d63457c3a61fa06d92139ff2ef0f600a1efde3f074ebb018"
+  },
+  {
+    "uploadedName": "DEFAULTCM.RFS",
+    "path": "Mesh/DEFAULTCM.RFS",
+    "bytes": 1459847,
+    "sha256": "30ae33d6f2213f32f816c4c3b94c68bc30cc29acc0bbdfb04abdaa787e2bb529"
+  },
+  {
+    "uploadedName": "DEFAULTCF.RFS",
+    "path": "Mesh/DEFAULTCF.RFS",
+    "bytes": 1468203,
+    "sha256": "655323cc9768a4b1b8c061466883dd32c5155f22f76813bb4bf9e06a312c70af"
+  },
+  {
+    "uploadedName": "PLETCT.RFS",
+    "path": "Mesh/PLETCT.RFS",
+    "bytes": 175588,
+    "sha256": "b02d6ffdacca1e8a7528687be75c4c6f5154dad86af9a749be0c5078fbbf3948"
+  },
+  {
+    "uploadedName": "MASKM.RFS",
+    "path": "Mesh/MASKM.RFS",
+    "bytes": 2432505,
+    "sha256": "3dfc02f5e9a64ebf49b2a91bfd9daadb074d06406c7fbe557085019dd48ea616"
+  },
+  {
+    "uploadedName": "DARKM60.RFS",
+    "path": "Mesh/DARKM60.RFS",
+    "bytes": 7169102,
+    "sha256": "a011442f120ddf68bc9178de905e9d944ec2b8ed5affcc06a249ee4fa7347e6c"
+  },
+  {
+    "uploadedName": "NWHITEM.RFS",
+    "path": "Mesh/NWHITEM.RFS",
+    "bytes": 6166294,
+    "sha256": "6c647f93f67c7bae7b29dda8282849423416bd46457cda6ebfd0c86d56fa6807"
+  },
+  {
+    "uploadedName": "WHITEM.RFS",
+    "path": "Mesh/WHITEM.RFS",
+    "bytes": 6166294,
+    "sha256": "64be26d708f5f09b796c6afcd684a2e4e6bdbf04aa42b8cb68f2ae5fa15335c4"
+  },
+  {
+    "uploadedName": "RFMASTER.RFS",
+    "path": "Mesh/RFMASTER.RFS",
+    "bytes": 16852324,
+    "sha256": "770d3db808f787596765b32b569de928b7038c77b72f0e7158fff25e8fb57a90"
+  },
+  {
+    "uploadedName": "ORI70.RFS",
+    "path": "Mesh/ORI70.RFS",
+    "bytes": 18827263,
+    "sha256": "95ff963615957714e41b1587577c4c649e0748f4e45cee376d63a415744f4b66"
+  },
+  {
+    "uploadedName": "XMASM.RFS",
+    "path": "Mesh/XMASM.RFS",
+    "bytes": 574792,
+    "sha256": "e3ec74e491aa8e1a7f435fdc4d1c590152dc5d12ee2b7b708dec51f68c376a2b"
+  },
+  {
+    "uploadedName": "ori6770.RFS",
+    "path": "Mesh/ori6770.RFS",
+    "bytes": 18827263,
+    "sha256": "14ad10f63d111ee46e823151972d999d85c70693a327d66ee5d3d410afeac74a"
+  },
+  {
+    "uploadedName": "RFSInfo.dat",
+    "path": "Mesh/RFSInfo.dat",
+    "bytes": 1038,
+    "sha256": "999a482a4db4d4a05ef547efc442b2c7e21099c60345eb04f965b2f8109a9b15"
+  }
+]

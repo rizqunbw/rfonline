@@ -18,14 +18,24 @@ class ResourceTests(unittest.TestCase):
         names = [p.name.casefold() for p in (ROOT/'Mesh').iterdir()]
         self.assertEqual(len(names), len(set(names)))
         self.assertEqual(next(r['path'] for r in records if r['uploadedName']=='BFF00.RFS'), 'Mesh/BFF00.rfs')
+        for folder, count in [('Mesh', 15), ('Tex', 14)]:
+            uploaded = json.loads((ROOT/folder/'uploads-default.json').read_text())
+            self.assertEqual(len(uploaded), count)
+            for record in uploaded:
+                raw = (ROOT/record['path']).read_bytes()
+                self.assertEqual(len(raw), record['bytes'])
+                self.assertEqual(hashlib.sha256(raw).hexdigest(), record['sha256'])
 
     def test_catalog_matches_sources_and_workbook(self):
         resources, meshes = catalog()
         self.assertEqual(resources, json.loads((ROOT/'resources.json').read_text()))
         self.assertEqual(meshes, json.loads((ROOT/'Mesh/catalog.json').read_text()))
         self.assertEqual(resources['summary']['workbookRows'], {'Bone':5, 'Mesh':6808, 'Ani':2056})
-        self.assertEqual(resources['summary']['uploadedMeshesWithWorkbookId'], 354)
-        self.assertEqual(resources['summary']['uploadedMeshesWithAllTextures'], 213)
+        self.assertEqual(resources['summary']['uploadedMeshesWithWorkbookId'], 1023)
+        self.assertEqual(resources['summary']['uploadedMeshesWithAllTextures'], 575)
+        self.assertEqual(resources['summary']['inspectionStatus'], {'parsed':764, 'unsupported':258, 'inspection_failed':1})
+        self.assertEqual(len(resources['summary']['ancillaryMeshFolderPayloads']), 4)
+        self.assertTrue(all(m['name'].lower().endswith('.msh') for m in meshes))
         bone_ids = {b['resourceId'] for b in resources['bones']}
         self.assertTrue(all(m['boneResourceId'] in bone_ids for m in resources['meshes']))
 
@@ -39,12 +49,15 @@ class ResourceTests(unittest.TestCase):
         for resource_id in model['meshResourceIds']:
             self.assertEqual(registry.mesh(resource_id)['record']['boneResourceId'], model['boneResourceId'])
 
-    def test_missing_default_face_is_explicit(self):
+    def test_default_face_and_missing_or_conflicting_resources(self):
         registry = PlayerResources()
         face = next(r for r in registry.data['meshes'] if r['fields']['FileName']=='BELFEMALE_DEFAULT_FACE_000.MSH')
-        self.assertEqual(face['status'], 'missing')
-        self.assertEqual(face['candidates'], [])
-        with self.assertRaises(ValueError): registry.mesh(face['resourceId'])
+        self.assertEqual(face['status'], 'available')
+        self.assertTrue(registry.mesh(face['resourceId'])['payload'])
+        self.assertTrue(registry.texture('BELFEMALE_DEFAULT_FACE_000.dds')['payload'])
+        for status in ['missing', 'ambiguous']:
+            resource = next(r for r in registry.data['meshes'] if r['status']==status)
+            with self.assertRaises(ValueError): registry.mesh(resource['resourceId'])
         with self.assertRaises(KeyError): registry.mesh('FFFFFFFF')
 
 

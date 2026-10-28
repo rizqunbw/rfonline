@@ -6,13 +6,16 @@
     "001000AB",
     "001003AB",
     "001005AB",
-    "001002AB"
+    "001002AB",
+    "00150100",
+    "00150000"
   ],
   "boneResourceId": "00000001",
   "textures": [
     {
       "file": "belfemale_armor_gloves_171.png",
       "original": "BELFEMALE_ARMOR_GLOVES_171.RFT",
+      "archive": "Tex/BFF00.RFS",
       "size": [
         256,
         256
@@ -22,6 +25,7 @@
     {
       "file": "belfemale_armor_helmet_171.png",
       "original": "BELFEMALE_ARMOR_HELMET_171.RFT",
+      "archive": "Tex/BFF00.RFS",
       "size": [
         256,
         256
@@ -31,6 +35,7 @@
     {
       "file": "belfemale_armor_lower_171.png",
       "original": "BELFEMALE_ARMOR_LOWER_171.RFT",
+      "archive": "Tex/BFF00.RFS",
       "size": [
         512,
         512
@@ -40,6 +45,7 @@
     {
       "file": "belfemale_armor_shoes_171.png",
       "original": "BELFEMALE_ARMOR_SHOES_171.RFT",
+      "archive": "Tex/BFF00.RFS",
       "size": [
         256,
         256
@@ -49,11 +55,32 @@
     {
       "file": "belfemale_armor_upper_171.png",
       "original": "BELFEMALE_ARMOR_UPPER_171.RFT",
+      "archive": "Tex/BFF00.RFS",
       "size": [
         512,
         512
       ],
       "pixelsSha256": "6a0138d610d08c8de2d0ae9d06b569d2005b42329e42423c35cb329283350dbd"
+    },
+    {
+      "file": "belfemale_default_face_000.png",
+      "original": "BELFEMALE_DEFAULT_FACE_000.RFT",
+      "archive": "Tex/DEFAULTBF.RFS",
+      "size": [
+        512,
+        512
+      ],
+      "pixelsSha256": "3d618aba686e8b61b5fa721872d8858c3bfa54c0a3b7c21ee611553e12a79253"
+    },
+    {
+      "file": "belfemale_default_helmet_000.png",
+      "original": "BELFEMALE_DEFAULT_HELMET_000.RFT",
+      "archive": "Tex/DEFAULTBF.RFS",
+      "size": [
+        512,
+        512
+      ],
+      "pixelsSha256": "4916e8bb814f1ca1e9d4a267671201cdefb09520678e22f98354624331e70557"
     }
   ],
   "bounds": [
@@ -70,8 +97,7 @@
   ],
   "previewTicksPerSecond": 4800,
   "limitations": [
-    "Face/hair mesh not supplied",
-    "Only armor set 171 has matching supplied textures",
+    "Only Bellato female armor 171 is assembled in this viewer",
     "Scalar and non-skeleton ANI channels are not rendered",
     "Preview assumes 30 FPS (160 ticks/frame)"
   ],
@@ -83,8 +109,8 @@
     },
     {
       "path": "resources.json",
-      "bytes": 3385321,
-      "sha256": "10daca24b332cfa5a4283a9ff8e72b9a2e61c76fe0c63d1a693a23317e7bec5a"
+      "bytes": 3506166,
+      "sha256": "39997dc2b2ed71aea24a184f65c9b385e49d0a3f6246c58e4e3a74221cbd61e4"
     },
     {
       "path": "Bone/BelFemale.bn",
@@ -97,9 +123,24 @@
       "sha256": "0f35bef3f0a62b3f9aae36320b31a2063e2dc8941983dffc3a782e00bd12e566"
     },
     {
+      "path": "Mesh/DEFAULTBF.RFS",
+      "bytes": 1621332,
+      "sha256": "e05c137652139d3d283c08470b3e5754f920538ce8d86ac9df81d4b0fcc9fca7"
+    },
+    {
+      "path": "Tex/manifest.json",
+      "bytes": 151834,
+      "sha256": "9fe93904a7422f248a04341d520f965ef9f05a07e96c1c9e3ada74df664942eb"
+    },
+    {
       "path": "Tex/BFF00.RFS",
       "bytes": 481628,
       "sha256": "9e254cada8bef67c2c847dc1882b3169085120f7fcafef24f15b6f19c37de368"
+    },
+    {
+      "path": "Tex/DEFAULTBF.RFS",
+      "bytes": 5161516,
+      "sha256": "d58f265340078211745a50f7ad64a1112993d003c8132efa71a2b3e26c6f80a9"
     },
     {
       "path": "Ani/BFETA.RFS",
@@ -113,8 +154,8 @@
     }
   ],
   "bones": 25,
-  "meshObjects": 14,
-  "triangles": 3098,
+  "meshObjects": 16,
+  "triangles": 4056,
   "clips": [
     {
       "name": "idle",
