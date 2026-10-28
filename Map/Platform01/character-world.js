@@ -15,6 +15,7 @@ export async function createCharacterWorld(gl, canvas) {
   const camera = new THREE.PerspectiveCamera();
   camera.matrixAutoUpdate = false;
   return {
+    setHeadwear: value => character.setHeadwear(value),
     diagnostics: () => character.diagnostics(),
     draw(projection, view, position, facing, clip, dt) {
       character.root.position.fromArray(position);

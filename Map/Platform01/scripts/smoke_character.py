@@ -102,7 +102,7 @@ with sync_playwright() as p:
     print('PASS mobile: layout, animation selection, map touch controls')
     mobile.close()
 
-    page.goto(BASE + '/')
+    page.goto(BASE + '/?character=0')
     page.wait_for_function('window.platformDiagnostics !== undefined', timeout=120000)
     assert not page.evaluate('platformDiagnostics().characterMode')
     page.select_option('#skySelect', '1')

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "itemupgrade.spr",
+    "bytes": 590936,
+    "sha256": "22ca0fd2bd688e17f046406b2886f1658d52414a2d4dfc339c27ba9f3886ed27"
+  },
+  {
+    "name": "common.spr",
+    "bytes": 1067720,
+    "sha256": "cd1774bc3505296c290ac1c2574024ccb01a62b1e83d3873ca812b939e2f4c2a"
+  },
+  {
+    "name": "login.spr",
+    "bytes": 1840616,
+    "sha256": "8fe4fa60d3c7b57bc7f39d1b0bb3cff891ab0a92b1f2d9dfb738ba2af3400e85"
+  },
+  {
+    "name": "CashShop.spr",
+    "bytes": 5491388,
+    "sha256": "5d95af6a86dbc7bde4149df0f4e46b4b1158eb54a966b6b693443ac9b91b7218"
+  },
+  {
+    "name": "loading.spr",
+    "bytes": 16777252,
+    "sha256": "fbb121dc99647d4c1ca4daa9e5ffa086b111a2a79a7f2a58507634d339c016d7"
+  }
+]

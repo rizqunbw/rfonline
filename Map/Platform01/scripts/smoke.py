@@ -7,7 +7,7 @@ with sync_playwright() as p:
     page = browser.new_page(viewport={'width': 800, 'height': 600})
     errors = []
     page.on('pageerror', lambda e: errors.append(str(e)))
-    page.goto('http://127.0.0.1:3000')
+    page.goto('http://127.0.0.1:3000/?character=0')
     page.wait_for_function('window.platformDiagnostics !== undefined', timeout=120000)
     assert page.evaluate('platformDiagnostics().triangles') == 271641
     assert page.evaluate('platformDiagnostics().terrain.textures') == 368

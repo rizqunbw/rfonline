@@ -1,0 +1,132 @@
+[
+  {
+    "name": "trade.spr",
+    "bytes": 338128,
+    "sha256": "a36b0e54f5fa65c6e4d49a2fa15dd9cd9eb22abd35fa4668f6e14f9922f66c8a"
+  },
+  {
+    "name": "trunk.spr",
+    "bytes": 154948,
+    "sha256": "e1533862db20c6fc2ac829468e8a770dc8ffb60d9a69c3a737016ce40345101f"
+  },
+  {
+    "name": "tutorial.spr",
+    "bytes": 57924,
+    "sha256": "092461b4ea653dc950e5644c17fd940ddaceee83675cb030d797b49968e6974b"
+  },
+  {
+    "name": "unitparts.spr",
+    "bytes": 852148,
+    "sha256": "19149ca202ce2461578f59021c5d8a71b4a9aad656912abb01ef81384f26db7a"
+  },
+  {
+    "name": "unmannedminer.spr",
+    "bytes": 100436,
+    "sha256": "ac4b8e89d1f4bf7af569948553d6dde8b73d0a2e29c56fc12a4df6acf32e71bf"
+  },
+  {
+    "name": "unit.spr",
+    "bytes": 270836,
+    "sha256": "9a11bb94823d478bc67e49cd17ad7010972b246939b0feb7eb28c0ccb850aadb"
+  },
+  {
+    "name": "class.spr",
+    "bytes": 329812,
+    "sha256": "172e5d52127acfb041bcf6494d5ac94617b7f69c319041229d67e349114d5b86"
+  },
+  {
+    "name": "dungeon.spr",
+    "bytes": 229512,
+    "sha256": "71a7f89801495d4c0440b01217aad2b26c4c1e8d55b6426af26bfa450b19eb6d"
+  },
+  {
+    "name": "emblem.spr",
+    "bytes": 327740,
+    "sha256": "f1c74604cc1b9c8c3b3256069456969306342713935c41409f123aaafdab14de"
+  },
+  {
+    "name": "exchange.spr",
+    "bytes": 131108,
+    "sha256": "5a69fd37c2ecac5d87b7386c358da1526e77eff1d66a7aa58c789e8cb920a0fc"
+  },
+  {
+    "name": "cribattle.spr",
+    "bytes": 917796,
+    "sha256": "3bf1e51c0e1588aa79d3b54878c444948d523eef7d1fddd6f00f05cd7791e255"
+  },
+  {
+    "name": "guild.spr",
+    "bytes": 941628,
+    "sha256": "b0f363c4c64b627db0e554bfd691d59211e6f4dd45bea6634b062ef55862d46d"
+  },
+  {
+    "name": "inventory.spr",
+    "bytes": 1941632,
+    "sha256": "ef2a3e1c0b4c743088cf92d705f816304985d618d9dfd85d931b74a9b9784778"
+  },
+  {
+    "name": "itemcombine.spr",
+    "bytes": 421152,
+    "sha256": "afa9b2bc78be6687f7afe66d7218218e4bd98172fd3faad0145f72bcdfa84c2e"
+  },
+  {
+    "name": "itemmake.spr",
+    "bytes": 86520,
+    "sha256": "71acfb1d28098c6faa42e3bed440490a378fa45c498267d8fc475b9c529e5b55"
+  },
+  {
+    "name": "item.spr",
+    "bytes": 14660508,
+    "sha256": "2c0f8d5328664f59e622d99c2050a30adc241bb21e21001fa650f8a4a55fe1a6"
+  },
+  {
+    "name": "maploading.spr",
+    "bytes": 524324,
+    "sha256": "37bb025accd48601cfdcf55dbb7659ab3c641d16e97d76fdb6db44adeaf7aa23"
+  },
+  {
+    "name": "mining.spr",
+    "bytes": 387524,
+    "sha256": "ef1eb4042653959e94fd096effb19a39e12ea2bbfc4590a86a3a66b886fe186f"
+  },
+  {
+    "name": "mouse.spr",
+    "bytes": 206036,
+    "sha256": "2739a79b0018bfd558135264869018468968bda9b5245e7c051cfc8d4a32f6bf"
+  },
+  {
+    "name": "main.spr",
+    "bytes": 2521948,
+    "sha256": "9ac4cf118187325219009813aa19c54918bc2ead34ccd0f912270ac323b90dec"
+  },
+  {
+    "name": "patriarch.spr",
+    "bytes": 488736,
+    "sha256": "5c4cac27d508e04c9c78f0fda0fba1199c67e18c16bc486125307b288ab38a9c"
+  },
+  {
+    "name": "oreproc.spr",
+    "bytes": 65572,
+    "sha256": "2d6dacfa46ed234be32545384a8fd8d62e0347ccc69d77723e0df58e87a49bca"
+  },
+  {
+    "name": "pvp.spr",
+    "bytes": 317928,
+    "sha256": "db648f1b586d76b2efc1e7b4e01f724ae762749ecfc85584b88575f19a7945d6"
+  },
+  {
+    "name": "summon.spr",
+    "bytes": 25092,
+    "sha256": "af46b6a4d8afeaa76b08a0df026fa5b4565eb643a3cc29b2a709e47c7d2df0f0"
+  },
+  {
+    "name": "shop.spr",
+    "bytes": 69716,
+    "sha256": "2b3241880b203222f8e201eee22269993e6bb5b6038b62f029eaa876996eafad"
+  },
+  {
+    "name": "system.spr",
+    "bytes": 1214176,
+    "sha256": "92fbf5c0f34babf3306cf0a6be342b1118f73abf86cc7cef96cd764d10ab8866"
+  }
+]

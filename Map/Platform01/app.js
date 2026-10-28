@@ -1,15 +1,19 @@
 import {createSkyRenderer} from './sky.js';
 import {createTerrainRenderer} from './terrain.js';
+import {createRFHUD} from './rf-hud.js';
 const $ = id => document.getElementById(id);
 const canvas = $('world');
 const gl = canvas.getContext('webgl', {antialias:true, alpha:false});
 let running = false, started = false, completed = false, last = 0, elapsed = 0, skyRenderer, terrainRenderer;
 let yaw = Math.PI, pitch = -0.15, camera = [0, 35, 105], points, manifest, beaconGPU;
-const characterMode = new URLSearchParams(location.search).get('character') === '1';
+const characterMode = new URLSearchParams(location.search).get('character') !== '0';
+document.body.classList.toggle('rf-mode',characterMode);
+let rfHUD, cameraDistance=8, combatStance=false, runMode=false, stamina=100, exhausted=false, fps=60;
+let headwear=new URLSearchParams(location.search).get('headwear')==='helmet'?'helmet':'hair';
 let characterWorld, player = [0,0,10], playerFacing = 0, playerClip = 'idle';
 function followPlayer() {
   const cp=Math.cos(pitch), sp=Math.sin(pitch);
-  camera=[player[0]-Math.sin(yaw)*cp*4.5,player[1]+1.2-sp*4.5,player[2]-Math.cos(yaw)*cp*4.5];
+  camera=[player[0]-Math.sin(yaw)*cp*cameraDistance,player[1]+1.2-sp*cameraDistance,player[2]-Math.cos(yaw)*cp*cameraDistance];
 }
 const keys = new Set(), beacons = [], m = new Float32Array(16), view = new Float32Array(16);
 const mobile = matchMedia('(pointer:coarse)').matches;
@@ -48,38 +52,42 @@ function distance(a,b){return Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]);}
 function progress(){ $('score').textContent = `${beacons.filter(b=>b.found).length} / 5 BEACONS`;$('progress').innerHTML=beacons.map(b=>`<i class="${b.found?'found':''}"></i>`).join(''); }
 function reset() {
   camera=[0,35,105];yaw=Math.PI;pitch=-.15;elapsed=0;completed=false;
-  if(characterMode){player=[0,terrainRenderer.groundAt(0,10),10];if(player[1]===null)throw Error('Tidak menemukan lantai spawn');playerFacing=0;pitch=-.22;followPlayer();}
+  if(characterMode){player=[0,terrainRenderer.groundAt(0,10),10];if(player[1]===null)throw Error('Tidak menemukan lantai spawn');playerFacing=0;pitch=-.5;stamina=100;exhausted=false;followPlayer();}
   beacons.forEach(b=>b.found=false); progress(); $('finish').hidden=true;
 }
-function start(){ if(!points)return;if(!started)reset();started=true;running=true;$('menu').hidden=true;$('finish').hidden=true;$('hud').hidden=false;$('touch').hidden=!mobile;$('mode').textContent=characterMode?'BELLATO / FREE WALK':'EXPEDITION';if(!mobile)canvas.requestPointerLock?.()?.catch?.(()=>{}); }
-function pause(){if(!running)return;running=false;keys.clear();$('menu').hidden=false;$('hud').hidden=true;$('touch').hidden=true;$('play').innerHTML='LANJUT EKSPEDISI <span>↗</span>';document.exitPointerLock?.();}
+function start(){ if(!points||(characterMode&&!rfHUD))return;if(!started)reset();started=true;running=true;$('menu').hidden=true;$('finish').hidden=true;$('hud').hidden=characterMode;$('touch').hidden=!mobile;$('mode').textContent=characterMode?'BELLATO / FREE WALK':'EXPEDITION';rfHUD?.setVisible(true);if(!mobile&&!characterMode)canvas.requestPointerLock?.()?.catch?.(()=>{}); }
+function pause(){if(!running)return;running=false;keys.clear();drag=null;rfHUD?.setVisible(false);$('menu').hidden=false;$('hud').hidden=true;$('touch').hidden=true;$('play').innerHTML=(characterMode?'LANJUT SEKTOR':'LANJUT EKSPEDISI')+' <span>↗</span>';document.exitPointerLock?.();}
 $('play').onclick=start;$('pause').onclick=pause;$('restart').onclick=()=>{reset();start();};$('explore').onclick=start;
-document.addEventListener('keydown',e=>{if(['KeyW','KeyA','KeyS','KeyD','KeyQ','KeyE','ShiftLeft','ShiftRight','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.code)){if(running)e.preventDefault();keys.add(e.code);}if(e.code==='Escape')pause();});
+document.addEventListener('keydown',e=>{if(running&&rfHUD?.handleKey(e)){keys.clear();return;}if(['KeyW','KeyA','KeyS','KeyD','KeyQ','KeyE','ShiftLeft','ShiftRight','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.code)){if(running){e.preventDefault();keys.add(e.code);}}if(e.code==='Escape')pause();});
 document.addEventListener('keyup',e=>keys.delete(e.code));window.addEventListener('blur',pause);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});
-document.addEventListener('pointerlockchange',()=>{if(!document.pointerLockElement && running && !mobile)pause();});
+document.addEventListener('pointerlockchange',()=>{if(!document.pointerLockElement && running && !mobile && !characterMode)pause();});
 document.addEventListener('mousemove',e=>{if(running&&document.pointerLockElement===canvas){yaw-=e.movementX*.0025;pitch=Math.max(-1.5,Math.min(1.5,pitch-e.movementY*.0025));}});
 let drag;
-canvas.addEventListener('pointerdown',e=>{if(running){drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);}});
+canvas.addEventListener('pointerdown',e=>{if(running&&!rfHUD?.interacting){drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);}});
 canvas.addEventListener('pointermove',e=>{if(running&&drag&&!document.pointerLockElement){yaw-=(e.clientX-drag[0])*.005;pitch=Math.max(-1.5,Math.min(1.5,pitch-(e.clientY-drag[1])*.005));drag=[e.clientX,e.clientY];}});
 canvas.addEventListener('pointerup',()=>drag=null);canvas.addEventListener('pointercancel',()=>drag=null);
+canvas.addEventListener('contextmenu',e=>e.preventDefault());
+canvas.addEventListener('wheel',e=>{if(characterMode&&running&&!rfHUD?.interacting){e.preventDefault();cameraDistance=Math.max(4.5,Math.min(14,cameraDistance+Math.sign(e.deltaY)*.5));rfHUD.syncDistance(cameraDistance);followPlayer();}},{passive:false});
 for(const b of document.querySelectorAll('[data-key]')) {b.onpointerdown=e=>{e.preventDefault();b.setPointerCapture(e.pointerId);keys.add(b.dataset.key);}; b.onpointerup=b.onpointercancel=()=>keys.delete(b.dataset.key);}
 let mapBackground;
 function mapXY(p){return [(p[0]+145)/290*240,(p[2]+125)/250*190];}
 function drawMap(){const c=$('minimap').getContext('2d');c.clearRect(0,0,240,190);c.drawImage(mapBackground,0,0);
  if(!characterMode)for(const b of beacons){const [x,y]=mapXY(b.p);c.fillStyle=b.found?'#4b6662':'#b9f6ad';c.beginPath();c.arc(x,y,b.found?2:4,0,Math.PI*2);c.fill();}
  const [x,y]=mapXY(characterMode?player:camera);c.save();c.translate(x,y);c.rotate(-yaw);c.fillStyle='#fff';c.beginPath();c.moveTo(0,6);c.lineTo(-3,-4);c.lineTo(3,-4);c.closePath();c.fill();c.restore();}
-function frame(t){const dt=Math.min((t-last)/1000,.05);last=t;
+function frame(t){const rawDT=(t-last)/1000,dt=Math.min(rawDT,.05);last=t;if(rawDT>0)fps=fps*.9+.1/rawDT;
  const w=Math.round(innerWidth*Math.min(devicePixelRatio,1.5)),h=Math.round(innerHeight*Math.min(devicePixelRatio,1.5));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;gl.viewport(0,0,w,h);}
- if(running){if(!completed)elapsed+=dt;const speed=(keys.has('ShiftLeft')||keys.has('ShiftRight')?45:16)*dt;
+ if(running){if(!completed)elapsed+=dt;if(rfHUD?.interacting)keys.clear();const speed=(keys.has('ShiftLeft')||keys.has('ShiftRight')?45:16)*dt;
   yaw+=(Number(keys.has('ArrowLeft'))-Number(keys.has('ArrowRight')))*dt*1.5;pitch=Math.max(-1.5,Math.min(1.5,pitch+(Number(keys.has('ArrowUp'))-Number(keys.has('ArrowDown')))*dt));
   const forward=Number(keys.has('KeyW'))-Number(keys.has('KeyS')),side=Number(keys.has('KeyD'))-Number(keys.has('KeyA')),vertical=Number(keys.has('KeyE'))-Number(keys.has('KeyQ'));
   if(characterMode){
    pitch=Math.max(-.8,Math.min(.05,pitch));
    const dx=Math.sin(yaw)*forward-Math.cos(yaw)*side,dz=Math.cos(yaw)*forward+Math.sin(yaw)*side,len=Math.hypot(dx,dz);
-   const sprint=keys.has('ShiftLeft')||keys.has('ShiftRight'),step=(sprint?5:2.2)*dt;
-   playerClip='idle';
+   const sprint=(keys.has('ShiftLeft')||keys.has('ShiftRight')||runMode)&&!exhausted&&stamina>0,step=(sprint?5:2.2)*dt;
+   playerClip=combatStance?'combat':'idle';
    if(len){const x=player[0]+dx/len*step,z=player[2]+dz/len*step,y=terrainRenderer.groundAt(x,z,player[1]+.45,player[1]-1.0);if(y!==null){player=[x,y,z];playerFacing=Math.atan2(-dx,-dz);playerClip=sprint?'run':'walk';}}
+   stamina=Math.max(0,Math.min(100,stamina+(playerClip==='run'?-14:8)*dt));
+   if(stamina===0)exhausted=true;else if(stamina>=25)exhausted=false;
    followPlayer();
   }else{
    camera[0]+=(Math.sin(yaw)*forward-Math.cos(yaw)*side)*speed;camera[2]+=(Math.cos(yaw)*forward+Math.sin(yaw)*side)*speed;camera[1]+=vertical*speed;
@@ -91,6 +99,13 @@ function frame(t){const dt=Math.min((t-last)/1000,.05);last=t;
  gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(program);matrices(w/h);skyRenderer.draw(m,view);terrainRenderer.draw(m,view);gl.useProgram(program);
  if(!characterMode){bind(beaconGPU);gl.uniform1f(u.mesh,0);gl.uniform1f(u.size,2200);gl.uniform1f(u.beacon,1);for(let i=0;i<beacons.length;i++)if(!beacons[i].found)gl.drawArrays(gl.POINTS,i*40,40);}
  if(characterWorld)characterWorld.draw(m,view,player,playerFacing,running?playerClip:'idle',running?dt:0);
+ if(rfHUD){
+  const p=[player[0],player[1]+1.95,player[2],1],v=[0,0,0,0],clip=[0,0,0,0];
+  for(let r=0;r<4;r++)for(let c=0;c<4;c++)v[r]+=view[c*4+r]*p[c];
+  for(let r=0;r<4;r++)for(let c=0;c<4;c++)clip[r]+=m[c*4+r]*v[c];
+  const screen=clip[3]>0?[(clip[0]/clip[3]*.5+.5)*innerWidth,(-clip[1]/clip[3]*.5+.5)*innerHeight]:null;
+  rfHUD.update({player,yaw,screen,stamina,clip:playerClip,headwear,combat:combatStance,runMode,fps,elapsed});
+ }
  const remaining=beacons.filter(b=>!b.found).sort((a,b)=>distance(camera,a.p)-distance(camera,b.p));const target=remaining[0];
  $('target').textContent=characterMode?'BELLATO · WASD GERAK · SHIFT LARI':target?`SIGNAL ${target.id} · ${distance(camera,target.p).toFixed(0)} m · Q/E atur ketinggian`:'SEMUA SINYAL DITEMUKAN';
  $('coords').textContent=(characterMode?player:camera).map(v=>v.toFixed(0)).join(' / ');$('timer').textContent=`${String(Math.floor(elapsed/60)).padStart(2,'0')}:${String(Math.floor(elapsed%60)).padStart(2,'0')}`;
@@ -113,9 +128,19 @@ async function load(){if(!gl||!program)return;
  if(characterMode){
   $('play').disabled=true;
   characterWorld=await (await import('./character-world.js')).createCharacterWorld(gl,canvas);
+  rfHUD=await createRFHUD({mapBackground,onPause:pause,onFocus:()=>{keys.clear();drag=null;},
+   onAction(action){
+    if(action==='combat'){combatStance=!combatStance;return combatStance?'Pose tempur aktif':'Pose damai aktif';}
+    if(action==='run'){runMode=!runMode;return runMode?'Mode lari aktif · memakai SP':'Mode jalan aktif';}
+    if(action==='headwear'){headwear=headwear==='hair'?'helmet':'hair';characterWorld.setHeadwear(headwear);return headwear==='helmet'?'Helm armor 171 dipakai':'Rambut default ditampilkan';}
+   },
+   onSetting(key,value){if(key==='distance'){cameraDistance=value;followPlayer();}if(key==='sky'){skyRenderer.select(value);$('skySelect').value=String(value);}}
+  });
+  $('skySelect').onchange=()=>{skyRenderer.select(Number($('skySelect').value));document.getElementById('rfSky').value=$('skySelect').value;};
   reset();
   document.querySelector('#menu h1').innerHTML='Bellato.<br><em>Platform01.</em>';
-  document.querySelector('#menu > p').textContent='Jelajahi Platform01 dengan armor Bellato dan animasi asli. WASD untuk jalan, Shift untuk lari, mouse untuk mengatur kamera.';
+  document.querySelector('#menu > p').textContent='Masuk ke White Hole dengan karakter, map, dan sprite UI asli. WASD untuk jalan, seret map untuk kamera, I untuk inventory, Enter untuk chat lokal.';
+  document.querySelector('.facts > div:nth-child(2)').innerHTML='<strong>01</strong><span>LOCAL CHARACTER</span>';
   $('scopeNote').textContent='Kaki mengikuti permukaan map. Tabrakan dinding dan kamera, combat, serta multiplayer belum tersedia.';
   document.querySelector('.mission').hidden=true;document.querySelector('.crosshair').hidden=true;
   document.querySelector('footer > span:first-child').textContent='WASD GERAK · MOUSE / ← → LIHAT · SHIFT LARI';
@@ -123,6 +148,6 @@ async function load(){if(!gl||!program)return;
   $('play').innerHTML='MASUK SEKTOR <span>↗</span>';$('play').disabled=false;
  }
  // Read-only diagnostics for browser validation, no gameplay mutation API.
- window.platformDiagnostics=()=>({vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),character:characterWorld?.diagnostics(),player:[...player],characterMode,beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
+ window.platformDiagnostics=()=>({vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),character:characterWorld?.diagnostics(),hud:rfHUD?.diagnostics(),stamina,combatStance,runMode,cameraDistance,player:[...player],characterMode,beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
 }
 load().catch(fail);

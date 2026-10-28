@@ -1,0 +1,368 @@
+{
+  "inventory-equipment": {
+    "source": "inventory.spr",
+    "group": 0,
+    "frame": 0,
+    "url": "assets/ui/inventory-equipment.png",
+    "width": 228,
+    "height": 395,
+    "pixelsSha256": "c7ac6e71076d4270841db53525ba39fbc620432703047260076bede717a4eac0"
+  },
+  "inventory-bag": {
+    "source": "inventory.spr",
+    "group": 0,
+    "frame": 1,
+    "url": "assets/ui/inventory-bag.png",
+    "width": 228,
+    "height": 176,
+    "pixelsSha256": "020d4a525e57f7ac7993544a6924e4fb5d316d677e628246bf4c2b4084531a46"
+  },
+  "icon-headwear": {
+    "source": "inventory.spr",
+    "group": 2,
+    "frame": 0,
+    "url": "assets/ui/icon-headwear.png",
+    "width": 64,
+    "height": 64,
+    "pixelsSha256": "c997e9889c316ad21da27faa543265b13c1bad4b3a5ce5a4a192d33c8169a7de"
+  },
+  "equip-helmet": {
+    "source": "inventory.spr",
+    "group": 2,
+    "frame": 0,
+    "url": "assets/ui/equip-helmet.png",
+    "width": 64,
+    "height": 64,
+    "pixelsSha256": "c997e9889c316ad21da27faa543265b13c1bad4b3a5ce5a4a192d33c8169a7de"
+  },
+  "equip-upper": {
+    "source": "inventory.spr",
+    "group": 2,
+    "frame": 1,
+    "url": "assets/ui/equip-upper.png",
+    "width": 64,
+    "height": 64,
+    "pixelsSha256": "6dcab2e6ff7e595ba9fcf57997bf0a6f6c257e2bc6ee0ecc3efc09b86831d536"
+  },
+  "equip-lower": {
+    "source": "inventory.spr",
+    "group": 2,
+    "frame": 2,
+    "url": "assets/ui/equip-lower.png",
+    "width": 64,
+    "height": 64,
+    "pixelsSha256": "052b2bc832e9c1f39d1e4a482dc0b99612445ac60ba5d128d0ed82a331f6038f"
+  },
+  "equip-boots": {
+    "source": "inventory.spr",
+    "group": 2,
+    "frame": 4,
+    "url": "assets/ui/equip-boots.png",
+    "width": 64,
+    "height": 64,
+    "pixelsSha256": "eb9da8b854e79c6ce684060a1b71cf8e480873bb1e50b85db57d79592452835a"
+  },
+  "equip-gloves": {
+    "source": "inventory.spr",
+    "group": 2,
+    "frame": 6,
+    "url": "assets/ui/equip-gloves.png",
+    "width": 64,
+    "height": 64,
+    "pixelsSha256": "e0390d792e7f868de16efe3cc27bfdc62bb19f303a2842d5dd12b4b5e6819439"
+  },
+  "status-frame": {
+    "source": "main.spr",
+    "group": 0,
+    "frame": 0,
+    "url": "assets/ui/status-frame.png",
+    "width": 223,
+    "height": 69,
+    "pixelsSha256": "806b683bdaf08777f396811cf3f8ad8df76bbbed6a26fc347d8df976fab00320"
+  },
+  "hp": {
+    "source": "main.spr",
+    "group": 0,
+    "frame": 1,
+    "url": "assets/ui/hp.png",
+    "width": 124,
+    "height": 11,
+    "pixelsSha256": "14fb2ff7cbc0224be2b2ebe5e8f607f7348dc1f48803f30f0e74c4509754d789"
+  },
+  "fp": {
+    "source": "main.spr",
+    "group": 0,
+    "frame": 2,
+    "url": "assets/ui/fp.png",
+    "width": 124,
+    "height": 11,
+    "pixelsSha256": "e2b1e429c464d1a7ea30482d4a4a005c0c98ba01af2c8156fa7889f491fb85a2"
+  },
+  "sp": {
+    "source": "main.spr",
+    "group": 0,
+    "frame": 3,
+    "url": "assets/ui/sp.png",
+    "width": 124,
+    "height": 11,
+    "pixelsSha256": "5c6870d84cc24083ca10c2c9db64cd0e6e08861747e29c8ce6160d1844862934"
+  },
+  "level-ring": {
+    "source": "main.spr",
+    "group": 0,
+    "frame": 7,
+    "url": "assets/ui/level-ring.png",
+    "width": 23,
+    "height": 48,
+    "pixelsSha256": "9d33fc0a935f47be8b63587b76eb47a2fffe911ed9150489b10d3a67bea8e09d"
+  },
+  "hotbar": {
+    "source": "main.spr",
+    "group": 1,
+    "frame": 0,
+    "url": "assets/ui/hotbar.png",
+    "width": 461,
+    "height": 46,
+    "pixelsSha256": "5d4ab0c56295f60790376e46628c76436f7a60a523e893457f38325f0a3b5740"
+  },
+  "hotbar-numbers": {
+    "source": "main.spr",
+    "group": 1,
+    "frame": 1,
+    "url": "assets/ui/hotbar-numbers.png",
+    "width": 408,
+    "height": 11,
+    "pixelsSha256": "97337b40593065622144e6160b69d6755562995979a5e767d51d6c3d0c300267"
+  },
+  "close": {
+    "source": "main.spr",
+    "group": 2,
+    "frame": 12,
+    "url": "assets/ui/close.png",
+    "width": 14,
+    "height": 14,
+    "pixelsSha256": "952e6c3b7c01e39517f815c746496cae2b86335424f751f1c86db6f94c964913"
+  },
+  "radar-frame": {
+    "source": "main.spr",
+    "group": 3,
+    "frame": 0,
+    "url": "assets/ui/radar-frame.png",
+    "width": 146,
+    "height": 163,
+    "pixelsSha256": "cb95878142a1e947cad827d44dec46d0dfde3c47eccd53a1bed3c06bf74d8cda"
+  },
+  "radar-face": {
+    "source": "main.spr",
+    "group": 3,
+    "frame": 1,
+    "url": "assets/ui/radar-face.png",
+    "width": 93,
+    "height": 93,
+    "pixelsSha256": "519905f19ac8e2212beac352517ec92e6b310930f5ed7da853fed608d2c66dca"
+  },
+  "radar-cone": {
+    "source": "main.spr",
+    "group": 3,
+    "frame": 2,
+    "url": "assets/ui/radar-cone.png",
+    "width": 93,
+    "height": 93,
+    "pixelsSha256": "b5727d9569189a4b98d6ddbc51345416a937567068f5d18274d4e2795beb7024"
+  },
+  "radar-plus": {
+    "source": "main.spr",
+    "group": 3,
+    "frame": 19,
+    "url": "assets/ui/radar-plus.png",
+    "width": 16,
+    "height": 16,
+    "pixelsSha256": "1f07feda0fad2a0cb275ac8fdb317650fe3ad2edf32a368b886bbd77bbdf247d"
+  },
+  "radar-minus": {
+    "source": "main.spr",
+    "group": 3,
+    "frame": 22,
+    "url": "assets/ui/radar-minus.png",
+    "width": 16,
+    "height": 16,
+    "pixelsSha256": "8493a75ff703f23d2b3cbb794f1472e478ac9eac67611631690fa2ad06b1eaf7"
+  },
+  "icon-help": {
+    "source": "main.spr",
+    "group": 4,
+    "frame": 6,
+    "url": "assets/ui/icon-help.png",
+    "width": 45,
+    "height": 45,
+    "pixelsSha256": "67e0f8e7352fad5ad7dec7eabdde32e657a55defb27f699eb92ee0063e150983"
+  },
+  "notice": {
+    "source": "main.spr",
+    "group": 5,
+    "frame": 0,
+    "url": "assets/ui/notice.png",
+    "width": 400,
+    "height": 18,
+    "pixelsSha256": "813a52b6580b7334c67b35c6a265370912b8bfafbc3455a518cd013c5804f571"
+  },
+  "overhead-bg": {
+    "source": "main.spr",
+    "group": 7,
+    "frame": 5,
+    "url": "assets/ui/overhead-bg.png",
+    "width": 100,
+    "height": 3,
+    "pixelsSha256": "8e3836572913d0704fee7a846e5000fd3b7fd9b3085429fc2abc4b37397b8ddc"
+  },
+  "overhead-hp": {
+    "source": "main.spr",
+    "group": 7,
+    "frame": 6,
+    "url": "assets/ui/overhead-hp.png",
+    "width": 100,
+    "height": 3,
+    "pixelsSha256": "0a958bf560e1d221744527c5aceb7d08339f34c34c42e90efbe2e5ae204ff7aa"
+  },
+  "overhead-fp": {
+    "source": "main.spr",
+    "group": 7,
+    "frame": 7,
+    "url": "assets/ui/overhead-fp.png",
+    "width": 100,
+    "height": 3,
+    "pixelsSha256": "e03656430b610b51ce44b43b8069a31fd183df39602a2568274309c27ab17690"
+  },
+  "overhead-sp": {
+    "source": "main.spr",
+    "group": 7,
+    "frame": 8,
+    "url": "assets/ui/overhead-sp.png",
+    "width": 100,
+    "height": 3,
+    "pixelsSha256": "903e68676d1b2d36e424aa86537b1c40a36d3c53378e7f6cbbf7f4ca53ada674"
+  },
+  "footer": {
+    "source": "main.spr",
+    "group": 11,
+    "frame": 0,
+    "url": "assets/ui/footer.png",
+    "width": 1024,
+    "height": 63,
+    "pixelsSha256": "937fc397dc386f1a38c73e0807747e42325fc9e9ff7e9f687fc2e3f96ea9167f"
+  },
+  "icon-target": {
+    "source": "main.spr",
+    "group": 12,
+    "frame": 0,
+    "url": "assets/ui/icon-target.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "87a4e384f8b099073edab4c518b5b1b81f5fb83d6c01f475181478cb483b5a51"
+  },
+  "icon-walk": {
+    "source": "main.spr",
+    "group": 12,
+    "frame": 2,
+    "url": "assets/ui/icon-walk.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "2f818f88607a3140098f6a5844c21db363519153f70a0d0e64fa22dfbcee1efd"
+  },
+  "icon-run": {
+    "source": "main.spr",
+    "group": 12,
+    "frame": 3,
+    "url": "assets/ui/icon-run.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "e588a354a2a2ff63e49910ebd5fbee02f97e4dd2c388dcd1da0d2458855b3b0a"
+  },
+  "icon-combat": {
+    "source": "main.spr",
+    "group": 12,
+    "frame": 5,
+    "url": "assets/ui/icon-combat.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "8b5b909bc045264f3f3475a44cfb850288a62580f5b0622b36bb81728027eea9"
+  },
+  "icon-character": {
+    "source": "main.spr",
+    "group": 13,
+    "frame": 0,
+    "url": "assets/ui/icon-character.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "e4cb3c850290b1373086c4770833ac2cffb6cc0eab621c1b7dd229d19a27d2dc"
+  },
+  "icon-inventory": {
+    "source": "main.spr",
+    "group": 13,
+    "frame": 1,
+    "url": "assets/ui/icon-inventory.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "69b00008078200520bd18ee3217c52b01e21b1bd06c8dcbb1306283ee0e403fb"
+  },
+  "icon-settings": {
+    "source": "main.spr",
+    "group": 13,
+    "frame": 2,
+    "url": "assets/ui/icon-settings.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "29b290b60677e5d13d935380162fd358c99531c90766276172b6d129eed1b037"
+  },
+  "icon-chat": {
+    "source": "main.spr",
+    "group": 13,
+    "frame": 10,
+    "url": "assets/ui/icon-chat.png",
+    "width": 40,
+    "height": 40,
+    "pixelsSha256": "b6d92ad75766359b6d1d2e2c6d738b01692feeaf8ddc33b386064de5802ab0b2"
+  },
+  "icon-map": {
+    "source": "main.spr",
+    "group": 13,
+    "frame": 13,
+    "url": "assets/ui/icon-map.png",
+    "width": 40,
+    "height": 40,
+    "pixelsSha256": "a27816a41366f309ab6604b9241e0b0eefa61bb093ade4acc06b2e8e025c7e95"
+  },
+  "icon-emblem": {
+    "source": "main.spr",
+    "group": 13,
+    "frame": 16,
+    "url": "assets/ui/icon-emblem.png",
+    "width": 40,
+    "height": 40,
+    "pixelsSha256": "7d898af9750d8811cb0085de0b1d8f54afe194b38913870c25268ed3267de84f"
+  },
+  "cursor": {
+    "source": "mouse.spr",
+    "group": 0,
+    "frame": 0,
+    "url": "assets/ui/cursor.png",
+    "width": 32,
+    "height": 32,
+    "pixelsSha256": "7467f20823672961add8d1cab234f5686f5a403c25ef70d8665bb0fee8d03565"
+  },
+  "slot": {
+    "source": "main.spr",
+    "group": 11,
+    "frame": 0,
+    "crop": [
+      313,
+      4,
+      357,
+      48
+    ],
+    "url": "assets/ui/slot.png",
+    "width": 44,
+    "height": 44,
+    "pixelsSha256": "06f85735e591a98f1f4446a5170b8e01938f1e436adba1567a12ae6840b6817a"
+  }
+}
