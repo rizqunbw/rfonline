@@ -1,4 +1,6 @@
 Mesh/*.rfs binary
+Mesh/*.RFS binary
+*.xlsx binary
 Mesh/**/*.msh binary
 Ani/*.RFS binary
 Ani/*.ANI binary

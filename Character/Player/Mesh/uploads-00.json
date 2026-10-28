@@ -1,0 +1,98 @@
+[
+  {
+    "uploadedName": "Player.xlsx",
+    "path": "Player.xlsx",
+    "bytes": 368015,
+    "sha256": "546db734f2d7cf389904e5a4bfa81322b332a1195ffa3ba86e03a5c5b8dc20e8"
+  },
+  {
+    "uploadedName": "CMW00.RFS",
+    "path": "Mesh/CMW00.RFS",
+    "bytes": 1783472,
+    "sha256": "f65c746e82c9852ed572f86ae886e114027a7f6d95a5bd49ccd5f9c334c5a459"
+  },
+  {
+    "uploadedName": "AAF00.RFS",
+    "path": "Mesh/AAF00.RFS",
+    "bytes": 1500369,
+    "sha256": "a9493925d4652cb2e2a3695e5b7615c6daf44d7e60703f1ab391a03ba6bc3dad"
+  },
+  {
+    "uploadedName": "AAR00.RFS",
+    "path": "Mesh/AAR00.RFS",
+    "bytes": 1726089,
+    "sha256": "143095fb2976c02223e527186a2e17e9107a123c4b522b44c1c069e2020ecdde"
+  },
+  {
+    "uploadedName": "BFF00.RFS",
+    "path": "Mesh/BFF00.rfs",
+    "bytes": 1143191,
+    "sha256": "0f35bef3f0a62b3f9aae36320b31a2063e2dc8941983dffc3a782e00bd12e566"
+  },
+  {
+    "uploadedName": "BFR00.RFS",
+    "path": "Mesh/BFR00.RFS",
+    "bytes": 1068934,
+    "sha256": "2cbc59829332a7863a8f0306549981357a96092bddc1ac2e4a4d0e8816b87dd4"
+  },
+  {
+    "uploadedName": "AAW00.RFS",
+    "path": "Mesh/AAW00.RFS",
+    "bytes": 3219144,
+    "sha256": "48b28115c6ee74f7ff6ddca151771c91885ac9d16c754ea8ffb884d815d0bb54"
+  },
+  {
+    "uploadedName": "BMF00.RFS",
+    "path": "Mesh/BMF00.RFS",
+    "bytes": 1147103,
+    "sha256": "0b6a47f16c92376b1b437072661844e3fe3ff36208df175000f2b23ba2006d72"
+  },
+  {
+    "uploadedName": "BMR00.RFS",
+    "path": "Mesh/BMR00.RFS",
+    "bytes": 989913,
+    "sha256": "553ff85c83ed669f46e9ae0dd4a02e72205cceedb238b4f1ee4fe63c65c00ea1"
+  },
+  {
+    "uploadedName": "BFW00.RFS",
+    "path": "Mesh/BFW00.RFS",
+    "bytes": 1921420,
+    "sha256": "ad2a1f0f1d1d34a5c05e052bd896ba3422cca3b64bb64aac622f7e2058aa7e51"
+  },
+  {
+    "uploadedName": "BMW00.RFS",
+    "path": "Mesh/BMW00.RFS",
+    "bytes": 1754654,
+    "sha256": "ccadbec1fe37e7da74a27865f0143c3dcda24e5c5ea4aebc263c45cfc671bd70"
+  },
+  {
+    "uploadedName": "CFF00.RFS",
+    "path": "Mesh/CFF00.RFS",
+    "bytes": 1013012,
+    "sha256": "d1a8bf8c2440ce79c7c03a06cfe5be8cf0300aab9fc71dced474d6de552f9223"
+  },
+  {
+    "uploadedName": "CFR00.RFS",
+    "path": "Mesh/CFR00.RFS",
+    "bytes": 1143882,
+    "sha256": "8a710b4262f897ce52535a3f229f81f7ce1f2227e700b2848972fda1ef10f326"
+  },
+  {
+    "uploadedName": "CFW00.RFS",
+    "path": "Mesh/CFW00.RFS",
+    "bytes": 1935630,
+    "sha256": "220230d94ed7c8106a5907b4020f0cc0fb1258e47ce875bd970887d436cd3474"
+  },
+  {
+    "uploadedName": "CMF00.RFS",
+    "path": "Mesh/CMF00.RFS",
+    "bytes": 1172632,
+    "sha256": "f0af97649814a3ef9bfc587e683518dc0d37abbd884f76199aa5b62f0f95909f"
+  },
+  {
+    "uploadedName": "CMR00.RFS",
+    "path": "Mesh/CMR00.RFS",
+    "bytes": 1154493,
+    "sha256": "733b7462105b481883ebd44991301a0dc5ff79c2f1c218b6f1cede56af5cf84f"
+  }
+]

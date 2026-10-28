@@ -1,6 +1,14 @@
 {
   "version": 1,
   "name": "Bellato Female \u00b7 Armor 171",
+  "meshResourceIds": [
+    "001004AB",
+    "001000AB",
+    "001003AB",
+    "001005AB",
+    "001002AB"
+  ],
+  "boneResourceId": "00000001",
   "textures": [
     {
       "file": "belfemale_armor_gloves_171.png",
@@ -69,34 +77,24 @@
   ],
   "sources": [
     {
+      "path": "Player.xlsx",
+      "bytes": 368015,
+      "sha256": "546db734f2d7cf389904e5a4bfa81322b332a1195ffa3ba86e03a5c5b8dc20e8"
+    },
+    {
+      "path": "resources.json",
+      "bytes": 3385321,
+      "sha256": "10daca24b332cfa5a4283a9ff8e72b9a2e61c76fe0c63d1a693a23317e7bec5a"
+    },
+    {
       "path": "Bone/BelFemale.bn",
       "bytes": 67423,
       "sha256": "415b66b940e7cf0da973ac151a3ad7cd47eef1af813f37452c5573c5f6ecd6f0"
     },
     {
-      "path": "Mesh/BFF00/BELFEMALE_ARMOR_GLOVES_171.msh",
-      "bytes": 50164,
-      "sha256": "34eb491847d0bc44c11f322de5de710a9f60c0b20b2cbce0547e47ba49d29713"
-    },
-    {
-      "path": "Mesh/BFF00/BELFEMALE_ARMOR_HELMET_171.msh",
-      "bytes": 21215,
-      "sha256": "83320b2c513917599aec3cc4b4dc1652dd0d0efb345c622c14091ac467df9302"
-    },
-    {
-      "path": "Mesh/BFF00/BELFEMALE_ARMOR_LOWER_171.msh",
-      "bytes": 132502,
-      "sha256": "b598d9da4891a089d6f41c024dfd46657f8f8d04e69718bb24d08586ac8d309b"
-    },
-    {
-      "path": "Mesh/BFF00/BELFEMALE_ARMOR_SHOES_171.msh",
-      "bytes": 30564,
-      "sha256": "791aaf127582f9d24028ec52858163b0c6dd8f808f067c9166deb450c101785b"
-    },
-    {
-      "path": "Mesh/BFF00/BELFEMALE_ARMOR_UPPER_171.msh",
-      "bytes": 173059,
-      "sha256": "35201845ba35ecdf6582df10335725b5efed1140f69ad6288e59e8eb6f306fe0"
+      "path": "Mesh/BFF00.rfs",
+      "bytes": 1143191,
+      "sha256": "0f35bef3f0a62b3f9aae36320b31a2063e2dc8941983dffc3a782e00bd12e566"
     },
     {
       "path": "Tex/BFF00.RFS",

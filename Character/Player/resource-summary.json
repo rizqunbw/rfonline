@@ -1,0 +1,67 @@
+{
+  "workbookRows": {
+    "Bone": 5,
+    "Mesh": 6808,
+    "Ani": 2056
+  },
+  "boneStatus": {
+    "available": 5
+  },
+  "meshStatus": {
+    "missing": 6454,
+    "available": 354
+  },
+  "animationStatus": {
+    "available": 2056
+  },
+  "uploadedMeshArchives": 15,
+  "uploadedMeshes": 354,
+  "uploadedMeshesWithWorkbookId": 354,
+  "uploadedMeshesWithAllTextures": 213,
+  "missingTextureNames": [
+    "ACCRETIA_ARMOR_GLOVES_100.dds",
+    "ACCRETIA_ARMOR_HELMET_100.dds",
+    "ACCRETIA_ARMOR_LOWER_100.dds",
+    "ACCRETIA_ARMOR_SHOES_100.dds",
+    "ACCRETIA_ARMOR_UPPER_100.dds",
+    "BELFEMALE_ARMOR_GLOVES_100.dds",
+    "BELFEMALE_ARMOR_GLOVES_184.dds",
+    "BELFEMALE_ARMOR_HELMET_100.dds",
+    "BELFEMALE_ARMOR_HELMET_184.dds",
+    "BELFEMALE_ARMOR_LOWER_100.dds",
+    "BELFEMALE_ARMOR_LOWER_184.dds",
+    "BELFEMALE_ARMOR_SHOES_100.dds",
+    "BELFEMALE_ARMOR_SHOES_184.dds",
+    "BELFEMALE_ARMOR_UPPER_100.dds",
+    "BELFEMALE_ARMOR_UPPER_184.dds",
+    "BELMALE_ARMOR_GLOVES_100.dds",
+    "BELMALE_ARMOR_GLOVES_184.dds",
+    "BELMALE_ARMOR_HELMET_100.dds",
+    "BELMALE_ARMOR_HELMET_184.dds",
+    "BELMALE_ARMOR_LOWER_100.dds",
+    "BELMALE_ARMOR_LOWER_184.dds",
+    "BELMALE_ARMOR_SHOES_100.dds",
+    "BELMALE_ARMOR_SHOES_184.dds",
+    "BELMALE_ARMOR_UPPER_100.dds",
+    "BELMALE_ARMOR_UPPER_184.dds",
+    "CORFEMALE_ARMOR_GLOVES_100.dds",
+    "CORFEMALE_ARMOR_GLOVES_184.dds",
+    "CORFEMALE_ARMOR_LOWER_008_1.dds",
+    "CORFEMALE_ARMOR_LOWER_100.dds",
+    "CORFEMALE_ARMOR_LOWER_184.dds",
+    "CORFEMALE_ARMOR_SHOES_100.dds",
+    "CORFEMALE_ARMOR_SHOES_184.dds",
+    "CORFEMALE_ARMOR_UPPER_100.dds",
+    "CORFEMALE_ARMOR_UPPER_100_1.dds",
+    "CORFEMALE_ARMOR_UPPER_184.dds",
+    "CORMALE_ARMOR_GLOVES_100.dds",
+    "CORMALE_ARMOR_GLOVES_184.dds",
+    "CORMALE_ARMOR_LOWER_100.dds",
+    "CORMALE_ARMOR_LOWER_184.dds",
+    "CORMALE_ARMOR_SHOES_100.dds",
+    "CORMALE_ARMOR_SHOES_184.dds",
+    "CORMALE_ARMOR_UPPER_100.dds",
+    "CORMALE_ARMOR_UPPER_100_1.dds",
+    "CORMALE_ARMOR_UPPER_184.dds"
+  ]
+}

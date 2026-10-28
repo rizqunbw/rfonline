@@ -16,6 +16,7 @@ from PIL import Image
 from extract_rfs import entries
 from inspect_msh import Reader, inspect as inspect_mesh
 from inspect_ani import inspect as inspect_animation
+from player_resources import PlayerResources
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT.parents[1] / 'Map/Platform01/assets/character'
@@ -140,13 +141,25 @@ def build():
     sources = []
     def source(path):
         data = path.read_bytes()
-        sources.append(dict(path=str(path.relative_to(ROOT)), bytes=len(data), sha256=hashlib.sha256(data).hexdigest()))
+        if not any(s['path'] == str(path.relative_to(ROOT)) for s in sources):
+            sources.append(dict(path=str(path.relative_to(ROOT)), bytes=len(data), sha256=hashlib.sha256(data).hexdigest()))
         return data
-    bones = read_bones(source(ROOT / 'Bone/BelFemale.bn'))
+    registry = PlayerResources()
+    source(ROOT / 'Player.xlsx')
+    source(ROOT / 'resources.json')
+    # Resource IDs are selected equipment slots from the uploaded workbook.
+    # Actual archive payloads and the skeleton are resolved through ID/BoneID.
+    resource_ids = ['001004AB', '001000AB', '001003AB', '001005AB', '001002AB']
+    selected = [registry.mesh(resource_id) for resource_id in resource_ids]
+    bone_paths = {r['bone'] for r in selected}
+    if len(bone_paths) != 1:
+        raise ValueError('Selected equipment uses incompatible skeletons')
+    bones = read_bones(source(selected[0]['bone']))
     names = {b['name']: i for i, b in enumerate(bones)}
     meshes = []
-    for slot in ['GLOVES', 'HELMET', 'LOWER', 'SHOES', 'UPPER']:
-        meshes.extend(read_mesh(source(ROOT / f'Mesh/BFF00/BELFEMALE_ARMOR_{slot}_171.msh'), names))
+    for resource in selected:
+        source(resource['archive'])
+        meshes.extend(read_mesh(resource['payload'], names))
     texture_data = source(ROOT / 'Tex/BFF00.RFS')
     textures = []
     for e in entries(texture_data):
@@ -208,6 +221,7 @@ def build():
                               tracks=tracks, omittedObjects=[o['name'] for o in ani['objects'] if o['name'] not in names]))
     points = np.concatenate([np.array(m['positions']).reshape(-1, 3) for m in meshes])
     model = dict(version=1, name='Bellato Female · Armor 171',
+                 meshResourceIds=resource_ids, boneResourceId=selected[0]['record']['boneResourceId'],
                  bones=[dict(name=b['name'], parent=b['parent'], local=flat(C @ b['local'] @ C.T), inverseBind=flat(np.linalg.inv(C @ b['world'] @ C.T))) for b in bones],
                  meshes=meshes, textures=textures, clips=clips,
                  bounds=[points.min(axis=0).tolist(), points.max(axis=0).tolist()],

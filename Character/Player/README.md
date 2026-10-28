@@ -2,6 +2,47 @@
 
 Original animations are in [Ani](Ani/README.md), skeletons in `Bone`, and textures in [Tex](Tex/README.md). The website now renders Bellato female armor 171 with `BelFemale.bn`, five matching RFT textures, and idle/walk/run/combat-stance ANI clips. Open `/character.html` for the interactive preview and `/?character=1` for third-person walking in Platform01.
 
+## Player.xlsx resource mapping
+
+The original workbook is preserved at `Player.xlsx`. It contains 5 Bone rows,
+6,808 Mesh rows and 2,056 Ani rows. `tools/catalog_player.py` reads cell values
+as data, preserves hexadecimal IDs, and matches Windows paths/names without case
+sensitivity. It does not execute formulas or follow workbook external links.
+
+All 354 meshes in the 15 uploaded `00` archives have matching workbook IDs.
+All 5 listed skeleton/BBX pairs and all 2,056 listed animation names are available.
+6,454 mesh rows refer to files outside the uploaded archive subset; they remain
+`missing`, not silently substituted. Matching base textures exist for 213 of the
+354 uploaded meshes. This does not assert that all equipment sets are complete or
+that every rig has been rendered. Default Bellato face meshes remain missing.
+
+`resources.json` maps workbook IDs to actual repository paths and archive
+offsets/hashes; `resource-summary.json` summarizes coverage. `Mesh/catalog.json`
+adds geometry, bone and texture references for every uploaded mesh. Resource
+metadata stays outside the static public build.
+
+The Bellato converter now selects the five equipment IDs `001004AB`, `001000AB`,
+`001003AB`, `001005AB`, `001002AB`, resolves them directly from the archive, and
+uses their shared BoneID `00000001` to select `Bone/BelFemale.bn`. The resolved
+geometry, rig, texture pixels and animation tracks are identical to the previously
+rendered character. New races/equipment are cataloged but are not yet offered in
+the website selector.
+
+To regenerate the mapping, install `openpyxl`, then run these from repository root:
+
+```sh
+python Character/Player/tools/catalog_player.py
+python Character/Player/tools/build_character.py
+python Character/Player/tools/test_player_resources.py
+```
+
+`tools/player_resources.py` rejects missing, ambiguous or stale archive references
+and verifies the selected skeleton hash before returning a payload. Mesh and Tex
+archives with the same basename are separate assets and must stay in their own
+directories. See [Mesh](Mesh/README.md) for extraction and upload checksums.
+
+## Current browser character
+
 The renderer assembles five armor parts (14 mesh objects, 3,098 triangles), with 25 skeleton bones. Helmet parenting is exported as a rigid one-bone skin; all other parts retain the supplied skin weights. Face and hair geometry were not supplied. Other armor sets refer to texture suffix 184, which is absent from these uploads, so they are not offered as textured variants.
 
 `tools/build_character.py` produces the committed web assets under `Map/Platform01/assets/character`. Regeneration requires Python 3, numpy, scipy and Pillow; the static Vercel build only copies these outputs and needs no Python dependencies. The renderer vendors Three.js 0.152.2 locally with its MIT license.
