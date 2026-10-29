@@ -62,6 +62,7 @@ with sync_playwright() as p:
     assert initial['character']['triangles'] == 4056 and initial['glError'] == 0
     assert initial['character']['headwear'] == 'hair'
     page.click('#play')
+    page.keyboard.press('KeyH')
     page.keyboard.down('KeyW')
     page.wait_for_function('(z) => platformDiagnostics().player[2] < z - .35', arg=initial['player'][2])
     page.wait_for_function('platformDiagnostics().character.clip === "walk"')

@@ -1,0 +1,14 @@
+# Preserve original native asset bytes and configuration line endings.
+*.TTF binary
+*.ttf binary
+*.dat binary
+*.rdt binary
+*.dds binary
+*.tga binary
+*.tmp binary
+*.tmt binary
+*.cfg -text
+*.ini -text
+*.txt -text
+mouse/*.ani binary
+shader/* -text

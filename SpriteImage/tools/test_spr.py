@@ -24,7 +24,7 @@ class SprTests(unittest.TestCase):
 
     def test_exported_hud_pixels_match_original_sprites(self):
         for role,info in json.loads((OUT/'manifest.json').read_text()).items():
-            data=(ROOT/'common'/info['source']).read_bytes()
+            data=(ROOT/info.get('folder','common')/info['source']).read_bytes()
             record=next(r for r in read_spr(data) if (r['group'],r['frame'])==(info['group'],info['frame']))
             image=decode(data,record)
             if 'crop' in info:image=image.crop(info['crop'])

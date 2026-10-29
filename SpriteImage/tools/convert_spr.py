@@ -33,6 +33,7 @@ SELECTION = {
     'equip-helmet':('inventory',2,0), 'equip-upper':('inventory',2,1), 'equip-lower':('inventory',2,2),
     'equip-boots':('inventory',2,4), 'equip-gloves':('inventory',2,6),
     'cursor':('mouse',0,0), 'close':('main',2,12),
+    'belt-up':('main',1,2), 'belt-down':('main',1,4), 'belt-handle':('main',1,5),
 }
 
 
@@ -103,10 +104,16 @@ def build():
         width=44,height=44,pixelsSha256=hashlib.sha256(slot.tobytes()).hexdigest())
     (ROOT/'common/catalog.json').write_text(json.dumps(catalog,indent=2)+'\n')
     localized=[]
+    localized_roles={'window-title':(4,0),'window-section':(4,5),'window-bottom':(4,2),'window-help':(0,3),'window-close':(0,0)}
     for path in sorted((ROOT/'en-gb').glob('*.spr')):
         data=path.read_bytes(); records=read_spr(data)
         for record in records:
             record['pixelsSha256']=hashlib.sha256(decode(data,record).tobytes()).hexdigest()
+            if path.name=='common.spr':
+                for role,coords in localized_roles.items():
+                    if coords!=(record['group'],record['frame']):continue
+                    image=decode(data,record);image.save(OUT/(role+'.png'))
+                    selected[role]=dict(source=path.name,folder='en-gb',group=record['group'],frame=record['frame'],url='assets/ui/'+role+'.png',width=image.width,height=image.height,pixelsSha256=record['pixelsSha256'])
         localized.append(dict(source=path.name,bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),frames=records))
     (ROOT/'en-gb/catalog.json').write_text(json.dumps(localized,indent=2)+'\n')
     (OUT/'manifest.json').write_text(json.dumps(selected,indent=2)+'\n')

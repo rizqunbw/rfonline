@@ -1,0 +1,4 @@
+/* Use the user's installed Lucida Console without redistributing a system font. */
+@font-face{font-family:'RF Lucida Console';src:local('Lucida Console');font-style:normal;font-weight:100 900;font-display:swap}
+:root{--rf-font:'RF Lucida Console','Lucida Console',monospace}
+html,body,body *{font-family:var(--rf-font)!important}

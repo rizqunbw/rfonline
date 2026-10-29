@@ -134,6 +134,33 @@
     "height": 11,
     "pixelsSha256": "97337b40593065622144e6160b69d6755562995979a5e767d51d6c3d0c300267"
   },
+  "belt-up": {
+    "source": "main.spr",
+    "group": 1,
+    "frame": 2,
+    "url": "assets/ui/belt-up.png",
+    "width": 20,
+    "height": 23,
+    "pixelsSha256": "8283d3e46c7e424ff536bc2437b463901aee376c464e1bcb37828e7221c2bb15"
+  },
+  "belt-down": {
+    "source": "main.spr",
+    "group": 1,
+    "frame": 4,
+    "url": "assets/ui/belt-down.png",
+    "width": 20,
+    "height": 23,
+    "pixelsSha256": "ad10f2c1e23513521e72fa5be2fb429580e7e75e44069155e11d5ec3c19774fc"
+  },
+  "belt-handle": {
+    "source": "main.spr",
+    "group": 1,
+    "frame": 5,
+    "url": "assets/ui/belt-handle.png",
+    "width": 16,
+    "height": 19,
+    "pixelsSha256": "822b9872231affa4a814647cdb244c77ef1eb7db5eed16d5462861e20bd23ea0"
+  },
   "close": {
     "source": "main.spr",
     "group": 2,
@@ -364,5 +391,55 @@
     "width": 44,
     "height": 44,
     "pixelsSha256": "06f85735e591a98f1f4446a5170b8e01938f1e436adba1567a12ae6840b6817a"
+  },
+  "window-close": {
+    "source": "common.spr",
+    "folder": "en-gb",
+    "group": 0,
+    "frame": 0,
+    "url": "assets/ui/window-close.png",
+    "width": 24,
+    "height": 14,
+    "pixelsSha256": "dee1364c09ad96b4367c21e551da600325373f0e222d3e1e2a9c95d73116c9fd"
+  },
+  "window-help": {
+    "source": "common.spr",
+    "folder": "en-gb",
+    "group": 0,
+    "frame": 3,
+    "url": "assets/ui/window-help.png",
+    "width": 24,
+    "height": 14,
+    "pixelsSha256": "0da9b3ac8b1643849a02220fc25902f77aa7cdbb1ee61f3083643055ddbd3ca6"
+  },
+  "window-title": {
+    "source": "common.spr",
+    "folder": "en-gb",
+    "group": 4,
+    "frame": 0,
+    "url": "assets/ui/window-title.png",
+    "width": 217,
+    "height": 22,
+    "pixelsSha256": "a1b87d5bbb74ee6514e09f968723c439152f3f9eeccde27ed600012b4c883e0b"
+  },
+  "window-bottom": {
+    "source": "common.spr",
+    "folder": "en-gb",
+    "group": 4,
+    "frame": 2,
+    "url": "assets/ui/window-bottom.png",
+    "width": 218,
+    "height": 14,
+    "pixelsSha256": "6099333c36b4cac438dd815d3424054f2b0105d6277a8762e4d78c45dc92e95b"
+  },
+  "window-section": {
+    "source": "common.spr",
+    "folder": "en-gb",
+    "group": 4,
+    "frame": 5,
+    "url": "assets/ui/window-section.png",
+    "width": 218,
+    "height": 22,
+    "pixelsSha256": "1f52b4c77a5f3f7fa033a8132aad7ce28951c256124e1b2abcfc38185ed8dd52"
   }
 }

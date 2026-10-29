@@ -1,0 +1,298 @@
+{
+  "archiveSha256": "b2ac780b795cbc08561bd7084d9679a8bba80e5dc0ba92f1d449f2e51180c307",
+  "files": [
+    {
+      "path": "010.TTF",
+      "bytes": 632660,
+      "sha256": "4f4adcdaa09074f1b944b9fe46c94e67425d9d9f10a2836dc5599d0fceae61b6"
+    },
+    {
+      "path": "ccrlogo.dds",
+      "bytes": 1048704,
+      "sha256": "43a9c7dfba0fc4c92e01005eccb12d5a20a446c86893aa1680ec9dc2cab0596b"
+    },
+    {
+      "path": "ChatCommand.ini",
+      "bytes": 2941,
+      "sha256": "13f295d99770499c00ebd872317bc8120ca7328e068c2835922e5350feb415fb"
+    },
+    {
+      "path": "console.jpg",
+      "bytes": 19858,
+      "sha256": "318d33ecd7189d8c144ddf50eb30b3a1ef3be609aa95a5652e4d6a210f66f772"
+    },
+    {
+      "path": "default.cfg",
+      "bytes": 131,
+      "sha256": "8b24bbe9a114bc8975e56a7d2b19f358e1e4bae5d62699256ef3c2f69d7d3aa0"
+    },
+    {
+      "path": "DefaultSet.tmp",
+      "bytes": 55,
+      "sha256": "f9df0c85e4824421d494cfb8d29149402e7438ca7bbf191d05af3f69b7348883"
+    },
+    {
+      "path": "DefaultSet.tmt",
+      "bytes": 55,
+      "sha256": "91fc3c5269421a4337fe209f75f476961f7f8ad58d1b72feb1de324118aa953c"
+    },
+    {
+      "path": "DeleteFileList.txt",
+      "bytes": 240,
+      "sha256": "14335be3a06c700b6efa80d3c93e68330b7609379de910e657ef8f1f288f5934"
+    },
+    {
+      "path": "font.ini",
+      "bytes": 26,
+      "sha256": "033c1ea103e6b566fe540b8e2f507e88f7df7206790f8c1ae03227414804d167"
+    },
+    {
+      "path": "idll.rdt",
+      "bytes": 535,
+      "sha256": "45f5cac3c5a81902eb8bd3809ba7d58066db6dee85711c3e24c0a4028275a890"
+    },
+    {
+      "path": "mouse/attack.ani",
+      "bytes": 15862,
+      "sha256": "4caf52420fd515e089bef2ab152247a2c0c80de31931f69d5cff6345af10a713"
+    },
+    {
+      "path": "mouse/basic.ani",
+      "bytes": 15862,
+      "sha256": "f31673f9dfc4c579c28331f0bf311e666a5f02fa663aff236dd08d92b5ab7c5c"
+    },
+    {
+      "path": "mouse/force.ani",
+      "bytes": 18116,
+      "sha256": "fb9397d34133dd5fed358a3436c84223b1ca7e1f480cb7ae7e49e64fb24d160b"
+    },
+    {
+      "path": "mouse/get.ani",
+      "bytes": 22624,
+      "sha256": "384901fdcd0c05fa0ae4c5072735bd745a52fc213888a505993a125cc574cc03"
+    },
+    {
+      "path": "mouse/NPC.ani",
+      "bytes": 13608,
+      "sha256": "cfedcd6b233c2fede2bfac96f4623cd25479a46ab4bb8beeae932ec564abe227"
+    },
+    {
+      "path": "mouse/samerace.ani",
+      "bytes": 15862,
+      "sha256": "bf82575cd18f435c4f4d5860090a468a28b023ef194bc6d91acd608c4b6a40aa"
+    },
+    {
+      "path": "mouse/skill.ani",
+      "bytes": 11354,
+      "sha256": "873f7d7877693aef8db8815f3aa06709b39296ee6aa0299181f604be17481b6c"
+    },
+    {
+      "path": "rfoemf.dat",
+      "bytes": 239440,
+      "sha256": "58498040767d1eadec2944b571be978273495fc59c8fe7c8071cdc5aea1ec307"
+    },
+    {
+      "path": "shader/BlurBlit.nvp",
+      "bytes": 680,
+      "sha256": "5bfec8560b2c799c575b75ea850cbe27f821fa85237560a34467de1b444f7235"
+    },
+    {
+      "path": "shader/BlurBlit.pso",
+      "bytes": 300,
+      "sha256": "9499e2f60bb4cf8098d2111a7c9e9cfa65cc839e50f3da24d6d59c35d40242a9"
+    },
+    {
+      "path": "shader/FilterBlit.nvv",
+      "bytes": 932,
+      "sha256": "88e761753e62e63c858235589f9becfc61f3ff6ebf1381958f3229372dadad79"
+    },
+    {
+      "path": "shader/FilterBlit.vso",
+      "bytes": 172,
+      "sha256": "a3b9a76a776e86bed477797966b532c1f23fba37bea0c7e31ba7c3d5df5ae60c"
+    },
+    {
+      "path": "shader/Grass1.vsh",
+      "bytes": 1518,
+      "sha256": "e32d397802f965abd369097398932bb0388a1dcbdac182e2871a19517e23261f"
+    },
+    {
+      "path": "shader/grass1.vso",
+      "bytes": 220,
+      "sha256": "a1ed1ece1616cefeef9f1093ec6169fc7423b1018efffc11f3de751528cef4d5"
+    },
+    {
+      "path": "shader/init.r3o",
+      "bytes": 1424,
+      "sha256": "a7d551a5a7dce2a6bbb8887fbc0e0a2c68dc83dff7bab1443b0eef51ab01353c"
+    },
+    {
+      "path": "shader/LitGrass1.vsh",
+      "bytes": 1942,
+      "sha256": "1dfa5a1f2722050972306a9683283912c69ff23438a4c216228467848884e9a5"
+    },
+    {
+      "path": "shader/LitGrass1.vso",
+      "bytes": 300,
+      "sha256": "a56584fc8a5bb5b6783e526b04835c16a9712cacdfafe95031f74b723b155dbc"
+    },
+    {
+      "path": "shader/pFraction.sho",
+      "bytes": 1434,
+      "sha256": "49051362d06fe92a4b113dacba6e6cd4a382e951170962855289d0fe1e25eecd"
+    },
+    {
+      "path": "shader/pPlazma.sho",
+      "bytes": 961,
+      "sha256": "f10f9817b1fd0803df578526e6d4465725718d61918659a09e38ef291b13a803"
+    },
+    {
+      "path": "shader/Reflection.vsh",
+      "bytes": 1822,
+      "sha256": "5083d669989b749a3faa22a358a2cc03853ccf278aa5846208c393f555305d77"
+    },
+    {
+      "path": "shader/Reflection.vso",
+      "bytes": 288,
+      "sha256": "a81742b15b5da18f9d4ef42cf3ba5db8c1224f4a67718437f5f6533955f586d7"
+    },
+    {
+      "path": "shader/Scatter.vsh",
+      "bytes": 2647,
+      "sha256": "7a4e233746b1792668360784ececccd6a349d79518c6f884a36c2d5b301b4df6"
+    },
+    {
+      "path": "shader/Scatter.vso",
+      "bytes": 612,
+      "sha256": "eee9e9786da4201d5c4d2dd58d9bc9af7ef81f3cc5dbae326d6de291fc8a60af"
+    },
+    {
+      "path": "shader/sh_basic.sho",
+      "bytes": 2866,
+      "sha256": "0369f909c90c2f38ccfda5d3dedcfa86971dcbf6c8f8913747cef6d0c27da607"
+    },
+    {
+      "path": "shader/sh_basic_alpha.sho",
+      "bytes": 2433,
+      "sha256": "226c40e9ef6f5482fcb4ddc902784a79d4878e2e8f0f95f2184d7b7d557a8802"
+    },
+    {
+      "path": "shader/sh_basic_bump.sho",
+      "bytes": 2635,
+      "sha256": "3f7eee8b8f04f04cb4ed7eb9ad34aec309593a37041a50c4e207ab5e53249c32"
+    },
+    {
+      "path": "shader/sh_basic_BumpEffect.sho",
+      "bytes": 2985,
+      "sha256": "9c2b3ab82e60f89539235dfbe7b12128db82350b5d0d8fc8a2cbd7e6ef223123"
+    },
+    {
+      "path": "shader/sh_basic_DScroll.sho",
+      "bytes": 2947,
+      "sha256": "a11f75734ed0d77b4f90792a973b227efbf23ad17d3d5f2fa75fc8ed059bdbff"
+    },
+    {
+      "path": "shader/sh_basic_eff.sho",
+      "bytes": 2953,
+      "sha256": "d58d859327e7865ad52476615e94ae4b249cfda6c77f27dd604ed467f834bf38"
+    },
+    {
+      "path": "shader/sh_basic_EnvScroll.sho",
+      "bytes": 3064,
+      "sha256": "99f74309e51b993904750591c538eeee6035e8e1ce9c935062246983185f1f1c"
+    },
+    {
+      "path": "shader/sh_basic_GradeEffect.sho",
+      "bytes": 2180,
+      "sha256": "0b7a9fec08828087dd383dc6e76089f10d77e80685e0c50cdce504506c5d42bf"
+    },
+    {
+      "path": "shader/sh_basic_GradeEnvEffect.sho",
+      "bytes": 2640,
+      "sha256": "f7a6cd5c3d9c7235df4a4227a0f61ef24bb8ecdd79917e44a0d4d7125d41f604"
+    },
+    {
+      "path": "shader/sh_basic_Scroll.sho",
+      "bytes": 2676,
+      "sha256": "e32a0188487b221d4cc238ca354377acdb3f2dee3d9169398c86c52de9c89c3c"
+    },
+    {
+      "path": "shader/sh_normal.sho",
+      "bytes": 5076,
+      "sha256": "16e3c91510c071f5f7cd67b28a22a937f01ebd0d4dd6d25ffd67d646d72cb58e"
+    },
+    {
+      "path": "shader/sh_norm_spec.sho",
+      "bytes": 6688,
+      "sha256": "8e2756f59cf940418b05434c2b7e078db93ec3cf9e4239c69a2423830046114f"
+    },
+    {
+      "path": "shader/sh_Shadow.sho",
+      "bytes": 2356,
+      "sha256": "8c2f5ac8a8116778332dd23f42ca1137483348fa796f8a6d060e40cf2b5aeea6"
+    },
+    {
+      "path": "shader/transition.psh",
+      "bytes": 101,
+      "sha256": "51bfa22725cb4524cd0bb753088d273e877811509f81de2935009865f1e063ad"
+    },
+    {
+      "path": "shader/transition.pso",
+      "bytes": 76,
+      "sha256": "887f8fb9b33dfb34bb5a067670d8263c45e33643e8c67b995a68676f10125110"
+    },
+    {
+      "path": "shader/transition.vsh",
+      "bytes": 108,
+      "sha256": "81132a18bb1b769900fe655d02a4116fbf3843e88a31f0d488de12897d6b392b"
+    },
+    {
+      "path": "shader/transition.vso",
+      "bytes": 84,
+      "sha256": "92d2f9317c23d3eea4800b896b1bed6d892d8decc5b2ec62d2a2d5fff43da321"
+    },
+    {
+      "path": "shader/vFraction.sho",
+      "bytes": 1120,
+      "sha256": "bf34a801f63093bffc9a8c3ee0516226b05c5472ab7c1674f9335e526f485e55"
+    },
+    {
+      "path": "shader/vPlazma.sho",
+      "bytes": 1678,
+      "sha256": "dcf81c12074884495ee3d40af81fe6cb93cfb8201b896b1bc6db31ae17b84642"
+    },
+    {
+      "path": "staff.txt",
+      "bytes": 15879,
+      "sha256": "7d05f257c5b8b9bdfe3dc102c89c21ec208fcc70b6ffbf4d2bbcc7064463234e"
+    },
+    {
+      "path": "sun.dds",
+      "bytes": 349652,
+      "sha256": "f70290eae5954cbde36936698ba9048fbd05d9caa66376c19807ba515ecdf589"
+    },
+    {
+      "path": "titlelogo.tga",
+      "bytes": 5440044,
+      "sha256": "1993b6d7417daec2aed2aa1babdbc02586f1bf757f6aa7580dd3785296d0b2f1"
+    },
+    {
+      "path": "uifont.ttf",
+      "bytes": 1884380,
+      "sha256": "efce5580a65a93031d15812b8c96c5aea80c2236df987871a59ad43a7775e21c"
+    },
+    {
+      "path": "unifont.ttf",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "overrides": [
+    {
+      "path": "font.ini",
+      "originalContent": "[FONT]\r\nNAME = \"Verdana\"\r\n",
+      "sha256": "766afc9e2f8bbc91d10db0eadd72a9a8e6d5b0b48d639af515ae77db658f1681",
+      "reason": "User requested Lucida Console throughout"
+    }
+  ]
+}

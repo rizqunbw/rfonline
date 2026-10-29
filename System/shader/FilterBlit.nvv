@@ -1,0 +1,32 @@
+/************************************************************************
+FilterBlit.nvv
+
+This vertex shader transforms a vertex to clip-space and copies 
+uv-coordinates stored in v1 to all four texture stages.  The 
+uv-coordinates may be offset with values from constant memory.
+A0 is loaded with a value from constant memory that selectes which set 
+of offset to use.
+
+Copyright (C) 1999, 2000 NVIDIA Corporation
+*************************************************************************/
+
+vs.1.1
+
+dcl_position0		v0
+dcl_texcoord0		v1
+
+; Transform vertex-position to clip-space
+dp4 oPos.x, v0, c[0]
+dp4 oPos.y, v0, c[1]
+dp4 oPos.z, v0, c[2]
+dp4 oPos.w, v0, c[3]
+
+; Read which set of offsets to use
+mov a0.x, c[4]
+
+; copy uv-coordinates to all four texture stages
+; and offset them according to a0
+add oT0, v1, c[a0.x + 8]
+add oT1, v1, c[a0.x + 13]
+add oT2, v1, c[a0.x + 18]
+add oT3, v1, c[a0.x + 23]

@@ -1,0 +1,481 @@
+#3Produced by	#0Youn Seok-Ho
+#
+#3- ODIN Development Group -
+#
+
+
+
+     #2Game Design
+
+                                             
+#
+
+              #1Lead System Designer    	#0Jung Seun Hyun
+#
+              #1System Designer            #0Han, Dong Joon
+					   #0Choi, Young Jun
+					   #0Kim Sung Hee
+					   #0Kwak Jung Kyung
+					   #0Kim Ki Seon
+					   #0Kim Jae Hyeok
+					   #0Hong, Sung Soo
+					   #0Hwang, Won Hee
+#
+              #1Lead World Designer   	        #0Lim Jong Hwan
+              #1World Designer             #0Sim, In Bo
+                                                       #0Song, Hee Been	
+#                                                                                                                 
+              #1Scenario Editor   	   #0Song, Jung Min
+
+#        
+              #1Interface Designer         #0Min, Ju Won
+
+#
+
+#   
+     
+#2Program
+
+#
+#1Chief					#0Kim Hyun-woo
+
+		#1Senior Server Programmer	#0Yang Seung-bong
+		#1Senior Client Programmer	#0Ahn Sang-Hak
+		#1Senior Engine Programmer	#0Yang Jung-hyuk
+		#1Server Programmer		#0Kim Tae Wan
+						#0Lee Do Hyung
+						#0Ryu Woo Sik
+						#0Jung Woo Chul
+						#0Kong Kyung Hoon
+                                                #0Kong Su Jin
+                                                #0An Woo Tae
+
+#
+		#1Client Programmer		#0Koo Jae-won
+						#0Han Deuk-hyun
+						#0Kwak Cheol-seung
+                                                #0Lee Young Hoon
+                                                #0Kim Min Woo
+                                                #0Jung Dong Young
+
+#        
+		#1Engine Programmer		#0Hwang Won Taek
+						#0Kang Young Sun
+						#0Ryu Seung Tai
+#
+#2Overseas Support Part
+#
+	        #1Operation Manager(GM)         #0Lee Kyung Sook
+                                                #0Jo A Young
+                                                #0Kim Hae Won
+#
+                #1Overseas Designer             #0Park Se Eung
+                                                #0Lim Sung Hee
+                                                #0Kim Min Sub
+                                                #0Park Chan Wook
+#
+                #1Overseas Manager              #0Lim Kyun Ryoung
+                                                #0Oh Jin Young
+                                                #0Kim Min Kyu
+                                                #0Shim Bum Seok
+                                                #0Jung Je Woo
+#
+                #1System Manager                #0Lee Byung Oh
+                                                #0Woo Chul Ho
+                                                #0Seo Kyu Bum
+                                                #0Park Jae Hyun
+ 
+     #2Graphic Design 
+#
+ 	        #1Lead Graphic Designer         #0Kwon Sang 
+                                                #0Ham Hyun Chul
+# 
+                #1Character Design I
+#
+                                #1Lead Designer #0Jang Young Hee
+				#1Designer      #0Seo Jung Wook
+                                                #0Lee Gwang Suk
+                                                #0Kim Ho Joong
+#
+                #1Character Design II
+#
+                                #1Lead Designer #0Kim Sung Gon
+                                #1Designer      #0Choi Hyo Jeong
+                                                #0Heo Eun Young
+#
+                #1Animation Design
+#
+	 	                #1Lead Designer #0Yoon Young Bae
+                                #1Designer      #0Yang Jung Hwan
+                                                #0Kil Sun Mi
+                                                #0Lee Jae Wook
+                                                #0Lee Myoung Ho
+#
+                #1Scene Design I
+#
+	 			#1Lead Designer #0Kim Young il
+                                #1Designer      #0Seo Jung Ho
+                                                #0Kim Yong Tae
+                                                #0Kang He Jung
+                                                #0Lee Tae Woong
+                                                #0Jang Jung Eui
+#
+                #1Scene Design II
+#
+                                #1Lead Designer #0Kim Ju Yong
+                                                #0Kim Sa ik
+                                                #0Park Hyung Chul
+                                                #0Bae Yong Bum
+                                                #0Choi Youn Hoon
+                                                #0Jo Kyung A
+#
+                #1Effect Design
+#
+				#1Lead Designer #0Lee Jong Soon
+                                #1Designer      #0Nam Chang Keun
+                                                #0Kim Jin Woo
+                                                #0Jung Eui Sik   
+                     
+#
+
+
+
+#2RF Online Team
+         #1Team Manager      #0Lee Bong Keun
+#
+                        #1Quality Assurance Part
+                                #0  GM    Kim Sang Hyun
+                                #0  GM    Son Jin Won
+				#0  GM	  Kang Sung Hoon
+				#0  GM	  Kim Ha Neul
+				#0  GM	  Pyo Young Ju
+				#0  GM    Park Pil Rip
+				#0  GM    Baek In Su
+#
+                        #1Balance Check Part
+				#0  GM    Lee Seung Hyun
+				#0  GM    Oh Chang Jong
+				#0  GM    Kim Hong In
+#
+                        #1Analysis Part 
+				#0  GM    Seo Jong Won
+				#0  GM    Park Han Gook
+				#0  GM    Lee Eun Lim
+				#0  GM    Lee Jin Kyung                  
+#
+                        #1Operation Part
+ 				#0  GM	  Lee Woo Jae   
+ 				#0  GM	  Lee Si Hwang
+ 				#0  GM	  Oh Kyung Sun
+ 				#0  GM	  Ko Seok Hwan
+ 				#0  GM	  Bae Young Lee
+ 				#0  GM	  Choi Hong Seok
+                                #0  GM    Jung Je Hoon
+                                #0  GM    Song Jung Hwan
+                                #0  GM    Park Sang Je
+                                #0  GM    Kim Byung Seok
+                                #0  GM    Yoo Ji Yeon
+                                #0  GM    Kim Jung Hyun
+#
+                        #1System Operation Part
+                                #0  GM    Jung Jin Su
+                                #0  GM    Park Sung ik
+                                #0  GM    Ku Bon Hun
+
+
+# 
+
+
+
+#3- Business Division -
+#
+#3  - Executive Administration Division  - 
+
+   #2RF Online  Project Manager Part
+      #1Chief Manager       	#0 	Kang Sung Chan
+      #1Manager                 #0 	Lee Jung Sin
+      #1Assistant Manager 	#0 	Choi Yu Jung
+      #1Assistant Manager 	#0 	Park Ji Hoon
+      #1Assistant Manager 	#0 	Kim Chul Ryang
+      #1Assistant Manager 	#0 	Lee Ju Young
+      #1Assistant Manager 	#0 	Hong Kwan Pyo
+      #1Staff                   #0 	Jo Hyun Woo
+
+
+#1Web Design Part        		
+			#1Lead Designer	#0Lee Sang Joon
+			#1Designer	#0Bae Ki Hong
+					#0Jung Jin Hyung
+					#0Lee Sung Tark
+					#0Jung Kyung Rae
+					#0Park Young Bae
+					#0Jung Tae Hoon
+					#0Choi Seung Nam
+					#0Gu Young Joon
+					#0Choi Woo Hab
+					#0Kim Sun Su
+
+
+#
+
+#2Assistance Group
+#
+#2Assistance Manager
+		#1Chief                   #0Youn Gi-su
+		#1Lead Manager		  #0Park Jin Yong
+		#1Staff			  #0Hong Jong Hyeok
+					  #0Lee An Na
+					  #0Kim Yeon Sub
+#
+		#1PR Manager		  #0Yoon Yong Hwa
+#
+#2Group Manager
+		#1Lead Manager		  #0Yoon In Seok
+					  #0Kim Joon Yong
+					  #0Cheon Hyo Jung
+					  #0Kim Tae Ja
+#
+
+
+
+
+
+#--------- Special Thanks ---------
+
+ 	#1Leader #0Jang Un-il
+
+#
+
+     #2Game Design
+ 
+              #1Lead Game Designer    		#0Park Jong-woon  
+                                                #0Choi Chang-ho 
+#
+              #1Main System Designer    	  #0Im Ik-soon 
+                                                  #0Kwon Gyong-man 
+#
+              #1System Designer            #0O Chang-Hyeok
+					   #0Ahn Jae-hyun
+                                           #0Koo Jung-hwan
+                                           #0Lee Min-jeong 
+#                       
+              #1World Designer   	   #0Lee Dong-won
+                                           #0Jung Suk-won
+                                           #0Kim Jin-jae
+#                                                                                                                 
+              #1Scenario Editor   	   #0Yang In-ho (Do Hyun) 
+#        
+              #1Interface Designer         #0Park Hyun-Jung
+					   #0Kwon Hyog-soo
+                                           #0Hwang Sun-yong
+#
+#   
+     
+#2Program
+
+ 
+
+ 
+
+#1Chief					#0Kim Hyun-woo
+
+		#1Senior Server Programmer	#0Yang Seung-bong
+		#1Senior Client Programmer	#0Ahn Sang-Hak
+		#1Senior Engine Programmer	#0Yang Jung-hyuk
+		#1Server Programmer		#0Kim Sang-rok
+						#0Lee Hee-gil
+						#0Yoo Woo-sik
+						#0Oh Ryong
+						#0Jung Woo-Chul
+						#0Oh Ho-eun
+						#0Lim Young-gi
+#
+		#1Client Programmer		#0Koo Jae-won
+						#0Yeo In-seok
+						#0Han Deuk-hyun
+						#0Kwak Cheol-seung
+						#0Lee Young-hoon
+						#0Baek Hye-gyung   
+						#0Jin Sung-baek
+						#0Kim June-cheol
+						#0Kang Sung-jin 
+						#0Jang Su-hwan
+#        
+		#1Engine Programmer		#0Ryu Seung-tai
+						#0Jang  Un-il  
+						#0Yoon Myung-ahn
+#
+
+ 
+     #2Graphic Design 
+     #1Lead Graphic Designer     #0Park Sang-soo  
+                                           #0Lee Seok-jae 
+                                           #0Choi Duk-hyun  
+   
+#
+        
+                           #1Lead 2D Designer     #0Kim Tae-hyung  
+             
+                                   #12D Designer     #0Ham Hyun-il  
+                                                         #0Ham Hyun-chul  
+                                                         #0Kwon Sang
+                                                         #0Rim Chang Sub
+                                                         #0Park Hyoung-jun
+                                                         #0Juen Ju-bae
+                                                         #0Song Yong-geun
+                                                         #0Kong Su-jin
+                                                         #0Park Ki-sun
+ # 
+                          #13D Character Design
+ #
+				#1Senior Realtime Character Designer	#0Choi Duck-hyun
+
+				#1Realtime Character Designer		#0Jung Sung-mock
+
+										#0Kim Eun-joo
+										#0Jung Myung-bak
+										#0Kim Sang-gun
+										#0Hyung You-min
+										#0Kang Wan-Mo
+										#0Youn Suk-hyun
+										#0Son Hyun-Ho
+										#0We Chul-Woong
+										#0Han Joo-sang
+										#0Kim Kyu-wan
+										#0Huh Ui-bum
+										#0Hwang Sung-bock
+										#0Suh Jung-wook
+										#0Seo Jeung-ho
+
+   #                     
+                           #13D Still Art Designer     #0Sohn Hyun-ho 
+  
+#
+ 
+                    #13D Scene Design     #0Lee Jae-yong 
+                                                  #0Kim Joo-yong 
+                                                  #0Lim Pil-hwan 
+                                                  #0Kang Hyun-jae 
+                                                  #0Kwon Oh-min  
+                                                  #0Moon Jae-won 
+                                                  #0Lee Se-young 
+                                                  #0Lee Eun-joo   
+                                                  #0Kim Se-ho   
+  #                       
+                    #1Real Time Cinematics  Design     #0Jung Moon-gi  
+                                                                    #0Kim Du-ha  
+                                                                    #0Kim Hong-choel 
+                                                                    #0Lee Soo-nam  
+
+ 
+  #  
+              #1Lead Effect Designer     #0Choi Dong-soon  
+
+                       #1Effect Designer     #0Jung Jin-Chul              
+                                                                  #0Lee Jong-Soon                                                                                                     
+                                                                                #0Shin Soonook 
+                                                  #0Kim Jin-hwan 
+                                                  #0Ha Song-ook
+                                                  #0Maeng Yoon-jae
+                                                  #0Yang Jung-hun
+                                                  #0Lee Hye-sook
+                                                  #0Lee Yeon-hee
+
+ #
+ 
+                   #1Animator     #0Kim Yong-kook  
+                                     #0Kim Do-yong  
+                                     #0Sung Ju-hyun  
+                                     #0Kim Koon-jick  
+                                     #0Han Kyung-hee 
+                                     #0Hwang Seo-jin 
+                                     #0Lee Sang-ick 
+         
+ #
+
+     #2Sound 
+ 
+              #1Sound Concept Designer     #0An Sang-il 
+            
+              #1OST Director Composer       #0Cho Sung-woo  
+	 
+              #1Composer                          #0Choi Yong-lak  
+
+              #1SFX Engineer                      #0Jang Chul-ho 
+                                                       #0Choi Eun-jin 
+
+
+#
+#
+#
+
+#2RX-Game Design        
+
+		#1Main Game Designer	#0Choi Dong-soon    
+
+#
+			#1Main System Designer		#0Kim Si-wook
+
+			#1World Designer		#0Jung Hai-Yong    
+
+			#1Interface Designer		#0Park Sang-Hyun
+
+			#1Sound Concept Designer	#0Jeon Se-Won
+#
+
+
+#3- Service Operation Division -
+   #1Chief Manager             #0Sang Bum Kang
+   #1General Manager     #0Jung Hwan Kim
+# 
+ 
+#2RF Online Team
+         #1Team Manager      #0Park Hong-ik
+#
+                        #1Response Part    
+                                #0  GM    Kang Dong-koo   
+                                #0  GM    An Woo-tae
+                                #0  GM    Jung Hai-yong
+                                #0  GM    Jeong Dong-young 
+                                #0  GM    Lee Bong-geun
+                                #0  GM    Choi Sung-boo
+                                #0  GM    Kim Jee-taek
+#
+                        #1Tech-Support Part
+                                #0  GM    Lee Kwang-min
+                                #0  GM    Baeg Seung-am
+                                #0  GM    Kim Sang-hyeon(B)
+#
+                        #1Operation Part
+                                #0  GM    Hong Kwan-pyo
+                                #0  GM    Choi Yu-jung
+                                #0  GM    Kim Soo-mi
+                                #0  GM    Park Ju-yeon
+                                #0  GM    Kim Hye-won
+                                #0  GM    Lee Eun-hyuk
+                                #0  GM    Kim Seong-gyung
+                                #0  GM    Kim Sang-hyun
+                                #0  GM    Yang Yang-sun
+                                #0  GM    Lee Woo-jae 
+#
+                        #1Investigation Part
+                                #0  GM    Park Young-sung
+                                #0  GM    Woo Cheol-ho
+                                #0  GM    Lee Ga-in
+
+#
+#2Customer Satisfaction Team
+ 
+#1Team Manager #0Oh, Jin-Seok
+
+#0CS    Lee, hyun-Jeong     
+#0CS    Min, Eun-Young      
+#0CS    Son, Sung-Hee       
+#0CS    Kim, Hyang-Mi       
+#0CS    Tae, Hee-Jung       
+#0CS    Noh, Eun-Jung       
+#0CS    Chang, Soon-Deok    
+#0CS    Koo, Hyun-Jung      
+#0CS    Cho, Min-Hye        
+
+ 

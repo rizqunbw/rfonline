@@ -21,11 +21,11 @@ python SpriteImage/tools/test_spr.py
 npm run build
 ```
 
-The browser build ships 40 selected PNG roles from the original common sprites
+The browser build ships 48 selected PNG roles from the original common and en-gb sprites
 with provenance in `Map/Platform01/assets/ui/manifest.json`. It includes the
 status frame, bars, radar, footer, action icons and inventory equipment panel.
-No replacement artwork is generated. The additional en-gb archives are cataloged
-and retained for subsequent screens; login, cash shop and upgrade services are
+No replacement artwork is generated. The en-gb archives are cataloged; native window trim is used in the HUD, while
+other screens remain for later work; login, cash shop and upgrade services are
 not implemented by uploading their artwork.
 
 The default map entry now opens character mode with the HUD. Inventory displays
@@ -35,6 +35,7 @@ HP, FP, level, currency and EXP are prototype starting values without combat or
 server progression. The combat action switches the original animation only.
 Movement still follows map ground; wall and camera collision are not implemented.
 
-Keyboard: WASD move, Shift sprint, drag/arrow keys camera, wheel zoom, I inventory,
-C character, M map, O settings, H help, 1–0 hotbar, Enter local chat, Escape close
-panel/pause. Flight beacon mode remains available at `/?character=0`.
+The HUD uses native window trim from en-gb/common.spr, independent movable
+Character and Inventory windows, and five hotbar rows. H switches mouse and
+keyboard control modes; the uploaded tables and supported bindings are described
+in [DataTable](../DataTable/README.md). Flight mode remains at `/?character=0`.

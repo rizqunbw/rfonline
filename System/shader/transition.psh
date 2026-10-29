@@ -1,0 +1,10 @@
+ps.1.1
+
+tex t0
+tex t1
+
+mov r1, c1
+mov r0.rgb, t0
++add_x4 r0.a, t1, r1_bx2
+
+mov_x4 r0.a, r0.a

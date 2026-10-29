@@ -1,0 +1,9 @@
+8
+.\System\CCRFG.DLL
+.\SpriteImage\Loading\026.dds
+.\SpriteImage\Loading\029.dds
+.\SpriteImage\Loading\040.dds
+.\SpriteImage\Loading\066.dds
+.\SpriteImage\Loading\086.dds
+.\SpriteImage\Loading\089.dds
+.\SpriteImage\Loading\092.dds

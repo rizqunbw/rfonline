@@ -20,7 +20,7 @@ export function createGroundSampler(vertices, stride = 11, cellSize = 4) {
       cells.get(key).push(id);
     }
   }
-  return (x, z, ceiling = Infinity, floor = -Infinity) => {
+  const sample = (x, z, ceiling = Infinity, floor = -Infinity) => {
     let height = null;
     for (const id of cells.get(`${Math.floor(x/cellSize)},${Math.floor(z/cellSize)}`) || []) {
       const t = triangles[id], dx = x-t.a[0], dz = z-t.a[2];
@@ -31,4 +31,19 @@ export function createGroundSampler(vertices, stride = 11, cellSize = 4) {
     }
     return height;
   };
+  sample.pickRay=(origin,direction)=>{
+    let nearest=Infinity,hit=null;
+    for(const t of triangles){
+      const normal=[t.by*t.cz-t.bz*t.cy,t.bz*t.cx-t.bx*t.cz,t.bx*t.cy-t.by*t.cx];
+      const denom=normal.reduce((v,n,i)=>v+n*direction[i],0);
+      if(Math.abs(denom)<1e-9)continue;
+      const distance=normal.reduce((v,n,i)=>v+n*(t.a[i]-origin[i]),0)/denom;
+      if(distance<0||distance>=nearest||distance>500)continue;
+      const p=origin.map((v,i)=>v+direction[i]*distance),dx=p[0]-t.a[0],dz=p[2]-t.a[2];
+      const u=(dx*t.cz-t.cx*dz)/t.det,v=(t.bx*dz-dx*t.bz)/t.det;
+      if(u>=-1e-6&&v>=-1e-6&&u+v<=1.000001){nearest=distance;hit=p;}
+    }
+    return hit;
+  };
+  return sample;
 }

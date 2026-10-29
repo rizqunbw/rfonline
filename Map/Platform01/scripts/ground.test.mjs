@@ -15,4 +15,9 @@ test('ground height respects triangle boundaries, slopes, floors and step limits
   assert.equal(ground(5,1), .25);
   assert.equal(ground(10,1), null);
   assert.equal(ground(-1,-1), null);
+  assert.deepEqual(ground.pickRay([1,10,1],[0,-1,0]),[1,3,1]);
+  assert.deepEqual(ground.pickRay([5,10,1],[0,-1,0]),[5,.25,1]);
+  assert.equal(ground.pickRay([3,10,3],[0,-1,0]),null);
+  assert.equal(ground.pickRay([1,10,1],[0,1,0]),null);
+  assert.equal(ground.pickRay([1,10,1],[1,0,0]),null);
 });
