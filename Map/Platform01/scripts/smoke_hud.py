@@ -9,6 +9,9 @@ with sync_playwright() as p:
     page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto(BASE+'/');page.wait_for_function('window.platformDiagnostics !== undefined',timeout=120000)
     page.click('#play');page.wait_for_selector('#rfHUD:visible')
+    assert page.evaluate('platformDiagnostics().nativeInput.commands')==76
+    assert page.evaluate('platformDiagnostics().nativeInput.keys')==86
+    assert page.evaluate('platformDiagnostics().nativeInput.keyboardBindings')==72
     assert page.evaluate('platformDiagnostics().hud.roles')==48
     assert page.evaluate('platformDiagnostics().controlMode')=='mouse'
     assert page.locator('[data-slot]').count()==50

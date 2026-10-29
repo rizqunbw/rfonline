@@ -4,6 +4,9 @@ The supplied main client is archived at [`../rf_online.bin`](../rf_online.bin).
 See [static analysis and traced INI reads](analysis/README.md) and the
 [new browser configuration system](WEB-CLIENT.md). The JSON system is active
 in the web application; the original Windows executable is not executed.
+The [native input port](NATIVE-PORT.md) now uses the BIN's extracted command and
+key tables in the browser. Its documented scope distinguishes loaded command
+definitions from implemented gameplay behavior.
 
 All 57 files from the supplied `System.zip` are stored at the same relative
 paths, including `mouse/` and `shader/`. `uploads.json` records the archive

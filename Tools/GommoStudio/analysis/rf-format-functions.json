@@ -1,0 +1,4482 @@
+[
+  {
+    "address": "0x140660940",
+    "name": "gommo/pkg/assets/r3char.init",
+    "bytes": 32
+  },
+  {
+    "address": "0x140660960",
+    "name": "gommo/pkg/assets/r3char.init.func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406609e0",
+    "name": "gommo/pkg/assets/r3char.map.init.0",
+    "bytes": 320
+  },
+  {
+    "address": "0x140660b20",
+    "name": "gommo/pkg/assets/r3char.bindKeys",
+    "bytes": 4000
+  },
+  {
+    "address": "0x140661ac0",
+    "name": "gommo/pkg/assets/r3char.bindSources",
+    "bytes": 2688
+  },
+  {
+    "address": "0x140662540",
+    "name": "gommo/pkg/assets/r3char.holds",
+    "bytes": 512
+  },
+  {
+    "address": "0x140662740",
+    "name": "gommo/pkg/assets/r3char.matToQuat",
+    "bytes": 512
+  },
+  {
+    "address": "0x140662940",
+    "name": "gommo/pkg/assets/r3char.DecomposeLocal",
+    "bytes": 960
+  },
+  {
+    "address": "0x140662d00",
+    "name": "gommo/pkg/assets/r3char.quatOf",
+    "bytes": 704
+  },
+  {
+    "address": "0x140662fc0",
+    "name": "gommo/pkg/assets/r3char.inverse3",
+    "bytes": 896
+  },
+  {
+    "address": "0x140663340",
+    "name": "gommo/pkg/assets/r3char.ParseClipFile",
+    "bytes": 704
+  },
+  {
+    "address": "0x140663600",
+    "name": "gommo/pkg/assets/r3char.(*ClipFile).Encode",
+    "bytes": 2272
+  },
+  {
+    "address": "0x140663ee0",
+    "name": "gommo/pkg/assets/r3char.(*ClipFile).Retimed",
+    "bytes": 480
+  },
+  {
+    "address": "0x1406640c0",
+    "name": "gommo/pkg/assets/r3char.fitMaxAnim",
+    "bytes": 576
+  },
+  {
+    "address": "0x140664300",
+    "name": "gommo/pkg/assets/r3char.MotionStart",
+    "bytes": 544
+  },
+  {
+    "address": "0x140664520",
+    "name": "gommo/pkg/assets/r3char.Retime",
+    "bytes": 2240
+  },
+  {
+    "address": "0x140664de0",
+    "name": "gommo/pkg/assets/r3char.Retime.func8",
+    "bytes": 96
+  },
+  {
+    "address": "0x140664e40",
+    "name": "gommo/pkg/assets/r3char.Retime.func6",
+    "bytes": 128
+  },
+  {
+    "address": "0x140664ec0",
+    "name": "gommo/pkg/assets/r3char.Retime.func4",
+    "bytes": 128
+  },
+  {
+    "address": "0x140664f40",
+    "name": "gommo/pkg/assets/r3char.Retime.func2",
+    "bytes": 128
+  },
+  {
+    "address": "0x140664fc0",
+    "name": "gommo/pkg/assets/r3char.sampleAlpha",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406650c0",
+    "name": "gommo/pkg/assets/r3char.Seconds",
+    "bytes": 320
+  },
+  {
+    "address": "0x140665200",
+    "name": "gommo/pkg/assets/r3char.(*ClipFile).EditedOn",
+    "bytes": 1888
+  },
+  {
+    "address": "0x140665960",
+    "name": "gommo/pkg/assets/r3char.(*ClipFile).EditedOn.func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406659e0",
+    "name": "gommo/pkg/assets/r3char.(*ClipFile).keyedTracks",
+    "bytes": 2464
+  },
+  {
+    "address": "0x140666380",
+    "name": "gommo/pkg/assets/r3char.newTrackHeader",
+    "bytes": 1152
+  },
+  {
+    "address": "0x140666800",
+    "name": "gommo/pkg/assets/r3char.sameBones",
+    "bytes": 704
+  },
+  {
+    "address": "0x140666ac0",
+    "name": "gommo/pkg/assets/r3char.editClip",
+    "bytes": 5472
+  },
+  {
+    "address": "0x140668020",
+    "name": "gommo/pkg/assets/r3char.editClip.func11",
+    "bytes": 224
+  },
+  {
+    "address": "0x140668100",
+    "name": "gommo/pkg/assets/r3char.editClip.func6",
+    "bytes": 320
+  },
+  {
+    "address": "0x140668240",
+    "name": "gommo/pkg/assets/r3char.mixVec",
+    "bytes": 192
+  },
+  {
+    "address": "0x140668300",
+    "name": "gommo/pkg/assets/r3char.(*ClipTooLongError).Error",
+    "bytes": 352
+  },
+  {
+    "address": "0x140668460",
+    "name": "gommo/pkg/assets/r3char.BuildClip",
+    "bytes": 5824
+  },
+  {
+    "address": "0x140669b20",
+    "name": "gommo/pkg/assets/r3char.(*Mesh).Bounds",
+    "bytes": 512
+  },
+  {
+    "address": "0x140669d20",
+    "name": "gommo/pkg/assets/r3char.EncodeModel",
+    "bytes": 768
+  },
+  {
+    "address": "0x14066a020",
+    "name": "gommo/pkg/assets/r3char.encodeMesh",
+    "bytes": 1984
+  },
+  {
+    "address": "0x14066a7e0",
+    "name": "gommo/pkg/assets/r3char.(*Mesh).validate",
+    "bytes": 2400
+  },
+  {
+    "address": "0x14066b140",
+    "name": "gommo/pkg/assets/r3char.(*Mesh).vertexSection",
+    "bytes": 1408
+  },
+  {
+    "address": "0x14066b6c0",
+    "name": "gommo/pkg/assets/r3char.(*Mesh).faceSection",
+    "bytes": 2400
+  },
+  {
+    "address": "0x14066c020",
+    "name": "gommo/pkg/assets/r3char.(*Mesh).skinSection",
+    "bytes": 2240
+  },
+  {
+    "address": "0x14066c8e0",
+    "name": "gommo/pkg/assets/r3char.sameSkins",
+    "bytes": 480
+  },
+  {
+    "address": "0x14066cac0",
+    "name": "gommo/pkg/assets/r3char.(*reader).need",
+    "bytes": 288
+  },
+  {
+    "address": "0x14066cbe0",
+    "name": "gommo/pkg/assets/r3char.(*reader).u16",
+    "bytes": 160
+  },
+  {
+    "address": "0x14066cc80",
+    "name": "gommo/pkg/assets/r3char.(*reader).u32",
+    "bytes": 160
+  },
+  {
+    "address": "0x14066cd20",
+    "name": "gommo/pkg/assets/r3char.(*reader).vec3",
+    "bytes": 128
+  },
+  {
+    "address": "0x14066cda0",
+    "name": "gommo/pkg/assets/r3char.(*reader).str",
+    "bytes": 224
+  },
+  {
+    "address": "0x14066ce80",
+    "name": "gommo/pkg/assets/r3char.LoadModel",
+    "bytes": 1824
+  },
+  {
+    "address": "0x14066d5a0",
+    "name": "gommo/pkg/assets/r3char.(*Model).resolveAttachments",
+    "bytes": 1440
+  },
+  {
+    "address": "0x14066db40",
+    "name": "gommo/pkg/assets/r3char.readMesh",
+    "bytes": 672
+  },
+  {
+    "address": "0x14066dde0",
+    "name": "gommo/pkg/assets/r3char.readPrototype",
+    "bytes": 1408
+  },
+  {
+    "address": "0x14066e360",
+    "name": "gommo/pkg/assets/r3char.readMesh08Body",
+    "bytes": 3360
+  },
+  {
+    "address": "0x14066f080",
+    "name": "gommo/pkg/assets/r3char.readLegacyBody",
+    "bytes": 1632
+  },
+  {
+    "address": "0x14066f6e0",
+    "name": "gommo/pkg/assets/r3char.readVertices",
+    "bytes": 416
+  },
+  {
+    "address": "0x14066f880",
+    "name": "gommo/pkg/assets/r3char.readFaces",
+    "bytes": 1536
+  },
+  {
+    "address": "0x14066fe80",
+    "name": "gommo/pkg/assets/r3char.readSkins",
+    "bytes": 2368
+  },
+  {
+    "address": "0x1406707c0",
+    "name": "gommo/pkg/assets/r3char.LoadSkeleton",
+    "bytes": 1344
+  },
+  {
+    "address": "0x140670d00",
+    "name": "gommo/pkg/assets/r3char.(*Skeleton).repairLocals",
+    "bytes": 1472
+  },
+  {
+    "address": "0x1406712c0",
+    "name": "gommo/pkg/assets/r3char.(*Skeleton).Len",
+    "bytes": 32
+  },
+  {
+    "address": "0x1406712e0",
+    "name": "gommo/pkg/assets/r3char.LoadClip",
+    "bytes": 2464
+  },
+  {
+    "address": "0x140671c80",
+    "name": "gommo/pkg/assets/r3char.LoadBoundBox",
+    "bytes": 320
+  },
+  {
+    "address": "0x140671dc0",
+    "name": "gommo/pkg/assets/r3char.Mesh.TextureCandidates",
+    "bytes": 1440
+  },
+  {
+    "address": "0x140672360",
+    "name": "gommo/pkg/assets/r3char.swapToRFT",
+    "bytes": 160
+  },
+  {
+    "address": "0x140672400",
+    "name": "gommo/pkg/assets/r3char.Mat4.MulPoint",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406724e0",
+    "name": "gommo/pkg/assets/r3char.Mat4.Inverse",
+    "bytes": 2880
+  },
+  {
+    "address": "0x140673020",
+    "name": "gommo/pkg/assets/r3char.quatToMat",
+    "bytes": 384
+  },
+  {
+    "address": "0x1406731a0",
+    "name": "gommo/pkg/assets/r3char.NewPose",
+    "bytes": 1696
+  },
+  {
+    "address": "0x140673840",
+    "name": "gommo/pkg/assets/r3char.topoOrder",
+    "bytes": 768
+  },
+  {
+    "address": "0x140673b40",
+    "name": "gommo/pkg/assets/r3char.(*Pose).Reset",
+    "bytes": 256
+  },
+  {
+    "address": "0x140673c40",
+    "name": "gommo/pkg/assets/r3char.(*Pose).ApplyBlend",
+    "bytes": 2784
+  },
+  {
+    "address": "0x140674720",
+    "name": "gommo/pkg/assets/r3char.trackParts.matrix",
+    "bytes": 1344
+  },
+  {
+    "address": "0x140674c60",
+    "name": "gommo/pkg/assets/r3char.sampleTrackParts",
+    "bytes": 832
+  },
+  {
+    "address": "0x140674fa0",
+    "name": "gommo/pkg/assets/r3char.(*Pose).Apply",
+    "bytes": 1120
+  },
+  {
+    "address": "0x140675400",
+    "name": "gommo/pkg/assets/r3char.(*Pose).rebuild",
+    "bytes": 1280
+  },
+  {
+    "address": "0x140675900",
+    "name": "gommo/pkg/assets/r3char.sampleTrack",
+    "bytes": 1888
+  },
+  {
+    "address": "0x140676060",
+    "name": "gommo/pkg/assets/r3char.scaleOrBind",
+    "bytes": 608
+  },
+  {
+    "address": "0x1406762c0",
+    "name": "gommo/pkg/assets/r3char.sampleQuat",
+    "bytes": 608
+  },
+  {
+    "address": "0x140676520",
+    "name": "gommo/pkg/assets/r3char.sampleVec",
+    "bytes": 544
+  },
+  {
+    "address": "0x140676740",
+    "name": "gommo/pkg/assets/r3char.slerp",
+    "bytes": 736
+  },
+  {
+    "address": "0x140676a20",
+    "name": "gommo/pkg/assets/r3char.SkinMesh",
+    "bytes": 4256
+  },
+  {
+    "address": "0x140677ac0",
+    "name": "gommo/pkg/assets/r3char.editClip.func2",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677ae0",
+    "name": "gommo/pkg/assets/r3char.editClip.func3",
+    "bytes": 128
+  },
+  {
+    "address": "0x140677b60",
+    "name": "gommo/pkg/assets/r3char.editClip.func4",
+    "bytes": 128
+  },
+  {
+    "address": "0x140677be0",
+    "name": "gommo/pkg/assets/r3char.editClip.func5",
+    "bytes": 64
+  },
+  {
+    "address": "0x140677c20",
+    "name": "gommo/pkg/assets/r3char.editClip.func8",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677c40",
+    "name": "gommo/pkg/assets/r3char.editClip.func9",
+    "bytes": 128
+  },
+  {
+    "address": "0x140677cc0",
+    "name": "gommo/pkg/assets/r3char.editClip.func10",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677ce0",
+    "name": "gommo/pkg/assets/r3char.editClip.func13",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677d00",
+    "name": "gommo/pkg/assets/r3char.editClip.func14",
+    "bytes": 128
+  },
+  {
+    "address": "0x140677d80",
+    "name": "gommo/pkg/assets/r3char.editClip.func15",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677da0",
+    "name": "gommo/pkg/assets/r3char.editClip.func17",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677dc0",
+    "name": "gommo/pkg/assets/r3char.editClip.func18",
+    "bytes": 96
+  },
+  {
+    "address": "0x140677e20",
+    "name": "gommo/pkg/assets/r3char.editClip.func19",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677e40",
+    "name": "gommo/pkg/assets/r3char.editClip.func20",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677e60",
+    "name": "gommo/pkg/assets/r3char.Retime.func1",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677e80",
+    "name": "gommo/pkg/assets/r3char.Retime.func3",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677ea0",
+    "name": "gommo/pkg/assets/r3char.Retime.func5",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677ec0",
+    "name": "gommo/pkg/assets/r3char.Retime.func7",
+    "bytes": 32
+  },
+  {
+    "address": "0x140677ee0",
+    "name": "gommo/pkg/assets/r3char.channel[go.shape.struct { Alpha float32; Frame uint32 }].edit",
+    "bytes": 2304
+  },
+  {
+    "address": "0x1406787e0",
+    "name": "gommo/pkg/assets/r3char.channel[go.shape.struct { Value gommo/pkg/assets/r3char.Vec3; Frame int32 }].edit",
+    "bytes": 2464
+  },
+  {
+    "address": "0x140679180",
+    "name": "gommo/pkg/assets/r3char.channel[go.shape.struct { Quat [4]float32; Frame int32 }].edit",
+    "bytes": 2720
+  },
+  {
+    "address": "0x140679c20",
+    "name": "gommo/pkg/assets/r3char.retimeKeys[go.shape.struct { Alpha float32; Frame uint32 }]",
+    "bytes": 896
+  },
+  {
+    "address": "0x140679fa0",
+    "name": "gommo/pkg/assets/r3char.retimeKeys[go.shape.struct { Value gommo/pkg/assets/r3char.Vec3; Frame int32 }]",
+    "bytes": 928
+  },
+  {
+    "address": "0x14067a340",
+    "name": "gommo/pkg/assets/r3char.retimeKeys[go.shape.struct { Quat [4]float32; Frame int32 }]",
+    "bytes": 992
+  },
+  {
+    "address": "0x140693be0",
+    "name": "gommo/pkg/assets/r3.init",
+    "bytes": 448
+  },
+  {
+    "address": "0x140693da0",
+    "name": "gommo/pkg/assets/r3.map.init.0",
+    "bytes": 384
+  },
+  {
+    "address": "0x140693f20",
+    "name": "gommo/pkg/assets/r3.map.init.1",
+    "bytes": 416
+  },
+  {
+    "address": "0x1406940c0",
+    "name": "gommo/pkg/assets/r3.map.init.2",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406941a0",
+    "name": "gommo/pkg/assets/r3.map.init.3",
+    "bytes": 224
+  },
+  {
+    "address": "0x140694280",
+    "name": "gommo/pkg/assets/r3.(*BSP).ClientObjectMatrix",
+    "bytes": 640
+  },
+  {
+    "address": "0x140694500",
+    "name": "gommo/pkg/assets/r3.(*BSP).PoseAnimated",
+    "bytes": 1408
+  },
+  {
+    "address": "0x140694a80",
+    "name": "gommo/pkg/assets/r3.Mat4.Inverse",
+    "bytes": 864
+  },
+  {
+    "address": "0x140694de0",
+    "name": "gommo/pkg/assets/r3.LoadBSP",
+    "bytes": 3872
+  },
+  {
+    "address": "0x140695d00",
+    "name": "gommo/pkg/assets/r3.(*BSP).parseLumps",
+    "bytes": 13120
+  },
+  {
+    "address": "0x140699040",
+    "name": "gommo/pkg/assets/r3.(*BSP).VertexAt",
+    "bytes": 704
+  },
+  {
+    "address": "0x140699300",
+    "name": "gommo/pkg/assets/r3.(*BSP).RefitHeights",
+    "bytes": 3520
+  },
+  {
+    "address": "0x14069a0c0",
+    "name": "gommo/pkg/assets/r3.(*BSP).GroundModel",
+    "bytes": 320
+  },
+  {
+    "address": "0x14069a200",
+    "name": "gommo/pkg/assets/r3.(*BSP).faceBox",
+    "bytes": 576
+  },
+  {
+    "address": "0x14069a440",
+    "name": "gommo/pkg/assets/r3.(*BSP).LeavesUnder",
+    "bytes": 224
+  },
+  {
+    "address": "0x14069a520",
+    "name": "gommo/pkg/assets/r3.(*BSP).LeavesUnder.func1",
+    "bytes": 544
+  },
+  {
+    "address": "0x14069a740",
+    "name": "gommo/pkg/assets/r3.(*BSP).growNode",
+    "bytes": 672
+  },
+  {
+    "address": "0x14069a9e0",
+    "name": "gommo/pkg/assets/r3.(*BSP).relist",
+    "bytes": 2176
+  },
+  {
+    "address": "0x14069b260",
+    "name": "gommo/pkg/assets/r3.(*BSP).Encode",
+    "bytes": 12384
+  },
+  {
+    "address": "0x14069e2c0",
+    "name": "gommo/pkg/assets/r3.(*BSP).AddObject",
+    "bytes": 2944
+  },
+  {
+    "address": "0x14069ee40",
+    "name": "gommo/pkg/assets/r3.(*BSP).ObjectKeys",
+    "bytes": 1888
+  },
+  {
+    "address": "0x14069f5a0",
+    "name": "gommo/pkg/assets/r3.mul",
+    "bytes": 320
+  },
+  {
+    "address": "0x14069f6e0",
+    "name": "gommo/pkg/assets/r3.quatMat",
+    "bytes": 352
+  },
+  {
+    "address": "0x14069f840",
+    "name": "gommo/pkg/assets/r3.scaleMat",
+    "bytes": 992
+  },
+  {
+    "address": "0x14069fc20",
+    "name": "gommo/pkg/assets/r3.slerp",
+    "bytes": 576
+  },
+  {
+    "address": "0x14069fe60",
+    "name": "gommo/pkg/assets/r3.(*BSP).localMatrix",
+    "bytes": 2720
+  },
+  {
+    "address": "0x1406a0900",
+    "name": "gommo/pkg/assets/r3.loopFrame",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406a0960",
+    "name": "gommo/pkg/assets/r3.(*BSP).chain",
+    "bytes": 832
+  },
+  {
+    "address": "0x1406a0ca0",
+    "name": "gommo/pkg/assets/r3.(*BSP).ObjectMatrix",
+    "bytes": 960
+  },
+  {
+    "address": "0x1406a1060",
+    "name": "gommo/pkg/assets/r3.(*Scene).BuildCollision",
+    "bytes": 2048
+  },
+  {
+    "address": "0x1406a1860",
+    "name": "gommo/pkg/assets/r3.(*Collision).indexWall",
+    "bytes": 1056
+  },
+  {
+    "address": "0x1406a1c80",
+    "name": "gommo/pkg/assets/r3.(*Collision).addTriangle",
+    "bytes": 1664
+  },
+  {
+    "address": "0x1406a2300",
+    "name": "gommo/pkg/assets/r3.(*Collision).GroundHeight",
+    "bytes": 1312
+  },
+  {
+    "address": "0x1406a2820",
+    "name": "gommo/pkg/assets/r3.triangleHeightAt",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406a2920",
+    "name": "gommo/pkg/assets/r3.(*Collision).Trace",
+    "bytes": 1248
+  },
+  {
+    "address": "0x1406a2e00",
+    "name": "gommo/pkg/assets/r3.(*Collision).Trace.func1",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406a2f40",
+    "name": "gommo/pkg/assets/r3.segmentIntersect2D",
+    "bytes": 512
+  },
+  {
+    "address": "0x1406a3140",
+    "name": "gommo/pkg/assets/r3.(*Collision).FaceHit",
+    "bytes": 2432
+  },
+  {
+    "address": "0x1406a3ac0",
+    "name": "gommo/pkg/assets/r3.segmentTriangle",
+    "bytes": 1984
+  },
+  {
+    "address": "0x1406a4280",
+    "name": "gommo/pkg/assets/r3.LoadCollision",
+    "bytes": 1184
+  },
+  {
+    "address": "0x1406a4720",
+    "name": "gommo/pkg/assets/r3.(*Collision).TriangleIndicesNear",
+    "bytes": 1088
+  },
+  {
+    "address": "0x1406a4b60",
+    "name": "gommo/pkg/assets/r3.(*Collision).Normal",
+    "bytes": 896
+  },
+  {
+    "address": "0x1406a4ee0",
+    "name": "gommo/pkg/assets/r3.LoadEBP",
+    "bytes": 1440
+  },
+  {
+    "address": "0x1406a5480",
+    "name": "gommo/pkg/assets/r3.(*EBP).parseLumps",
+    "bytes": 10112
+  },
+  {
+    "address": "0x1406a7c00",
+    "name": "gommo/pkg/assets/r3.(*EBP).CheckAgainst",
+    "bytes": 352
+  },
+  {
+    "address": "0x1406a7d60",
+    "name": "gommo/pkg/assets/r3.(*EBP).Encode",
+    "bytes": 11328
+  },
+  {
+    "address": "0x1406aa9a0",
+    "name": "gommo/pkg/assets/r3.ReadEBPClasses",
+    "bytes": 1632
+  },
+  {
+    "address": "0x1406ab000",
+    "name": "gommo/pkg/assets/r3.ReadEBPClasses.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406ab060",
+    "name": "gommo/pkg/assets/r3.(*EBP).Relink",
+    "bytes": 2400
+  },
+  {
+    "address": "0x1406ab9c0",
+    "name": "gommo/pkg/assets/r3.(*EBP).Relink.func2",
+    "bytes": 352
+  },
+  {
+    "address": "0x1406abb20",
+    "name": "gommo/pkg/assets/r3.(*EBP).Relink.func1",
+    "bytes": 448
+  },
+  {
+    "address": "0x1406abce0",
+    "name": "gommo/pkg/assets/r3.(*EBP).LineBounds",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406abf00",
+    "name": "gommo/pkg/assets/r3.relink",
+    "bytes": 2944
+  },
+  {
+    "address": "0x1406aca80",
+    "name": "gommo/pkg/assets/r3.ParseEff",
+    "bytes": 1024
+  },
+  {
+    "address": "0x1406ace80",
+    "name": "gommo/pkg/assets/r3.EffRecord.Size",
+    "bytes": 32
+  },
+  {
+    "address": "0x1406acea0",
+    "name": "gommo/pkg/assets/r3.EffAttachments",
+    "bytes": 4032
+  },
+  {
+    "address": "0x1406ade60",
+    "name": "gommo/pkg/assets/r3.effectListRows",
+    "bytes": 480
+  },
+  {
+    "address": "0x1406ae040",
+    "name": "gommo/pkg/assets/r3.effectListPairs",
+    "bytes": 1536
+  },
+  {
+    "address": "0x1406ae640",
+    "name": "gommo/pkg/assets/r3.hexID",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406ae6c0",
+    "name": "gommo/pkg/assets/r3.ParseEffectEntityList",
+    "bytes": 416
+  },
+  {
+    "address": "0x1406ae860",
+    "name": "gommo/pkg/assets/r3.ParseMagicSptList",
+    "bytes": 416
+  },
+  {
+    "address": "0x1406aea00",
+    "name": "gommo/pkg/assets/r3.EffectEntityPath",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406aeaa0",
+    "name": "gommo/pkg/assets/r3.slashPath",
+    "bytes": 480
+  },
+  {
+    "address": "0x1406aec80",
+    "name": "gommo/pkg/assets/r3.(*ChefList).lines",
+    "bytes": 704
+  },
+  {
+    "address": "0x1406aef40",
+    "name": "gommo/pkg/assets/r3.(*ChefList).Row",
+    "bytes": 512
+  },
+  {
+    "address": "0x1406af140",
+    "name": "gommo/pkg/assets/r3.(*ChefList).NextID",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406af200",
+    "name": "gommo/pkg/assets/r3.(*ChefList).Set",
+    "bytes": 3648
+  },
+  {
+    "address": "0x1406b0040",
+    "name": "gommo/pkg/assets/r3.ItemEffectRow",
+    "bytes": 416
+  },
+  {
+    "address": "0x1406b01e0",
+    "name": "gommo/pkg/assets/r3.PatternRow",
+    "bytes": 608
+  },
+  {
+    "address": "0x1406b0440",
+    "name": "gommo/pkg/assets/r3.editEffectList",
+    "bytes": 704
+  },
+  {
+    "address": "0x1406b0700",
+    "name": "gommo/pkg/assets/r3.(*EffectList).Rows",
+    "bytes": 352
+  },
+  {
+    "address": "0x1406b0860",
+    "name": "gommo/pkg/assets/r3.(*EffectList).NextID",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406b08e0",
+    "name": "gommo/pkg/assets/r3.(*EffectList).Set",
+    "bytes": 2560
+  },
+  {
+    "address": "0x1406b12e0",
+    "name": "gommo/pkg/assets/r3.(*EffectList).checkRow",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406b1500",
+    "name": "gommo/pkg/assets/r3.(*EffectList).idText",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406b15a0",
+    "name": "gommo/pkg/assets/r3.(*EffectList).appendRow",
+    "bytes": 2848
+  },
+  {
+    "address": "0x1406b20c0",
+    "name": "gommo/pkg/assets/r3.(*EffRecord).SetParticle",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406b2180",
+    "name": "gommo/pkg/assets/r3.(*Eff).InsertCopy",
+    "bytes": 608
+  },
+  {
+    "address": "0x1406b23e0",
+    "name": "gommo/pkg/assets/r3.(*Eff).Remove",
+    "bytes": 672
+  },
+  {
+    "address": "0x1406b2680",
+    "name": "gommo/pkg/assets/r3.(*EffRecord).setStr",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406b27a0",
+    "name": "gommo/pkg/assets/r3.(*EffRecord).setID",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406b28a0",
+    "name": "gommo/pkg/assets/r3.EffectIndexRuleFor",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406b2980",
+    "name": "gommo/pkg/assets/r3.ReadEffectIndex",
+    "bytes": 640
+  },
+  {
+    "address": "0x1406b2c00",
+    "name": "gommo/pkg/assets/r3.AddEffectIndex",
+    "bytes": 2080
+  },
+  {
+    "address": "0x1406b3420",
+    "name": "gommo/pkg/assets/r3.EffectTableFor",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406b3500",
+    "name": "gommo/pkg/assets/r3.ParseEffectIni",
+    "bytes": 1664
+  },
+  {
+    "address": "0x1406b3b80",
+    "name": "gommo/pkg/assets/r3.ParseEffectIndex",
+    "bytes": 576
+  },
+  {
+    "address": "0x1406b3dc0",
+    "name": "gommo/pkg/assets/r3.iniSections",
+    "bytes": 896
+  },
+  {
+    "address": "0x1406b4140",
+    "name": "gommo/pkg/assets/r3.iniInt",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406b41e0",
+    "name": "gommo/pkg/assets/r3.iniFloat",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406b42a0",
+    "name": "gommo/pkg/assets/r3.AddEffectIni",
+    "bytes": 4096
+  },
+  {
+    "address": "0x1406b52a0",
+    "name": "gommo/pkg/assets/r3.setIniInt",
+    "bytes": 1792
+  },
+  {
+    "address": "0x1406b59a0",
+    "name": "gommo/pkg/assets/r3.EffPulseScale",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406b5a80",
+    "name": "gommo/pkg/assets/r3.(*Entity).Animator",
+    "bytes": 2176
+  },
+  {
+    "address": "0x1406b6300",
+    "name": "gommo/pkg/assets/r3.(*ObjectAnimator).R3Matrix",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406b6440",
+    "name": "gommo/pkg/assets/r3.(*ObjectAnimator).Matrix",
+    "bytes": 896
+  },
+  {
+    "address": "0x1406b67c0",
+    "name": "gommo/pkg/assets/r3.(*ObjectAnimator).chain",
+    "bytes": 768
+  },
+  {
+    "address": "0x1406b6ac0",
+    "name": "gommo/pkg/assets/r3.(*ObjectAnimator).local",
+    "bytes": 2304
+  },
+  {
+    "address": "0x1406b73c0",
+    "name": "gommo/pkg/assets/r3.LoadEnv",
+    "bytes": 2016
+  },
+  {
+    "address": "0x1406b7ba0",
+    "name": "gommo/pkg/assets/r3.(*Env).Encode",
+    "bytes": 2912
+  },
+  {
+    "address": "0x1406b8700",
+    "name": "gommo/pkg/assets/r3.(*BSP).BuildGeometry",
+    "bytes": 3008
+  },
+  {
+    "address": "0x1406b92c0",
+    "name": "gommo/pkg/assets/r3.(*Geometry).WorldBounds",
+    "bytes": 384
+  },
+  {
+    "address": "0x1406b9440",
+    "name": "gommo/pkg/assets/r3.(*ItemEffects).Len",
+    "bytes": 32
+  },
+  {
+    "address": "0x1406b9460",
+    "name": "gommo/pkg/assets/r3.WornBy",
+    "bytes": 672
+  },
+  {
+    "address": "0x1406b9700",
+    "name": "gommo/pkg/assets/r3.ReadLightmapFile",
+    "bytes": 864
+  },
+  {
+    "address": "0x1406b9a60",
+    "name": "gommo/pkg/assets/r3.DecodeLightmapPage",
+    "bytes": 1664
+  },
+  {
+    "address": "0x1406ba0e0",
+    "name": "gommo/pkg/assets/r3.EncodeLightmapPage",
+    "bytes": 576
+  },
+  {
+    "address": "0x1406ba320",
+    "name": "gommo/pkg/assets/r3.ReplaceLightmapPixels",
+    "bytes": 928
+  },
+  {
+    "address": "0x1406ba6c0",
+    "name": "gommo/pkg/assets/r3.Pack565",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406ba780",
+    "name": "gommo/pkg/assets/r3.ForceMagicIDs",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406ba7e0",
+    "name": "gommo/pkg/assets/r3.ParseMagicTrack",
+    "bytes": 7488
+  },
+  {
+    "address": "0x1406bc520",
+    "name": "gommo/pkg/assets/r3.ParseMagicTrack.func2",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406bc5a0",
+    "name": "gommo/pkg/assets/r3.readRGB",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406bc620",
+    "name": "gommo/pkg/assets/r3.Layer.Anim",
+    "bytes": 576
+  },
+  {
+    "address": "0x1406bc860",
+    "name": "gommo/pkg/assets/r3.(*Layer).SetAnim",
+    "bytes": 2304
+  },
+  {
+    "address": "0x1406bd160",
+    "name": "gommo/pkg/assets/r3.aboutCentre",
+    "bytes": 640
+  },
+  {
+    "address": "0x1406bd3e0",
+    "name": "gommo/pkg/assets/r3.MaterialAnim.FlipbookCell",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406bd500",
+    "name": "gommo/pkg/assets/r3.MaterialAnim.UVTransform",
+    "bytes": 2560
+  },
+  {
+    "address": "0x1406bdf00",
+    "name": "gommo/pkg/assets/r3.MaterialAnim.uvScale",
+    "bytes": 576
+  },
+  {
+    "address": "0x1406be140",
+    "name": "gommo/pkg/assets/r3.MaterialAnim.FlickerAlpha",
+    "bytes": 640
+  },
+  {
+    "address": "0x1406be3c0",
+    "name": "gommo/pkg/assets/r3.LoadMaterials",
+    "bytes": 3808
+  },
+  {
+    "address": "0x1406bf2a0",
+    "name": "gommo/pkg/assets/r3.(*MaterialSet).InsertLayerCopy",
+    "bytes": 736
+  },
+  {
+    "address": "0x1406bf580",
+    "name": "gommo/pkg/assets/r3.(*MaterialSet).RemoveLayer",
+    "bytes": 832
+  },
+  {
+    "address": "0x1406bf8c0",
+    "name": "gommo/pkg/assets/r3.(*MaterialSet).AppendMaterialCopy",
+    "bytes": 704
+  },
+  {
+    "address": "0x1406bfb80",
+    "name": "gommo/pkg/assets/r3.(*MaterialSet).layerAt",
+    "bytes": 576
+  },
+  {
+    "address": "0x1406bfdc0",
+    "name": "gommo/pkg/assets/r3.ParseMST",
+    "bytes": 896
+  },
+  {
+    "address": "0x1406c0140",
+    "name": "gommo/pkg/assets/r3.(*MST).Bytes",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406c0260",
+    "name": "gommo/pkg/assets/r3.(*MST).Entries",
+    "bytes": 768
+  },
+  {
+    "address": "0x1406c0560",
+    "name": "gommo/pkg/assets/r3.(*MST).Material",
+    "bytes": 1696
+  },
+  {
+    "address": "0x1406c0c00",
+    "name": "gommo/pkg/assets/r3.compileLayer",
+    "bytes": 7680
+  },
+  {
+    "address": "0x1406c2a00",
+    "name": "gommo/pkg/assets/r3.atoi",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406c2aa0",
+    "name": "gommo/pkg/assets/r3.atof",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406c2b20",
+    "name": "gommo/pkg/assets/r3.fixedF",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406c2ba0",
+    "name": "gommo/pkg/assets/r3.fmtByte",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406c2c40",
+    "name": "gommo/pkg/assets/r3.layerLines",
+    "bytes": 9536
+  },
+  {
+    "address": "0x1406c5180",
+    "name": "gommo/pkg/assets/r3.normalMST",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406c53a0",
+    "name": "gommo/pkg/assets/r3.(*MST).layerSpan",
+    "bytes": 384
+  },
+  {
+    "address": "0x1406c5520",
+    "name": "gommo/pkg/assets/r3.(*MST).newline",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406c55c0",
+    "name": "gommo/pkg/assets/r3.(*MST).SetLayerAnim",
+    "bytes": 4896
+  },
+  {
+    "address": "0x1406c68e0",
+    "name": "gommo/pkg/assets/r3.(*MST).MapName",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406c69e0",
+    "name": "gommo/pkg/assets/r3.(*MST).SetMapName",
+    "bytes": 1184
+  },
+  {
+    "address": "0x1406c6e80",
+    "name": "gommo/pkg/assets/r3.(*Geometry).SmoothNormals",
+    "bytes": 1664
+  },
+  {
+    "address": "0x1406c7500",
+    "name": "gommo/pkg/assets/r3.clientFaceNormal",
+    "bytes": 480
+  },
+  {
+    "address": "0x1406c76e0",
+    "name": "gommo/pkg/assets/r3.LoadParticleModel",
+    "bytes": 1664
+  },
+  {
+    "address": "0x1406c7d60",
+    "name": "gommo/pkg/assets/r3.ParticleEntityPath",
+    "bytes": 352
+  },
+  {
+    "address": "0x1406c7ec0",
+    "name": "gommo/pkg/assets/r3.(*ParticleModel).Texture",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406c80e0",
+    "name": "gommo/pkg/assets/r3.(*ParticleModel).Bounds",
+    "bytes": 736
+  },
+  {
+    "address": "0x1406c83c0",
+    "name": "gommo/pkg/assets/r3.(*ParticleModel).Flipbook",
+    "bytes": 1248
+  },
+  {
+    "address": "0x1406c88a0",
+    "name": "gommo/pkg/assets/r3.LoadPropModel",
+    "bytes": 672
+  },
+  {
+    "address": "0x1406c8b40",
+    "name": "gommo/pkg/assets/r3.(*reader).vec3",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406c8c60",
+    "name": "gommo/pkg/assets/r3.(*reader).vec4",
+    "bytes": 384
+  },
+  {
+    "address": "0x1406c8de0",
+    "name": "gommo/pkg/assets/r3.records",
+    "bytes": 384
+  },
+  {
+    "address": "0x1406c8f60",
+    "name": "gommo/pkg/assets/r3.ZUp",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406c8fc0",
+    "name": "gommo/pkg/assets/r3.YUp",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406c9020",
+    "name": "gommo/pkg/assets/r3.LoadEntity",
+    "bytes": 9984
+  },
+  {
+    "address": "0x1406cb720",
+    "name": "gommo/pkg/assets/r3.(*Entity).VertexAt",
+    "bytes": 608
+  },
+  {
+    "address": "0x1406cb980",
+    "name": "gommo/pkg/assets/r3.(*Entity).BuildGeometry",
+    "bytes": 1632
+  },
+  {
+    "address": "0x1406cbfe0",
+    "name": "gommo/pkg/assets/r3.(*Entity).Encode",
+    "bytes": 7840
+  },
+  {
+    "address": "0x1406cde80",
+    "name": "gommo/pkg/assets/r3.BuildEntity",
+    "bytes": 6752
+  },
+  {
+    "address": "0x1406cf8e0",
+    "name": "gommo/pkg/assets/r3.(*Entity).quantise",
+    "bytes": 1472
+  },
+  {
+    "address": "0x1406cfea0",
+    "name": "gommo/pkg/assets/r3.q16",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406cffe0",
+    "name": "gommo/pkg/assets/r3.clampS16",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406d0080",
+    "name": "gommo/pkg/assets/r3.vertexColor",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406d0100",
+    "name": "gommo/pkg/assets/r3.instance.apply",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406d0240",
+    "name": "gommo/pkg/assets/r3.meshInstances",
+    "bytes": 1408
+  },
+  {
+    "address": "0x1406d07c0",
+    "name": "gommo/pkg/assets/r3.meshInstances.func1",
+    "bytes": 992
+  },
+  {
+    "address": "0x1406d0ba0",
+    "name": "gommo/pkg/assets/r3.trs",
+    "bytes": 608
+  },
+  {
+    "address": "0x1406d0e00",
+    "name": "gommo/pkg/assets/r3.mul34",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406d0f20",
+    "name": "gommo/pkg/assets/r3.ImportProp",
+    "bytes": 4608
+  },
+  {
+    "address": "0x1406d2120",
+    "name": "gommo/pkg/assets/r3.decodeTexture",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406d2200",
+    "name": "gommo/pkg/assets/r3.texName",
+    "bytes": 352
+  },
+  {
+    "address": "0x1406d2360",
+    "name": "gommo/pkg/assets/r3.Layer.bytes",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406d23e0",
+    "name": "gommo/pkg/assets/r3.(*MaterialSet).Encode",
+    "bytes": 2432
+  },
+  {
+    "address": "0x1406d2d60",
+    "name": "gommo/pkg/assets/r3.MaterialFromMeshio",
+    "bytes": 1792
+  },
+  {
+    "address": "0x1406d3460",
+    "name": "gommo/pkg/assets/r3.argb",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406d3580",
+    "name": "gommo/pkg/assets/r3.(*TextureSet).Encode",
+    "bytes": 1856
+  },
+  {
+    "address": "0x1406d3cc0",
+    "name": "gommo/pkg/assets/r3.LockDDS",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406d3de0",
+    "name": "gommo/pkg/assets/r3.RecodeDDS",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406d3ee0",
+    "name": "gommo/pkg/assets/r3.IsTextureSet",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406d3fe0",
+    "name": "gommo/pkg/assets/r3.EncodeTexture",
+    "bytes": 416
+  },
+  {
+    "address": "0x1406d4180",
+    "name": "gommo/pkg/assets/r3.BuildTextureSet",
+    "bytes": 1344
+  },
+  {
+    "address": "0x1406d46c0",
+    "name": "gommo/pkg/assets/r3.LoadScene",
+    "bytes": 4576
+  },
+  {
+    "address": "0x1406d58a0",
+    "name": "gommo/pkg/assets/r3.LoadScene.func1",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406d59c0",
+    "name": "gommo/pkg/assets/r3.(*Scene).resolveProps",
+    "bytes": 3424
+  },
+  {
+    "address": "0x1406d6720",
+    "name": "gommo/pkg/assets/r3.(*Scene).TextureFor",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406d6940",
+    "name": "gommo/pkg/assets/r3.(*PropModel).PropTextureFor",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406d6b60",
+    "name": "gommo/pkg/assets/r3.(*Scene).LightmapFor",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406d6be0",
+    "name": "gommo/pkg/assets/r3.LoadSourceMaterials",
+    "bytes": 2176
+  },
+  {
+    "address": "0x1406d7460",
+    "name": "gommo/pkg/assets/r3.LoadSourceMaterials.func1",
+    "bytes": 1152
+  },
+  {
+    "address": "0x1406d78e0",
+    "name": "gommo/pkg/assets/r3.mainEnv",
+    "bytes": 1536
+  },
+  {
+    "address": "0x1406d7ee0",
+    "name": "gommo/pkg/assets/r3.SiblingMap",
+    "bytes": 672
+  },
+  {
+    "address": "0x1406d8180",
+    "name": "gommo/pkg/assets/r3.ParseSPT",
+    "bytes": 832
+  },
+  {
+    "address": "0x1406d84c0",
+    "name": "gommo/pkg/assets/r3.(*SPT).Encode",
+    "bytes": 928
+  },
+  {
+    "address": "0x1406d8860",
+    "name": "gommo/pkg/assets/r3.(*sptReader).token",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406d8980",
+    "name": "gommo/pkg/assets/r3.(*sptReader).scanFloat",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406d8ac0",
+    "name": "gommo/pkg/assets/r3.floatPrefix",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406d8c00",
+    "name": "gommo/pkg/assets/r3.cAtof64",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406d8d20",
+    "name": "gommo/pkg/assets/r3.cAtoi",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406d8de0",
+    "name": "gommo/pkg/assets/r3.tokenFloat",
+    "bytes": 384
+  },
+  {
+    "address": "0x1406d8f60",
+    "name": "gommo/pkg/assets/r3.(*sptReader).randOrNum",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406d9060",
+    "name": "gommo/pkg/assets/r3.(*sptReader).pair",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406d90c0",
+    "name": "gommo/pkg/assets/r3.LoadParticleScript",
+    "bytes": 928
+  },
+  {
+    "address": "0x1406d9460",
+    "name": "gommo/pkg/assets/r3.(*ParticleScript).keyword",
+    "bytes": 5088
+  },
+  {
+    "address": "0x1406da840",
+    "name": "gommo/pkg/assets/r3.(*ParticleScript).trackKeyword",
+    "bytes": 3296
+  },
+  {
+    "address": "0x1406db520",
+    "name": "gommo/pkg/assets/r3.(*ParticleScript).readCurve",
+    "bytes": 1376
+  },
+  {
+    "address": "0x1406dba80",
+    "name": "gommo/pkg/assets/r3.(*ParticleScript).readLight",
+    "bytes": 544
+  },
+  {
+    "address": "0x1406dbca0",
+    "name": "gommo/pkg/assets/r3.(*SPT).SectionScope",
+    "bytes": 320
+  },
+  {
+    "address": "0x1406dbde0",
+    "name": "gommo/pkg/assets/r3.(*SPT).Times",
+    "bytes": 128
+  },
+  {
+    "address": "0x1406dbe60",
+    "name": "gommo/pkg/assets/r3.(*SPT).Times.func1",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406dbf20",
+    "name": "gommo/pkg/assets/r3.(*SPT).TrackScope",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406dbfc0",
+    "name": "gommo/pkg/assets/r3.(*SPT).walk",
+    "bytes": 352
+  },
+  {
+    "address": "0x1406dc120",
+    "name": "gommo/pkg/assets/r3.(*SPT).Find",
+    "bytes": 576
+  },
+  {
+    "address": "0x1406dc360",
+    "name": "gommo/pkg/assets/r3.(*SPT).Find.func1",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406dc400",
+    "name": "gommo/pkg/assets/r3.(*SPT).Set",
+    "bytes": 1824
+  },
+  {
+    "address": "0x1406dcb20",
+    "name": "gommo/pkg/assets/r3.(*SPT).Insert",
+    "bytes": 1344
+  },
+  {
+    "address": "0x1406dd060",
+    "name": "gommo/pkg/assets/r3.(*SPT).newline",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406dd120",
+    "name": "gommo/pkg/assets/r3.(*SPT).valueEnd",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406dd240",
+    "name": "gommo/pkg/assets/r3.(*SPT).groups",
+    "bytes": 1408
+  },
+  {
+    "address": "0x1406dd7c0",
+    "name": "gommo/pkg/assets/r3.(*SPT).Delete",
+    "bytes": 1056
+  },
+  {
+    "address": "0x1406ddbe0",
+    "name": "gommo/pkg/assets/r3.(*SPT).InsertLines",
+    "bytes": 192
+  },
+  {
+    "address": "0x1406ddca0",
+    "name": "gommo/pkg/assets/r3.(*SPT).particleKeys",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406dddc0",
+    "name": "gommo/pkg/assets/r3.(*SPT).AddParticleKey",
+    "bytes": 1952
+  },
+  {
+    "address": "0x1406de560",
+    "name": "gommo/pkg/assets/r3.(*SPT).RemoveParticleKey",
+    "bytes": 1888
+  },
+  {
+    "address": "0x1406decc0",
+    "name": "gommo/pkg/assets/r3.sameParticle",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406dede0",
+    "name": "gommo/pkg/assets/r3.particleKeyAt",
+    "bytes": 4096
+  },
+  {
+    "address": "0x1406dfde0",
+    "name": "gommo/pkg/assets/r3.particleKeyLines",
+    "bytes": 1248
+  },
+  {
+    "address": "0x1406e02c0",
+    "name": "gommo/pkg/assets/r3.(*SPT).magicKeys",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406e03e0",
+    "name": "gommo/pkg/assets/r3.(*SPT).posRefs",
+    "bytes": 928
+  },
+  {
+    "address": "0x1406e0780",
+    "name": "gommo/pkg/assets/r3.(*SPT).renumber",
+    "bytes": 416
+  },
+  {
+    "address": "0x1406e0920",
+    "name": "gommo/pkg/assets/r3.(*SPT).AddMagicTrack",
+    "bytes": 3936
+  },
+  {
+    "address": "0x1406e1880",
+    "name": "gommo/pkg/assets/r3.(*SPT).RemoveMagicTrack",
+    "bytes": 2336
+  },
+  {
+    "address": "0x1406e21a0",
+    "name": "gommo/pkg/assets/r3.frange",
+    "bytes": 480
+  },
+  {
+    "address": "0x1406e2380",
+    "name": "gommo/pkg/assets/r3.brange",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406e2420",
+    "name": "gommo/pkg/assets/r3.UnlockDDS",
+    "bytes": 448
+  },
+  {
+    "address": "0x1406e25e0",
+    "name": "gommo/pkg/assets/r3.fixDDSHeader",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406e2680",
+    "name": "gommo/pkg/assets/r3.LoadTextureSet",
+    "bytes": 2048
+  },
+  {
+    "address": "0x1406e2e80",
+    "name": "gommo/pkg/assets/r3.LoadLightmapSet",
+    "bytes": 1248
+  },
+  {
+    "address": "0x1406e3360",
+    "name": "gommo/pkg/assets/r3.(*TextureSet).index",
+    "bytes": 448
+  },
+  {
+    "address": "0x1406e3520",
+    "name": "gommo/pkg/assets/r3.(*TextureSet).At",
+    "bytes": 224
+  },
+  {
+    "address": "0x1406e3600",
+    "name": "gommo/pkg/assets/r3.(*TextureSet).Len",
+    "bytes": 32
+  },
+  {
+    "address": "0x1406e3620",
+    "name": "gommo/pkg/assets/r3.ParseWaveList",
+    "bytes": 1088
+  },
+  {
+    "address": "0x1406e3a60",
+    "name": "gommo/pkg/assets/r3.WaveFile",
+    "bytes": 160
+  },
+  {
+    "address": "0x1406e3b00",
+    "name": "gommo/pkg/assets/r3.argb.func1",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406e3c20",
+    "name": "gommo/pkg/assets/r3.vertexColor.func1",
+    "bytes": 288
+  },
+  {
+    "address": "0x1406e6940",
+    "name": "gommo/pkg/assets/r3.(*Layer).bytes",
+    "bytes": 256
+  },
+  {
+    "address": "0x1406e6a40",
+    "name": "gommo/pkg/assets/r3.(*EffRecord).Size",
+    "bytes": 64
+  },
+  {
+    "address": "0x1406e6a80",
+    "name": "gommo/pkg/assets/r3.(*Entity).Encode-fm",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406e6ae0",
+    "name": "gommo/pkg/assets/r3.(*MaterialSet).Encode-fm",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406e6b40",
+    "name": "gommo/pkg/assets/r3.(*TextureSet).Encode-fm",
+    "bytes": 96
+  },
+  {
+    "address": "0x1406e6ba0",
+    "name": "gommo/pkg/assets/r3.(*EBP).LineBounds-fm",
+    "bytes": 256
+  },
+  {
+    "address": "0x1408e8b20",
+    "name": "gommo/pkg/assets/rfpack.MountDir",
+    "bytes": 1312
+  },
+  {
+    "address": "0x1408e9040",
+    "name": "gommo/pkg/assets/rfpack.OpenRFS",
+    "bytes": 320
+  },
+  {
+    "address": "0x1408e9180",
+    "name": "gommo/pkg/assets/rfpack.NewRFS",
+    "bytes": 2048
+  },
+  {
+    "address": "0x1408e9980",
+    "name": "gommo/pkg/assets/rfpack.(*RFS).Open",
+    "bytes": 768
+  },
+  {
+    "address": "0x1408e9c80",
+    "name": "gommo/pkg/assets/rfpack.(*RFS).Exists",
+    "bytes": 128
+  },
+  {
+    "address": "0x1408e9d00",
+    "name": "gommo/pkg/assets/rfpack.(*RFS).List",
+    "bytes": 32
+  },
+  {
+    "address": "0x1408e9d20",
+    "name": "gommo/pkg/assets/rfpack.(*RFS).Close",
+    "bytes": 96
+  },
+  {
+    "address": "0x1408e9d80",
+    "name": "gommo/pkg/assets/rfpack.cstring",
+    "bytes": 160
+  },
+  {
+    "address": "0x1408e9e20",
+    "name": "gommo/pkg/assets/rfpack.AddRFSEntries",
+    "bytes": 1600
+  },
+  {
+    "address": "0x1408ea460",
+    "name": "gommo/pkg/assets/rfpack.RFSInfoNames",
+    "bytes": 384
+  },
+  {
+    "address": "0x1408ea5e0",
+    "name": "gommo/pkg/assets/rfpack.RFSLoaded",
+    "bytes": 864
+  },
+  {
+    "address": "0x1408ea940",
+    "name": "gommo/pkg/assets/rfpack.ReadRFSEntries",
+    "bytes": 1216
+  },
+  {
+    "address": "0x1408eae00",
+    "name": "gommo/pkg/assets/rfpack.EncodeRFS",
+    "bytes": 1472
+  },
+  {
+    "address": "0x1408eb3c0",
+    "name": "gommo/pkg/assets/rfpack.OpenRPK",
+    "bytes": 320
+  },
+  {
+    "address": "0x1408eb500",
+    "name": "gommo/pkg/assets/rfpack.NewRPK",
+    "bytes": 3328
+  },
+  {
+    "address": "0x1408ec200",
+    "name": "gommo/pkg/assets/rfpack.NewRPK.sortEntries.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1408ec260",
+    "name": "gommo/pkg/assets/rfpack.walkRPK",
+    "bytes": 576
+  },
+  {
+    "address": "0x1408ec4a0",
+    "name": "gommo/pkg/assets/rfpack.walkRPK.func1",
+    "bytes": 1376
+  },
+  {
+    "address": "0x1408eca00",
+    "name": "gommo/pkg/assets/rfpack.(*RPK).Open",
+    "bytes": 736
+  },
+  {
+    "address": "0x1408ecce0",
+    "name": "gommo/pkg/assets/rfpack.(*RPK).Exists",
+    "bytes": 128
+  },
+  {
+    "address": "0x1408ecd60",
+    "name": "gommo/pkg/assets/rfpack.(*RPK).List",
+    "bytes": 32
+  },
+  {
+    "address": "0x1408ecd80",
+    "name": "gommo/pkg/assets/rfpack.(*RPK).Close",
+    "bytes": 96
+  },
+  {
+    "address": "0x1408ecde0",
+    "name": "gommo/pkg/assets/rfpack.ReadRPKTree",
+    "bytes": 2112
+  },
+  {
+    "address": "0x1408ed620",
+    "name": "gommo/pkg/assets/rfpack.ReadRPKTree.func3",
+    "bytes": 1600
+  },
+  {
+    "address": "0x1408edc60",
+    "name": "gommo/pkg/assets/rfpack.ReadRPKTree.func2",
+    "bytes": 192
+  },
+  {
+    "address": "0x1408edd20",
+    "name": "gommo/pkg/assets/rfpack.ReadRPKTree.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1408edd80",
+    "name": "gommo/pkg/assets/rfpack.keptSlots",
+    "bytes": 640
+  },
+  {
+    "address": "0x1408ee000",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Encode",
+    "bytes": 2880
+  },
+  {
+    "address": "0x1408eeb40",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Encode.func2",
+    "bytes": 416
+  },
+  {
+    "address": "0x1408eece0",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Encode.func1",
+    "bytes": 288
+  },
+  {
+    "address": "0x1408eee00",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Add",
+    "bytes": 1696
+  },
+  {
+    "address": "0x1408ef4a0",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Walk",
+    "bytes": 128
+  },
+  {
+    "address": "0x1408ef520",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Walk.func1",
+    "bytes": 320
+  },
+  {
+    "address": "0x1408ef660",
+    "name": "gommo/pkg/assets/rfpack.(*RPKNode).Add.func1",
+    "bytes": 32
+  },
+  {
+    "address": "0x140936980",
+    "name": "gommo/pkg/assets/rfdata.init",
+    "bytes": 3584
+  },
+  {
+    "address": "0x140937780",
+    "name": "gommo/pkg/assets/rfdata.map.init.0",
+    "bytes": 640
+  },
+  {
+    "address": "0x140937a00",
+    "name": "gommo/pkg/assets/rfdata.map.init.1",
+    "bytes": 192
+  },
+  {
+    "address": "0x140937ac0",
+    "name": "gommo/pkg/assets/rfdata.map.init.2",
+    "bytes": 704
+  },
+  {
+    "address": "0x140937d80",
+    "name": "gommo/pkg/assets/rfdata.map.init.3",
+    "bytes": 1184
+  },
+  {
+    "address": "0x140938220",
+    "name": "gommo/pkg/assets/rfdata.map.init.4",
+    "bytes": 448
+  },
+  {
+    "address": "0x1409383e0",
+    "name": "gommo/pkg/assets/rfdata.map.init.5",
+    "bytes": 256
+  },
+  {
+    "address": "0x1409384e0",
+    "name": "gommo/pkg/assets/rfdata.(*AreaMap).MapName",
+    "bytes": 64
+  },
+  {
+    "address": "0x140938520",
+    "name": "gommo/pkg/assets/rfdata.(*AreaMap).Pixels",
+    "bytes": 864
+  },
+  {
+    "address": "0x140938880",
+    "name": "gommo/pkg/assets/rfdata.(*AreaMap).SetPixels",
+    "bytes": 768
+  },
+  {
+    "address": "0x140938b80",
+    "name": "gommo/pkg/assets/rfdata.(*AreaSet).Find",
+    "bytes": 256
+  },
+  {
+    "address": "0x140938c80",
+    "name": "gommo/pkg/assets/rfdata.decodeAreaSet",
+    "bytes": 3936
+  },
+  {
+    "address": "0x140939be0",
+    "name": "gommo/pkg/assets/rfdata.encodeAreaSet",
+    "bytes": 1536
+  },
+  {
+    "address": "0x14093a1e0",
+    "name": "gommo/pkg/assets/rfdata.decodeAreaNames",
+    "bytes": 1088
+  },
+  {
+    "address": "0x14093a620",
+    "name": "gommo/pkg/assets/rfdata.DecodeMapData",
+    "bytes": 512
+  },
+  {
+    "address": "0x14093a820",
+    "name": "gommo/pkg/assets/rfdata.ReadClientAreas",
+    "bytes": 1600
+  },
+  {
+    "address": "0x14093ae60",
+    "name": "gommo/pkg/assets/rfdata.readMapDataAreas",
+    "bytes": 960
+  },
+  {
+    "address": "0x14093b220",
+    "name": "gommo/pkg/assets/rfdata.findAreaStream",
+    "bytes": 416
+  },
+  {
+    "address": "0x14093b3c0",
+    "name": "gommo/pkg/assets/rfdata.readAreaLocale",
+    "bytes": 928
+  },
+  {
+    "address": "0x14093b760",
+    "name": "gommo/pkg/assets/rfdata.(*ClientAreas).Clone",
+    "bytes": 2080
+  },
+  {
+    "address": "0x14093bf80",
+    "name": "gommo/pkg/assets/rfdata.(*ClientAreas).SpliceMapTable",
+    "bytes": 672
+  },
+  {
+    "address": "0x14093c220",
+    "name": "gommo/pkg/assets/rfdata.(*ClientAreas).Files",
+    "bytes": 2944
+  },
+  {
+    "address": "0x14093cda0",
+    "name": "gommo/pkg/assets/rfdata.(*ClientAreas).checkNames",
+    "bytes": 864
+  },
+  {
+    "address": "0x14093d100",
+    "name": "gommo/pkg/assets/rfdata.AreaCharset",
+    "bytes": 288
+  },
+  {
+    "address": "0x14093d220",
+    "name": "gommo/pkg/assets/rfdata.DecodeAreaName",
+    "bytes": 256
+  },
+  {
+    "address": "0x14093d320",
+    "name": "gommo/pkg/assets/rfdata.EncodeAreaName",
+    "bytes": 576
+  },
+  {
+    "address": "0x14093d560",
+    "name": "gommo/pkg/assets/rfdata.EncodeAreaMapName",
+    "bytes": 288
+  },
+  {
+    "address": "0x14093d680",
+    "name": "gommo/pkg/assets/rfdata.cacheKey",
+    "bytes": 416
+  },
+  {
+    "address": "0x14093d820",
+    "name": "gommo/pkg/assets/rfdata.resourceBlocks",
+    "bytes": 896
+  },
+  {
+    "address": "0x14093dba0",
+    "name": "gommo/pkg/assets/rfdata.resourceBlocks.func1",
+    "bytes": 256
+  },
+  {
+    "address": "0x14093dca0",
+    "name": "gommo/pkg/assets/rfdata.CachedStoreCatalog",
+    "bytes": 480
+  },
+  {
+    "address": "0x14093de80",
+    "name": "gommo/pkg/assets/rfdata.CachedStoreCatalog.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14093dee0",
+    "name": "gommo/pkg/assets/rfdata.aniBlock",
+    "bytes": 608
+  },
+  {
+    "address": "0x14093e140",
+    "name": "gommo/pkg/assets/rfdata.SkillAniIDs",
+    "bytes": 160
+  },
+  {
+    "address": "0x14093e1e0",
+    "name": "gommo/pkg/assets/rfdata.(*CastAnis).FindSkill",
+    "bytes": 288
+  },
+  {
+    "address": "0x14093e300",
+    "name": "gommo/pkg/assets/rfdata.ForceAniID",
+    "bytes": 192
+  },
+  {
+    "address": "0x14093e3c0",
+    "name": "gommo/pkg/assets/rfdata.(*CastAnis).FindForce",
+    "bytes": 224
+  },
+  {
+    "address": "0x14093e4a0",
+    "name": "gommo/pkg/assets/rfdata.ActableClassSkills",
+    "bytes": 2240
+  },
+  {
+    "address": "0x14093ed60",
+    "name": "gommo/pkg/assets/rfdata.walkFlat8",
+    "bytes": 1440
+  },
+  {
+    "address": "0x14093f300",
+    "name": "gommo/pkg/assets/rfdata.walkCount4",
+    "bytes": 1344
+  },
+  {
+    "address": "0x14093f840",
+    "name": "gommo/pkg/assets/rfdata.walkIndexed",
+    "bytes": 2208
+  },
+  {
+    "address": "0x1409400e0",
+    "name": "gommo/pkg/assets/rfdata.readDataTable",
+    "bytes": 192
+  },
+  {
+    "address": "0x1409401a0",
+    "name": "gommo/pkg/assets/rfdata.dataTablePath",
+    "bytes": 736
+  },
+  {
+    "address": "0x140940480",
+    "name": "gommo/pkg/assets/rfdata.readTableFile",
+    "bytes": 416
+  },
+  {
+    "address": "0x140940620",
+    "name": "gommo/pkg/assets/rfdata.findDataTable",
+    "bytes": 608
+  },
+  {
+    "address": "0x140940880",
+    "name": "gommo/pkg/assets/rfdata.ReadTableIn",
+    "bytes": 704
+  },
+  {
+    "address": "0x140940b40",
+    "name": "gommo/pkg/assets/rfdata.Decode",
+    "bytes": 160
+  },
+  {
+    "address": "0x140940be0",
+    "name": "gommo/pkg/assets/rfdata.StemOf",
+    "bytes": 256
+  },
+  {
+    "address": "0x140940ce0",
+    "name": "gommo/pkg/assets/rfdata.IsTableName",
+    "bytes": 256
+  },
+  {
+    "address": "0x140940de0",
+    "name": "gommo/pkg/assets/rfdata.parseEDFLayout",
+    "bytes": 736
+  },
+  {
+    "address": "0x1409410c0",
+    "name": "gommo/pkg/assets/rfdata.DecryptEDF",
+    "bytes": 672
+  },
+  {
+    "address": "0x140941360",
+    "name": "gommo/pkg/assets/rfdata.edfSbox",
+    "bytes": 416
+  },
+  {
+    "address": "0x140941500",
+    "name": "gommo/pkg/assets/rfdata.RepackEDF",
+    "bytes": 704
+  },
+  {
+    "address": "0x1409417c0",
+    "name": "gommo/pkg/assets/rfdata.encryptWith",
+    "bytes": 1088
+  },
+  {
+    "address": "0x140941c00",
+    "name": "gommo/pkg/assets/rfdata.sboxToKeyTable",
+    "bytes": 448
+  },
+  {
+    "address": "0x140941dc0",
+    "name": "gommo/pkg/assets/rfdata.loadEquip",
+    "bytes": 2432
+  },
+  {
+    "address": "0x140942740",
+    "name": "gommo/pkg/assets/rfdata.itemShape",
+    "bytes": 352
+  },
+  {
+    "address": "0x1409428a0",
+    "name": "gommo/pkg/assets/rfdata.(*equipLayout).block",
+    "bytes": 800
+  },
+  {
+    "address": "0x140942bc0",
+    "name": "gommo/pkg/assets/rfdata.walkFlatPrefix",
+    "bytes": 672
+  },
+  {
+    "address": "0x140942e60",
+    "name": "gommo/pkg/assets/rfdata.LoadGearModelsFrom",
+    "bytes": 1216
+  },
+  {
+    "address": "0x140943320",
+    "name": "gommo/pkg/assets/rfdata.GearMeshID",
+    "bytes": 64
+  },
+  {
+    "address": "0x140943360",
+    "name": "gommo/pkg/assets/rfdata.(*GearModels).Mesh",
+    "bytes": 768
+  },
+  {
+    "address": "0x140943660",
+    "name": "gommo/pkg/assets/rfdata.(*GearModels).Dirs",
+    "bytes": 960
+  },
+  {
+    "address": "0x140943a20",
+    "name": "gommo/pkg/assets/rfdata.(*GearModels).Dirs.func1",
+    "bytes": 352
+  },
+  {
+    "address": "0x140943b80",
+    "name": "gommo/pkg/assets/rfdata.ResourceDir",
+    "bytes": 160
+  },
+  {
+    "address": "0x140943c20",
+    "name": "gommo/pkg/assets/rfdata.PackItemCode",
+    "bytes": 800
+  },
+  {
+    "address": "0x140943f40",
+    "name": "gommo/pkg/assets/rfdata.FreeItemCode",
+    "bytes": 1056
+  },
+  {
+    "address": "0x140944360",
+    "name": "gommo/pkg/assets/rfdata.LoadItemNamesIn",
+    "bytes": 192
+  },
+  {
+    "address": "0x140944420",
+    "name": "gommo/pkg/assets/rfdata.ndItemNames",
+    "bytes": 608
+  },
+  {
+    "address": "0x140944680",
+    "name": "gommo/pkg/assets/rfdata.olderItemNames",
+    "bytes": 1728
+  },
+  {
+    "address": "0x140944d40",
+    "name": "gommo/pkg/assets/rfdata.LoadKindNames",
+    "bytes": 1824
+  },
+  {
+    "address": "0x140945460",
+    "name": "gommo/pkg/assets/rfdata.walkNameBlocks",
+    "bytes": 736
+  },
+  {
+    "address": "0x140945740",
+    "name": "gommo/pkg/assets/rfdata.pickLocaleFor",
+    "bytes": 1248
+  },
+  {
+    "address": "0x140945c20",
+    "name": "gommo/pkg/assets/rfdata.decodeLatin",
+    "bytes": 640
+  },
+  {
+    "address": "0x140945ea0",
+    "name": "gommo/pkg/assets/rfdata.itemDatBlocks",
+    "bytes": 160
+  },
+  {
+    "address": "0x140945f40",
+    "name": "gommo/pkg/assets/rfdata.TableWriterGames",
+    "bytes": 448
+  },
+  {
+    "address": "0x140946100",
+    "name": "gommo/pkg/assets/rfdata.WeaponTableFor",
+    "bytes": 544
+  },
+  {
+    "address": "0x140946320",
+    "name": "gommo/pkg/assets/rfdata.ParseItemTable",
+    "bytes": 384
+  },
+  {
+    "address": "0x1409464a0",
+    "name": "gommo/pkg/assets/rfdata.(*ItemTable).Encode",
+    "bytes": 1408
+  },
+  {
+    "address": "0x140946a20",
+    "name": "gommo/pkg/assets/rfdata.(*ItemTable).Record",
+    "bytes": 512
+  },
+  {
+    "address": "0x140946c20",
+    "name": "gommo/pkg/assets/rfdata.(*ItemTable).Append",
+    "bytes": 928
+  },
+  {
+    "address": "0x140946fc0",
+    "name": "gommo/pkg/assets/rfdata.(*ItemTable).Each",
+    "bytes": 288
+  },
+  {
+    "address": "0x1409470e0",
+    "name": "gommo/pkg/assets/rfdata.WeaponTable.SetIcon",
+    "bytes": 480
+  },
+  {
+    "address": "0x1409472c0",
+    "name": "gommo/pkg/assets/rfdata.SetRecordName",
+    "bytes": 256
+  },
+  {
+    "address": "0x1409473c0",
+    "name": "gommo/pkg/assets/rfdata.CostumeBlockFor",
+    "bytes": 1152
+  },
+  {
+    "address": "0x140947840",
+    "name": "gommo/pkg/assets/rfdata.CostumeMeshID",
+    "bytes": 64
+  },
+  {
+    "address": "0x140947880",
+    "name": "gommo/pkg/assets/rfdata.ItemBlockFor",
+    "bytes": 1152
+  },
+  {
+    "address": "0x140947d00",
+    "name": "gommo/pkg/assets/rfdata.NameTableFor",
+    "bytes": 416
+  },
+  {
+    "address": "0x140947ea0",
+    "name": "gommo/pkg/assets/rfdata.NameBlock",
+    "bytes": 1120
+  },
+  {
+    "address": "0x140948300",
+    "name": "gommo/pkg/assets/rfdata.init.0",
+    "bytes": 1888
+  },
+  {
+    "address": "0x140948a60",
+    "name": "gommo/pkg/assets/rfdata.newItemTable",
+    "bytes": 928
+  },
+  {
+    "address": "0x140948e00",
+    "name": "gommo/pkg/assets/rfdata.walkFlatTail",
+    "bytes": 864
+  },
+  {
+    "address": "0x140949160",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).emptyMiddle",
+    "bytes": 448
+  },
+  {
+    "address": "0x140949320",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).splitAppendix",
+    "bytes": 2016
+  },
+  {
+    "address": "0x140949b00",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).NewRecord",
+    "bytes": 2240
+  },
+  {
+    "address": "0x14094a3c0",
+    "name": "gommo/pkg/assets/rfdata.DecodeMapTable",
+    "bytes": 864
+  },
+  {
+    "address": "0x14094a720",
+    "name": "gommo/pkg/assets/rfdata.decodeMapTable",
+    "bytes": 3232
+  },
+  {
+    "address": "0x14094b3c0",
+    "name": "gommo/pkg/assets/rfdata.isRecord",
+    "bytes": 352
+  },
+  {
+    "address": "0x14094b520",
+    "name": "gommo/pkg/assets/rfdata.MapLayout.decodePortal",
+    "bytes": 1184
+  },
+  {
+    "address": "0x14094b9c0",
+    "name": "gommo/pkg/assets/rfdata.MapLayout.encodePortal",
+    "bytes": 1696
+  },
+  {
+    "address": "0x14094c060",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).Encode",
+    "bytes": 512
+  },
+  {
+    "address": "0x14094c260",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).EncodeRecord",
+    "bytes": 1056
+  },
+  {
+    "address": "0x14094c680",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).Record",
+    "bytes": 192
+  },
+  {
+    "address": "0x14094c740",
+    "name": "gommo/pkg/assets/rfdata.(*MapRecord).MapDir",
+    "bytes": 160
+  },
+  {
+    "address": "0x14094c7e0",
+    "name": "gommo/pkg/assets/rfdata.ReadClientTable",
+    "bytes": 928
+  },
+  {
+    "address": "0x14094cb80",
+    "name": "gommo/pkg/assets/rfdata.NewMapVein",
+    "bytes": 352
+  },
+  {
+    "address": "0x14094cce0",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).veinSpan",
+    "bytes": 512
+  },
+  {
+    "address": "0x14094cee0",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).Veins",
+    "bytes": 352
+  },
+  {
+    "address": "0x14094d040",
+    "name": "gommo/pkg/assets/rfdata.(*MapTable).SetVeins",
+    "bytes": 800
+  },
+  {
+    "address": "0x14094d360",
+    "name": "gommo/pkg/assets/rfdata.ParseMonsterCode",
+    "bytes": 192
+  },
+  {
+    "address": "0x14094d420",
+    "name": "gommo/pkg/assets/rfdata.MonsterModelForCode",
+    "bytes": 160
+  },
+  {
+    "address": "0x14094d4c0",
+    "name": "gommo/pkg/assets/rfdata.MonsterLayoutFor",
+    "bytes": 832
+  },
+  {
+    "address": "0x14094d800",
+    "name": "gommo/pkg/assets/rfdata.ParseCharacterTable",
+    "bytes": 800
+  },
+  {
+    "address": "0x14094db20",
+    "name": "gommo/pkg/assets/rfdata.(*CharacterTable).Monster",
+    "bytes": 480
+  },
+  {
+    "address": "0x14094dd00",
+    "name": "gommo/pkg/assets/rfdata.(*CharacterTable).AppendMonster",
+    "bytes": 672
+  },
+  {
+    "address": "0x14094dfa0",
+    "name": "gommo/pkg/assets/rfdata.SetMonsterName",
+    "bytes": 256
+  },
+  {
+    "address": "0x14094e0a0",
+    "name": "gommo/pkg/assets/rfdata.(*ResourceTable).MonsterBones",
+    "bytes": 960
+  },
+  {
+    "address": "0x14094e460",
+    "name": "gommo/pkg/assets/rfdata.(*ResourceTable).MonsterAnis",
+    "bytes": 1184
+  },
+  {
+    "address": "0x14094e900",
+    "name": "gommo/pkg/assets/rfdata.(*ResourceTable).AddMonster",
+    "bytes": 2848
+  },
+  {
+    "address": "0x14094f420",
+    "name": "gommo/pkg/assets/rfdata.AppendCharacterName",
+    "bytes": 2112
+  },
+  {
+    "address": "0x14094fc60",
+    "name": "gommo/pkg/assets/rfdata.walkNDSections",
+    "bytes": 704
+  },
+  {
+    "address": "0x14094ff20",
+    "name": "gommo/pkg/assets/rfdata.ndSection.names",
+    "bytes": 384
+  },
+  {
+    "address": "0x1409500a0",
+    "name": "gommo/pkg/assets/rfdata.CharacterNames",
+    "bytes": 768
+  },
+  {
+    "address": "0x1409503a0",
+    "name": "gommo/pkg/assets/rfdata.monsterNamesIn",
+    "bytes": 160
+  },
+  {
+    "address": "0x140950440",
+    "name": "gommo/pkg/assets/rfdata.LoadArmorModels",
+    "bytes": 832
+  },
+  {
+    "address": "0x140950780",
+    "name": "gommo/pkg/assets/rfdata.(*ArmorModels).Each",
+    "bytes": 288
+  },
+  {
+    "address": "0x1409508a0",
+    "name": "gommo/pkg/assets/rfdata.(*ArmorModels).Each.Keys[go.shape.map[uint32]gommo/pkg/assets/rfdata.armorRow,go.shape.uint32,go.shape.struct { Code uint32; Civil uint8; Hide uint8 }].func1",
+    "bytes": 160
+  },
+  {
+    "address": "0x140950940",
+    "name": "gommo/pkg/assets/rfdata.LoadAniEffects",
+    "bytes": 832
+  },
+  {
+    "address": "0x140950c80",
+    "name": "gommo/pkg/assets/rfdata.CachedAniEffects",
+    "bytes": 160
+  },
+  {
+    "address": "0x140950d20",
+    "name": "gommo/pkg/assets/rfdata.CachedAniEffects.func1",
+    "bytes": 64
+  },
+  {
+    "address": "0x140950d60",
+    "name": "gommo/pkg/assets/rfdata.LoadPlayerAnis",
+    "bytes": 192
+  },
+  {
+    "address": "0x140950e20",
+    "name": "gommo/pkg/assets/rfdata.CachedPlayerAnis",
+    "bytes": 160
+  },
+  {
+    "address": "0x140950ec0",
+    "name": "gommo/pkg/assets/rfdata.CachedPlayerAnis.func1",
+    "bytes": 64
+  },
+  {
+    "address": "0x140950f00",
+    "name": "gommo/pkg/assets/rfdata.(*PlayerAnis).Len",
+    "bytes": 32
+  },
+  {
+    "address": "0x140950f20",
+    "name": "gommo/pkg/assets/rfdata.(*PlayerAnis).Find",
+    "bytes": 544
+  },
+  {
+    "address": "0x140951140",
+    "name": "gommo/pkg/assets/rfdata.LoadResourceModels",
+    "bytes": 768
+  },
+  {
+    "address": "0x140951440",
+    "name": "gommo/pkg/assets/rfdata.boneStems",
+    "bytes": 704
+  },
+  {
+    "address": "0x140951700",
+    "name": "gommo/pkg/assets/rfdata.meshRecords",
+    "bytes": 864
+  },
+  {
+    "address": "0x140951a60",
+    "name": "gommo/pkg/assets/rfdata.ParseResourceTable",
+    "bytes": 352
+  },
+  {
+    "address": "0x140951bc0",
+    "name": "gommo/pkg/assets/rfdata.listMeshBlock",
+    "bytes": 896
+  },
+  {
+    "address": "0x140951f40",
+    "name": "gommo/pkg/assets/rfdata.appendMeshBlock",
+    "bytes": 672
+  },
+  {
+    "address": "0x1409521e0",
+    "name": "gommo/pkg/assets/rfdata.encodeMesh",
+    "bytes": 448
+  },
+  {
+    "address": "0x1409523a0",
+    "name": "gommo/pkg/assets/rfdata.encodeRecord",
+    "bytes": 576
+  },
+  {
+    "address": "0x1409525e0",
+    "name": "gommo/pkg/assets/rfdata.cField",
+    "bytes": 160
+  },
+  {
+    "address": "0x140952680",
+    "name": "gommo/pkg/assets/rfdata.WeaponModelID",
+    "bytes": 160
+  },
+  {
+    "address": "0x140952720",
+    "name": "gommo/pkg/assets/rfdata.LoadMonsters",
+    "bytes": 64
+  },
+  {
+    "address": "0x140952760",
+    "name": "gommo/pkg/assets/rfdata.LoadMonstersIn",
+    "bytes": 640
+  },
+  {
+    "address": "0x1409529e0",
+    "name": "gommo/pkg/assets/rfdata.monsterRows",
+    "bytes": 1856
+  },
+  {
+    "address": "0x140953120",
+    "name": "gommo/pkg/assets/rfdata.MonsterBoneNames",
+    "bytes": 576
+  },
+  {
+    "address": "0x140953360",
+    "name": "gommo/pkg/assets/rfdata.AnimusBoneNames",
+    "bytes": 544
+  },
+  {
+    "address": "0x140953580",
+    "name": "gommo/pkg/assets/rfdata.boneRows",
+    "bytes": 832
+  },
+  {
+    "address": "0x1409538c0",
+    "name": "gommo/pkg/assets/rfdata.cstring",
+    "bytes": 128
+  },
+  {
+    "address": "0x140953940",
+    "name": "gommo/pkg/assets/rfdata.(*ResourceTable).SkillAnis",
+    "bytes": 1184
+  },
+  {
+    "address": "0x140953de0",
+    "name": "gommo/pkg/assets/rfdata.(*ResourceTable).AddSkillAnis",
+    "bytes": 1472
+  },
+  {
+    "address": "0x1409543a0",
+    "name": "gommo/pkg/assets/rfdata.readCosts",
+    "bytes": 512
+  },
+  {
+    "address": "0x1409545a0",
+    "name": "gommo/pkg/assets/rfdata.LoadSkillForcesWith",
+    "bytes": 2848
+  },
+  {
+    "address": "0x1409550c0",
+    "name": "gommo/pkg/assets/rfdata.skillForceNames",
+    "bytes": 1024
+  },
+  {
+    "address": "0x1409554c0",
+    "name": "gommo/pkg/assets/rfdata.cText",
+    "bytes": 192
+  },
+  {
+    "address": "0x140955580",
+    "name": "gommo/pkg/assets/rfdata.LoadStoreCatalog",
+    "bytes": 896
+  },
+  {
+    "address": "0x140955900",
+    "name": "gommo/pkg/assets/rfdata.decodeStores",
+    "bytes": 1696
+  },
+  {
+    "address": "0x140955fa0",
+    "name": "gommo/pkg/assets/rfdata.itemRowsByCode",
+    "bytes": 832
+  },
+  {
+    "address": "0x1409562e0",
+    "name": "gommo/pkg/assets/rfdata.(*UnitData).Magazine",
+    "bytes": 64
+  },
+  {
+    "address": "0x140956320",
+    "name": "gommo/pkg/assets/rfdata.LoadWeaponModels",
+    "bytes": 544
+  },
+  {
+    "address": "0x140956540",
+    "name": "gommo/pkg/assets/rfdata.(*WeaponModels).Each",
+    "bytes": 288
+  },
+  {
+    "address": "0x140956660",
+    "name": "gommo/pkg/assets/rfdata.(*WeaponModels).Each.Keys[go.shape.map[uint32]uint32,go.shape.uint32,go.shape.uint32].func1",
+    "bytes": 160
+  },
+  {
+    "address": "0x140956700",
+    "name": "gommo/pkg/assets/rfdata.WeaponMeshName",
+    "bytes": 448
+  },
+  {
+    "address": "0x140957ac0",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.*uint8]",
+    "bytes": 352
+  },
+  {
+    "address": "0x140957c20",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.*uint8].func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x140957ca0",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.map[string][]uint32]",
+    "bytes": 352
+  },
+  {
+    "address": "0x140957e00",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.map[string][]uint32].func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x140957e80",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.map[uint32][]gommo/pkg/assets/rfdata.StoreGood]",
+    "bytes": 352
+  },
+  {
+    "address": "0x140957fe0",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.map[uint32][]gommo/pkg/assets/rfdata.StoreGood].func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x140958060",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.[]gommo/pkg/assets/rfdata.Block]",
+    "bytes": 384
+  },
+  {
+    "address": "0x1409581e0",
+    "name": "gommo/pkg/assets/rfdata.cached[go.shape.[]gommo/pkg/assets/rfdata.Block].func1",
+    "bytes": 192
+  },
+  {
+    "address": "0x140982600",
+    "name": "gommo/pkg/assets/bsp.Load",
+    "bytes": 2144
+  },
+  {
+    "address": "0x140982e60",
+    "name": "gommo/pkg/assets/bsp.Load.func1",
+    "bytes": 160
+  },
+  {
+    "address": "0x140982f00",
+    "name": "gommo/pkg/assets/bsp.(*Map).parseFixed",
+    "bytes": 14720
+  },
+  {
+    "address": "0x140986880",
+    "name": "gommo/pkg/assets/bsp.(*Face).Tessellate",
+    "bytes": 1632
+  },
+  {
+    "address": "0x140986ee0",
+    "name": "gommo/pkg/assets/bsp.evalPatch",
+    "bytes": 576
+  },
+  {
+    "address": "0x140987120",
+    "name": "gommo/pkg/assets/bsp.(*Map).Trace",
+    "bytes": 768
+  },
+  {
+    "address": "0x140987420",
+    "name": "gommo/pkg/assets/bsp.(*Map).GroundHeight",
+    "bytes": 352
+  },
+  {
+    "address": "0x140987580",
+    "name": "gommo/pkg/assets/bsp.(*traceWork).recurse",
+    "bytes": 1504
+  },
+  {
+    "address": "0x140987b60",
+    "name": "gommo/pkg/assets/bsp.(*traceWork).clipBrush",
+    "bytes": 928
+  },
+  {
+    "address": "0x140987f00",
+    "name": "gommo/pkg/assets/bsp.(*Map).Bounds",
+    "bytes": 160
+  },
+  {
+    "address": "0x1409c53e0",
+    "name": "gommo/pkg/assets/r3light.Options.withDefaults",
+    "bytes": 448
+  },
+  {
+    "address": "0x1409c55a0",
+    "name": "gommo/pkg/assets/r3light.NewBaker",
+    "bytes": 576
+  },
+  {
+    "address": "0x1409c57e0",
+    "name": "gommo/pkg/assets/r3light.(*Baker).Bake",
+    "bytes": 352
+  },
+  {
+    "address": "0x1409c5940",
+    "name": "gommo/pkg/assets/r3light.prepareLights",
+    "bytes": 3008
+  },
+  {
+    "address": "0x1409c6500",
+    "name": "gommo/pkg/assets/r3light.(*plight).attenuation",
+    "bytes": 384
+  },
+  {
+    "address": "0x1409c6680",
+    "name": "gommo/pkg/assets/r3light.(*Baker).selection",
+    "bytes": 1952
+  },
+  {
+    "address": "0x1409c6e20",
+    "name": "gommo/pkg/assets/r3light.(*Baker).pass",
+    "bytes": 3392
+  },
+  {
+    "address": "0x1409c7b60",
+    "name": "gommo/pkg/assets/r3light.(*Baker).pass.func4",
+    "bytes": 352
+  },
+  {
+    "address": "0x1409c7cc0",
+    "name": "gommo/pkg/assets/r3light.(*Baker).pass.func3",
+    "bytes": 352
+  },
+  {
+    "address": "0x1409c7e20",
+    "name": "gommo/pkg/assets/r3light.(*Baker).pass.func2",
+    "bytes": 192
+  },
+  {
+    "address": "0x1409c7ee0",
+    "name": "gommo/pkg/assets/r3light.(*Baker).pass.func1",
+    "bytes": 960
+  },
+  {
+    "address": "0x1409c82a0",
+    "name": "gommo/pkg/assets/r3light.(*Baker).pass.func1.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409c8300",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).run",
+    "bytes": 512
+  },
+  {
+    "address": "0x1409c8500",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).run.gowrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409c8560",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).run.func1",
+    "bytes": 640
+  },
+  {
+    "address": "0x1409c87e0",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).run.func1.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409c8840",
+    "name": "gommo/pkg/assets/r3light.(*sampler).texelPoint",
+    "bytes": 2272
+  },
+  {
+    "address": "0x1409c9120",
+    "name": "gommo/pkg/assets/r3light.(*sampler).directLight",
+    "bytes": 4288
+  },
+  {
+    "address": "0x1409ca1e0",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).directTile",
+    "bytes": 2016
+  },
+  {
+    "address": "0x1409ca9c0",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).skyRadiance",
+    "bytes": 704
+  },
+  {
+    "address": "0x1409cac80",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).hemiTile",
+    "bytes": 3968
+  },
+  {
+    "address": "0x1409cbc00",
+    "name": "gommo/pkg/assets/r3light.(*sampler).bounceAt",
+    "bytes": 1792
+  },
+  {
+    "address": "0x1409cc300",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).emitRect",
+    "bytes": 960
+  },
+  {
+    "address": "0x1409cc6c0",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).post",
+    "bytes": 1344
+  },
+  {
+    "address": "0x1409ccc00",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).post.func2",
+    "bytes": 1152
+  },
+  {
+    "address": "0x1409cd080",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).post.func2.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409cd0e0",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).post.func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x1409cd160",
+    "name": "gommo/pkg/assets/r3light.(*bakeCtx).post.func1.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409cd1c0",
+    "name": "gommo/pkg/assets/r3light.buildBVH",
+    "bytes": 2720
+  },
+  {
+    "address": "0x1409cdc60",
+    "name": "gommo/pkg/assets/r3light.buildBVH.func1",
+    "bytes": 512
+  },
+  {
+    "address": "0x1409cde60",
+    "name": "gommo/pkg/assets/r3light.(*builder).build",
+    "bytes": 5600
+  },
+  {
+    "address": "0x1409cf440",
+    "name": "gommo/pkg/assets/r3light.(*builder).build.func2",
+    "bytes": 128
+  },
+  {
+    "address": "0x1409cf4c0",
+    "name": "gommo/pkg/assets/r3light.(*bvh).boxT",
+    "bytes": 544
+  },
+  {
+    "address": "0x1409cf6e0",
+    "name": "gommo/pkg/assets/r3light.(*bvh).intersect",
+    "bytes": 1440
+  },
+  {
+    "address": "0x1409cfc80",
+    "name": "gommo/pkg/assets/r3light.(*bvh).opaqueAt",
+    "bytes": 544
+  },
+  {
+    "address": "0x1409cfea0",
+    "name": "gommo/pkg/assets/r3light.triHit",
+    "bytes": 1088
+  },
+  {
+    "address": "0x1409d02e0",
+    "name": "gommo/pkg/assets/r3light.newAlphaMask",
+    "bytes": 416
+  },
+  {
+    "address": "0x1409d0480",
+    "name": "gommo/pkg/assets/r3light.DefaultLights",
+    "bytes": 2176
+  },
+  {
+    "address": "0x1409d0d00",
+    "name": "gommo/pkg/assets/r3light.basis",
+    "bytes": 288
+  },
+  {
+    "address": "0x1409d0e20",
+    "name": "gommo/pkg/assets/r3light.(*rng).strat",
+    "bytes": 480
+  },
+  {
+    "address": "0x1409d1000",
+    "name": "gommo/pkg/assets/r3light.cosineDir",
+    "bytes": 1056
+  },
+  {
+    "address": "0x1409d1420",
+    "name": "gommo/pkg/assets/r3light.coneDir",
+    "bytes": 1120
+  },
+  {
+    "address": "0x1409d1880",
+    "name": "gommo/pkg/assets/r3light.NewMeshBaker",
+    "bytes": 6624
+  },
+  {
+    "address": "0x1409d3260",
+    "name": "gommo/pkg/assets/r3light.PageFromLightmap",
+    "bytes": 576
+  },
+  {
+    "address": "0x1409d34a0",
+    "name": "gommo/pkg/assets/r3light.PagesFromFile",
+    "bytes": 416
+  },
+  {
+    "address": "0x1409d3640",
+    "name": "gommo/pkg/assets/r3light.ApplyToFile",
+    "bytes": 1248
+  },
+  {
+    "address": "0x1409d3b20",
+    "name": "gommo/pkg/assets/r3light.pack565",
+    "bytes": 320
+  },
+  {
+    "address": "0x1409d3c60",
+    "name": "gommo/pkg/assets/r3light.(*Page).downsample",
+    "bytes": 1792
+  },
+  {
+    "address": "0x1409d4360",
+    "name": "gommo/pkg/assets/r3light.PreviewPasses",
+    "bytes": 800
+  },
+  {
+    "address": "0x1409d4680",
+    "name": "gommo/pkg/assets/r3light.(*Baker).BakeProgressive",
+    "bytes": 672
+  },
+  {
+    "address": "0x1409d4920",
+    "name": "gommo/pkg/assets/r3light.(*Baker).BakeProgressive.func1",
+    "bytes": 448
+  },
+  {
+    "address": "0x1409d4ae0",
+    "name": "gommo/pkg/assets/r3light.(*Baker).BakeProgressive.func1.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409d4b40",
+    "name": "gommo/pkg/assets/r3light.closest",
+    "bytes": 1152
+  },
+  {
+    "address": "0x1409d4fc0",
+    "name": "gommo/pkg/assets/r3light.rasterPage",
+    "bytes": 2304
+  },
+  {
+    "address": "0x1409d58c0",
+    "name": "gommo/pkg/assets/r3light.PropsFromScene",
+    "bytes": 1088
+  },
+  {
+    "address": "0x1409d5d00",
+    "name": "gommo/pkg/assets/r3light.(*Prop).transform",
+    "bytes": 640
+  },
+  {
+    "address": "0x1409d5f80",
+    "name": "gommo/pkg/assets/r3light.polyNormal",
+    "bytes": 704
+  },
+  {
+    "address": "0x1409d6240",
+    "name": "gommo/pkg/assets/r3light.(*maskCache).get",
+    "bytes": 1216
+  },
+  {
+    "address": "0x1409d6700",
+    "name": "gommo/pkg/assets/r3light.maskFromDDS",
+    "bytes": 416
+  },
+  {
+    "address": "0x1409d68a0",
+    "name": "gommo/pkg/assets/r3light.maskFromDDS.func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x1409d6920",
+    "name": "gommo/pkg/assets/r3light.buildWorld",
+    "bytes": 7264
+  },
+  {
+    "address": "0x1409d8580",
+    "name": "gommo/pkg/assets/r3light.addProps",
+    "bytes": 3360
+  },
+  {
+    "address": "0x1409d92a0",
+    "name": "gommo/pkg/assets/r3light.modelGeom",
+    "bytes": 1696
+  },
+  {
+    "address": "0x1409d9940",
+    "name": "gommo/pkg/assets/r3light.smoothNormals",
+    "bytes": 1440
+  },
+  {
+    "address": "0x1409d9ee0",
+    "name": "gommo/pkg/assets/r3light.smoothNormals.gowrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409d9f40",
+    "name": "gommo/pkg/assets/r3light.smoothNormals.func2",
+    "bytes": 1760
+  },
+  {
+    "address": "0x1409da620",
+    "name": "gommo/pkg/assets/r3light.dilate",
+    "bytes": 2656
+  },
+  {
+    "address": "0x1409db080",
+    "name": "gommo/pkg/assets/r3light.findSeams",
+    "bytes": 2880
+  },
+  {
+    "address": "0x1409dbbc0",
+    "name": "gommo/pkg/assets/r3light.bilinear",
+    "bytes": 992
+  },
+  {
+    "address": "0x1409dbfa0",
+    "name": "gommo/pkg/assets/r3light.nudge",
+    "bytes": 416
+  },
+  {
+    "address": "0x1409dc140",
+    "name": "gommo/pkg/assets/r3light.weldOne",
+    "bytes": 1824
+  },
+  {
+    "address": "0x1409dc860",
+    "name": "gommo/pkg/assets/r3light.weld",
+    "bytes": 1856
+  },
+  {
+    "address": "0x1409dcfa0",
+    "name": "gommo/pkg/assets/r3light.weld.func1",
+    "bytes": 384
+  },
+  {
+    "address": "0x1409dd120",
+    "name": "gommo/pkg/assets/r3light.weld.func1.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409dd180",
+    "name": "gommo/pkg/assets/r3light.findSeams.func1",
+    "bytes": 512
+  },
+  {
+    "address": "0x1409dd380",
+    "name": "gommo/pkg/assets/r3light.findSeams.func3",
+    "bytes": 96
+  },
+  {
+    "address": "0x1409dd3e0",
+    "name": "gommo/pkg/assets/r3light.smoothNormals.func1",
+    "bytes": 512
+  },
+  {
+    "address": "0x1412329a0",
+    "name": "gommo/pkg/assets/rfplacement.init.func1",
+    "bytes": 512
+  },
+  {
+    "address": "0x141232ba0",
+    "name": "gommo/pkg/assets/rfplacement.init.func2",
+    "bytes": 384
+  },
+  {
+    "address": "0x141232d20",
+    "name": "gommo/pkg/assets/rfplacement.init.func3",
+    "bytes": 704
+  },
+  {
+    "address": "0x141232fe0",
+    "name": "gommo/pkg/assets/rfplacement.init.func4",
+    "bytes": 544
+  },
+  {
+    "address": "0x141233200",
+    "name": "gommo/pkg/assets/rfplacement.init.func5",
+    "bytes": 1664
+  },
+  {
+    "address": "0x141233880",
+    "name": "gommo/pkg/assets/rfplacement.init.func6",
+    "bytes": 480
+  },
+  {
+    "address": "0x141233a60",
+    "name": "gommo/pkg/assets/rfplacement.init.func7",
+    "bytes": 512
+  },
+  {
+    "address": "0x141233c60",
+    "name": "gommo/pkg/assets/rfplacement.init.func8",
+    "bytes": 736
+  },
+  {
+    "address": "0x141233f40",
+    "name": "gommo/pkg/assets/rfplacement.init.func9",
+    "bytes": 672
+  },
+  {
+    "address": "0x1412341e0",
+    "name": "gommo/pkg/assets/rfplacement.init.func10",
+    "bytes": 992
+  },
+  {
+    "address": "0x1412345c0",
+    "name": "gommo/pkg/assets/rfplacement.init.func11",
+    "bytes": 608
+  },
+  {
+    "address": "0x141234820",
+    "name": "gommo/pkg/assets/rfplacement.Check",
+    "bytes": 2400
+  },
+  {
+    "address": "0x141235180",
+    "name": "gommo/pkg/assets/rfplacement.Check.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1412351e0",
+    "name": "gommo/pkg/assets/rfplacement.ListMaps",
+    "bytes": 832
+  },
+  {
+    "address": "0x141235520",
+    "name": "gommo/pkg/assets/rfplacement.ListMaps.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x141235580",
+    "name": "gommo/pkg/assets/rfplacement.ReadMap",
+    "bytes": 320
+  },
+  {
+    "address": "0x1412356c0",
+    "name": "gommo/pkg/assets/rfplacement.Put",
+    "bytes": 1920
+  },
+  {
+    "address": "0x141235e40",
+    "name": "gommo/pkg/assets/rfplacement.Put.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x141235ea0",
+    "name": "gommo/pkg/assets/rfplacement.Delete",
+    "bytes": 672
+  },
+  {
+    "address": "0x141236140",
+    "name": "gommo/pkg/assets/rfplacement.Delete.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1412361a0",
+    "name": "gommo/pkg/assets/rfplacement.indexOf",
+    "bytes": 832
+  },
+  {
+    "address": "0x1412364e0",
+    "name": "gommo/pkg/assets/rfplacement.indexOf.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x141236540",
+    "name": "gommo/pkg/assets/rfplacement.deleteMap",
+    "bytes": 608
+  },
+  {
+    "address": "0x1412367a0",
+    "name": "gommo/pkg/assets/rfplacement.(*rowSet).flush",
+    "bytes": 992
+  },
+  {
+    "address": "0x141236b80",
+    "name": "gommo/pkg/assets/rfplacement.insertFile",
+    "bytes": 13824
+  },
+  {
+    "address": "0x14123a180",
+    "name": "gommo/pkg/assets/rfplacement.read",
+    "bytes": 2400
+  },
+  {
+    "address": "0x14123aae0",
+    "name": "gommo/pkg/assets/rfplacement.read.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123ab40",
+    "name": "gommo/pkg/assets/rfplacement.readSection",
+    "bytes": 3616
+  },
+  {
+    "address": "0x14123b960",
+    "name": "gommo/pkg/assets/rfplacement.readSection.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123b9c0",
+    "name": "gommo/pkg/assets/rfplacement.Decode",
+    "bytes": 160
+  },
+  {
+    "address": "0x14123ba60",
+    "name": "gommo/pkg/assets/rfplacement.Canonical",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123bae0",
+    "name": "gommo/pkg/assets/rfplacement.Normalize",
+    "bytes": 2016
+  },
+  {
+    "address": "0x14123c2c0",
+    "name": "gommo/pkg/assets/rfplacement.(*File).Validate",
+    "bytes": 1952
+  },
+  {
+    "address": "0x14123ca60",
+    "name": "gommo/pkg/assets/rfplacement.Encode",
+    "bytes": 1312
+  },
+  {
+    "address": "0x14123cf80",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func23",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123cfe0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func22",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d060",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func21",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d0e0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func20",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d160",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func19",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d1c0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func19.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d240",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func18",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d2a0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func17",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d300",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func17.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d380",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func16",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d3e0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func16.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d460",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func15",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d4c0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func15.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d540",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func14",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d5a0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func14.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d620",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func13",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d680",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func13.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d700",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func12",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d760",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func12.1",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123d7e0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func11",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d840",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func11.1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d8a0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func10",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d900",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func10.1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d960",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func9",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123d9c0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func9.1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123da20",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func8",
+    "bytes": 128
+  },
+  {
+    "address": "0x14123daa0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func7",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123db00",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func6",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123db60",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func5",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123dbc0",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func4",
+    "bytes": 96
+  },
+  {
+    "address": "0x14123dc20",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func3",
+    "bytes": 480
+  },
+  {
+    "address": "0x14123de00",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func2",
+    "bytes": 352
+  },
+  {
+    "address": "0x14123df60",
+    "name": "gommo/pkg/assets/rfplacement.Encode.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1418cabc0",
+    "name": "gommo/pkg/assets/dsui.init",
+    "bytes": 1280
+  },
+  {
+    "address": "0x1418cb0c0",
+    "name": "gommo/pkg/assets/dsui.(*Node).Get",
+    "bytes": 288
+  },
+  {
+    "address": "0x1418cb1e0",
+    "name": "gommo/pkg/assets/dsui.ParseDialog",
+    "bytes": 3104
+  },
+  {
+    "address": "0x1418cbe00",
+    "name": "gommo/pkg/assets/dsui.(*Dialog).Encode",
+    "bytes": 3936
+  },
+  {
+    "address": "0x1418ccd60",
+    "name": "gommo/pkg/assets/dsui.decodeGBK",
+    "bytes": 160
+  },
+  {
+    "address": "0x1418cce00",
+    "name": "gommo/pkg/assets/dsui.encodeValue",
+    "bytes": 256
+  },
+  {
+    "address": "0x1418ccf00",
+    "name": "gommo/pkg/assets/dsui.Rect",
+    "bytes": 512
+  },
+  {
+    "address": "0x1418cd100",
+    "name": "gommo/pkg/assets/dsui.Styles",
+    "bytes": 640
+  },
+  {
+    "address": "0x1418cd380",
+    "name": "gommo/pkg/assets/dsui.ParseImageSet",
+    "bytes": 928
+  },
+  {
+    "address": "0x1418cd720",
+    "name": "gommo/pkg/assets/dsui.ParseImageSet-range1",
+    "bytes": 1408
+  },
+  {
+    "address": "0x1418cdca0",
+    "name": "gommo/pkg/assets/dsui.States",
+    "bytes": 1216
+  },
+  {
+    "address": "0x1418d4280",
+    "name": "gommo/pkg/assets/ifcfg.Parse",
+    "bytes": 3168
+  },
+  {
+    "address": "0x1418d4ee0",
+    "name": "gommo/pkg/assets/ifcfg.fields",
+    "bytes": 512
+  },
+  {
+    "address": "0x1418d50e0",
+    "name": "gommo/pkg/assets/ifcfg.(*File).Encode",
+    "bytes": 2016
+  },
+  {
+    "address": "0x1418d58c0",
+    "name": "gommo/pkg/assets/ifcfg.replaceTokens",
+    "bytes": 1152
+  },
+  {
+    "address": "0x1418d5d40",
+    "name": "gommo/pkg/assets/ifcfg.BoundIDs",
+    "bytes": 608
+  },
+  {
+    "address": "0x1418d5fa0",
+    "name": "gommo/pkg/assets/ifcfg.Layout",
+    "bytes": 1536
+  },
+  {
+    "address": "0x1418d65a0",
+    "name": "gommo/pkg/assets/ifcfg.Layout.func1",
+    "bytes": 1152
+  },
+  {
+    "address": "0x1418eb740",
+    "name": "gommo/pkg/assets/rml.init",
+    "bytes": 1440
+  },
+  {
+    "address": "0x1418ebce0",
+    "name": "gommo/pkg/assets/rml.map.init.0",
+    "bytes": 736
+  },
+  {
+    "address": "0x1418ebfc0",
+    "name": "gommo/pkg/assets/rml.map.init.1",
+    "bytes": 320
+  },
+  {
+    "address": "0x1418ec100",
+    "name": "gommo/pkg/assets/rml.ParseSheet",
+    "bytes": 1952
+  },
+  {
+    "address": "0x1418ec8a0",
+    "name": "gommo/pkg/assets/rml.(*Sheet).spritesheet",
+    "bytes": 1696
+  },
+  {
+    "address": "0x1418ecf40",
+    "name": "gommo/pkg/assets/rml.parseSelector",
+    "bytes": 1216
+  },
+  {
+    "address": "0x1418ed400",
+    "name": "gommo/pkg/assets/rml.(*Compound).matches",
+    "bytes": 704
+  },
+  {
+    "address": "0x1418ed6c0",
+    "name": "gommo/pkg/assets/rml.(*Selector).match",
+    "bytes": 320
+  },
+  {
+    "address": "0x1418ed800",
+    "name": "gommo/pkg/assets/rml.Cascade",
+    "bytes": 576
+  },
+  {
+    "address": "0x1418eda40",
+    "name": "gommo/pkg/assets/rml.Cascade.func1",
+    "bytes": 2464
+  },
+  {
+    "address": "0x1418ee3e0",
+    "name": "gommo/pkg/assets/rml.Cascade.func1.1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1418ee440",
+    "name": "gommo/pkg/assets/rml.sides",
+    "bytes": 576
+  },
+  {
+    "address": "0x1418ee680",
+    "name": "gommo/pkg/assets/rml.Style.set",
+    "bytes": 4608
+  },
+  {
+    "address": "0x1418ef880",
+    "name": "gommo/pkg/assets/rml.borderParts",
+    "bytes": 352
+  },
+  {
+    "address": "0x1418ef9e0",
+    "name": "gommo/pkg/assets/rml.ParseColor",
+    "bytes": 1088
+  },
+  {
+    "address": "0x1418efe20",
+    "name": "gommo/pkg/assets/rml.(*engine).length",
+    "bytes": 320
+  },
+  {
+    "address": "0x1418eff60",
+    "name": "gommo/pkg/assets/rml.parseLength",
+    "bytes": 384
+  },
+  {
+    "address": "0x1418f00e0",
+    "name": "gommo/pkg/assets/rml.(*engine).lineHeight",
+    "bytes": 320
+  },
+  {
+    "address": "0x1418f0220",
+    "name": "gommo/pkg/assets/rml.(*engine).textWidth",
+    "bytes": 416
+  },
+  {
+    "address": "0x1418f03c0",
+    "name": "gommo/pkg/assets/rml.(*engine).edges",
+    "bytes": 480
+  },
+  {
+    "address": "0x1418f05a0",
+    "name": "gommo/pkg/assets/rml.(*engine).frame",
+    "bytes": 384
+  },
+  {
+    "address": "0x1418f0720",
+    "name": "gommo/pkg/assets/rml.(*engine).maxContent",
+    "bytes": 4224
+  },
+  {
+    "address": "0x1418f17a0",
+    "name": "gommo/pkg/assets/rml.(*engine).flow",
+    "bytes": 1120
+  },
+  {
+    "address": "0x1418f1c00",
+    "name": "gommo/pkg/assets/rml.(*engine).place",
+    "bytes": 3680
+  },
+  {
+    "address": "0x1418f2a60",
+    "name": "gommo/pkg/assets/rml.(*engine).widthIn",
+    "bytes": 1568
+  },
+  {
+    "address": "0x1418f3080",
+    "name": "gommo/pkg/assets/rml.(*engine).block",
+    "bytes": 2560
+  },
+  {
+    "address": "0x1418f3a80",
+    "name": "gommo/pkg/assets/rml.(*engine).flex",
+    "bytes": 7648
+  },
+  {
+    "address": "0x1418f5860",
+    "name": "gommo/pkg/assets/rml.(*engine).shift",
+    "bytes": 384
+  },
+  {
+    "address": "0x1418f59e0",
+    "name": "gommo/pkg/assets/rml.(*engine).placeAbsolute",
+    "bytes": 928
+  },
+  {
+    "address": "0x1418f5d80",
+    "name": "gommo/pkg/assets/rml.Centre",
+    "bytes": 96
+  },
+  {
+    "address": "0x1418f5de0",
+    "name": "gommo/pkg/assets/rml.LayoutWindow",
+    "bytes": 672
+  },
+  {
+    "address": "0x1418f6080",
+    "name": "gommo/pkg/assets/rml.(*Node).Classes",
+    "bytes": 192
+  },
+  {
+    "address": "0x1418f6140",
+    "name": "gommo/pkg/assets/rml.(*Node).OwnText",
+    "bytes": 384
+  },
+  {
+    "address": "0x1418f62c0",
+    "name": "gommo/pkg/assets/rml.Parse",
+    "bytes": 4160
+  },
+  {
+    "address": "0x1418f7300",
+    "name": "gommo/pkg/assets/rml.parseTag",
+    "bytes": 1792
+  },
+  {
+    "address": "0x1418f7a00",
+    "name": "gommo/pkg/assets/rml.(*Doc).Encode",
+    "bytes": 3520
+  },
+  {
+    "address": "0x1418f87c0",
+    "name": "gommo/pkg/assets/rml.(*Doc).indent",
+    "bytes": 1568
+  },
+  {
+    "address": "0x1418f8de0",
+    "name": "gommo/pkg/assets/rml.rmlError.Error",
+    "bytes": 32
+  },
+  {
+    "address": "0x1418f8e00",
+    "name": "gommo/pkg/assets/rml.(*Node).Find",
+    "bytes": 192
+  },
+  {
+    "address": "0x1418f8ec0",
+    "name": "gommo/pkg/assets/rml.LayoutWindow.func1",
+    "bytes": 32
+  },
+  {
+    "address": "0x1418f8ee0",
+    "name": "gommo/pkg/assets/rml.(*rmlError).Error",
+    "bytes": 64
+  },
+  {
+    "address": "0x14198e400",
+    "name": "gommo/pkg/assets/r3compile.init",
+    "bytes": 2880
+  },
+  {
+    "address": "0x14198ef40",
+    "name": "gommo/pkg/assets/r3compile.Compile",
+    "bytes": 3936
+  },
+  {
+    "address": "0x14198fea0",
+    "name": "gommo/pkg/assets/r3compile.parallel",
+    "bytes": 384
+  },
+  {
+    "address": "0x141990020",
+    "name": "gommo/pkg/assets/r3compile.parallel.func1",
+    "bytes": 192
+  },
+  {
+    "address": "0x1419900e0",
+    "name": "gommo/pkg/assets/r3compile.parallel.func1.deferwrap1",
+    "bytes": 96
+  },
+  {
+    "address": "0x141990140",
+    "name": "gommo/pkg/assets/r3compile.makeGroups",
+    "bytes": 3584
+  },
+  {
+    "address": "0x141990f40",
+    "name": "gommo/pkg/assets/r3compile.makeGroups.func2",
+    "bytes": 448
+  },
+  {
+    "address": "0x141991100",
+    "name": "gommo/pkg/assets/r3compile.splitGroup",
+    "bytes": 1536
+  },
+  {
+    "address": "0x141991700",
+    "name": "gommo/pkg/assets/r3compile.splitGroup.func2",
+    "bytes": 192
+  },
+  {
+    "address": "0x1419917c0",
+    "name": "gommo/pkg/assets/r3compile.splitGroup.func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x141991840",
+    "name": "gommo/pkg/assets/r3compile.lightmaps",
+    "bytes": 7264
+  },
+  {
+    "address": "0x1419934a0",
+    "name": "gommo/pkg/assets/r3compile.lightmaps.func2",
+    "bytes": 128
+  },
+  {
+    "address": "0x141993520",
+    "name": "gommo/pkg/assets/r3compile.lightmaps.func1",
+    "bytes": 224
+  },
+  {
+    "address": "0x141993600",
+    "name": "gommo/pkg/assets/r3compile.assemble",
+    "bytes": 6432
+  },
+  {
+    "address": "0x141994f20",
+    "name": "gommo/pkg/assets/r3compile.assemble.func2",
+    "bytes": 512
+  },
+  {
+    "address": "0x141995120",
+    "name": "gommo/pkg/assets/r3compile.assemble.func1",
+    "bytes": 1216
+  },
+  {
+    "address": "0x1419955e0",
+    "name": "gommo/pkg/assets/r3compile.vertexBuffers",
+    "bytes": 192
+  },
+  {
+    "address": "0x1419956a0",
+    "name": "gommo/pkg/assets/r3compile.truthy",
+    "bytes": 288
+  },
+  {
+    "address": "0x1419957c0",
+    "name": "gommo/pkg/assets/r3compile.flagSet",
+    "bytes": 352
+  },
+  {
+    "address": "0x141995920",
+    "name": "gommo/pkg/assets/r3compile.isCollisionNode",
+    "bytes": 288
+  },
+  {
+    "address": "0x141995a40",
+    "name": "gommo/pkg/assets/r3compile.argb",
+    "bytes": 896
+  },
+  {
+    "address": "0x141995dc0",
+    "name": "gommo/pkg/assets/r3compile.intExtra",
+    "bytes": 160
+  },
+  {
+    "address": "0x141995e60",
+    "name": "gommo/pkg/assets/r3compile.gather",
+    "bytes": 6016
+  },
+  {
+    "address": "0x1419975e0",
+    "name": "gommo/pkg/assets/r3compile.buildObjects",
+    "bytes": 1664
+  },
+  {
+    "address": "0x141997c60",
+    "name": "gommo/pkg/assets/r3compile.buildObjects.func1",
+    "bytes": 960
+  },
+  {
+    "address": "0x141998020",
+    "name": "gommo/pkg/assets/r3compile.addObject",
+    "bytes": 5824
+  },
+  {
+    "address": "0x1419996e0",
+    "name": "gommo/pkg/assets/r3compile.addObject.func2",
+    "bytes": 768
+  },
+  {
+    "address": "0x1419999e0",
+    "name": "gommo/pkg/assets/r3compile.keyTimes",
+    "bytes": 928
+  },
+  {
+    "address": "0x141999d80",
+    "name": "gommo/pkg/assets/r3compile.dominant",
+    "bytes": 128
+  },
+  {
+    "address": "0x141999e00",
+    "name": "gommo/pkg/assets/r3compile.faceNormal",
+    "bytes": 640
+  },
+  {
+    "address": "0x14199a080",
+    "name": "gommo/pkg/assets/r3compile.quant",
+    "bytes": 512
+  },
+  {
+    "address": "0x14199a280",
+    "name": "gommo/pkg/assets/r3compile.makeCharts",
+    "bytes": 4224
+  },
+  {
+    "address": "0x14199b300",
+    "name": "gommo/pkg/assets/r3compile.(*pageState).place",
+    "bytes": 384
+  },
+  {
+    "address": "0x14199b480",
+    "name": "gommo/pkg/assets/r3compile.packGroup",
+    "bytes": 1568
+  },
+  {
+    "address": "0x14199baa0",
+    "name": "gommo/pkg/assets/r3compile.packGroup.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x14199bb00",
+    "name": "gommo/pkg/assets/r3compile.chartUVs",
+    "bytes": 640
+  },
+  {
+    "address": "0x14199bd80",
+    "name": "gommo/pkg/assets/r3compile.bake",
+    "bytes": 800
+  },
+  {
+    "address": "0x14199c0a0",
+    "name": "gommo/pkg/assets/r3compile.materialSet",
+    "bytes": 992
+  },
+  {
+    "address": "0x14199c480",
+    "name": "gommo/pkg/assets/r3compile.textureSet",
+    "bytes": 1696
+  },
+  {
+    "address": "0x14199cb20",
+    "name": "gommo/pkg/assets/r3compile.checkLimits",
+    "bytes": 9216
+  },
+  {
+    "address": "0x14199ef20",
+    "name": "gommo/pkg/assets/r3compile.(*Result).Files",
+    "bytes": 2016
+  },
+  {
+    "address": "0x14199f700",
+    "name": "gommo/pkg/assets/r3compile.LimitsFor",
+    "bytes": 1120
+  },
+  {
+    "address": "0x14199fb60",
+    "name": "gommo/pkg/assets/r3compile.(*Options).defaults",
+    "bytes": 1120
+  },
+  {
+    "address": "0x14199ffc0",
+    "name": "gommo/pkg/assets/r3compile.split",
+    "bytes": 1504
+  },
+  {
+    "address": "0x1419a05a0",
+    "name": "gommo/pkg/assets/r3compile.(*treeBuilder).build",
+    "bytes": 2304
+  },
+  {
+    "address": "0x1419a0ea0",
+    "name": "gommo/pkg/assets/r3compile.(*treeBuilder).build.func1",
+    "bytes": 224
+  },
+  {
+    "address": "0x1419a0f80",
+    "name": "gommo/pkg/assets/r3compile.(*treeBuilder).build.func1.1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1419a0fe0",
+    "name": "gommo/pkg/assets/r3compile.number",
+    "bytes": 320
+  },
+  {
+    "address": "0x1419a1120",
+    "name": "gommo/pkg/assets/r3compile.number.func1",
+    "bytes": 576
+  },
+  {
+    "address": "0x1419a1360",
+    "name": "gommo/pkg/assets/r3compile.quat.mul",
+    "bytes": 320
+  },
+  {
+    "address": "0x1419a14a0",
+    "name": "gommo/pkg/assets/r3compile.quat.rotate",
+    "bytes": 640
+  },
+  {
+    "address": "0x1419a1720",
+    "name": "gommo/pkg/assets/r3compile.affine.decompose",
+    "bytes": 1056
+  },
+  {
+    "address": "0x1419a1b40",
+    "name": "gommo/pkg/assets/r3compile.quatFromCols",
+    "bytes": 768
+  },
+  {
+    "address": "0x1419a1e40",
+    "name": "gommo/pkg/assets/r3compile.(*box).merge",
+    "bytes": 288
+  },
+  {
+    "address": "0x1419a1f60",
+    "name": "gommo/pkg/assets/r3compile.box.shorts",
+    "bytes": 928
+  },
+  {
+    "address": "0x1419a2300",
+    "name": "gommo/pkg/assets/r3compile.qp",
+    "bytes": 352
+  },
+  {
+    "address": "0x1419a2460",
+    "name": "gommo/pkg/assets/r3compile.wallFrom",
+    "bytes": 1408
+  },
+  {
+    "address": "0x1419a29e0",
+    "name": "gommo/pkg/assets/r3compile.mergeWalls",
+    "bytes": 3008
+  },
+  {
+    "address": "0x1419a35a0",
+    "name": "gommo/pkg/assets/r3compile.mergeWalls.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x1419a3600",
+    "name": "gommo/pkg/assets/r3compile.buildEBP",
+    "bytes": 4704
+  },
+  {
+    "address": "0x1419a4860",
+    "name": "gommo/pkg/assets/r3compile.buildEBP.func6",
+    "bytes": 64
+  },
+  {
+    "address": "0x1419a48a0",
+    "name": "gommo/pkg/assets/r3compile.buildEBP.func5",
+    "bytes": 672
+  },
+  {
+    "address": "0x1419a4b40",
+    "name": "gommo/pkg/assets/r3compile.buildEBP.func4",
+    "bytes": 640
+  },
+  {
+    "address": "0x1419a4dc0",
+    "name": "gommo/pkg/assets/r3compile.buildEBP.func3",
+    "bytes": 352
+  },
+  {
+    "address": "0x1419a4f20",
+    "name": "gommo/pkg/assets/r3compile.buildEBP.func1",
+    "bytes": 416
+  },
+  {
+    "address": "0x1419a50c0",
+    "name": "gommo/pkg/assets/r3compile.leavesTouching",
+    "bytes": 224
+  },
+  {
+    "address": "0x1419a51a0",
+    "name": "gommo/pkg/assets/r3compile.leavesTouching.func1",
+    "bytes": 544
+  },
+  {
+    "address": "0x1419a53c0",
+    "name": "gommo/pkg/assets/r3compile.buildEBP.func2",
+    "bytes": 160
+  },
+  {
+    "address": "0x1419a5460",
+    "name": "gommo/pkg/assets/r3compile.makeCharts.func1",
+    "bytes": 352
+  },
+  {
+    "address": "0x1419a55c0",
+    "name": "gommo/pkg/assets/r3compile.flagSet.func1",
+    "bytes": 32
+  },
+  {
+    "address": "0x1419a55e0",
+    "name": "gommo/pkg/assets/r3compile.makeGroups.func1",
+    "bytes": 128
+  },
+  {
+    "address": "0x1419a5c40",
+    "name": "gommo/pkg/assets/rfmapdata.init",
+    "bytes": 96
+  },
+  {
+    "address": "0x1419a5ca0",
+    "name": "gommo/pkg/assets/rfmapdata.CheckBlockName",
+    "bytes": 544
+  },
+  {
+    "address": "0x1419a5ec0",
+    "name": "gommo/pkg/assets/rfmapdata.Compile",
+    "bytes": 7840
+  },
+  {
+    "address": "0x1419a7d60",
+    "name": "gommo/pkg/assets/rfmapdata.(*compiler).reuse",
+    "bytes": 992
+  },
+  {
+    "address": "0x1419a8140",
+    "name": "gommo/pkg/assets/rfmapdata.(*compiler).fresh",
+    "bytes": 992
+  },
+  {
+    "address": "0x1419a8520",
+    "name": "gommo/pkg/assets/rfmapdata.(*compiler).owner",
+    "bytes": 320
+  },
+  {
+    "address": "0x1419a8660",
+    "name": "gommo/pkg/assets/rfmapdata.sameSpawns",
+    "bytes": 960
+  },
+  {
+    "address": "0x1419a8a20",
+    "name": "gommo/pkg/assets/rfmapdata.(*compiler).generate",
+    "bytes": 8640
+  },
+  {
+    "address": "0x1419aabe0",
+    "name": "gommo/pkg/assets/rfmapdata.(*compiler).setName",
+    "bytes": 256
+  },
+  {
+    "address": "0x1419aace0",
+    "name": "gommo/pkg/assets/rfmapdata.regionDummy",
+    "bytes": 960
+  },
+  {
+    "address": "0x1419ab0a0",
+    "name": "gommo/pkg/assets/rfmapdata.ParseTable",
+    "bytes": 992
+  },
+  {
+    "address": "0x1419ab480",
+    "name": "gommo/pkg/assets/rfmapdata.DecodeBlock",
+    "bytes": 1248
+  },
+  {
+    "address": "0x1419ab960",
+    "name": "gommo/pkg/assets/rfmapdata.EncodeBlock",
+    "bytes": 960
+  },
+  {
+    "address": "0x1419abd20",
+    "name": "gommo/pkg/assets/rfmapdata.DecodeMonster",
+    "bytes": 640
+  },
+  {
+    "address": "0x1419abfa0",
+    "name": "gommo/pkg/assets/rfmapdata.EncodeMonster",
+    "bytes": 416
+  },
+  {
+    "address": "0x1419ac140",
+    "name": "gommo/pkg/assets/rfmapdata.decodeCP949",
+    "bytes": 160
+  },
+  {
+    "address": "0x1419ac1e0",
+    "name": "gommo/pkg/assets/rfmapdata.cells",
+    "bytes": 288
+  },
+  {
+    "address": "0x1419ac300",
+    "name": "gommo/pkg/assets/rfmapdata.NewRegistry",
+    "bytes": 544
+  },
+  {
+    "address": "0x1419ac520",
+    "name": "gommo/pkg/assets/rfmapdata.ParseRegistry",
+    "bytes": 768
+  },
+  {
+    "address": "0x1419ac820",
+    "name": "gommo/pkg/assets/rfmapdata.(*Registry).Rows",
+    "bytes": 2624
+  },
+  {
+    "address": "0x1419ad260",
+    "name": "gommo/pkg/assets/rfmapdata.(*Registry).Find",
+    "bytes": 256
+  },
+  {
+    "address": "0x1419ad360",
+    "name": "gommo/pkg/assets/rfmapdata.(*Registry).NextMapCode",
+    "bytes": 224
+  },
+  {
+    "address": "0x1419ad440",
+    "name": "gommo/pkg/assets/rfmapdata.(*Registry).Append",
+    "bytes": 1408
+  },
+  {
+    "address": "0x1419ad9c0",
+    "name": "gommo/pkg/assets/rfmapdata.Dummy.Format",
+    "bytes": 1472
+  },
+  {
+    "address": "0x1419adf80",
+    "name": "gommo/pkg/assets/rfmapdata.lines",
+    "bytes": 576
+  },
+  {
+    "address": "0x1419ae1c0",
+    "name": "gommo/pkg/assets/rfmapdata.isClose",
+    "bytes": 224
+  },
+  {
+    "address": "0x1419ae2a0",
+    "name": "gommo/pkg/assets/rfmapdata.ParseScript",
+    "bytes": 1664
+  },
+  {
+    "address": "0x1419ae920",
+    "name": "gommo/pkg/assets/rfmapdata.newEntry",
+    "bytes": 768
+  },
+  {
+    "address": "0x1419aec20",
+    "name": "gommo/pkg/assets/rfmapdata.parseDummy",
+    "bytes": 1056
+  },
+  {
+    "address": "0x1419af040",
+    "name": "gommo/pkg/assets/rfmapdata.(*Script).Encode",
+    "bytes": 320
+  },
+  {
+    "address": "0x1419af180",
+    "name": "gommo/pkg/assets/rfmapdata.(*Script).Put",
+    "bytes": 2528
+  },
+  {
+    "address": "0x1419afb60",
+    "name": "gommo/pkg/assets/rfmapdata.(*Script).crlf",
+    "bytes": 320
+  },
+  {
+    "address": "0x1419afca0",
+    "name": "gommo/pkg/assets/rfmapdata.(*Zone).ScriptName",
+    "bytes": 160
+  },
+  {
+    "address": "0x1419afd40",
+    "name": "gommo/pkg/assets/rfmapdata.(*Zone).BlockName",
+    "bytes": 160
+  },
+  {
+    "address": "0x1419afde0",
+    "name": "gommo/pkg/assets/rfmapdata.(*Zone).SetName",
+    "bytes": 192
+  },
+  {
+    "address": "0x1419afea0",
+    "name": "gommo/pkg/assets/rfmapdata.FindDir",
+    "bytes": 224
+  },
+  {
+    "address": "0x1419aff80",
+    "name": "gommo/pkg/assets/rfmapdata.ReadZone",
+    "bytes": 2368
+  },
+  {
+    "address": "0x1419b08c0",
+    "name": "gommo/pkg/assets/rfmapdata.Import",
+    "bytes": 3456
+  },
+  {
+    "address": "0x1419b1640",
+    "name": "gommo/pkg/assets/rfmapdata.Distribute",
+    "bytes": 672
+  },
+  {
+    "address": "0x1419b18e0",
+    "name": "gommo/pkg/assets/rfmapdata.Distribute.func1",
+    "bytes": 96
+  },
+  {
+    "address": "0x141a5d380",
+    "name": "gommo/games/rfclient.init",
+    "bytes": 96
+  },
+  {
+    "address": "0x141a5d3e0",
+    "name": "gommo/games/rfclient.decode",
+    "bytes": 96
+  },
+  {
+    "address": "0x141a5d440",
+    "name": "gommo/games/rfclient.Dial",
+    "bytes": 192
+  },
+  {
+    "address": "0x141a5d500",
+    "name": "gommo/games/rfclient.(*Conn).Close",
+    "bytes": 64
+  },
+  {
+    "address": "0x141a5d540",
+    "name": "gommo/games/rfclient.(*Conn).AwaitSeen",
+    "bytes": 288
+  },
+  {
+    "address": "0x141a5d660",
+    "name": "gommo/games/rfclient.(*Conn).AwaitSeen.func1",
+    "bytes": 32
+  },
+  {
+    "address": "0x141a5d680",
+    "name": "gommo/games/rfclient.(*Conn).Expect",
+    "bytes": 480
+  },
+  {
+    "address": "0x141a5d860",
+    "name": "gommo/games/rfclient.(*Conn).Expect.func1",
+    "bytes": 32
+  },
+  {
+    "address": "0x141a5d880",
+    "name": "gommo/games/rfclient.(*Conn).Received",
+    "bytes": 96
+  },
+  {
+    "address": "0x141a5d8e0",
+    "name": "gommo/games/rfclient.(*Conn).TakeAll",
+    "bytes": 64
+  },
+  {
+    "address": "0x141a5d920",
+    "name": "gommo/games/rfclient.(*Conn).Err",
+    "bytes": 64
+  }
+]

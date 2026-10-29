@@ -196,6 +196,6 @@ async function load(){if(!gl||!program)return;
   $('play').textContent=t(1198);$('play').disabled=false;
  }
  // Read-only diagnostics for browser validation, no gameplay mutation API.
- window.platformDiagnostics=()=>({system:clientSystem,vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),character:characterWorld?.diagnostics(),hud:rfHUD?.diagnostics(),language:languageDiagnostics(),controlMode,moveTarget:moveTarget?[...moveTarget]:null,stamina,combatStance,runMode,cameraDistance,player:[...player],characterMode,beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
+ window.platformDiagnostics=()=>({system:clientSystem,nativeInput:keyMaps.native,vertices:manifest.vertices,triangles:manifest.triangles,sky:skyRenderer.diagnostics(),terrain:terrainRenderer.diagnostics(),character:characterWorld?.diagnostics(),hud:rfHUD?.diagnostics(),language:languageDiagnostics(),controlMode,moveTarget:moveTarget?[...moveTarget]:null,stamina,combatStance,runMode,cameraDistance,player:[...player],characterMode,beacons:beacons.map(b=>({position:[...b.p],found:b.found})),camera:[...camera],running,completed,elapsed,glError:gl.getError()});
 }
 load().catch(fail);

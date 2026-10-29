@@ -1,0 +1,29 @@
+{
+  "evidence": "ReadRFSEntries at 0x1408ea974 reads a u32 count, shifts by six and adds four. EncodeRFS uses a 56-byte name field at 0x1408eb0b0. Existing repository decoder independently validates uploaded samples; the editor is not executed.",
+  "samples": [
+    {
+      "source": "Character/Player/Mesh/BFF00.rfs",
+      "sha256": "0f35bef3f0a62b3f9aae36320b31a2063e2dc8941983dffc3a782e00bd12e566",
+      "entries": 20,
+      "table_bytes": 1284,
+      "payloads_valid": true,
+      "first_name": "BELFEMALE_ARMOR_GLOVES_168.msh"
+    },
+    {
+      "source": "Character/Player/Tex/BFF00.RFS",
+      "sha256": "9e254cada8bef67c2c847dc1882b3169085120f7fcafef24f15b6f19c37de368",
+      "entries": 5,
+      "table_bytes": 324,
+      "payloads_valid": true,
+      "first_name": "BELFEMALE_ARMOR_GLOVES_171.RFT"
+    },
+    {
+      "source": "Character/Player/Ani/BFMEA.RFS",
+      "sha256": "c1f027575768a7215f1913e7aab89df39c62951b1d760244933739040e250bf1",
+      "entries": 129,
+      "table_bytes": 8260,
+      "payloads_valid": true,
+      "first_name": "BELFEMALE_MELEE_BLOW_DAXE_00.ANI"
+    }
+  ]
+}

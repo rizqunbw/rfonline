@@ -1,0 +1,83 @@
+{
+  "source": "gommostudio.exe",
+  "bytes": 73209856,
+  "sha256": "74ca40b941142511de43e4f912cfcd442b240810f351e8c0d6dfe3580de294e7",
+  "format": "Windows x86-64 PE32+",
+  "go_version": "go1.25.14",
+  "sections": [
+    {
+      "name": ".text",
+      "va": 5368713216,
+      "file_offset": 1536,
+      "file_size": 36450304,
+      "virtual_size": 36449905
+    },
+    {
+      "name": ".rdata",
+      "va": 5405163520,
+      "file_offset": 36451840,
+      "file_size": 30987264,
+      "virtual_size": 30987184
+    },
+    {
+      "name": ".data",
+      "va": 5436153856,
+      "file_offset": 67439104,
+      "file_size": 4407296,
+      "virtual_size": 4869968
+    },
+    {
+      "name": ".pdata",
+      "va": 5441024000,
+      "file_offset": 71846400,
+      "file_size": 563712,
+      "virtual_size": 563256
+    },
+    {
+      "name": ".xdata",
+      "va": 5441589248,
+      "file_offset": 72410112,
+      "file_size": 512,
+      "virtual_size": 180
+    },
+    {
+      "name": ".idata",
+      "va": 5441593344,
+      "file_offset": 72410624,
+      "file_size": 1536,
+      "virtual_size": 1342
+    },
+    {
+      "name": ".reloc",
+      "va": 5441597440,
+      "file_offset": 72412160,
+      "file_size": 732672,
+      "virtual_size": 732652
+    },
+    {
+      "name": ".symtab",
+      "va": 5442330624,
+      "file_offset": 73144832,
+      "file_size": 512,
+      "virtual_size": 4
+    },
+    {
+      "name": ".rsrc",
+      "va": 5442334720,
+      "file_offset": 73145344,
+      "file_size": 64512,
+      "virtual_size": 64024
+    }
+  ],
+  "build_info_offset": "0x4050a00",
+  "pclntab_offset": "0x30997e0",
+  "functions": 53246,
+  "application_functions": 22966,
+  "rf_format_functions": 896,
+  "source_file_count": 3828,
+  "caveats": [
+    "Function names are retained Go metadata, not original source bodies.",
+    "Metadata indicates compiled modules, not verification that all features work.",
+    "The executable is never run by this inspector."
+  ]
+}

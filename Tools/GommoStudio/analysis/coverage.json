@@ -1,0 +1,254 @@
+{
+  "binary_sha256": "74ca40b941142511de43e4f912cfcd442b240810f351e8c0d6dfe3580de294e7",
+  "auto_analysis_complete": false,
+  "auto_analysis_timeout_seconds": 900,
+  "go_type_recovery_error": "Caused by: java.io.EOFException: Invalid index: 6249792001",
+  "functions_added_from_pclntab": 683,
+  "requested": 22966,
+  "decompiled": 22944,
+  "failed": 22,
+  "core_requested": 896,
+  "core_decompiled": 894,
+  "selected": [
+    {
+      "name": "gommo/pkg/assets/r3char.EncodeModel",
+      "address": "0x140669d20",
+      "file": "selected/140669d20_EncodeModel.c"
+    },
+    {
+      "name": "gommo/pkg/assets/r3char.LoadModel",
+      "address": "0x14066ce80",
+      "file": "selected/14066ce80_LoadModel.c"
+    },
+    {
+      "name": "gommo/pkg/assets/r3char.LoadSkeleton",
+      "address": "0x1406707c0",
+      "file": "selected/1406707c0_LoadSkeleton.c"
+    },
+    {
+      "name": "gommo/pkg/assets/r3char.LoadClip",
+      "address": "0x1406712e0",
+      "file": "selected/1406712e0_LoadClip.c"
+    },
+    {
+      "name": "gommo/pkg/assets/r3.LoadBSP",
+      "address": "0x140694de0",
+      "file": "selected/140694de0_LoadBSP.c"
+    },
+    {
+      "name": "gommo/pkg/assets/r3.LoadEBP",
+      "address": "0x1406a4ee0",
+      "file": "selected/1406a4ee0_LoadEBP.c"
+    },
+    {
+      "name": "gommo/pkg/assets/rfpack.NewRFS",
+      "address": "0x1408e9180",
+      "file": "selected/1408e9180_NewRFS.c"
+    },
+    {
+      "name": "gommo/pkg/assets/rfpack.ReadRFSEntries",
+      "address": "0x1408ea940",
+      "file": "selected/1408ea940_ReadRFSEntries.c"
+    },
+    {
+      "name": "gommo/pkg/assets/rfpack.EncodeRFS",
+      "address": "0x1408eae00",
+      "file": "selected/1408eae00_EncodeRFS.c"
+    },
+    {
+      "name": "gommo/pkg/assets/rfpack.NewRPK",
+      "address": "0x1408eb500",
+      "file": "selected/1408eb500_NewRPK.c"
+    },
+    {
+      "name": "gommo/pkg/assets/rfdata.Decode",
+      "address": "0x140940b40",
+      "file": "selected/140940b40_Decode.c"
+    },
+    {
+      "name": "gommo/pkg/assets/ifcfg.Parse",
+      "address": "0x1418d4280",
+      "file": "selected/1418d4280_Parse.c"
+    }
+  ],
+  "failed_functions": [
+    {
+      "address": "0x1406d0ba0",
+      "name": "gommo/pkg/assets/r3.trs",
+      "bytes": 608,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_1406d0ba0",
+      "decompiled": false
+    },
+    {
+      "address": "0x1406d2360",
+      "name": "gommo/pkg/assets/r3.Layer.bytes",
+      "bytes": 128,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_1406d2360",
+      "decompiled": false
+    },
+    {
+      "address": "0x140a50200",
+      "name": "gommo/games/wokf/gamedata.EncodeWayPoint",
+      "bytes": 512,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_140a50200",
+      "decompiled": false
+    },
+    {
+      "address": "0x140b111a0",
+      "name": "gommo/internal/gommotool/gizmo.Gizmo.shapes",
+      "bytes": 15840,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_140b111a0",
+      "decompiled": false
+    },
+    {
+      "address": "0x140ca9360",
+      "name": "gommo/internal/gommoart/app.(*meshSession).applyXform",
+      "bytes": 3136,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_140ca9360",
+      "decompiled": false
+    },
+    {
+      "address": "0x140cd49c0",
+      "name": "gommo/internal/gommoart/app.importNewCreature",
+      "bytes": 16544,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_140cd49c0",
+      "decompiled": false
+    },
+    {
+      "address": "0x140ced080",
+      "name": "gommo/internal/gommoart/app.importNewItem",
+      "bytes": 13728,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_140ced080",
+      "decompiled": false
+    },
+    {
+      "address": "0x141309f20",
+      "name": "gommo/internal/gommomaps/edit.Gizmo.Lines",
+      "bytes": 7424,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_141309f20",
+      "decompiled": false
+    },
+    {
+      "address": "0x14130bc20",
+      "name": "gommo/internal/gommomaps/edit.Gizmo.Hit",
+      "bytes": 3360,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_14130bc20",
+      "decompiled": false
+    },
+    {
+      "address": "0x141443c20",
+      "name": "gommo/internal/gommomaps/app.circle",
+      "bytes": 2240,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_141443c20",
+      "decompiled": false
+    },
+    {
+      "address": "0x1414c98e0",
+      "name": "gommo/internal/gommomaps/app.playRing",
+      "bytes": 992,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_1414c98e0",
+      "decompiled": false
+    },
+    {
+      "address": "0x1414f77a0",
+      "name": "gommo/internal/gommomaps/app.ring",
+      "bytes": 768,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_1414f77a0",
+      "decompiled": false
+    },
+    {
+      "address": "0x141516660",
+      "name": "gommo/internal/gommomaps/app.groundRing",
+      "bytes": 640,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_141516660",
+      "decompiled": false
+    },
+    {
+      "address": "0x14152d0c0",
+      "name": "gommo/internal/gommomaps/app.capsule",
+      "bytes": 2560,
+      "message": "Low-level Error: Cannot properly adjust input varnodes",
+      "ghidraName": "FUN_14152d0c0",
+      "decompiled": false
+    },
+    {
+      "address": "0x1416d1d60",
+      "name": "gommo/games/rf15/gamedata/editor.init",
+      "bytes": 61984,
+      "message": "Exception while decompiling 1416d1d60: process: timeout\n",
+      "ghidraName": "FUN_1416d1d60",
+      "decompiled": false
+    },
+    {
+      "address": "0x141706200",
+      "name": "gommo/games/rf2232/gamedata/editor.init",
+      "bytes": 71712,
+      "message": "Exception while decompiling 141706200: process: timeout\n",
+      "ghidraName": "FUN_141706200",
+      "decompiled": false
+    },
+    {
+      "address": "0x1417547a0",
+      "name": "gommo/games/rf415/gamedata/editor.init",
+      "bytes": 77216,
+      "message": "Exception while decompiling 1417547a0: process: timeout\n",
+      "ghidraName": "FUN_1417547a0",
+      "decompiled": false
+    },
+    {
+      "address": "0x1417a5b60",
+      "name": "gommo/games/rf455/gamedata/editor.init",
+      "bytes": 113408,
+      "message": "Exception while decompiling 1417a5b60: process: timeout\n",
+      "ghidraName": "FUN_1417a5b60",
+      "decompiled": false
+    },
+    {
+      "address": "0x141b0e1e0",
+      "name": "gommo/pkg/assets/sfx.init",
+      "bytes": 69248,
+      "message": "Exception while decompiling 141b0e1e0: process: timeout\n",
+      "ghidraName": "FUN_141b0e1e0",
+      "decompiled": false
+    },
+    {
+      "address": "0x141b2ac00",
+      "name": "gommo/internal/gommostudio.init",
+      "bytes": 28960,
+      "message": "Exception while decompiling 141b2ac00: process: timeout\n",
+      "ghidraName": "FUN_141b2ac00",
+      "decompiled": false
+    },
+    {
+      "address": "0x141eda740",
+      "name": "gommo/internal/gommostudio.gthEffectClassCells",
+      "bytes": 21152,
+      "message": "Exception while decompiling 141eda740: process: timeout\n",
+      "ghidraName": "FUN_141eda740",
+      "decompiled": false
+    },
+    {
+      "address": "0x142003e80",
+      "name": "gommo/internal/gommostudio.(*Studio).runPreflight",
+      "bytes": 27200,
+      "message": "Exception while decompiling 142003e80: process: timeout\n",
+      "ghidraName": "FUN_142003e80",
+      "decompiled": false
+    }
+  ],
+  "archive_sha256": "522ab635181aeb3cae3874862816d24e48ebf4a944af2f4ab87fe0737af4aa4f",
+  "caveat": "Pseudocode completion is not proof of correct types, source recovery, feature functionality or full binary coverage."
+}

@@ -1,0 +1,7 @@
+{
+  "functionsRequested": 22966,
+  "decompiled": 22944,
+  "failed": 22,
+  "tool": "Ghidra 12.2",
+  "scope": "Application functions with gommo/ or main. names from Go pclntab; external dependencies are indexed separately, not exported here."
+}

@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {parseKeyMap,resolveKey} from '../keymap.js';
-const read=name=>parseKeyMap(readFileSync(new URL('../../../DataTable/en-gb/'+name,import.meta.url),'utf8'));
+import {createNativeInput} from '../native-input.js';
+const native=createNativeInput(JSON.parse(readFileSync(new URL('../../../System/analysis/native-input.json',import.meta.url),'utf8')));
+const read=name=>parseKeyMap(readFileSync(new URL('../../../DataTable/en-gb/'+name,import.meta.url),'utf8'),native);
 const mouse=read('KeyMap.dat'),keyboard=read('KeyMap_NKM.dat');
 const key=(map,code,extra={})=>resolveKey(map,{code,ctrlKey:false,altKey:false,shiftKey:false,metaKey:false,...extra});
 assert.equal(key(mouse,'KeyW'),'MOVE_MODE');
@@ -23,4 +25,16 @@ for(const map of [mouse,keyboard]){
 }
 assert.equal(key(mouse,'F12'),'ALL_WINDOW_CLOSE');
 assert.equal(key(keyboard,'F12'),null); // Not present in the NKM source.
-assert.throws(()=>parseKeyMap('[WINDOW]\nnot a binding'));
+assert.throws(()=>parseKeyMap('[WINDOW]\nnot a binding',native));
+assert.equal(mouse.filter(b=>b.nativeIndex!==null).length,76);
+assert.equal(keyboard.filter(b=>b.nativeIndex!==null).length,72);
+assert.equal(mouse.find(b=>b.action==='INVENTORY').nativeIndex,0);
+assert.equal(keyboard.find(b=>b.action==='MOVE_UP').virtualKey,87);
+assert.equal(mouse.find(b=>b.action==='INPUT_CHAT').source,'uploaded-chat');
+assert.equal(mouse.find(b=>b.action==='INPUT_CHAT').code,'Enter');
+assert.equal(mouse.find(b=>b.action==='INPUT_CHAT').nativeIndex,null);
+assert.throws(()=>parseKeyMap('[WINDOW]\nMADE_UP=I',native),/Unknown RF command/);
+assert.throws(()=>parseKeyMap('[GAME]\nINVENTORY=I',native),/Unknown RF command/);
+for(const [token,code] of [['INSERT','Insert'],['HOME','Home'],['-','Minus'],['=','Equal'],['NUM0','Numpad0'],['NUM(+)','NumpadAdd'],['CTRL+NUM(+)','NumpadAdd']]){
+ assert.equal(parseKeyMap('[WINDOW]\nINVENTORY='+token,native)[0].code,code);
+}
