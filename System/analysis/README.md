@@ -1,5 +1,10 @@
 # Reading the supplied RF client
 
+The deeper [function decompilation](decompiled/README.md) now includes 43,924
+generated pseudocode functions, three documented failures, resource cross
+references and the native input tables. The inventory below remains the initial
+PE/INI evidence, separate from the decompiler's inferred output.
+
 `../../rf_online.bin` is preserved byte for byte (8,451,006 bytes, SHA-256
 `951e1056875c27f717bfb62d25ffc68d36337416e16d0b7ccc0f7c42b534d2c6`).
 It is a **Windows x86 PE32 GUI executable**, not a configuration archive.

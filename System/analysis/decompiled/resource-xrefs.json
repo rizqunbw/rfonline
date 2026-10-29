@@ -1,0 +1,2297 @@
+[
+  {
+    "text": "./Interface/contact_ui.swf",
+    "file_offset": "0x6fe4f8",
+    "va": "0xaffcf8",
+    "references": [
+      {
+        "instruction": "00780651",
+        "type": "DATA",
+        "function": "00780600",
+        "name": "FUN_00780600"
+      },
+      {
+        "instruction": "00bece88",
+        "type": "DATA"
+      }
+    ]
+  },
+  {
+    "text": "./Interface/play_ui.swf",
+    "file_offset": "0x6fe514",
+    "va": "0xaffd14",
+    "references": [
+      {
+        "instruction": "007804e1",
+        "type": "DATA",
+        "function": "00780490",
+        "name": "FUN_00780490"
+      },
+      {
+        "instruction": "00bece84",
+        "type": "DATA"
+      }
+    ]
+  },
+  {
+    "text": "pA./DataTable/clientdb.dat",
+    "file_offset": "0x6ff29a",
+    "va": "0xb00a9a",
+    "references": []
+  },
+  {
+    "text": "./DataTable/clientdb.dat",
+    "file_offset": "0x6ff3b8",
+    "va": "0xb00bb8",
+    "references": [
+      {
+        "instruction": "0040ee98",
+        "type": "DATA",
+        "function": "0040ee30",
+        "name": "FUN_0040ee30"
+      }
+    ]
+  },
+  {
+    "text": "%s\\transition.dds",
+    "file_offset": "0x6ff824",
+    "va": "0xb01024",
+    "references": [
+      {
+        "instruction": "00429097",
+        "type": "DATA",
+        "function": "00428f10",
+        "name": "FUN_00428f10"
+      }
+    ]
+  },
+  {
+    "text": "%s\\%s.dds",
+    "file_offset": "0x6ff838",
+    "va": "0xb01038",
+    "references": [
+      {
+        "instruction": "00429030",
+        "type": "DATA",
+        "function": "00428f10",
+        "name": "FUN_00428f10"
+      },
+      {
+        "instruction": "00429051",
+        "type": "DATA",
+        "function": "00428f10",
+        "name": "FUN_00428f10"
+      }
+    ]
+  },
+  {
+    "text": "%s\\%03d.dds",
+    "file_offset": "0x6ff844",
+    "va": "0xb01044",
+    "references": [
+      {
+        "instruction": "00428ffe",
+        "type": "DATA",
+        "function": "00428f10",
+        "name": "FUN_00428f10"
+      }
+    ]
+  },
+  {
+    "text": "%s\\ChatCommand.ini",
+    "file_offset": "0x6ffbe4",
+    "va": "0xb013e4",
+    "references": [
+      {
+        "instruction": "0042e184",
+        "type": "DATA",
+        "function": "0042e150",
+        "name": "FUN_0042e150"
+      }
+    ]
+  },
+  {
+    "text": "%s\\UIHelp.edf",
+    "file_offset": "0x702920",
+    "va": "0xb04120",
+    "references": [
+      {
+        "instruction": "0048b8e7",
+        "type": "DATA",
+        "function": "0048b8b0",
+        "name": "FUN_0048b8b0"
+      },
+      {
+        "instruction": "005b9457",
+        "type": "DATA",
+        "function": "005b9420",
+        "name": "FUN_005b9420"
+      }
+    ]
+  },
+  {
+    "text": "./DataTable/BlockData.dat",
+    "file_offset": "0x702f3c",
+    "va": "0xb0473c",
+    "references": [
+      {
+        "instruction": "004b9912",
+        "type": "DATA",
+        "function": "004b98f0",
+        "name": "FUN_004b98f0"
+      },
+      {
+        "instruction": "004b9a84",
+        "type": "DATA",
+        "function": "004b9a50",
+        "name": "FUN_004b9a50"
+      }
+    ]
+  },
+  {
+    "text": ".\\Datatable\\ItemCombine.edf",
+    "file_offset": "0x703d00",
+    "va": "0xb05500",
+    "references": [
+      {
+        "instruction": "004ff3d1",
+        "type": "DATA",
+        "function": "004ff3a0",
+        "name": "FUN_004ff3a0"
+      }
+    ]
+  },
+  {
+    "text": "%s\\RF_WebURL.dat",
+    "file_offset": "0x704240",
+    "va": "0xb05a40",
+    "references": [
+      {
+        "instruction": "00518b0a",
+        "type": "DATA",
+        "function": "00518ab0",
+        "name": "FUN_00518ab0"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\GuardTower.ini",
+    "file_offset": "0x7047d8",
+    "va": "0xb05fd8",
+    "references": [
+      {
+        "instruction": "00522788",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\Npc.ini",
+    "file_offset": "0x7047f0",
+    "va": "0xb05ff0",
+    "references": [
+      {
+        "instruction": "00522779",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\Siege.ini",
+    "file_offset": "0x704800",
+    "va": "0xb06000",
+    "references": [
+      {
+        "instruction": "0052276a",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\recall.ini",
+    "file_offset": "0x704814",
+    "va": "0xb06014",
+    "references": [
+      {
+        "instruction": "00522734",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\Unit.ini",
+    "file_offset": "0x704828",
+    "va": "0xb06028",
+    "references": [
+      {
+        "instruction": "00522725",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\Monster.ini",
+    "file_offset": "0x704838",
+    "va": "0xb06038",
+    "references": [
+      {
+        "instruction": "00522716",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\Entity.INI",
+    "file_offset": "0x70489c",
+    "va": "0xb0609c",
+    "references": [
+      {
+        "instruction": "005226da",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\CHEF\\Particle.INI",
+    "file_offset": "0x7048b0",
+    "va": "0xb060b0",
+    "references": [
+      {
+        "instruction": "005226cb",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\system\\titlelogotr.dds",
+    "file_offset": "0x7048e0",
+    "va": "0xb060e0",
+    "references": [
+      {
+        "instruction": "005225e8",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\system\\titlelogo.dds",
+    "file_offset": "0x704914",
+    "va": "0xb06114",
+    "references": [
+      {
+        "instruction": "00522592",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": ".\\map\\lobby\\lobby.BSP",
+    "file_offset": "0x704944",
+    "va": "0xb06144",
+    "references": [
+      {
+        "instruction": "005229fc",
+        "type": "DATA",
+        "function": "005229f0",
+        "name": "FUN_005229f0"
+      },
+      {
+        "instruction": "00522573",
+        "type": "DATA",
+        "function": "00522010",
+        "name": "FUN_00522010"
+      }
+    ]
+  },
+  {
+    "text": "./DataTable/GameSetting.ini",
+    "file_offset": "0x704a74",
+    "va": "0xb06274",
+    "references": [
+      {
+        "instruction": "006db4b1",
+        "type": "DATA",
+        "function": "006db470",
+        "name": "FUN_006db470"
+      },
+      {
+        "instruction": "006d9d4f",
+        "type": "DATA",
+        "function": "006d9ce0",
+        "name": "FUN_006d9ce0"
+      },
+      {
+        "instruction": "006d90ec",
+        "type": "DATA",
+        "function": "006d90e0",
+        "name": "FUN_006d90e0"
+      },
+      {
+        "instruction": "006d911a",
+        "type": "DATA",
+        "function": "006d90e0",
+        "name": "FUN_006d90e0"
+      },
+      {
+        "instruction": "00528996",
+        "type": "READ",
+        "function": "00528970",
+        "name": "FUN_00528970"
+      },
+      {
+        "instruction": "006d8fe4",
+        "type": "DATA",
+        "function": "006d8f00",
+        "name": "FUN_006d8f00"
+      },
+      {
+        "instruction": "006d902f",
+        "type": "DATA",
+        "function": "006d8f00",
+        "name": "FUN_006d8f00"
+      },
+      {
+        "instruction": "006d905d",
+        "type": "DATA",
+        "function": "006d8f00",
+        "name": "FUN_006d8f00"
+      },
+      {
+        "instruction": "005286c3",
+        "type": "READ",
+        "function": "005286a0",
+        "name": "FUN_005286a0"
+      },
+      {
+        "instruction": "00777203",
+        "type": "READ",
+        "function": "007771e0",
+        "name": "FUN_007771e0"
+      },
+      {
+        "instruction": "005286bb",
+        "type": "DATA",
+        "function": "005286a0",
+        "name": "FUN_005286a0"
+      },
+      {
+        "instruction": "0052898e",
+        "type": "DATA",
+        "function": "00528970",
+        "name": "FUN_00528970"
+      },
+      {
+        "instruction": "007771fb",
+        "type": "DATA",
+        "function": "007771e0",
+        "name": "FUN_007771e0"
+      }
+    ]
+  },
+  {
+    "text": "./R3Engine.ini",
+    "file_offset": "0x704b00",
+    "va": "0xb06300",
+    "references": [
+      {
+        "instruction": "00528af1",
+        "type": "READ",
+        "function": "00528970",
+        "name": "FUN_00528970"
+      }
+    ]
+  },
+  {
+    "text": "%s\\CcrLogo.dat",
+    "file_offset": "0x705324",
+    "va": "0xb06b24",
+    "references": [
+      {
+        "instruction": "00536b0d",
+        "type": "DATA",
+        "function": "00536a40",
+        "name": "FUN_00536a40"
+      },
+      {
+        "instruction": "00536e12",
+        "type": "DATA",
+        "function": "00536cd0",
+        "name": "FUN_00536cd0"
+      }
+    ]
+  },
+  {
+    "text": ".\\map\\accretia\\accretia.bsp",
+    "file_offset": "0x7054a8",
+    "va": "0xb06ca8",
+    "references": [
+      {
+        "instruction": "00538407",
+        "type": "DATA",
+        "function": "005383e0",
+        "name": "FUN_005383e0"
+      }
+    ]
+  },
+  {
+    "text": ".\\map\\cora\\cora.bsp",
+    "file_offset": "0x7054c4",
+    "va": "0xb06cc4",
+    "references": [
+      {
+        "instruction": "00538400",
+        "type": "DATA",
+        "function": "005383e0",
+        "name": "FUN_005383e0"
+      }
+    ]
+  },
+  {
+    "text": ".\\map\\bellato\\bellato.bsp",
+    "file_offset": "0x7054d8",
+    "va": "0xb06cd8",
+    "references": [
+      {
+        "instruction": "005383f9",
+        "type": "DATA",
+        "function": "005383e0",
+        "name": "FUN_005383e0"
+      }
+    ]
+  },
+  {
+    "text": "%s\\KeyMap_NKM.dat",
+    "file_offset": "0x706880",
+    "va": "0xb08080",
+    "references": [
+      {
+        "instruction": "00538d47",
+        "type": "DATA",
+        "function": "00538c00",
+        "name": "FUN_00538c00"
+      }
+    ]
+  },
+  {
+    "text": "%s\\KeyMap.dat",
+    "file_offset": "0x706894",
+    "va": "0xb08094",
+    "references": [
+      {
+        "instruction": "00538d14",
+        "type": "DATA",
+        "function": "00538c00",
+        "name": "FUN_00538c00"
+      }
+    ]
+  },
+  {
+    "text": "%s/nProtectEncrypt.ini",
+    "file_offset": "0x706bf0",
+    "va": "0xb083f0",
+    "references": [
+      {
+        "instruction": "0053fd62",
+        "type": "DATA",
+        "function": "0053fcb0",
+        "name": "FUN_0053fcb0"
+      }
+    ]
+  },
+  {
+    "text": "%s\\BattleDungeon.edf",
+    "file_offset": "0x70e724",
+    "va": "0xb0ff24",
+    "references": [
+      {
+        "instruction": "005b8657",
+        "type": "DATA",
+        "function": "005b8620",
+        "name": "FUN_005b8620"
+      },
+      {
+        "instruction": "005c16f7",
+        "type": "DATA",
+        "function": "005c16c0",
+        "name": "FUN_005c16c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDItemCash.edf",
+    "file_offset": "0x70edc8",
+    "va": "0xb105c8",
+    "references": [
+      {
+        "instruction": "005c192d",
+        "type": "DATA",
+        "function": "005c18a0",
+        "name": "FUN_005c18a0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\ItemCash.edf",
+    "file_offset": "0x70ede8",
+    "va": "0xb105e8",
+    "references": [
+      {
+        "instruction": "005c18e1",
+        "type": "READ",
+        "function": "005c18a0",
+        "name": "FUN_005c18a0"
+      },
+      {
+        "instruction": "005c18d6",
+        "type": "DATA",
+        "function": "005c18a0",
+        "name": "FUN_005c18a0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDCasteGrade.edf",
+    "file_offset": "0x70ee04",
+    "va": "0xb10604",
+    "references": [
+      {
+        "instruction": "005c1d02",
+        "type": "DATA",
+        "function": "005c1bb0",
+        "name": "FUN_005c1bb0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDCasteGradeW.edf",
+    "file_offset": "0x70ee24",
+    "va": "0xb10624",
+    "references": [
+      {
+        "instruction": "005c1ce6",
+        "type": "DATA",
+        "function": "005c1bb0",
+        "name": "FUN_005c1bb0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\CasteGrade.edf",
+    "file_offset": "0x70ee48",
+    "va": "0xb10648",
+    "references": [
+      {
+        "instruction": "005c1bf1",
+        "type": "READ",
+        "function": "005c1bb0",
+        "name": "FUN_005c1bb0"
+      },
+      {
+        "instruction": "005c1be6",
+        "type": "DATA",
+        "function": "005c1bb0",
+        "name": "FUN_005c1bb0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\PlayerCharacter.edf",
+    "file_offset": "0x70f27c",
+    "va": "0xb10a7c",
+    "references": [
+      {
+        "instruction": "005c40d1",
+        "type": "READ",
+        "function": "005c4090",
+        "name": "FUN_005c4090"
+      },
+      {
+        "instruction": "005c40c6",
+        "type": "DATA",
+        "function": "005c4090",
+        "name": "FUN_005c4090"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDSkillForce.edf",
+    "file_offset": "0x70f29c",
+    "va": "0xb10a9c",
+    "references": [
+      {
+        "instruction": "005c42d0",
+        "type": "DATA",
+        "function": "005c41c0",
+        "name": "FUN_005c41c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDSkillForceW.edf",
+    "file_offset": "0x70f2bc",
+    "va": "0xb10abc",
+    "references": [
+      {
+        "instruction": "005c42b4",
+        "type": "DATA",
+        "function": "005c41c0",
+        "name": "FUN_005c41c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\SkillForce.edf",
+    "file_offset": "0x70f2e0",
+    "va": "0xb10ae0",
+    "references": [
+      {
+        "instruction": "005c4201",
+        "type": "READ",
+        "function": "005c41c0",
+        "name": "FUN_005c41c0"
+      },
+      {
+        "instruction": "005c41f6",
+        "type": "DATA",
+        "function": "005c41c0",
+        "name": "FUN_005c41c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDStore.edf",
+    "file_offset": "0x70f2fc",
+    "va": "0xb10afc",
+    "references": [
+      {
+        "instruction": "005c4a88",
+        "type": "DATA",
+        "function": "005c4850",
+        "name": "FUN_005c4850"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDStoreW.edf",
+    "file_offset": "0x70f318",
+    "va": "0xb10b18",
+    "references": [
+      {
+        "instruction": "005c4a6c",
+        "type": "DATA",
+        "function": "005c4850",
+        "name": "FUN_005c4850"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\Store.edf",
+    "file_offset": "0x70f334",
+    "va": "0xb10b34",
+    "references": [
+      {
+        "instruction": "005c4881",
+        "type": "READ",
+        "function": "005c4850",
+        "name": "FUN_005c4850"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDCharacter.edf",
+    "file_offset": "0x70f34c",
+    "va": "0xb10b4c",
+    "references": [
+      {
+        "instruction": "005c4e60",
+        "type": "DATA",
+        "function": "005c4d00",
+        "name": "FUN_005c4d00"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDCharacterW.edf",
+    "file_offset": "0x70f36c",
+    "va": "0xb10b6c",
+    "references": [
+      {
+        "instruction": "005c4e44",
+        "type": "DATA",
+        "function": "005c4d00",
+        "name": "FUN_005c4d00"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\Character.edf",
+    "file_offset": "0x70f38c",
+    "va": "0xb10b8c",
+    "references": [
+      {
+        "instruction": "005c4d41",
+        "type": "READ",
+        "function": "005c4d00",
+        "name": "FUN_005c4d00"
+      },
+      {
+        "instruction": "005c4d36",
+        "type": "DATA",
+        "function": "005c4d00",
+        "name": "FUN_005c4d00"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\EventDrop.edf",
+    "file_offset": "0x70f3d4",
+    "va": "0xb10bd4",
+    "references": [
+      {
+        "instruction": "005c55d1",
+        "type": "READ",
+        "function": "005c5590",
+        "name": "FUN_005c5590"
+      },
+      {
+        "instruction": "005c55c6",
+        "type": "DATA",
+        "function": "005c5590",
+        "name": "FUN_005c5590"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDMsgEvent.edf",
+    "file_offset": "0x70f3f0",
+    "va": "0xb10bf0",
+    "references": [
+      {
+        "instruction": "005c5a1f",
+        "type": "DATA",
+        "function": "005c5920",
+        "name": "FUN_005c5920"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\MsgEvent.edf",
+    "file_offset": "0x70f410",
+    "va": "0xb10c10",
+    "references": [
+      {
+        "instruction": "005c5961",
+        "type": "READ",
+        "function": "005c5920",
+        "name": "FUN_005c5920"
+      },
+      {
+        "instruction": "005c5956",
+        "type": "DATA",
+        "function": "005c5920",
+        "name": "FUN_005c5920"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDEventShip.edf",
+    "file_offset": "0x70f42c",
+    "va": "0xb10c2c",
+    "references": [
+      {
+        "instruction": "005c62dd",
+        "type": "DATA",
+        "function": "005c6180",
+        "name": "FUN_005c6180"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\EventShip.edf",
+    "file_offset": "0x70f44c",
+    "va": "0xb10c4c",
+    "references": [
+      {
+        "instruction": "005c61c1",
+        "type": "READ",
+        "function": "005c6180",
+        "name": "FUN_005c6180"
+      },
+      {
+        "instruction": "005c61b6",
+        "type": "DATA",
+        "function": "005c6180",
+        "name": "FUN_005c6180"
+      }
+    ]
+  },
+  {
+    "text": "%s\\EventSound.edf",
+    "file_offset": "0x70f468",
+    "va": "0xb10c68",
+    "references": [
+      {
+        "instruction": "005c6ba7",
+        "type": "DATA",
+        "function": "005c6b70",
+        "name": "FUN_005c6b70"
+      }
+    ]
+  },
+  {
+    "text": "%s\\ItemCombine.edf",
+    "file_offset": "0x70f47c",
+    "va": "0xb10c7c",
+    "references": [
+      {
+        "instruction": "005c6e37",
+        "type": "DATA",
+        "function": "005c6e00",
+        "name": "FUN_005c6e00"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDItem.edf",
+    "file_offset": "0x70f490",
+    "va": "0xb10c90",
+    "references": [
+      {
+        "instruction": "005c7c8e",
+        "type": "DATA",
+        "function": "005c7300",
+        "name": "FUN_005c7300"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\Item.edf",
+    "file_offset": "0x70f4ac",
+    "va": "0xb10cac",
+    "references": [
+      {
+        "instruction": "005c7331",
+        "type": "READ",
+        "function": "005c7300",
+        "name": "FUN_005c7300"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\ItemGradeUp.edf",
+    "file_offset": "0x70f4c4",
+    "va": "0xb10cc4",
+    "references": [
+      {
+        "instruction": "005c9bd1",
+        "type": "DATA",
+        "function": "005c9ba0",
+        "name": "FUN_005c9ba0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\ItemRankUp.edf",
+    "file_offset": "0x70f4e0",
+    "va": "0xb10ce0",
+    "references": [
+      {
+        "instruction": "005c9f71",
+        "type": "DATA",
+        "function": "005c9f40",
+        "name": "FUN_005c9f40"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDLanguage.edf",
+    "file_offset": "0x70f4fc",
+    "va": "0xb10cfc",
+    "references": [
+      {
+        "instruction": "005cb2c7",
+        "type": "DATA",
+        "function": "005cb290",
+        "name": "FUN_005cb290"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\MinerGradeUp.edf",
+    "file_offset": "0x70f51c",
+    "va": "0xb10d1c",
+    "references": [
+      {
+        "instruction": "005cb621",
+        "type": "DATA",
+        "function": "005cb5f0",
+        "name": "FUN_005cb5f0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDMsgMonster.edf",
+    "file_offset": "0x70f53c",
+    "va": "0xb10d3c",
+    "references": [
+      {
+        "instruction": "005cb897",
+        "type": "DATA",
+        "function": "005cb860",
+        "name": "FUN_005cb860"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDPatriarchEnchant.edf",
+    "file_offset": "0x70f55c",
+    "va": "0xb10d5c",
+    "references": [
+      {
+        "instruction": "005cbdee",
+        "type": "DATA",
+        "function": "005cbcc0",
+        "name": "FUN_005cbcc0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\PatriarchEnchant.edf",
+    "file_offset": "0x70f584",
+    "va": "0xb10d84",
+    "references": [
+      {
+        "instruction": "005cbd01",
+        "type": "READ",
+        "function": "005cbcc0",
+        "name": "FUN_005cbcc0"
+      },
+      {
+        "instruction": "005cbcf6",
+        "type": "DATA",
+        "function": "005cbcc0",
+        "name": "FUN_005cbcc0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\ItemPremium.edf",
+    "file_offset": "0x70f5a8",
+    "va": "0xb10da8",
+    "references": [
+      {
+        "instruction": "005cc3f1",
+        "type": "DATA",
+        "function": "005cc3c0",
+        "name": "FUN_005cc3c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDQuest.edf",
+    "file_offset": "0x70f688",
+    "va": "0xb10e88",
+    "references": [
+      {
+        "instruction": "005cd358",
+        "type": "DATA",
+        "function": "005cd1d0",
+        "name": "FUN_005cd1d0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDQuestW.edf",
+    "file_offset": "0x70f6a4",
+    "va": "0xb10ea4",
+    "references": [
+      {
+        "instruction": "005cd33c",
+        "type": "DATA",
+        "function": "005cd1d0",
+        "name": "FUN_005cd1d0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\Quest.edf",
+    "file_offset": "0x70f6c0",
+    "va": "0xb10ec0",
+    "references": [
+      {
+        "instruction": "005cd201",
+        "type": "READ",
+        "function": "005cd1d0",
+        "name": "FUN_005cd1d0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\Resource.edf",
+    "file_offset": "0x70f714",
+    "va": "0xb10f14",
+    "references": [
+      {
+        "instruction": "005ce771",
+        "type": "DATA",
+        "function": "005ce740",
+        "name": "FUN_005ce740"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\ItemSetEffect.edf",
+    "file_offset": "0x70f730",
+    "va": "0xb10f30",
+    "references": [
+      {
+        "instruction": "005cec01",
+        "type": "DATA",
+        "function": "005cebd0",
+        "name": "FUN_005cebd0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\ItemTimer.edf",
+    "file_offset": "0x70f750",
+    "va": "0xb10f50",
+    "references": [
+      {
+        "instruction": "005cedf1",
+        "type": "READ",
+        "function": "005cedb0",
+        "name": "FUN_005cedb0"
+      },
+      {
+        "instruction": "005cede6",
+        "type": "DATA",
+        "function": "005cedb0",
+        "name": "FUN_005cedb0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\UIHelp.edf",
+    "file_offset": "0x70f76c",
+    "va": "0xb10f6c",
+    "references": [
+      {
+        "instruction": "005cf071",
+        "type": "READ",
+        "function": "005cf030",
+        "name": "FUN_005cf030"
+      },
+      {
+        "instruction": "005cf066",
+        "type": "DATA",
+        "function": "005cf030",
+        "name": "FUN_005cf030"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\samerace.ani",
+    "file_offset": "0x710170",
+    "va": "0xb11970",
+    "references": [
+      {
+        "instruction": "005ddeef",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\NPC.ani",
+    "file_offset": "0x71018c",
+    "va": "0xb1198c",
+    "references": [
+      {
+        "instruction": "005dded8",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\skill.ani",
+    "file_offset": "0x7101a4",
+    "va": "0xb119a4",
+    "references": [
+      {
+        "instruction": "005ddec1",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\force.ani",
+    "file_offset": "0x7101c0",
+    "va": "0xb119c0",
+    "references": [
+      {
+        "instruction": "005ddeaa",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\get.ani",
+    "file_offset": "0x7101dc",
+    "va": "0xb119dc",
+    "references": [
+      {
+        "instruction": "005dde93",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\attack.ani",
+    "file_offset": "0x7101f4",
+    "va": "0xb119f4",
+    "references": [
+      {
+        "instruction": "005dde79",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": ".\\System\\mouse\\basic.ani",
+    "file_offset": "0x710210",
+    "va": "0xb11a10",
+    "references": [
+      {
+        "instruction": "005ddf06",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      },
+      {
+        "instruction": "005dde5f",
+        "type": "DATA",
+        "function": "005dde00",
+        "name": "FUN_005dde00"
+      }
+    ]
+  },
+  {
+    "text": "%s%s%02d.spr",
+    "file_offset": "0x718618",
+    "va": "0xb19e18",
+    "references": [
+      {
+        "instruction": "00698778",
+        "type": "DATA",
+        "function": "00698550",
+        "name": "FUN_00698550"
+      }
+    ]
+  },
+  {
+    "text": "./SpriteImage/Common/worldmap/%s.spr",
+    "file_offset": "0x718b20",
+    "va": "0xb1a320",
+    "references": [
+      {
+        "instruction": "0069d429",
+        "type": "DATA",
+        "function": "0069d3f0",
+        "name": "FUN_0069d3f0"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\%s\\NDMap.edf",
+    "file_offset": "0x71f07c",
+    "va": "0xb2087c",
+    "references": [
+      {
+        "instruction": "0072d36e",
+        "type": "DATA",
+        "function": "0072d320",
+        "name": "FUN_0072d320"
+      }
+    ]
+  },
+  {
+    "text": ".\\DataTable\\Map.edf",
+    "file_offset": "0x71f098",
+    "va": "0xb20898",
+    "references": [
+      {
+        "instruction": "0072d351",
+        "type": "DATA",
+        "function": "0072d320",
+        "name": "FUN_0072d320"
+      }
+    ]
+  },
+  {
+    "text": "%s/FG_CB.ini",
+    "file_offset": "0x71f5a0",
+    "va": "0xb20da0",
+    "references": [
+      {
+        "instruction": "007314f5",
+        "type": "DATA",
+        "function": "007313f0",
+        "name": "FUN_007313f0"
+      }
+    ]
+  },
+  {
+    "text": "./DataTable/ClientSystem.ini",
+    "file_offset": "0x71f6e0",
+    "va": "0xb20ee0",
+    "references": [
+      {
+        "instruction": "00732236",
+        "type": "READ",
+        "function": "00732210",
+        "name": "FUN_00732210"
+      },
+      {
+        "instruction": "0073222e",
+        "type": "DATA",
+        "function": "00732210",
+        "name": "FUN_00732210"
+      }
+    ]
+  },
+  {
+    "text": "%s\\RF_AVI.dat",
+    "file_offset": "0x71f788",
+    "va": "0xb20f88",
+    "references": [
+      {
+        "instruction": "00732bbe",
+        "type": "DATA",
+        "function": "00732960",
+        "name": "FUN_00732960"
+      }
+    ]
+  },
+  {
+    "text": ".\\Effect\\effectfont.dds",
+    "file_offset": "0x71fe0c",
+    "va": "0xb2160c",
+    "references": [
+      {
+        "instruction": "007458f9",
+        "type": "DATA",
+        "function": "007458e0",
+        "name": "FUN_007458e0"
+      }
+    ]
+  },
+  {
+    "text": "%s\\advr.dat",
+    "file_offset": "0x723b0c",
+    "va": "0xb2530c",
+    "references": [
+      {
+        "instruction": "00775dfd",
+        "type": "DATA",
+        "function": "00775da0",
+        "name": "FUN_00775da0"
+      }
+    ]
+  },
+  {
+    "text": "%s\\cryp.dat",
+    "file_offset": "0x723b34",
+    "va": "0xb25334",
+    "references": [
+      {
+        "instruction": "00775dbf",
+        "type": "DATA",
+        "function": "00775da0",
+        "name": "FUN_00775da0"
+      }
+    ]
+  },
+  {
+    "text": "./interface/RF_FontConfig.ini",
+    "file_offset": "0x723ef8",
+    "va": "0xb256f8",
+    "references": [
+      {
+        "instruction": "007809f9",
+        "type": "DATA",
+        "function": "007808b0",
+        "name": "FUN_007808b0"
+      }
+    ]
+  },
+  {
+    "text": "Run_Loop.ani",
+    "file_offset": "0x73bc24",
+    "va": "0xb3d424",
+    "references": [
+      {
+        "instruction": "0082215d",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      }
+    ]
+  },
+  {
+    "text": "Stop.ani",
+    "file_offset": "0x73bc3c",
+    "va": "0xb3d43c",
+    "references": [
+      {
+        "instruction": "0082213d",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      }
+    ]
+  },
+  {
+    "text": "SNWG_001.msh",
+    "file_offset": "0x73bc6c",
+    "va": "0xb3d46c",
+    "references": [
+      {
+        "instruction": "008220fd",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\R3Engine.ini",
+    "file_offset": "0x73be14",
+    "va": "0xb3d614",
+    "references": [
+      {
+        "instruction": "00821a06",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821a8a",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821aaa",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821aca",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821aea",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821b0a",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821b2a",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821b76",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821bc7",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821bf9",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821c2b",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821c6f",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821ca6",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821cfd",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821d78",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821ddc",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821e0e",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821e72",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821ec3",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821f08",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821f51",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821f9d",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00821fde",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "0082201f",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "00822065",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "008220a4",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "008220ce",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "008220ee",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "0082210e",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "0082212e",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "0082214e",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "0082216e",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "0082218e",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      },
+      {
+        "instruction": "008221ae",
+        "type": "DATA",
+        "function": "008217c0",
+        "name": "FUN_008217c0"
+      }
+    ]
+  },
+  {
+    "text": ".\\system\\010.TTF",
+    "file_offset": "0x73bfcc",
+    "va": "0xb3d7cc",
+    "references": [
+      {
+        "instruction": "00823ec6",
+        "type": "DATA",
+        "function": "00823e10",
+        "name": "FUN_00823e10"
+      },
+      {
+        "instruction": "00823faf",
+        "type": "DATA",
+        "function": "00823f60",
+        "name": "FUN_00823f60"
+      }
+    ]
+  },
+  {
+    "text": "?system/PerbMap.dds",
+    "file_offset": "0x73c157",
+    "va": "0xb3d957",
+    "references": []
+  },
+  {
+    "text": ".\\chef\\real\\unit.ini",
+    "file_offset": "0x73c6d0",
+    "va": "0xb3ded0",
+    "references": [
+      {
+        "instruction": "00834b68",
+        "type": "DATA",
+        "function": "00834910",
+        "name": "FUN_00834910"
+      }
+    ]
+  },
+  {
+    "text": ".\\chef\\real\\particle.ini",
+    "file_offset": "0x73c6e8",
+    "va": "0xb3dee8",
+    "references": [
+      {
+        "instruction": "00834b36",
+        "type": "DATA",
+        "function": "00834910",
+        "name": "FUN_00834910"
+      }
+    ]
+  },
+  {
+    "text": ".\\chef\\real\\entity.ini",
+    "file_offset": "0x73c704",
+    "va": "0xb3df04",
+    "references": [
+      {
+        "instruction": "00834b18",
+        "type": "DATA",
+        "function": "00834910",
+        "name": "FUN_00834910"
+      }
+    ]
+  },
+  {
+    "text": "G.r3t",
+    "file_offset": "0x73cd17",
+    "va": "0xb3e517",
+    "references": []
+  },
+  {
+    "text": ".r3m",
+    "file_offset": "0x73cd20",
+    "va": "0xb3e520",
+    "references": [
+      {
+        "instruction": "0083e8ea",
+        "type": "READ",
+        "function": "0083e790",
+        "name": "FUN_0083e790"
+      },
+      {
+        "instruction": "00847bfa",
+        "type": "READ",
+        "function": "008479d0",
+        "name": "FUN_008479d0"
+      },
+      {
+        "instruction": "00847dfa",
+        "type": "READ",
+        "function": "008479d0",
+        "name": "FUN_008479d0"
+      }
+    ]
+  },
+  {
+    "text": ".\\system\\default.cfg",
+    "file_offset": "0x73cdac",
+    "va": "0xb3e5ac",
+    "references": [
+      {
+        "instruction": "0083feaf",
+        "type": "READ",
+        "function": "0083fe40",
+        "name": "FUN_0083fe40"
+      }
+    ]
+  },
+  {
+    "text": "R3BSP (*.BSP)",
+    "file_offset": "0x73ceec",
+    "va": "0xb3e6ec",
+    "references": [
+      {
+        "instruction": "00840882",
+        "type": "DATA",
+        "function": "00840270",
+        "name": "FUN_00840270"
+      }
+    ]
+  },
+  {
+    "text": "*.BSP",
+    "file_offset": "0x73cefa",
+    "va": "0xb3e6fa",
+    "references": []
+  },
+  {
+    "text": ".\\Map\\test.bsp",
+    "file_offset": "0x73cf18",
+    "va": "0xb3e718",
+    "references": [
+      {
+        "instruction": "00840805",
+        "type": "READ",
+        "function": "00840270",
+        "name": "FUN_00840270"
+      }
+    ]
+  },
+  {
+    "text": "Lgt.R3T",
+    "file_offset": "0x73d2e4",
+    "va": "0xb3eae4",
+    "references": [
+      {
+        "instruction": "00848bba",
+        "type": "READ",
+        "function": "00848b10",
+        "name": "FUN_00848b10"
+      },
+      {
+        "instruction": "0086ccda",
+        "type": "READ",
+        "function": "0086cc30",
+        "name": "FUN_0086cc30"
+      },
+      {
+        "instruction": "0086e3da",
+        "type": "READ",
+        "function": "0086e330",
+        "name": "FUN_0086e330"
+      },
+      {
+        "instruction": "00847f20",
+        "type": "READ",
+        "function": "008479d0",
+        "name": "FUN_008479d0"
+      }
+    ]
+  },
+  {
+    "text": ".bsp",
+    "file_offset": "0x73d2fc",
+    "va": "0xb3eafc",
+    "references": [
+      {
+        "instruction": "00847b8a",
+        "type": "READ",
+        "function": "008479d0",
+        "name": "FUN_008479d0"
+      }
+    ]
+  },
+  {
+    "text": "%s\\%s\\%s.bsp",
+    "file_offset": "0x73d348",
+    "va": "0xb3eb48",
+    "references": [
+      {
+        "instruction": "00847a1b",
+        "type": "DATA",
+        "function": "008479d0",
+        "name": "FUN_008479d0"
+      }
+    ]
+  },
+  {
+    "text": "%s%s\\%s.r3t",
+    "file_offset": "0x73d374",
+    "va": "0xb3eb74",
+    "references": [
+      {
+        "instruction": "00848a6d",
+        "type": "DATA",
+        "function": "00848980",
+        "name": "FUN_00848980"
+      }
+    ]
+  },
+  {
+    "text": "%s%s\\%s.r3m",
+    "file_offset": "0x73d380",
+    "va": "0xb3eb80",
+    "references": [
+      {
+        "instruction": "00848a3c",
+        "type": "DATA",
+        "function": "00848980",
+        "name": "FUN_00848980"
+      }
+    ]
+  },
+  {
+    "text": "%s%s\\%s\\%s.bsp",
+    "file_offset": "0x73d40c",
+    "va": "0xb3ec0c",
+    "references": [
+      {
+        "instruction": "00848e2c",
+        "type": "DATA",
+        "function": "00848d90",
+        "name": "FUN_00848d90"
+      },
+      {
+        "instruction": "0084aa8f",
+        "type": "DATA",
+        "function": "0084a9d0",
+        "name": "FUN_0084a9d0"
+      }
+    ]
+  },
+  {
+    "text": ".\\system\\dlight.dds",
+    "file_offset": "0x73e2c4",
+    "va": "0xb3fac4",
+    "references": [
+      {
+        "instruction": "00850e72",
+        "type": "DATA",
+        "function": "00850e90",
+        "name": "FUN_00850e90"
+      }
+    ]
+  },
+  {
+    "text": ".\\system\\logo.dds",
+    "file_offset": "0x73e2d8",
+    "va": "0xb3fad8",
+    "references": [
+      {
+        "instruction": "00850e4b",
+        "type": "DATA",
+        "function": "00850e90",
+        "name": "FUN_00850e90"
+      }
+    ]
+  },
+  {
+    "text": "?.\\system\\sun.dds",
+    "file_offset": "0x73e507",
+    "va": "0xb3fd07",
+    "references": []
+  },
+  {
+    "text": "%sPlanetWar\\%s\\%s\\%s\\%s.bsp",
+    "file_offset": "0x73ed30",
+    "va": "0xb40530",
+    "references": [
+      {
+        "instruction": "0086d7c4",
+        "type": "DATA",
+        "function": "0086d4d0",
+        "name": "FUN_0086d4d0"
+      },
+      {
+        "instruction": "00870450",
+        "type": "DATA",
+        "function": "008702e0",
+        "name": "FUN_008702e0"
+      }
+    ]
+  },
+  {
+    "text": "%splanetwar\\%s\\%s\\%s\\%s.bsp",
+    "file_offset": "0x73ef34",
+    "va": "0xb40734",
+    "references": [
+      {
+        "instruction": "0087014b",
+        "type": "DATA",
+        "function": "00870100",
+        "name": "FUN_00870100"
+      }
+    ]
+  },
+  {
+    "text": ".dds",
+    "file_offset": "0x73f4e8",
+    "va": "0xb40ce8",
+    "references": [
+      {
+        "instruction": "0087b04d",
+        "type": "DATA",
+        "function": "0087ae70",
+        "name": "FUN_0087ae70"
+      },
+      {
+        "instruction": "0087b0bc",
+        "type": "DATA",
+        "function": "0087ae70",
+        "name": "FUN_0087ae70"
+      },
+      {
+        "instruction": "0087b12c",
+        "type": "DATA",
+        "function": "0087ae70",
+        "name": "FUN_0087ae70"
+      },
+      {
+        "instruction": "008935c2",
+        "type": "DATA",
+        "function": "00893380",
+        "name": "FUN_00893380"
+      },
+      {
+        "instruction": "00893633",
+        "type": "DATA",
+        "function": "00893380",
+        "name": "FUN_00893380"
+      },
+      {
+        "instruction": "008936a1",
+        "type": "DATA",
+        "function": "00893380",
+        "name": "FUN_00893380"
+      }
+    ]
+  },
+  {
+    "text": "%sDATA%d.RFS",
+    "file_offset": "0x73f9c4",
+    "va": "0xb411c4",
+    "references": [
+      {
+        "instruction": "0088e6b9",
+        "type": "DATA",
+        "function": "0088e160",
+        "name": "FUN_0088e160"
+      }
+    ]
+  },
+  {
+    "text": "DATA%d.RFS",
+    "file_offset": "0x73f9d4",
+    "va": "0xb411d4",
+    "references": [
+      {
+        "instruction": "0088e6a5",
+        "type": "DATA",
+        "function": "0088e160",
+        "name": "FUN_0088e160"
+      }
+    ]
+  },
+  {
+    "text": "%sRFSINFO.DAT",
+    "file_offset": "0x73f9f8",
+    "va": "0xb411f8",
+    "references": [
+      {
+        "instruction": "0088e2fd",
+        "type": "DATA",
+        "function": "0088e160",
+        "name": "FUN_0088e160"
+      }
+    ]
+  },
+  {
+    "text": ".swf",
+    "file_offset": "0x76a484",
+    "va": "0xb6bc84",
+    "references": [
+      {
+        "instruction": "008cb9b4",
+        "type": "DATA",
+        "function": "008cb860",
+        "name": "FUN_008cb860"
+      },
+      {
+        "instruction": "0093c4b1",
+        "type": "DATA",
+        "function": "0093c490",
+        "name": "FUN_0093c490"
+      },
+      {
+        "instruction": "00937bb5",
+        "type": "DATA",
+        "function": "00937950",
+        "name": "FUN_00937950"
+      }
+    ]
+  },
+  {
+    "text": "gfxfontlib.swf",
+    "file_offset": "0x771ce8",
+    "va": "0xb734e8",
+    "references": [
+      {
+        "instruction": "00937633",
+        "type": "DATA",
+        "function": "00937220",
+        "name": "FUN_00937220"
+      }
+    ]
+  },
+  {
+    "text": ".gfx",
+    "file_offset": "0x771d2c",
+    "va": "0xb7352c",
+    "references": [
+      {
+        "instruction": "0093c4e9",
+        "type": "DATA",
+        "function": "0093c490",
+        "name": "FUN_0093c490"
+      },
+      {
+        "instruction": "00937c05",
+        "type": "DATA",
+        "function": "00937950",
+        "name": "FUN_00937950"
+      }
+    ]
+  },
+  {
+    "text": "gfxfontlib.swf",
+    "file_offset": "0x771d34",
+    "va": "0xb73534",
+    "references": [
+      {
+        "instruction": "00937ac4",
+        "type": "DATA",
+        "function": "00937950",
+        "name": "FUN_00937950"
+      }
+    ]
+  },
+  {
+    "text": "IME.swf",
+    "file_offset": "0x77582c",
+    "va": "0xb7702c",
+    "references": [
+      {
+        "instruction": "0099b2b3",
+        "type": "DATA",
+        "function": "0099b290",
+        "name": "FUN_0099b290"
+      }
+    ]
+  },
+  {
+    "text": "mouse.spr",
+    "file_offset": "0x7e5340",
+    "va": "0xbe7540",
+    "references": [
+      {
+        "instruction": "00712d30",
+        "type": "DATA",
+        "function": "00712d10",
+        "name": "FUN_00712d10"
+      },
+      {
+        "instruction": "00712d69",
+        "type": "DATA",
+        "function": "00712d10",
+        "name": "FUN_00712d10"
+      }
+    ]
+  },
+  {
+    "text": "common.spr",
+    "file_offset": "0x7e53c0",
+    "va": "0xbe75c0",
+    "references": []
+  },
+  {
+    "text": "loading.spr",
+    "file_offset": "0x7e5440",
+    "va": "0xbe7640",
+    "references": []
+  },
+  {
+    "text": "login.spr",
+    "file_offset": "0x7e54c0",
+    "va": "0xbe76c0",
+    "references": []
+  },
+  {
+    "text": "main.spr",
+    "file_offset": "0x7e5540",
+    "va": "0xbe7740",
+    "references": []
+  },
+  {
+    "text": "system.spr",
+    "file_offset": "0x7e55c0",
+    "va": "0xbe77c0",
+    "references": []
+  },
+  {
+    "text": "inventory.spr",
+    "file_offset": "0x7e5640",
+    "va": "0xbe7840",
+    "references": []
+  },
+  {
+    "text": "maploading.spr",
+    "file_offset": "0x7e56c0",
+    "va": "0xbe78c0",
+    "references": []
+  },
+  {
+    "text": "item.spr",
+    "file_offset": "0x7e5740",
+    "va": "0xbe7940",
+    "references": []
+  },
+  {
+    "text": "shop.spr",
+    "file_offset": "0x7e57c0",
+    "va": "0xbe79c0",
+    "references": []
+  },
+  {
+    "text": "oreproc.spr",
+    "file_offset": "0x7e5840",
+    "va": "0xbe7a40",
+    "references": []
+  },
+  {
+    "text": "mining.spr",
+    "file_offset": "0x7e58c0",
+    "va": "0xbe7ac0",
+    "references": []
+  },
+  {
+    "text": "exchange.spr",
+    "file_offset": "0x7e5940",
+    "va": "0xbe7b40",
+    "references": []
+  },
+  {
+    "text": "summon.spr",
+    "file_offset": "0x7e59c0",
+    "va": "0xbe7bc0",
+    "references": []
+  },
+  {
+    "text": "itemmake.spr",
+    "file_offset": "0x7e5a40",
+    "va": "0xbe7c40",
+    "references": []
+  },
+  {
+    "text": "itemupgrade.spr",
+    "file_offset": "0x7e5ac0",
+    "va": "0xbe7cc0",
+    "references": []
+  },
+  {
+    "text": "trade.spr",
+    "file_offset": "0x7e5b40",
+    "va": "0xbe7d40",
+    "references": []
+  },
+  {
+    "text": "dungeon.spr",
+    "file_offset": "0x7e5bc0",
+    "va": "0xbe7dc0",
+    "references": []
+  },
+  {
+    "text": "unit.spr",
+    "file_offset": "0x7e5c40",
+    "va": "0xbe7e40",
+    "references": []
+  },
+  {
+    "text": "unitparts.spr",
+    "file_offset": "0x7e5cc0",
+    "va": "0xbe7ec0",
+    "references": []
+  },
+  {
+    "text": "class.spr",
+    "file_offset": "0x7e5d40",
+    "va": "0xbe7f40",
+    "references": []
+  },
+  {
+    "text": "tutorial.spr",
+    "file_offset": "0x7e5dc0",
+    "va": "0xbe7fc0",
+    "references": []
+  },
+  {
+    "text": "pvp.spr",
+    "file_offset": "0x7e5e40",
+    "va": "0xbe8040",
+    "references": []
+  },
+  {
+    "text": "guild.spr",
+    "file_offset": "0x7e5ec0",
+    "va": "0xbe80c0",
+    "references": []
+  },
+  {
+    "text": "emblem.spr",
+    "file_offset": "0x7e5f40",
+    "va": "0xbe8140",
+    "references": []
+  },
+  {
+    "text": "trunk.spr",
+    "file_offset": "0x7e5fc0",
+    "va": "0xbe81c0",
+    "references": []
+  },
+  {
+    "text": "cribattle.spr",
+    "file_offset": "0x7e6040",
+    "va": "0xbe8240",
+    "references": []
+  },
+  {
+    "text": "itemcombine.spr",
+    "file_offset": "0x7e60c0",
+    "va": "0xbe82c0",
+    "references": []
+  },
+  {
+    "text": "patriarch.spr",
+    "file_offset": "0x7e6140",
+    "va": "0xbe8340",
+    "references": []
+  },
+  {
+    "text": "unmannedminer.spr",
+    "file_offset": "0x7e61c0",
+    "va": "0xbe83c0",
+    "references": []
+  },
+  {
+    "text": "CashShop.spr",
+    "file_offset": "0x7e6240",
+    "va": "0xbe8440",
+    "references": []
+  },
+  {
+    "text": "npc/bel.spr",
+    "file_offset": "0x7e62c0",
+    "va": "0xbe84c0",
+    "references": []
+  },
+  {
+    "text": "npc/cor.spr",
+    "file_offset": "0x7e6340",
+    "va": "0xbe8540",
+    "references": []
+  },
+  {
+    "text": "npc/acc.spr",
+    "file_offset": "0x7e63c0",
+    "va": "0xbe85c0",
+    "references": []
+  }
+]

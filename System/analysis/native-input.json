@@ -1,0 +1,1264 @@
+{
+  "binary_sha256": "951e1056875c27f717bfb62d25ffc68d36337416e16d0b7ccc0f7c42b534d2c6",
+  "evidence": {
+    "loader_calls": [
+      "0x539879",
+      "0x539940"
+    ],
+    "api": "GetPrivateProfileStringA",
+    "sections_va": "0xb07f30",
+    "counts_va": "0xb07f10",
+    "actions_va": "0xb07290",
+    "record_bytes": 32,
+    "key_decoder": "0x538f50",
+    "key_names_va": "0xb06d30",
+    "key_codes_va": "0xb07138",
+    "key_record_bytes": 12
+  },
+  "sections": [
+    {
+      "index": 0,
+      "name": "WINDOW",
+      "count": 15
+    },
+    {
+      "index": 1,
+      "name": "COMBAT",
+      "count": 8
+    },
+    {
+      "index": 2,
+      "name": "BEHAVIOR",
+      "count": 11
+    },
+    {
+      "index": 3,
+      "name": "CHAT",
+      "count": 2
+    },
+    {
+      "index": 4,
+      "name": "GAME",
+      "count": 18
+    },
+    {
+      "index": 5,
+      "name": "BELT",
+      "count": 11
+    },
+    {
+      "index": 6,
+      "name": "PATRIARCH",
+      "count": 11
+    }
+  ],
+  "actions": [
+    {
+      "index": 0,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 0,
+      "action": "INVENTORY",
+      "va": "0xb07290",
+      "file_offset": "0x705a90"
+    },
+    {
+      "index": 1,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 1,
+      "action": "FORCE_WINDOW",
+      "va": "0xb072b0",
+      "file_offset": "0x705ab0"
+    },
+    {
+      "index": 2,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 2,
+      "action": "PARTY_WINDOW",
+      "va": "0xb072d0",
+      "file_offset": "0x705ad0"
+    },
+    {
+      "index": 3,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 3,
+      "action": "ANIMUS_WINDOW",
+      "va": "0xb072f0",
+      "file_offset": "0x705af0"
+    },
+    {
+      "index": 4,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 4,
+      "action": "MINIMAP",
+      "va": "0xb07310",
+      "file_offset": "0x705b10"
+    },
+    {
+      "index": 5,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 5,
+      "action": "OPTION_WINDOW",
+      "va": "0xb07330",
+      "file_offset": "0x705b30"
+    },
+    {
+      "index": 6,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 6,
+      "action": "GMREQUEST_WINDOW",
+      "va": "0xb07350",
+      "file_offset": "0x705b50"
+    },
+    {
+      "index": 7,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 7,
+      "action": "MACRO_WINDOW",
+      "va": "0xb07370",
+      "file_offset": "0x705b70"
+    },
+    {
+      "index": 8,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 8,
+      "action": "AVATAR_INFO_WINDOW",
+      "va": "0xb07390",
+      "file_offset": "0x705b90"
+    },
+    {
+      "index": 9,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 9,
+      "action": "SKILL_WINDOW",
+      "va": "0xb073b0",
+      "file_offset": "0x705bb0"
+    },
+    {
+      "index": 10,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 10,
+      "action": "RADAR_WINDOW",
+      "va": "0xb073d0",
+      "file_offset": "0x705bd0"
+    },
+    {
+      "index": 11,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 11,
+      "action": "JOURNAL_WINDOW",
+      "va": "0xb073f0",
+      "file_offset": "0x705bf0"
+    },
+    {
+      "index": 12,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 12,
+      "action": "GUILD_WINDOW",
+      "va": "0xb07410",
+      "file_offset": "0x705c10"
+    },
+    {
+      "index": 13,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 13,
+      "action": "BUDDY_WINDOW",
+      "va": "0xb07430",
+      "file_offset": "0x705c30"
+    },
+    {
+      "index": 14,
+      "section": "WINDOW",
+      "section_index": 0,
+      "section_ordinal": 14,
+      "action": "POST_WINDOW",
+      "va": "0xb07450",
+      "file_offset": "0x705c50"
+    },
+    {
+      "index": 15,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 0,
+      "action": "COMBAT_MODE",
+      "va": "0xb07470",
+      "file_offset": "0x705c70"
+    },
+    {
+      "index": 16,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 1,
+      "action": "MOVE_MODE",
+      "va": "0xb07490",
+      "file_offset": "0x705c90"
+    },
+    {
+      "index": 17,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 2,
+      "action": "AUTO_ATTACK_MODE",
+      "va": "0xb074b0",
+      "file_offset": "0x705cb0"
+    },
+    {
+      "index": 18,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 3,
+      "action": "ATTACK",
+      "va": "0xb074d0",
+      "file_offset": "0x705cd0"
+    },
+    {
+      "index": 19,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 4,
+      "action": "FREE_TARGET_MODE",
+      "va": "0xb074f0",
+      "file_offset": "0x705cf0"
+    },
+    {
+      "index": 20,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 5,
+      "action": "ANIMUS_TARGET",
+      "va": "0xb07510",
+      "file_offset": "0x705d10"
+    },
+    {
+      "index": 21,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 6,
+      "action": "ANIMUS_ATTACK",
+      "va": "0xb07530",
+      "file_offset": "0x705d30"
+    },
+    {
+      "index": 22,
+      "section": "COMBAT",
+      "section_index": 1,
+      "section_ordinal": 7,
+      "action": "ANIMUS_MOVE",
+      "va": "0xb07550",
+      "file_offset": "0x705d50"
+    },
+    {
+      "index": 23,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 0,
+      "action": "ITEM_LOOTING",
+      "va": "0xb07570",
+      "file_offset": "0x705d70"
+    },
+    {
+      "index": 24,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 1,
+      "action": "CHANGE_TARGET_TO_LASTEST",
+      "va": "0xb07590",
+      "file_offset": "0x705d90"
+    },
+    {
+      "index": 25,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 2,
+      "action": "CANCEL_TARGET",
+      "va": "0xb075b0",
+      "file_offset": "0x705db0"
+    },
+    {
+      "index": 26,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 3,
+      "action": "KEYBOARD_MOVE_METHOD",
+      "va": "0xb075d0",
+      "file_offset": "0x705dd0"
+    },
+    {
+      "index": 27,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 4,
+      "action": "CAMERA_ROT_LEFT",
+      "va": "0xb075f0",
+      "file_offset": "0x705df0"
+    },
+    {
+      "index": 28,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 5,
+      "action": "CAMERA_ROT_RIGHT",
+      "va": "0xb07610",
+      "file_offset": "0x705e10"
+    },
+    {
+      "index": 29,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 6,
+      "action": "MOVE_LEFT",
+      "va": "0xb07630",
+      "file_offset": "0x705e30"
+    },
+    {
+      "index": 30,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 7,
+      "action": "MOVE_UP",
+      "va": "0xb07650",
+      "file_offset": "0x705e50"
+    },
+    {
+      "index": 31,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 8,
+      "action": "MOVE_RIGHT",
+      "va": "0xb07670",
+      "file_offset": "0x705e70"
+    },
+    {
+      "index": 32,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 9,
+      "action": "MOVE_DOWN",
+      "va": "0xb07690",
+      "file_offset": "0x705e90"
+    },
+    {
+      "index": 33,
+      "section": "BEHAVIOR",
+      "section_index": 2,
+      "section_ordinal": 10,
+      "action": "MOVE_JUMP",
+      "va": "0xb076b0",
+      "file_offset": "0x705eb0"
+    },
+    {
+      "index": 34,
+      "section": "CHAT",
+      "section_index": 3,
+      "section_ordinal": 0,
+      "action": "PREV_SEND_MSG",
+      "va": "0xb076d0",
+      "file_offset": "0x705ed0"
+    },
+    {
+      "index": 35,
+      "section": "CHAT",
+      "section_index": 3,
+      "section_ordinal": 1,
+      "action": "PREV_WHISPER_CHAR",
+      "va": "0xb076f0",
+      "file_offset": "0x705ef0"
+    },
+    {
+      "index": 36,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 0,
+      "action": "QUIT",
+      "va": "0xb07710",
+      "file_offset": "0x705f10"
+    },
+    {
+      "index": 37,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 1,
+      "action": "LOGOUT",
+      "va": "0xb07730",
+      "file_offset": "0x705f30"
+    },
+    {
+      "index": 38,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 2,
+      "action": "CHATING_MODE",
+      "va": "0xb07750",
+      "file_offset": "0x705f50"
+    },
+    {
+      "index": 39,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 3,
+      "action": "SCREENSHOT",
+      "va": "0xb07770",
+      "file_offset": "0x705f70"
+    },
+    {
+      "index": 40,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 4,
+      "action": "AUTO_MOUSE_MODE",
+      "va": "0xb07790",
+      "file_offset": "0x705f90"
+    },
+    {
+      "index": 41,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 5,
+      "action": "AUTO_TARGET_MODE",
+      "va": "0xb077b0",
+      "file_offset": "0x705fb0"
+    },
+    {
+      "index": 42,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 6,
+      "action": "RENDER_SHADOW",
+      "va": "0xb077d0",
+      "file_offset": "0x705fd0"
+    },
+    {
+      "index": 43,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 7,
+      "action": "HIDE_UI",
+      "va": "0xb077f0",
+      "file_offset": "0x705ff0"
+    },
+    {
+      "index": 44,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 8,
+      "action": "CHANGE_TO_OBSERVER",
+      "va": "0xb07810",
+      "file_offset": "0x706010"
+    },
+    {
+      "index": 45,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 9,
+      "action": "CHANGE_OBSERVER_MODE",
+      "va": "0xb07830",
+      "file_offset": "0x706030"
+    },
+    {
+      "index": 46,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 10,
+      "action": "PLAY_MOVIE",
+      "va": "0xb07850",
+      "file_offset": "0x706050"
+    },
+    {
+      "index": 47,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 11,
+      "action": "MOVIE_WIDE_MODE",
+      "va": "0xb07870",
+      "file_offset": "0x706070"
+    },
+    {
+      "index": 48,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 12,
+      "action": "MOVIE_CAMERA_MODE",
+      "va": "0xb07890",
+      "file_offset": "0x706090"
+    },
+    {
+      "index": 49,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 13,
+      "action": "SKY_CAMERA_MODE",
+      "va": "0xb078b0",
+      "file_offset": "0x7060b0"
+    },
+    {
+      "index": 50,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 14,
+      "action": "ZOOM_IN",
+      "va": "0xb078d0",
+      "file_offset": "0x7060d0"
+    },
+    {
+      "index": 51,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 15,
+      "action": "ZOOM_OUT",
+      "va": "0xb078f0",
+      "file_offset": "0x7060f0"
+    },
+    {
+      "index": 52,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 16,
+      "action": "ALL_WINDOW_CLOSE",
+      "va": "0xb07910",
+      "file_offset": "0x706110"
+    },
+    {
+      "index": 53,
+      "section": "GAME",
+      "section_index": 4,
+      "section_ordinal": 17,
+      "action": "HIDE_CHAR_NAME",
+      "va": "0xb07930",
+      "file_offset": "0x706130"
+    },
+    {
+      "index": 54,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 0,
+      "action": "SLOT_1",
+      "va": "0xb07950",
+      "file_offset": "0x706150"
+    },
+    {
+      "index": 55,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 1,
+      "action": "SLOT_2",
+      "va": "0xb07970",
+      "file_offset": "0x706170"
+    },
+    {
+      "index": 56,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 2,
+      "action": "SLOT_3",
+      "va": "0xb07990",
+      "file_offset": "0x706190"
+    },
+    {
+      "index": 57,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 3,
+      "action": "SLOT_4",
+      "va": "0xb079b0",
+      "file_offset": "0x7061b0"
+    },
+    {
+      "index": 58,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 4,
+      "action": "SLOT_5",
+      "va": "0xb079d0",
+      "file_offset": "0x7061d0"
+    },
+    {
+      "index": 59,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 5,
+      "action": "SLOT_6",
+      "va": "0xb079f0",
+      "file_offset": "0x7061f0"
+    },
+    {
+      "index": 60,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 6,
+      "action": "SLOT_7",
+      "va": "0xb07a10",
+      "file_offset": "0x706210"
+    },
+    {
+      "index": 61,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 7,
+      "action": "SLOT_8",
+      "va": "0xb07a30",
+      "file_offset": "0x706230"
+    },
+    {
+      "index": 62,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 8,
+      "action": "SLOT_9",
+      "va": "0xb07a50",
+      "file_offset": "0x706250"
+    },
+    {
+      "index": 63,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 9,
+      "action": "SLOT_10",
+      "va": "0xb07a70",
+      "file_offset": "0x706270"
+    },
+    {
+      "index": 64,
+      "section": "BELT",
+      "section_index": 5,
+      "section_ordinal": 10,
+      "action": "CHANGE_BELT_KEY",
+      "va": "0xb07a90",
+      "file_offset": "0x706290"
+    },
+    {
+      "index": 65,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 0,
+      "action": "SHOUT_1",
+      "va": "0xb07ab0",
+      "file_offset": "0x7062b0"
+    },
+    {
+      "index": 66,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 1,
+      "action": "SHOUT_2",
+      "va": "0xb07ad0",
+      "file_offset": "0x7062d0"
+    },
+    {
+      "index": 67,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 2,
+      "action": "SHOUT_3",
+      "va": "0xb07af0",
+      "file_offset": "0x7062f0"
+    },
+    {
+      "index": 68,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 3,
+      "action": "SHOUT_4",
+      "va": "0xb07b10",
+      "file_offset": "0x706310"
+    },
+    {
+      "index": 69,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 4,
+      "action": "SHOUT_5",
+      "va": "0xb07b30",
+      "file_offset": "0x706330"
+    },
+    {
+      "index": 70,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 5,
+      "action": "SHOUT_6",
+      "va": "0xb07b50",
+      "file_offset": "0x706350"
+    },
+    {
+      "index": 71,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 6,
+      "action": "SHOUT_7",
+      "va": "0xb07b70",
+      "file_offset": "0x706370"
+    },
+    {
+      "index": 72,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 7,
+      "action": "SHOUT_8",
+      "va": "0xb07b90",
+      "file_offset": "0x706390"
+    },
+    {
+      "index": 73,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 8,
+      "action": "SHOUT_9",
+      "va": "0xb07bb0",
+      "file_offset": "0x7063b0"
+    },
+    {
+      "index": 74,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 9,
+      "action": "SHOUT_10",
+      "va": "0xb07bd0",
+      "file_offset": "0x7063d0"
+    },
+    {
+      "index": 75,
+      "section": "PATRIARCH",
+      "section_index": 6,
+      "section_ordinal": 10,
+      "action": "SHOUT_ADMIN",
+      "va": "0xb07bf0",
+      "file_offset": "0x7063f0"
+    }
+  ],
+  "keys": [
+    {
+      "index": 0,
+      "token": "0",
+      "virtual_key": 48
+    },
+    {
+      "index": 1,
+      "token": "1",
+      "virtual_key": 49
+    },
+    {
+      "index": 2,
+      "token": "2",
+      "virtual_key": 50
+    },
+    {
+      "index": 3,
+      "token": "3",
+      "virtual_key": 51
+    },
+    {
+      "index": 4,
+      "token": "4",
+      "virtual_key": 52
+    },
+    {
+      "index": 5,
+      "token": "5",
+      "virtual_key": 53
+    },
+    {
+      "index": 6,
+      "token": "6",
+      "virtual_key": 54
+    },
+    {
+      "index": 7,
+      "token": "7",
+      "virtual_key": 55
+    },
+    {
+      "index": 8,
+      "token": "8",
+      "virtual_key": 56
+    },
+    {
+      "index": 9,
+      "token": "9",
+      "virtual_key": 57
+    },
+    {
+      "index": 10,
+      "token": "A",
+      "virtual_key": 65
+    },
+    {
+      "index": 11,
+      "token": "B",
+      "virtual_key": 66
+    },
+    {
+      "index": 12,
+      "token": "C",
+      "virtual_key": 67
+    },
+    {
+      "index": 13,
+      "token": "D",
+      "virtual_key": 68
+    },
+    {
+      "index": 14,
+      "token": "E",
+      "virtual_key": 69
+    },
+    {
+      "index": 15,
+      "token": "F",
+      "virtual_key": 70
+    },
+    {
+      "index": 16,
+      "token": "G",
+      "virtual_key": 71
+    },
+    {
+      "index": 17,
+      "token": "H",
+      "virtual_key": 72
+    },
+    {
+      "index": 18,
+      "token": "I",
+      "virtual_key": 73
+    },
+    {
+      "index": 19,
+      "token": "J",
+      "virtual_key": 74
+    },
+    {
+      "index": 20,
+      "token": "K",
+      "virtual_key": 75
+    },
+    {
+      "index": 21,
+      "token": "L",
+      "virtual_key": 76
+    },
+    {
+      "index": 22,
+      "token": "M",
+      "virtual_key": 77
+    },
+    {
+      "index": 23,
+      "token": "N",
+      "virtual_key": 78
+    },
+    {
+      "index": 24,
+      "token": "O",
+      "virtual_key": 79
+    },
+    {
+      "index": 25,
+      "token": "P",
+      "virtual_key": 80
+    },
+    {
+      "index": 26,
+      "token": "Q",
+      "virtual_key": 81
+    },
+    {
+      "index": 27,
+      "token": "R",
+      "virtual_key": 82
+    },
+    {
+      "index": 28,
+      "token": "S",
+      "virtual_key": 83
+    },
+    {
+      "index": 29,
+      "token": "T",
+      "virtual_key": 84
+    },
+    {
+      "index": 30,
+      "token": "U",
+      "virtual_key": 85
+    },
+    {
+      "index": 31,
+      "token": "V",
+      "virtual_key": 86
+    },
+    {
+      "index": 32,
+      "token": "W",
+      "virtual_key": 87
+    },
+    {
+      "index": 33,
+      "token": "X",
+      "virtual_key": 88
+    },
+    {
+      "index": 34,
+      "token": "Y",
+      "virtual_key": 89
+    },
+    {
+      "index": 35,
+      "token": "Z",
+      "virtual_key": 90
+    },
+    {
+      "index": 36,
+      "token": "ESC",
+      "virtual_key": 27
+    },
+    {
+      "index": 37,
+      "token": "TAB",
+      "virtual_key": 9
+    },
+    {
+      "index": 38,
+      "token": "LEFT",
+      "virtual_key": 37
+    },
+    {
+      "index": 39,
+      "token": "UP",
+      "virtual_key": 38
+    },
+    {
+      "index": 40,
+      "token": "RIGHT",
+      "virtual_key": 39
+    },
+    {
+      "index": 41,
+      "token": "DOWN",
+      "virtual_key": 40
+    },
+    {
+      "index": 42,
+      "token": "SPACE",
+      "virtual_key": 32
+    },
+    {
+      "index": 43,
+      "token": "SNAPSHOT",
+      "virtual_key": 44
+    },
+    {
+      "index": 44,
+      "token": "`",
+      "virtual_key": 192
+    },
+    {
+      "index": 45,
+      "token": "-",
+      "virtual_key": 189
+    },
+    {
+      "index": 46,
+      "token": "=",
+      "virtual_key": 187
+    },
+    {
+      "index": 47,
+      "token": "\\",
+      "virtual_key": 220
+    },
+    {
+      "index": 48,
+      "token": ";",
+      "virtual_key": 186
+    },
+    {
+      "index": 49,
+      "token": "'",
+      "virtual_key": 222
+    },
+    {
+      "index": 50,
+      "token": ",",
+      "virtual_key": 188
+    },
+    {
+      "index": 51,
+      "token": ".",
+      "virtual_key": 190
+    },
+    {
+      "index": 52,
+      "token": "/",
+      "virtual_key": 191
+    },
+    {
+      "index": 53,
+      "token": "INSERT",
+      "virtual_key": 45
+    },
+    {
+      "index": 54,
+      "token": "DELETE",
+      "virtual_key": 46
+    },
+    {
+      "index": 55,
+      "token": "HOME",
+      "virtual_key": 36
+    },
+    {
+      "index": 56,
+      "token": "END",
+      "virtual_key": 35
+    },
+    {
+      "index": 57,
+      "token": "PGUP",
+      "virtual_key": 33
+    },
+    {
+      "index": 58,
+      "token": "PGDN",
+      "virtual_key": 34
+    },
+    {
+      "index": 59,
+      "token": "NUM0",
+      "virtual_key": 96
+    },
+    {
+      "index": 60,
+      "token": "NUM1",
+      "virtual_key": 97
+    },
+    {
+      "index": 61,
+      "token": "NUM2",
+      "virtual_key": 98
+    },
+    {
+      "index": 62,
+      "token": "NUM3",
+      "virtual_key": 99
+    },
+    {
+      "index": 63,
+      "token": "NUM4",
+      "virtual_key": 100
+    },
+    {
+      "index": 64,
+      "token": "NUM5",
+      "virtual_key": 101
+    },
+    {
+      "index": 65,
+      "token": "NUM6",
+      "virtual_key": 102
+    },
+    {
+      "index": 66,
+      "token": "NUM7",
+      "virtual_key": 103
+    },
+    {
+      "index": 67,
+      "token": "NUM8",
+      "virtual_key": 104
+    },
+    {
+      "index": 68,
+      "token": "NUM9",
+      "virtual_key": 105
+    },
+    {
+      "index": 69,
+      "token": "NUM(*)",
+      "virtual_key": 106
+    },
+    {
+      "index": 70,
+      "token": "NUM(+)",
+      "virtual_key": 107
+    },
+    {
+      "index": 71,
+      "token": "NUM(-)",
+      "virtual_key": 109
+    },
+    {
+      "index": 72,
+      "token": "NUM(.)",
+      "virtual_key": 110
+    },
+    {
+      "index": 73,
+      "token": "NUM(/)",
+      "virtual_key": 111
+    },
+    {
+      "index": 74,
+      "token": "F1",
+      "virtual_key": 112
+    },
+    {
+      "index": 75,
+      "token": "F2",
+      "virtual_key": 113
+    },
+    {
+      "index": 76,
+      "token": "F3",
+      "virtual_key": 114
+    },
+    {
+      "index": 77,
+      "token": "F4",
+      "virtual_key": 115
+    },
+    {
+      "index": 78,
+      "token": "F5",
+      "virtual_key": 116
+    },
+    {
+      "index": 79,
+      "token": "F6",
+      "virtual_key": 117
+    },
+    {
+      "index": 80,
+      "token": "F7",
+      "virtual_key": 118
+    },
+    {
+      "index": 81,
+      "token": "F8",
+      "virtual_key": 119
+    },
+    {
+      "index": 82,
+      "token": "F9",
+      "virtual_key": 120
+    },
+    {
+      "index": 83,
+      "token": "F10",
+      "virtual_key": 121
+    },
+    {
+      "index": 84,
+      "token": "F11",
+      "virtual_key": 122
+    },
+    {
+      "index": 85,
+      "token": "F12",
+      "virtual_key": 123
+    }
+  ],
+  "modifiers": [
+    {
+      "token": "SHIFT",
+      "virtual_key": 16
+    },
+    {
+      "token": "CTRL",
+      "virtual_key": 17
+    },
+    {
+      "token": "ALT",
+      "virtual_key": 18
+    }
+  ],
+  "uploaded_keymaps": {
+    "KeyMap.dat": {
+      "sha256": "0f01fd446cb2afdafae4ba655f44b99a6669cdf31dc65e79ee0e6f8ed1fe66a5",
+      "known_commands": 76,
+      "not_in_generic_native_table": [
+        {
+          "section": "CHAT",
+          "action": "INPUT_CHAT"
+        },
+        {
+          "section": "CHAT",
+          "action": "END_CHAT"
+        },
+        {
+          "section": "CHAT",
+          "action": "WHISPER"
+        }
+      ],
+      "missing_from_file": []
+    },
+    "KeyMap_NKM.dat": {
+      "sha256": "8f9187d241888f33727cf81fa695dd65fee1532e3ba8136496d4814005b63654",
+      "known_commands": 72,
+      "not_in_generic_native_table": [
+        {
+          "section": "CHAT",
+          "action": "INPUT_CHAT"
+        },
+        {
+          "section": "CHAT",
+          "action": "END_CHAT"
+        },
+        {
+          "section": "CHAT",
+          "action": "WHISPER"
+        }
+      ],
+      "missing_from_file": [
+        {
+          "index": 6,
+          "section": "WINDOW",
+          "section_index": 0,
+          "section_ordinal": 6,
+          "action": "GMREQUEST_WINDOW",
+          "va": "0xb07350",
+          "file_offset": "0x705b50"
+        },
+        {
+          "index": 50,
+          "section": "GAME",
+          "section_index": 4,
+          "section_ordinal": 14,
+          "action": "ZOOM_IN",
+          "va": "0xb078d0",
+          "file_offset": "0x7060d0"
+        },
+        {
+          "index": 51,
+          "section": "GAME",
+          "section_index": 4,
+          "section_ordinal": 15,
+          "action": "ZOOM_OUT",
+          "va": "0xb078f0",
+          "file_offset": "0x7060f0"
+        },
+        {
+          "index": 52,
+          "section": "GAME",
+          "section_index": 4,
+          "section_ordinal": 16,
+          "action": "ALL_WINDOW_CLOSE",
+          "va": "0xb07910",
+          "file_offset": "0x706110"
+        }
+      ]
+    }
+  }
+}
