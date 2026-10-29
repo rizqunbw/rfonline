@@ -1,0 +1,6609 @@
+{
+  "schema_version": 1,
+  "source": "rf_online.bin",
+  "bytes": 8451006,
+  "sha256": "951e1056875c27f717bfb62d25ffc68d36337416e16d0b7ccc0f7c42b534d2c6",
+  "format": "Windows x86 PE32 executable",
+  "image_base": "0x400000",
+  "entry_rva": "0x3bcf93",
+  "entry_va": "0x7bcf93",
+  "subsystem": 2,
+  "timestamp_raw": 1294908360,
+  "timestamp_note": "Header value only; not a verified release date.",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 7277555,
+      "file_offset": 1024,
+      "file_size": 7277568,
+      "characteristics": 1610612768,
+      "entropy": 6.486
+    },
+    {
+      "name": ".LINGO2",
+      "rva": 7282688,
+      "virtual_size": 51192,
+      "file_offset": 7278592,
+      "file_size": 51200,
+      "characteristics": 3221225504,
+      "entropy": 7.729
+    },
+    {
+      "name": ".rdata",
+      "rva": 7335936,
+      "virtual_size": 889923,
+      "file_offset": 7329792,
+      "file_size": 890368,
+      "characteristics": 1073741888,
+      "entropy": 5.546
+    },
+    {
+      "name": ".data",
+      "rva": 8228864,
+      "virtual_size": 37553892,
+      "file_offset": 8220160,
+      "file_size": 211456,
+      "characteristics": 3221225536,
+      "entropy": 6.05
+    },
+    {
+      "name": ".rsrc",
+      "rva": 45785088,
+      "virtual_size": 1084,
+      "file_offset": 8431616,
+      "file_size": 1536,
+      "characteristics": 1073741888,
+      "entropy": 3.545
+    }
+  ],
+  "trailing_bytes": 17854,
+  "imports": [
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "GetFileSize",
+          "ordinal": null,
+          "iat_va": "0xaff150"
+        },
+        {
+          "name": "GetSystemTime",
+          "ordinal": null,
+          "iat_va": "0xaff154"
+        },
+        {
+          "name": "CreateToolhelp32Snapshot",
+          "ordinal": null,
+          "iat_va": "0xaff158"
+        },
+        {
+          "name": "Process32First",
+          "ordinal": null,
+          "iat_va": "0xaff15c"
+        },
+        {
+          "name": "Process32Next",
+          "ordinal": null,
+          "iat_va": "0xaff160"
+        },
+        {
+          "name": "CreateMutexA",
+          "ordinal": null,
+          "iat_va": "0xaff164"
+        },
+        {
+          "name": "ReleaseMutex",
+          "ordinal": null,
+          "iat_va": "0xaff168"
+        },
+        {
+          "name": "GetCurrentThread",
+          "ordinal": null,
+          "iat_va": "0xaff16c"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "ordinal": null,
+          "iat_va": "0xaff170"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "ordinal": null,
+          "iat_va": "0xaff174"
+        },
+        {
+          "name": "ReadProcessMemory",
+          "ordinal": null,
+          "iat_va": "0xaff178"
+        },
+        {
+          "name": "InterlockedExchangeAdd",
+          "ordinal": null,
+          "iat_va": "0xaff17c"
+        },
+        {
+          "name": "InterlockedDecrement",
+          "ordinal": null,
+          "iat_va": "0xaff180"
+        },
+        {
+          "name": "InterlockedIncrement",
+          "ordinal": null,
+          "iat_va": "0xaff184"
+        },
+        {
+          "name": "lstrcmpiW",
+          "ordinal": null,
+          "iat_va": "0xaff188"
+        },
+        {
+          "name": "lstrcpyA",
+          "ordinal": null,
+          "iat_va": "0xaff18c"
+        },
+        {
+          "name": "GetProcessHeap",
+          "ordinal": null,
+          "iat_va": "0xaff190"
+        },
+        {
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_va": "0xaff194"
+        },
+        {
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_va": "0xaff198"
+        },
+        {
+          "name": "lstrcatW",
+          "ordinal": null,
+          "iat_va": "0xaff19c"
+        },
+        {
+          "name": "IsDBCSLeadByteEx",
+          "ordinal": null,
+          "iat_va": "0xaff1a0"
+        },
+        {
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_va": "0xaff1a4"
+        },
+        {
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_va": "0xaff1a8"
+        },
+        {
+          "name": "lstrcatA",
+          "ordinal": null,
+          "iat_va": "0xaff1ac"
+        },
+        {
+          "name": "FreeLibrary",
+          "ordinal": null,
+          "iat_va": "0xaff1b0"
+        },
+        {
+          "name": "GetACP",
+          "ordinal": null,
+          "iat_va": "0xaff1b4"
+        },
+        {
+          "name": "GetVersionExA",
+          "ordinal": null,
+          "iat_va": "0xaff1b8"
+        },
+        {
+          "name": "IsDBCSLeadByte",
+          "ordinal": null,
+          "iat_va": "0xaff1bc"
+        },
+        {
+          "name": "ReadFile",
+          "ordinal": null,
+          "iat_va": "0xaff1c0"
+        },
+        {
+          "name": "ExitProcess",
+          "ordinal": null,
+          "iat_va": "0xaff1c4"
+        },
+        {
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_va": "0xaff1c8"
+        },
+        {
+          "name": "SetFilePointer",
+          "ordinal": null,
+          "iat_va": "0xaff1cc"
+        },
+        {
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": "0xaff1d0"
+        },
+        {
+          "name": "DeleteFileA",
+          "ordinal": null,
+          "iat_va": "0xaff1d4"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "ordinal": null,
+          "iat_va": "0xaff1d8"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "ordinal": null,
+          "iat_va": "0xaff1dc"
+        },
+        {
+          "name": "GetSystemDirectoryA",
+          "ordinal": null,
+          "iat_va": "0xaff1e0"
+        },
+        {
+          "name": "GetModuleHandleA",
+          "ordinal": null,
+          "iat_va": "0xaff1e4"
+        },
+        {
+          "name": "GetModuleFileNameA",
+          "ordinal": null,
+          "iat_va": "0xaff1e8"
+        },
+        {
+          "name": "GetPrivateProfileIntW",
+          "ordinal": null,
+          "iat_va": "0xaff1ec"
+        },
+        {
+          "name": "GetPrivateProfileSectionNamesA",
+          "ordinal": null,
+          "iat_va": "0xaff1f0"
+        },
+        {
+          "name": "OutputDebugStringA",
+          "ordinal": null,
+          "iat_va": "0xaff1f4"
+        },
+        {
+          "name": "GetLocalTime",
+          "ordinal": null,
+          "iat_va": "0xaff1f8"
+        },
+        {
+          "name": "GetPrivateProfileStringA",
+          "ordinal": null,
+          "iat_va": "0xaff1fc"
+        },
+        {
+          "name": "GetTickCount",
+          "ordinal": null,
+          "iat_va": "0xaff200"
+        },
+        {
+          "name": "Sleep",
+          "ordinal": null,
+          "iat_va": "0xaff204"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "ordinal": null,
+          "iat_va": "0xaff208"
+        },
+        {
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": "0xaff20c"
+        },
+        {
+          "name": "WritePrivateProfileStringA",
+          "ordinal": null,
+          "iat_va": "0xaff210"
+        },
+        {
+          "name": "GetPrivateProfileIntA",
+          "ordinal": null,
+          "iat_va": "0xaff214"
+        },
+        {
+          "name": "lstrlenW",
+          "ordinal": null,
+          "iat_va": "0xaff218"
+        },
+        {
+          "name": "GetLastError",
+          "ordinal": null,
+          "iat_va": "0xaff21c"
+        },
+        {
+          "name": "lstrlenA",
+          "ordinal": null,
+          "iat_va": "0xaff220"
+        },
+        {
+          "name": "lstrcmpiA",
+          "ordinal": null,
+          "iat_va": "0xaff224"
+        },
+        {
+          "name": "IsBadWritePtr",
+          "ordinal": null,
+          "iat_va": "0xaff228"
+        },
+        {
+          "name": "SetErrorMode",
+          "ordinal": null,
+          "iat_va": "0xaff22c"
+        },
+        {
+          "name": "SetThreadAffinityMask",
+          "ordinal": null,
+          "iat_va": "0xaff230"
+        },
+        {
+          "name": "SuspendThread",
+          "ordinal": null,
+          "iat_va": "0xaff234"
+        },
+        {
+          "name": "InterlockedCompareExchange",
+          "ordinal": null,
+          "iat_va": "0xaff238"
+        },
+        {
+          "name": "SetFileAttributesA",
+          "ordinal": null,
+          "iat_va": "0xaff23c"
+        },
+        {
+          "name": "DebugBreak",
+          "ordinal": null,
+          "iat_va": "0xaff240"
+        },
+        {
+          "name": "QueryPerformanceFrequency",
+          "ordinal": null,
+          "iat_va": "0xaff244"
+        },
+        {
+          "name": "FileTimeToSystemTime",
+          "ordinal": null,
+          "iat_va": "0xaff248"
+        },
+        {
+          "name": "SystemTimeToFileTime",
+          "ordinal": null,
+          "iat_va": "0xaff24c"
+        },
+        {
+          "name": "CompareFileTime",
+          "ordinal": null,
+          "iat_va": "0xaff250"
+        },
+        {
+          "name": "GetProcessTimes",
+          "ordinal": null,
+          "iat_va": "0xaff254"
+        },
+        {
+          "name": "OpenProcess",
+          "ordinal": null,
+          "iat_va": "0xaff258"
+        },
+        {
+          "name": "SetEnvironmentVariableA",
+          "ordinal": null,
+          "iat_va": "0xaff25c"
+        },
+        {
+          "name": "GetConsoleOutputCP",
+          "ordinal": null,
+          "iat_va": "0xaff260"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "ordinal": null,
+          "iat_va": "0xaff264"
+        },
+        {
+          "name": "GetEnvironmentStrings",
+          "ordinal": null,
+          "iat_va": "0xaff268"
+        },
+        {
+          "name": "FreeEnvironmentStringsA",
+          "ordinal": null,
+          "iat_va": "0xaff26c"
+        },
+        {
+          "name": "IsValidLocale",
+          "ordinal": null,
+          "iat_va": "0xaff270"
+        },
+        {
+          "name": "EnumSystemLocalesA",
+          "ordinal": null,
+          "iat_va": "0xaff274"
+        },
+        {
+          "name": "GetUserDefaultLCID",
+          "ordinal": null,
+          "iat_va": "0xaff278"
+        },
+        {
+          "name": "GetDateFormatA",
+          "ordinal": null,
+          "iat_va": "0xaff27c"
+        },
+        {
+          "name": "GetTimeFormatA",
+          "ordinal": null,
+          "iat_va": "0xaff280"
+        },
+        {
+          "name": "SetConsoleCtrlHandler",
+          "ordinal": null,
+          "iat_va": "0xaff284"
+        },
+        {
+          "name": "GetStringTypeA",
+          "ordinal": null,
+          "iat_va": "0xaff288"
+        },
+        {
+          "name": "GetFileType",
+          "ordinal": null,
+          "iat_va": "0xaff28c"
+        },
+        {
+          "name": "SetHandleCount",
+          "ordinal": null,
+          "iat_va": "0xaff290"
+        },
+        {
+          "name": "GetConsoleCP",
+          "ordinal": null,
+          "iat_va": "0xaff294"
+        },
+        {
+          "name": "GetPrivateProfileSectionA",
+          "ordinal": null,
+          "iat_va": "0xaff298"
+        },
+        {
+          "name": "SetEvent",
+          "ordinal": null,
+          "iat_va": "0xaff29c"
+        },
+        {
+          "name": "OpenEventA",
+          "ordinal": null,
+          "iat_va": "0xaff2a0"
+        },
+        {
+          "name": "CreateEventA",
+          "ordinal": null,
+          "iat_va": "0xaff2a4"
+        },
+        {
+          "name": "GetConsoleMode",
+          "ordinal": null,
+          "iat_va": "0xaff2a8"
+        },
+        {
+          "name": "GetStdHandle",
+          "ordinal": null,
+          "iat_va": "0xaff2ac"
+        },
+        {
+          "name": "GetDriveTypeA",
+          "ordinal": null,
+          "iat_va": "0xaff2b0"
+        },
+        {
+          "name": "GetFullPathNameA",
+          "ordinal": null,
+          "iat_va": "0xaff2b4"
+        },
+        {
+          "name": "FileTimeToLocalFileTime",
+          "ordinal": null,
+          "iat_va": "0xaff2b8"
+        },
+        {
+          "name": "WriteConsoleA",
+          "ordinal": null,
+          "iat_va": "0xaff2bc"
+        },
+        {
+          "name": "GetPrivateProfileStringW",
+          "ordinal": null,
+          "iat_va": "0xaff2c0"
+        },
+        {
+          "name": "SetConsoleTextAttribute",
+          "ordinal": null,
+          "iat_va": "0xaff2c4"
+        },
+        {
+          "name": "GetTimeZoneInformation",
+          "ordinal": null,
+          "iat_va": "0xaff2c8"
+        },
+        {
+          "name": "LCMapStringA",
+          "ordinal": null,
+          "iat_va": "0xaff2cc"
+        },
+        {
+          "name": "GetOEMCP",
+          "ordinal": null,
+          "iat_va": "0xaff2d0"
+        },
+        {
+          "name": "FatalAppExitA",
+          "ordinal": null,
+          "iat_va": "0xaff2d4"
+        },
+        {
+          "name": "HeapCreate",
+          "ordinal": null,
+          "iat_va": "0xaff2d8"
+        },
+        {
+          "name": "HeapDestroy",
+          "ordinal": null,
+          "iat_va": "0xaff2dc"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "ordinal": null,
+          "iat_va": "0xaff2e0"
+        },
+        {
+          "name": "TlsFree",
+          "ordinal": null,
+          "iat_va": "0xaff2e4"
+        },
+        {
+          "name": "TlsSetValue",
+          "ordinal": null,
+          "iat_va": "0xaff2e8"
+        },
+        {
+          "name": "TlsAlloc",
+          "ordinal": null,
+          "iat_va": "0xaff2ec"
+        },
+        {
+          "name": "TlsGetValue",
+          "ordinal": null,
+          "iat_va": "0xaff2f0"
+        },
+        {
+          "name": "MoveFileA",
+          "ordinal": null,
+          "iat_va": "0xaff2f4"
+        },
+        {
+          "name": "GetStartupInfoA",
+          "ordinal": null,
+          "iat_va": "0xaff2f8"
+        },
+        {
+          "name": "GetCommandLineA",
+          "ordinal": null,
+          "iat_va": "0xaff2fc"
+        },
+        {
+          "name": "HeapSize",
+          "ordinal": null,
+          "iat_va": "0xaff300"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "ordinal": null,
+          "iat_va": "0xaff304"
+        },
+        {
+          "name": "GetFileAttributesA",
+          "ordinal": null,
+          "iat_va": "0xaff308"
+        },
+        {
+          "name": "ExitThread",
+          "ordinal": null,
+          "iat_va": "0xaff30c"
+        },
+        {
+          "name": "HeapReAlloc",
+          "ordinal": null,
+          "iat_va": "0xaff310"
+        },
+        {
+          "name": "RaiseException",
+          "ordinal": null,
+          "iat_va": "0xaff314"
+        },
+        {
+          "name": "RtlUnwind",
+          "ordinal": null,
+          "iat_va": "0xaff318"
+        },
+        {
+          "name": "lstrcpynA",
+          "ordinal": null,
+          "iat_va": "0xaff31c"
+        },
+        {
+          "name": "SetLastError",
+          "ordinal": null,
+          "iat_va": "0xaff320"
+        },
+        {
+          "name": "GetWindowsDirectoryA",
+          "ordinal": null,
+          "iat_va": "0xaff324"
+        },
+        {
+          "name": "CreateFileMappingA",
+          "ordinal": null,
+          "iat_va": "0xaff328"
+        },
+        {
+          "name": "GetStringTypeExA",
+          "ordinal": null,
+          "iat_va": "0xaff32c"
+        },
+        {
+          "name": "GetStringTypeExW",
+          "ordinal": null,
+          "iat_va": "0xaff330"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "ordinal": null,
+          "iat_va": "0xaff334"
+        },
+        {
+          "name": "CompareStringA",
+          "ordinal": null,
+          "iat_va": "0xaff338"
+        },
+        {
+          "name": "CompareStringW",
+          "ordinal": null,
+          "iat_va": "0xaff33c"
+        },
+        {
+          "name": "GetEnvironmentVariableA",
+          "ordinal": null,
+          "iat_va": "0xaff340"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "ordinal": null,
+          "iat_va": "0xaff344"
+        },
+        {
+          "name": "GetVersion",
+          "ordinal": null,
+          "iat_va": "0xaff348"
+        },
+        {
+          "name": "InterlockedExchange",
+          "ordinal": null,
+          "iat_va": "0xaff34c"
+        },
+        {
+          "name": "GetEnvironmentVariableW",
+          "ordinal": null,
+          "iat_va": "0xaff350"
+        },
+        {
+          "name": "FormatMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff354"
+        },
+        {
+          "name": "LocalFree",
+          "ordinal": null,
+          "iat_va": "0xaff358"
+        },
+        {
+          "name": "PeekNamedPipe",
+          "ordinal": null,
+          "iat_va": "0xaff35c"
+        },
+        {
+          "name": "CreatePipe",
+          "ordinal": null,
+          "iat_va": "0xaff360"
+        },
+        {
+          "name": "SetStdHandle",
+          "ordinal": null,
+          "iat_va": "0xaff364"
+        },
+        {
+          "name": "GetFileInformationByHandle",
+          "ordinal": null,
+          "iat_va": "0xaff368"
+        },
+        {
+          "name": "FindFirstFileA",
+          "ordinal": null,
+          "iat_va": "0xaff36c"
+        },
+        {
+          "name": "FindNextFileA",
+          "ordinal": null,
+          "iat_va": "0xaff370"
+        },
+        {
+          "name": "FindClose",
+          "ordinal": null,
+          "iat_va": "0xaff374"
+        },
+        {
+          "name": "GetTempPathA",
+          "ordinal": null,
+          "iat_va": "0xaff378"
+        },
+        {
+          "name": "GetTempFileNameA",
+          "ordinal": null,
+          "iat_va": "0xaff37c"
+        },
+        {
+          "name": "LoadLibraryExA",
+          "ordinal": null,
+          "iat_va": "0xaff380"
+        },
+        {
+          "name": "VirtualQuery",
+          "ordinal": null,
+          "iat_va": "0xaff384"
+        },
+        {
+          "name": "GetCurrentDirectoryA",
+          "ordinal": null,
+          "iat_va": "0xaff388"
+        },
+        {
+          "name": "OpenFileMappingA",
+          "ordinal": null,
+          "iat_va": "0xaff38c"
+        },
+        {
+          "name": "MapViewOfFile",
+          "ordinal": null,
+          "iat_va": "0xaff390"
+        },
+        {
+          "name": "UnmapViewOfFile",
+          "ordinal": null,
+          "iat_va": "0xaff394"
+        },
+        {
+          "name": "VirtualProtect",
+          "ordinal": null,
+          "iat_va": "0xaff398"
+        },
+        {
+          "name": "IsBadReadPtr",
+          "ordinal": null,
+          "iat_va": "0xaff39c"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "ordinal": null,
+          "iat_va": "0xaff3a0"
+        },
+        {
+          "name": "lstrcmpA",
+          "ordinal": null,
+          "iat_va": "0xaff3a4"
+        },
+        {
+          "name": "GetComputerNameA",
+          "ordinal": null,
+          "iat_va": "0xaff3a8"
+        },
+        {
+          "name": "TerminateThread",
+          "ordinal": null,
+          "iat_va": "0xaff3ac"
+        },
+        {
+          "name": "OpenMutexA",
+          "ordinal": null,
+          "iat_va": "0xaff3b0"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "ordinal": null,
+          "iat_va": "0xaff3b4"
+        },
+        {
+          "name": "CreateDirectoryA",
+          "ordinal": null,
+          "iat_va": "0xaff3b8"
+        },
+        {
+          "name": "MoveFileExA",
+          "ordinal": null,
+          "iat_va": "0xaff3bc"
+        },
+        {
+          "name": "CopyFileA",
+          "ordinal": null,
+          "iat_va": "0xaff3c0"
+        },
+        {
+          "name": "CreateProcessA",
+          "ordinal": null,
+          "iat_va": "0xaff3c4"
+        },
+        {
+          "name": "GetExitCodeProcess",
+          "ordinal": null,
+          "iat_va": "0xaff3c8"
+        },
+        {
+          "name": "ResumeThread",
+          "ordinal": null,
+          "iat_va": "0xaff3cc"
+        },
+        {
+          "name": "SetEndOfFile",
+          "ordinal": null,
+          "iat_va": "0xaff3d0"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "ordinal": null,
+          "iat_va": "0xaff3d4"
+        },
+        {
+          "name": "TerminateProcess",
+          "ordinal": null,
+          "iat_va": "0xaff3d8"
+        },
+        {
+          "name": "VirtualAlloc",
+          "ordinal": null,
+          "iat_va": "0xaff3dc"
+        },
+        {
+          "name": "DuplicateHandle",
+          "ordinal": null,
+          "iat_va": "0xaff3e0"
+        },
+        {
+          "name": "VirtualFree",
+          "ordinal": null,
+          "iat_va": "0xaff3e4"
+        },
+        {
+          "name": "GetSystemInfo",
+          "ordinal": null,
+          "iat_va": "0xaff3e8"
+        },
+        {
+          "name": "ReleaseSemaphore",
+          "ordinal": null,
+          "iat_va": "0xaff3ec"
+        },
+        {
+          "name": "MulDiv",
+          "ordinal": null,
+          "iat_va": "0xaff3f0"
+        },
+        {
+          "name": "CreateSemaphoreA",
+          "ordinal": null,
+          "iat_va": "0xaff3f4"
+        },
+        {
+          "name": "CreateThread",
+          "ordinal": null,
+          "iat_va": "0xaff3f8"
+        },
+        {
+          "name": "WaitForMultipleObjects",
+          "ordinal": null,
+          "iat_va": "0xaff3fc"
+        },
+        {
+          "name": "GetThreadPriority",
+          "ordinal": null,
+          "iat_va": "0xaff400"
+        },
+        {
+          "name": "SetThreadPriority",
+          "ordinal": null,
+          "iat_va": "0xaff404"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "ordinal": null,
+          "iat_va": "0xaff408"
+        },
+        {
+          "name": "ResetEvent",
+          "ordinal": null,
+          "iat_va": "0xaff40c"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "ordinal": null,
+          "iat_va": "0xaff410"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "ordinal": null,
+          "iat_va": "0xaff414"
+        },
+        {
+          "name": "GetThreadLocale",
+          "ordinal": null,
+          "iat_va": "0xaff418"
+        },
+        {
+          "name": "GetLocaleInfoA",
+          "ordinal": null,
+          "iat_va": "0xaff41c"
+        },
+        {
+          "name": "SetCurrentDirectoryA",
+          "ordinal": null,
+          "iat_va": "0xaff420"
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "OffsetRect",
+          "ordinal": null,
+          "iat_va": "0xaff4ac"
+        },
+        {
+          "name": "CopyRect",
+          "ordinal": null,
+          "iat_va": "0xaff4b0"
+        },
+        {
+          "name": "SetWindowLongA",
+          "ordinal": null,
+          "iat_va": "0xaff4b4"
+        },
+        {
+          "name": "GetWindowLongA",
+          "ordinal": null,
+          "iat_va": "0xaff4b8"
+        },
+        {
+          "name": "InflateRect",
+          "ordinal": null,
+          "iat_va": "0xaff4bc"
+        },
+        {
+          "name": "DestroyCursor",
+          "ordinal": null,
+          "iat_va": "0xaff4c0"
+        },
+        {
+          "name": "LoadCursorFromFileA",
+          "ordinal": null,
+          "iat_va": "0xaff4c4"
+        },
+        {
+          "name": "SetClassLongA",
+          "ordinal": null,
+          "iat_va": "0xaff4c8"
+        },
+        {
+          "name": "ShowCursor",
+          "ordinal": null,
+          "iat_va": "0xaff4cc"
+        },
+        {
+          "name": "DefWindowProcA",
+          "ordinal": null,
+          "iat_va": "0xaff4d0"
+        },
+        {
+          "name": "EndPaint",
+          "ordinal": null,
+          "iat_va": "0xaff4d4"
+        },
+        {
+          "name": "BeginPaint",
+          "ordinal": null,
+          "iat_va": "0xaff4d8"
+        },
+        {
+          "name": "SetFocus",
+          "ordinal": null,
+          "iat_va": "0xaff4dc"
+        },
+        {
+          "name": "UnregisterClassA",
+          "ordinal": null,
+          "iat_va": "0xaff4e0"
+        },
+        {
+          "name": "GetClassInfoA",
+          "ordinal": null,
+          "iat_va": "0xaff4e4"
+        },
+        {
+          "name": "DestroyWindow",
+          "ordinal": null,
+          "iat_va": "0xaff4e8"
+        },
+        {
+          "name": "SetRectEmpty",
+          "ordinal": null,
+          "iat_va": "0xaff4ec"
+        },
+        {
+          "name": "ClientToScreen",
+          "ordinal": null,
+          "iat_va": "0xaff4f0"
+        },
+        {
+          "name": "GetSystemMetrics",
+          "ordinal": null,
+          "iat_va": "0xaff4f4"
+        },
+        {
+          "name": "RegisterClassExA",
+          "ordinal": null,
+          "iat_va": "0xaff4f8"
+        },
+        {
+          "name": "LoadIconA",
+          "ordinal": null,
+          "iat_va": "0xaff4fc"
+        },
+        {
+          "name": "SetWindowTextA",
+          "ordinal": null,
+          "iat_va": "0xaff500"
+        },
+        {
+          "name": "MoveWindow",
+          "ordinal": null,
+          "iat_va": "0xaff504"
+        },
+        {
+          "name": "ShowWindow",
+          "ordinal": null,
+          "iat_va": "0xaff508"
+        },
+        {
+          "name": "wsprintfA",
+          "ordinal": null,
+          "iat_va": "0xaff50c"
+        },
+        {
+          "name": "TranslateMessage",
+          "ordinal": null,
+          "iat_va": "0xaff510"
+        },
+        {
+          "name": "PeekMessageW",
+          "ordinal": null,
+          "iat_va": "0xaff514"
+        },
+        {
+          "name": "SetActiveWindow",
+          "ordinal": null,
+          "iat_va": "0xaff518"
+        },
+        {
+          "name": "PeekMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff51c"
+        },
+        {
+          "name": "MapVirtualKeyA",
+          "ordinal": null,
+          "iat_va": "0xaff520"
+        },
+        {
+          "name": "SendMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff524"
+        },
+        {
+          "name": "GetAsyncKeyState",
+          "ordinal": null,
+          "iat_va": "0xaff528"
+        },
+        {
+          "name": "MessageBoxA",
+          "ordinal": null,
+          "iat_va": "0xaff52c"
+        },
+        {
+          "name": "RegisterWindowMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff530"
+        },
+        {
+          "name": "GetKeyboardLayout",
+          "ordinal": null,
+          "iat_va": "0xaff534"
+        },
+        {
+          "name": "GetActiveWindow",
+          "ordinal": null,
+          "iat_va": "0xaff538"
+        },
+        {
+          "name": "CreateWindowExA",
+          "ordinal": null,
+          "iat_va": "0xaff53c"
+        },
+        {
+          "name": "SetRect",
+          "ordinal": null,
+          "iat_va": "0xaff540"
+        },
+        {
+          "name": "GetWindowRect",
+          "ordinal": null,
+          "iat_va": "0xaff544"
+        },
+        {
+          "name": "FindWindowA",
+          "ordinal": null,
+          "iat_va": "0xaff548"
+        },
+        {
+          "name": "ShowOwnedPopups",
+          "ordinal": null,
+          "iat_va": "0xaff54c"
+        },
+        {
+          "name": "GetClientRect",
+          "ordinal": null,
+          "iat_va": "0xaff550"
+        },
+        {
+          "name": "GetKeyState",
+          "ordinal": null,
+          "iat_va": "0xaff554"
+        },
+        {
+          "name": "LoadCursorA",
+          "ordinal": null,
+          "iat_va": "0xaff558"
+        },
+        {
+          "name": "SetWindowRgn",
+          "ordinal": null,
+          "iat_va": "0xaff55c"
+        },
+        {
+          "name": "KillTimer",
+          "ordinal": null,
+          "iat_va": "0xaff560"
+        },
+        {
+          "name": "SetTimer",
+          "ordinal": null,
+          "iat_va": "0xaff564"
+        },
+        {
+          "name": "SetCursor",
+          "ordinal": null,
+          "iat_va": "0xaff568"
+        },
+        {
+          "name": "GetMenu",
+          "ordinal": null,
+          "iat_va": "0xaff56c"
+        },
+        {
+          "name": "DestroyMenu",
+          "ordinal": null,
+          "iat_va": "0xaff570"
+        },
+        {
+          "name": "ScreenToClient",
+          "ordinal": null,
+          "iat_va": "0xaff574"
+        },
+        {
+          "name": "LoadAcceleratorsA",
+          "ordinal": null,
+          "iat_va": "0xaff578"
+        },
+        {
+          "name": "TranslateAcceleratorA",
+          "ordinal": null,
+          "iat_va": "0xaff57c"
+        },
+        {
+          "name": "RegisterClassA",
+          "ordinal": null,
+          "iat_va": "0xaff580"
+        },
+        {
+          "name": "LoadMenuA",
+          "ordinal": null,
+          "iat_va": "0xaff584"
+        },
+        {
+          "name": "AdjustWindowRect",
+          "ordinal": null,
+          "iat_va": "0xaff588"
+        },
+        {
+          "name": "EnumDisplaySettingsA",
+          "ordinal": null,
+          "iat_va": "0xaff58c"
+        },
+        {
+          "name": "ChangeDisplaySettingsA",
+          "ordinal": null,
+          "iat_va": "0xaff590"
+        },
+        {
+          "name": "SetWindowPos",
+          "ordinal": null,
+          "iat_va": "0xaff594"
+        },
+        {
+          "name": "ClipCursor",
+          "ordinal": null,
+          "iat_va": "0xaff598"
+        },
+        {
+          "name": "GetDlgItem",
+          "ordinal": null,
+          "iat_va": "0xaff59c"
+        },
+        {
+          "name": "EndDialog",
+          "ordinal": null,
+          "iat_va": "0xaff5a0"
+        },
+        {
+          "name": "SetMenu",
+          "ordinal": null,
+          "iat_va": "0xaff5a4"
+        },
+        {
+          "name": "SetCapture",
+          "ordinal": null,
+          "iat_va": "0xaff5a8"
+        },
+        {
+          "name": "ReleaseCapture",
+          "ordinal": null,
+          "iat_va": "0xaff5ac"
+        },
+        {
+          "name": "GetCursorPos",
+          "ordinal": null,
+          "iat_va": "0xaff5b0"
+        },
+        {
+          "name": "DestroyIcon",
+          "ordinal": null,
+          "iat_va": "0xaff5b4"
+        },
+        {
+          "name": "GetIconInfo",
+          "ordinal": null,
+          "iat_va": "0xaff5b8"
+        },
+        {
+          "name": "GetDC",
+          "ordinal": null,
+          "iat_va": "0xaff5bc"
+        },
+        {
+          "name": "ReleaseDC",
+          "ordinal": null,
+          "iat_va": "0xaff5c0"
+        },
+        {
+          "name": "GetParent",
+          "ordinal": null,
+          "iat_va": "0xaff5c4"
+        },
+        {
+          "name": "GetWindowThreadProcessId",
+          "ordinal": null,
+          "iat_va": "0xaff5c8"
+        },
+        {
+          "name": "GetDesktopWindow",
+          "ordinal": null,
+          "iat_va": "0xaff5cc"
+        },
+        {
+          "name": "GetWindow",
+          "ordinal": null,
+          "iat_va": "0xaff5d0"
+        },
+        {
+          "name": "SetCursorPos",
+          "ordinal": null,
+          "iat_va": "0xaff5d4"
+        },
+        {
+          "name": "PostMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff5d8"
+        },
+        {
+          "name": "CharUpperA",
+          "ordinal": null,
+          "iat_va": "0xaff5dc"
+        },
+        {
+          "name": "CharUpperW",
+          "ordinal": null,
+          "iat_va": "0xaff5e0"
+        },
+        {
+          "name": "CharLowerA",
+          "ordinal": null,
+          "iat_va": "0xaff5e4"
+        },
+        {
+          "name": "CharLowerW",
+          "ordinal": null,
+          "iat_va": "0xaff5e8"
+        },
+        {
+          "name": "DispatchMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff5ec"
+        },
+        {
+          "name": "MsgWaitForMultipleObjects",
+          "ordinal": null,
+          "iat_va": "0xaff5f0"
+        },
+        {
+          "name": "wvsprintfA",
+          "ordinal": null,
+          "iat_va": "0xaff5f4"
+        },
+        {
+          "name": "PostThreadMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff5f8"
+        },
+        {
+          "name": "GetQueueStatus",
+          "ordinal": null,
+          "iat_va": "0xaff5fc"
+        },
+        {
+          "name": "CharUpperBuffA",
+          "ordinal": null,
+          "iat_va": "0xaff600"
+        },
+        {
+          "name": "LoadStringA",
+          "ordinal": null,
+          "iat_va": "0xaff604"
+        },
+        {
+          "name": "GetMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff608"
+        },
+        {
+          "name": "PostQuitMessage",
+          "ordinal": null,
+          "iat_va": "0xaff60c"
+        },
+        {
+          "name": "LoadImageA",
+          "ordinal": null,
+          "iat_va": "0xaff610"
+        },
+        {
+          "name": "GetWindowTextA",
+          "ordinal": null,
+          "iat_va": "0xaff614"
+        },
+        {
+          "name": "GetClassLongA",
+          "ordinal": null,
+          "iat_va": "0xaff618"
+        },
+        {
+          "name": "GetWindowTextLengthA",
+          "ordinal": null,
+          "iat_va": "0xaff61c"
+        },
+        {
+          "name": "SetDlgItemTextA",
+          "ordinal": null,
+          "iat_va": "0xaff620"
+        },
+        {
+          "name": "DialogBoxParamA",
+          "ordinal": null,
+          "iat_va": "0xaff624"
+        }
+      ]
+    },
+    {
+      "dll": "GDI32.dll",
+      "symbols": [
+        {
+          "name": "CreateRectRgn",
+          "ordinal": null,
+          "iat_va": "0xaff0a4"
+        },
+        {
+          "name": "SetDIBits",
+          "ordinal": null,
+          "iat_va": "0xaff0a8"
+        },
+        {
+          "name": "CreateCompatibleBitmap",
+          "ordinal": null,
+          "iat_va": "0xaff0ac"
+        },
+        {
+          "name": "GetPixel",
+          "ordinal": null,
+          "iat_va": "0xaff0b0"
+        },
+        {
+          "name": "CombineRgn",
+          "ordinal": null,
+          "iat_va": "0xaff0b4"
+        },
+        {
+          "name": "SetBkMode",
+          "ordinal": null,
+          "iat_va": "0xaff0b8"
+        },
+        {
+          "name": "BitBlt",
+          "ordinal": null,
+          "iat_va": "0xaff0bc"
+        },
+        {
+          "name": "DeleteDC",
+          "ordinal": null,
+          "iat_va": "0xaff0c0"
+        },
+        {
+          "name": "CreateDIBSection",
+          "ordinal": null,
+          "iat_va": "0xaff0c4"
+        },
+        {
+          "name": "SetMapMode",
+          "ordinal": null,
+          "iat_va": "0xaff0c8"
+        },
+        {
+          "name": "GetDeviceCaps",
+          "ordinal": null,
+          "iat_va": "0xaff0cc"
+        },
+        {
+          "name": "CreateFontA",
+          "ordinal": null,
+          "iat_va": "0xaff0d0"
+        },
+        {
+          "name": "SelectObject",
+          "ordinal": null,
+          "iat_va": "0xaff0d4"
+        },
+        {
+          "name": "SetTextColor",
+          "ordinal": null,
+          "iat_va": "0xaff0d8"
+        },
+        {
+          "name": "SetBkColor",
+          "ordinal": null,
+          "iat_va": "0xaff0dc"
+        },
+        {
+          "name": "SetTextAlign",
+          "ordinal": null,
+          "iat_va": "0xaff0e0"
+        },
+        {
+          "name": "GetTextExtentExPointA",
+          "ordinal": null,
+          "iat_va": "0xaff0e4"
+        },
+        {
+          "name": "GetTextExtentPoint32A",
+          "ordinal": null,
+          "iat_va": "0xaff0e8"
+        },
+        {
+          "name": "GetTextExtentPointA",
+          "ordinal": null,
+          "iat_va": "0xaff0ec"
+        },
+        {
+          "name": "ExtTextOutA",
+          "ordinal": null,
+          "iat_va": "0xaff0f0"
+        },
+        {
+          "name": "TextOutA",
+          "ordinal": null,
+          "iat_va": "0xaff0f4"
+        },
+        {
+          "name": "GetStockObject",
+          "ordinal": null,
+          "iat_va": "0xaff0f8"
+        },
+        {
+          "name": "RemoveFontResourceA",
+          "ordinal": null,
+          "iat_va": "0xaff0fc"
+        },
+        {
+          "name": "AddFontResourceA",
+          "ordinal": null,
+          "iat_va": "0xaff100"
+        },
+        {
+          "name": "SetDeviceGammaRamp",
+          "ordinal": null,
+          "iat_va": "0xaff104"
+        },
+        {
+          "name": "GetDIBits",
+          "ordinal": null,
+          "iat_va": "0xaff108"
+        },
+        {
+          "name": "DeleteObject",
+          "ordinal": null,
+          "iat_va": "0xaff10c"
+        },
+        {
+          "name": "GetObjectA",
+          "ordinal": null,
+          "iat_va": "0xaff110"
+        },
+        {
+          "name": "CreateCompatibleDC",
+          "ordinal": null,
+          "iat_va": "0xaff114"
+        }
+      ]
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "symbols": [
+        {
+          "name": "CryptDestroyKey",
+          "ordinal": null,
+          "iat_va": "0xaff014"
+        },
+        {
+          "name": "CryptReleaseContext",
+          "ordinal": null,
+          "iat_va": "0xaff018"
+        },
+        {
+          "name": "InitializeSecurityDescriptor",
+          "ordinal": null,
+          "iat_va": "0xaff01c"
+        },
+        {
+          "name": "RegCloseKey",
+          "ordinal": null,
+          "iat_va": "0xaff020"
+        },
+        {
+          "name": "CryptEncrypt",
+          "ordinal": null,
+          "iat_va": "0xaff024"
+        },
+        {
+          "name": "CryptImportKey",
+          "ordinal": null,
+          "iat_va": "0xaff028"
+        },
+        {
+          "name": "OpenProcessToken",
+          "ordinal": null,
+          "iat_va": "0xaff02c"
+        },
+        {
+          "name": "LookupPrivilegeValueA",
+          "ordinal": null,
+          "iat_va": "0xaff030"
+        },
+        {
+          "name": "AdjustTokenPrivileges",
+          "ordinal": null,
+          "iat_va": "0xaff034"
+        },
+        {
+          "name": "RegDeleteKeyA",
+          "ordinal": null,
+          "iat_va": "0xaff038"
+        },
+        {
+          "name": "RegQueryInfoKeyA",
+          "ordinal": null,
+          "iat_va": "0xaff03c"
+        },
+        {
+          "name": "RegEnumKeyExA",
+          "ordinal": null,
+          "iat_va": "0xaff040"
+        },
+        {
+          "name": "RegOpenKeyExA",
+          "ordinal": null,
+          "iat_va": "0xaff044"
+        },
+        {
+          "name": "RegQueryValueExA",
+          "ordinal": null,
+          "iat_va": "0xaff048"
+        },
+        {
+          "name": "SetSecurityDescriptorDacl",
+          "ordinal": null,
+          "iat_va": "0xaff04c"
+        },
+        {
+          "name": "CryptGetHashParam",
+          "ordinal": null,
+          "iat_va": "0xaff050"
+        },
+        {
+          "name": "CryptDeriveKey",
+          "ordinal": null,
+          "iat_va": "0xaff054"
+        },
+        {
+          "name": "CryptDecrypt",
+          "ordinal": null,
+          "iat_va": "0xaff058"
+        },
+        {
+          "name": "CryptCreateHash",
+          "ordinal": null,
+          "iat_va": "0xaff05c"
+        },
+        {
+          "name": "CryptHashData",
+          "ordinal": null,
+          "iat_va": "0xaff060"
+        },
+        {
+          "name": "CryptVerifySignatureA",
+          "ordinal": null,
+          "iat_va": "0xaff064"
+        },
+        {
+          "name": "CryptDestroyHash",
+          "ordinal": null,
+          "iat_va": "0xaff068"
+        },
+        {
+          "name": "RegEnumValueA",
+          "ordinal": null,
+          "iat_va": "0xaff06c"
+        },
+        {
+          "name": "RegDeleteValueA",
+          "ordinal": null,
+          "iat_va": "0xaff070"
+        },
+        {
+          "name": "RegCreateKeyExA",
+          "ordinal": null,
+          "iat_va": "0xaff074"
+        },
+        {
+          "name": "RegSetValueExA",
+          "ordinal": null,
+          "iat_va": "0xaff078"
+        },
+        {
+          "name": "GetUserNameA",
+          "ordinal": null,
+          "iat_va": "0xaff07c"
+        },
+        {
+          "name": "CryptAcquireContextA",
+          "ordinal": null,
+          "iat_va": "0xaff080"
+        }
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "symbols": [
+        {
+          "name": "CoFreeUnusedLibraries",
+          "ordinal": null,
+          "iat_va": "0xaff8b0"
+        },
+        {
+          "name": "CoTaskMemAlloc",
+          "ordinal": null,
+          "iat_va": "0xaff8b4"
+        },
+        {
+          "name": "CoCreateInstance",
+          "ordinal": null,
+          "iat_va": "0xaff8b8"
+        },
+        {
+          "name": "CLSIDFromString",
+          "ordinal": null,
+          "iat_va": "0xaff8bc"
+        },
+        {
+          "name": "CoInitialize",
+          "ordinal": null,
+          "iat_va": "0xaff8c0"
+        },
+        {
+          "name": "CoUninitialize",
+          "ordinal": null,
+          "iat_va": "0xaff8c4"
+        },
+        {
+          "name": "CoTaskMemFree",
+          "ordinal": null,
+          "iat_va": "0xaff8c8"
+        }
+      ]
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "symbols": [
+        {
+          "name": null,
+          "ordinal": 24,
+          "iat_va": "0xaff430"
+        },
+        {
+          "name": null,
+          "ordinal": 8,
+          "iat_va": "0xaff434"
+        },
+        {
+          "name": null,
+          "ordinal": 2,
+          "iat_va": "0xaff438"
+        },
+        {
+          "name": null,
+          "ordinal": 23,
+          "iat_va": "0xaff43c"
+        },
+        {
+          "name": null,
+          "ordinal": 15,
+          "iat_va": "0xaff440"
+        },
+        {
+          "name": null,
+          "ordinal": 4,
+          "iat_va": "0xaff444"
+        },
+        {
+          "name": null,
+          "ordinal": 6,
+          "iat_va": "0xaff448"
+        },
+        {
+          "name": null,
+          "ordinal": 9,
+          "iat_va": "0xaff44c"
+        }
+      ]
+    },
+    {
+      "dll": "d3dx9_36.dll",
+      "symbols": [
+        {
+          "name": "D3DXMatrixLookAtLH",
+          "ordinal": null,
+          "iat_va": "0xaff728"
+        },
+        {
+          "name": "D3DXSaveSurfaceToFileA",
+          "ordinal": null,
+          "iat_va": "0xaff72c"
+        },
+        {
+          "name": "D3DXMatrixRotationZ",
+          "ordinal": null,
+          "iat_va": "0xaff730"
+        },
+        {
+          "name": "D3DXLoadSurfaceFromSurface",
+          "ordinal": null,
+          "iat_va": "0xaff734"
+        },
+        {
+          "name": "D3DXMatrixPerspectiveFovLH",
+          "ordinal": null,
+          "iat_va": "0xaff738"
+        },
+        {
+          "name": "D3DXCreateTexture",
+          "ordinal": null,
+          "iat_va": "0xaff73c"
+        },
+        {
+          "name": "D3DXVec3Normalize",
+          "ordinal": null,
+          "iat_va": "0xaff740"
+        },
+        {
+          "name": "D3DXVec3TransformCoord",
+          "ordinal": null,
+          "iat_va": "0xaff744"
+        },
+        {
+          "name": "D3DXMatrixRotationY",
+          "ordinal": null,
+          "iat_va": "0xaff748"
+        },
+        {
+          "name": "D3DXLoadSurfaceFromMemory",
+          "ordinal": null,
+          "iat_va": "0xaff74c"
+        },
+        {
+          "name": "D3DXCreateCubeTextureFromFileInMemoryEx",
+          "ordinal": null,
+          "iat_va": "0xaff750"
+        },
+        {
+          "name": "D3DXCreateTextureFromFileInMemoryEx",
+          "ordinal": null,
+          "iat_va": "0xaff754"
+        },
+        {
+          "name": "D3DXCreateSprite",
+          "ordinal": null,
+          "iat_va": "0xaff758"
+        },
+        {
+          "name": "D3DXMatrixRotationX",
+          "ordinal": null,
+          "iat_va": "0xaff75c"
+        },
+        {
+          "name": "D3DXQuaternionRotationAxis",
+          "ordinal": null,
+          "iat_va": "0xaff760"
+        },
+        {
+          "name": "D3DXQuaternionSlerp",
+          "ordinal": null,
+          "iat_va": "0xaff764"
+        },
+        {
+          "name": "D3DXMatrixRotationQuaternion",
+          "ordinal": null,
+          "iat_va": "0xaff768"
+        },
+        {
+          "name": "D3DXCreateTextureFromFileA",
+          "ordinal": null,
+          "iat_va": "0xaff76c"
+        },
+        {
+          "name": "D3DXMatrixPerspectiveOffCenterLH",
+          "ordinal": null,
+          "iat_va": "0xaff770"
+        },
+        {
+          "name": "D3DXPlaneFromPoints",
+          "ordinal": null,
+          "iat_va": "0xaff774"
+        },
+        {
+          "name": "D3DXCreateEffectPool",
+          "ordinal": null,
+          "iat_va": "0xaff778"
+        },
+        {
+          "name": "D3DXCreateEffectFromFileA",
+          "ordinal": null,
+          "iat_va": "0xaff77c"
+        },
+        {
+          "name": "D3DXCreateEffect",
+          "ordinal": null,
+          "iat_va": "0xaff780"
+        },
+        {
+          "name": "D3DXCompileShaderFromFileA",
+          "ordinal": null,
+          "iat_va": "0xaff784"
+        },
+        {
+          "name": "D3DXCompileShader",
+          "ordinal": null,
+          "iat_va": "0xaff788"
+        },
+        {
+          "name": "D3DXAssembleShaderFromFileA",
+          "ordinal": null,
+          "iat_va": "0xaff78c"
+        },
+        {
+          "name": "D3DXVec3Transform",
+          "ordinal": null,
+          "iat_va": "0xaff790"
+        },
+        {
+          "name": "D3DXMatrixInverse",
+          "ordinal": null,
+          "iat_va": "0xaff794"
+        },
+        {
+          "name": "D3DXMatrixMultiply",
+          "ordinal": null,
+          "iat_va": "0xaff798"
+        },
+        {
+          "name": "D3DXQuaternionRotationMatrix",
+          "ordinal": null,
+          "iat_va": "0xaff79c"
+        },
+        {
+          "name": "D3DXMatrixTranspose",
+          "ordinal": null,
+          "iat_va": "0xaff7a0"
+        },
+        {
+          "name": "D3DXVec3Project",
+          "ordinal": null,
+          "iat_va": "0xaff7a4"
+        },
+        {
+          "name": "D3DXMatrixScaling",
+          "ordinal": null,
+          "iat_va": "0xaff7a8"
+        },
+        {
+          "name": "D3DXMatrixOrthoLH",
+          "ordinal": null,
+          "iat_va": "0xaff7ac"
+        },
+        {
+          "name": "D3DXCreateRenderToSurface",
+          "ordinal": null,
+          "iat_va": "0xaff7b0"
+        },
+        {
+          "name": "D3DXCreateTextureFromFileInMemory",
+          "ordinal": null,
+          "iat_va": "0xaff7b4"
+        },
+        {
+          "name": "D3DXCreateTextureFromFileExA",
+          "ordinal": null,
+          "iat_va": "0xaff7b8"
+        },
+        {
+          "name": "D3DXMatrixTranslation",
+          "ordinal": null,
+          "iat_va": "0xaff7bc"
+        },
+        {
+          "name": "D3DXAssembleShader",
+          "ordinal": null,
+          "iat_va": "0xaff7c0"
+        }
+      ]
+    },
+    {
+      "dll": "WINMM.dll",
+      "symbols": [
+        {
+          "name": "timeSetEvent",
+          "ordinal": null,
+          "iat_va": "0xaff664"
+        },
+        {
+          "name": "timeGetTime",
+          "ordinal": null,
+          "iat_va": "0xaff668"
+        },
+        {
+          "name": "timeBeginPeriod",
+          "ordinal": null,
+          "iat_va": "0xaff66c"
+        },
+        {
+          "name": "timeEndPeriod",
+          "ordinal": null,
+          "iat_va": "0xaff670"
+        },
+        {
+          "name": "timeKillEvent",
+          "ordinal": null,
+          "iat_va": "0xaff674"
+        }
+      ]
+    },
+    {
+      "dll": "VERSION.dll",
+      "symbols": [
+        {
+          "name": "VerQueryValueA",
+          "ordinal": null,
+          "iat_va": "0xaff62c"
+        },
+        {
+          "name": "GetFileVersionInfoSizeA",
+          "ordinal": null,
+          "iat_va": "0xaff630"
+        },
+        {
+          "name": "GetFileVersionInfoA",
+          "ordinal": null,
+          "iat_va": "0xaff634"
+        }
+      ]
+    },
+    {
+      "dll": "IMM32.dll",
+      "symbols": [
+        {
+          "name": "ImmGetCompositionStringA",
+          "ordinal": null,
+          "iat_va": "0xaff11c"
+        },
+        {
+          "name": "ImmNotifyIME",
+          "ordinal": null,
+          "iat_va": "0xaff120"
+        },
+        {
+          "name": "ImmGetCandidateListW",
+          "ordinal": null,
+          "iat_va": "0xaff124"
+        },
+        {
+          "name": "ImmGetCompositionStringW",
+          "ordinal": null,
+          "iat_va": "0xaff128"
+        },
+        {
+          "name": "ImmGetConversionStatus",
+          "ordinal": null,
+          "iat_va": "0xaff12c"
+        },
+        {
+          "name": "ImmSetConversionStatus",
+          "ordinal": null,
+          "iat_va": "0xaff130"
+        },
+        {
+          "name": "ImmGetIMEFileNameA",
+          "ordinal": null,
+          "iat_va": "0xaff134"
+        },
+        {
+          "name": "ImmGetDefaultIMEWnd",
+          "ordinal": null,
+          "iat_va": "0xaff138"
+        },
+        {
+          "name": "ImmGetContext",
+          "ordinal": null,
+          "iat_va": "0xaff13c"
+        },
+        {
+          "name": "ImmAssociateContext",
+          "ordinal": null,
+          "iat_va": "0xaff140"
+        },
+        {
+          "name": "ImmReleaseContext",
+          "ordinal": null,
+          "iat_va": "0xaff144"
+        },
+        {
+          "name": "ImmIsUIMessageA",
+          "ordinal": null,
+          "iat_va": "0xaff148"
+        }
+      ]
+    },
+    {
+      "dll": "dbghelp.dll",
+      "symbols": [
+        {
+          "name": "StackWalk",
+          "ordinal": null,
+          "iat_va": "0xaff7c8"
+        },
+        {
+          "name": "SymGetModuleBase",
+          "ordinal": null,
+          "iat_va": "0xaff7cc"
+        },
+        {
+          "name": "ImageDirectoryEntryToData",
+          "ordinal": null,
+          "iat_va": "0xaff7d0"
+        },
+        {
+          "name": "SymFunctionTableAccess",
+          "ordinal": null,
+          "iat_va": "0xaff7d4"
+        }
+      ]
+    },
+    {
+      "dll": "WS2_32.dll",
+      "symbols": [
+        {
+          "name": "WSAWaitForMultipleEvents",
+          "ordinal": null,
+          "iat_va": "0xaff67c"
+        },
+        {
+          "name": null,
+          "ordinal": 56,
+          "iat_va": "0xaff680"
+        },
+        {
+          "name": null,
+          "ordinal": 51,
+          "iat_va": "0xaff684"
+        },
+        {
+          "name": null,
+          "ordinal": 55,
+          "iat_va": "0xaff688"
+        },
+        {
+          "name": null,
+          "ordinal": 10,
+          "iat_va": "0xaff68c"
+        },
+        {
+          "name": null,
+          "ordinal": 19,
+          "iat_va": "0xaff690"
+        },
+        {
+          "name": "WSAEnumNetworkEvents",
+          "ordinal": null,
+          "iat_va": "0xaff694"
+        },
+        {
+          "name": null,
+          "ordinal": 111,
+          "iat_va": "0xaff698"
+        },
+        {
+          "name": null,
+          "ordinal": 20,
+          "iat_va": "0xaff69c"
+        },
+        {
+          "name": null,
+          "ordinal": 3,
+          "iat_va": "0xaff6a0"
+        },
+        {
+          "name": null,
+          "ordinal": 12,
+          "iat_va": "0xaff6a4"
+        },
+        {
+          "name": null,
+          "ordinal": 11,
+          "iat_va": "0xaff6a8"
+        },
+        {
+          "name": null,
+          "ordinal": 9,
+          "iat_va": "0xaff6ac"
+        },
+        {
+          "name": null,
+          "ordinal": 18,
+          "iat_va": "0xaff6b0"
+        },
+        {
+          "name": null,
+          "ordinal": 151,
+          "iat_va": "0xaff6b4"
+        },
+        {
+          "name": null,
+          "ordinal": 17,
+          "iat_va": "0xaff6b8"
+        },
+        {
+          "name": "WSARecv",
+          "ordinal": null,
+          "iat_va": "0xaff6bc"
+        },
+        {
+          "name": null,
+          "ordinal": 1,
+          "iat_va": "0xaff6c0"
+        },
+        {
+          "name": null,
+          "ordinal": 23,
+          "iat_va": "0xaff6c4"
+        },
+        {
+          "name": null,
+          "ordinal": 115,
+          "iat_va": "0xaff6c8"
+        },
+        {
+          "name": "WSASend",
+          "ordinal": null,
+          "iat_va": "0xaff6cc"
+        },
+        {
+          "name": null,
+          "ordinal": 116,
+          "iat_va": "0xaff6d0"
+        },
+        {
+          "name": null,
+          "ordinal": 57,
+          "iat_va": "0xaff6d4"
+        },
+        {
+          "name": null,
+          "ordinal": 6,
+          "iat_va": "0xaff6d8"
+        },
+        {
+          "name": null,
+          "ordinal": 52,
+          "iat_va": "0xaff6dc"
+        },
+        {
+          "name": "WSAEventSelect",
+          "ordinal": null,
+          "iat_va": "0xaff6e0"
+        },
+        {
+          "name": null,
+          "ordinal": 15,
+          "iat_va": "0xaff6e4"
+        },
+        {
+          "name": null,
+          "ordinal": 14,
+          "iat_va": "0xaff6e8"
+        },
+        {
+          "name": null,
+          "ordinal": 21,
+          "iat_va": "0xaff6ec"
+        },
+        {
+          "name": null,
+          "ordinal": 112,
+          "iat_va": "0xaff6f0"
+        },
+        {
+          "name": null,
+          "ordinal": 16,
+          "iat_va": "0xaff6f4"
+        },
+        {
+          "name": "WSACloseEvent",
+          "ordinal": null,
+          "iat_va": "0xaff6f8"
+        },
+        {
+          "name": null,
+          "ordinal": 8,
+          "iat_va": "0xaff6fc"
+        },
+        {
+          "name": null,
+          "ordinal": 2,
+          "iat_va": "0xaff700"
+        },
+        {
+          "name": null,
+          "ordinal": 13,
+          "iat_va": "0xaff704"
+        },
+        {
+          "name": "WSACreateEvent",
+          "ordinal": null,
+          "iat_va": "0xaff708"
+        },
+        {
+          "name": null,
+          "ordinal": 22,
+          "iat_va": "0xaff70c"
+        },
+        {
+          "name": null,
+          "ordinal": 4,
+          "iat_va": "0xaff710"
+        }
+      ]
+    },
+    {
+      "dll": "StringLoaderA.dll",
+      "symbols": [
+        {
+          "name": "?GetAt@CStringLoader@@QBEPBDI@Z",
+          "ordinal": null,
+          "iat_va": "0xaff498"
+        },
+        {
+          "name": "?DestroyStringLoader@CStringLoader@@SAXPAPAV1@@Z",
+          "ordinal": null,
+          "iat_va": "0xaff49c"
+        },
+        {
+          "name": "?CreateStringLoader@CStringLoader@@SAPAV1@PBD@Z",
+          "ordinal": null,
+          "iat_va": "0xaff4a0"
+        },
+        {
+          "name": "?GetStringCount@CStringLoader@@QBEIXZ",
+          "ordinal": null,
+          "iat_va": "0xaff4a4"
+        }
+      ]
+    },
+    {
+      "dll": "PurifierA.dll",
+      "symbols": [
+        {
+          "name": "?DestroyInstance@CPurifier@@SAXXZ",
+          "ordinal": null,
+          "iat_va": "0xaff454"
+        },
+        {
+          "name": "?CreateInstance@CPurifier@@SA_NPBD@Z",
+          "ordinal": null,
+          "iat_va": "0xaff458"
+        },
+        {
+          "name": "?GetInstance@CPurifier@@SAPAV1@XZ",
+          "ordinal": null,
+          "iat_va": "0xaff45c"
+        }
+      ]
+    },
+    {
+      "dll": "ABuse.dll",
+      "symbols": [
+        {
+          "name": "ABuse_DecodeDic",
+          "ordinal": null,
+          "iat_va": "0xaff000"
+        },
+        {
+          "name": "ABuse_LoadDic",
+          "ordinal": null,
+          "iat_va": "0xaff004"
+        },
+        {
+          "name": "ABuse_CheckAbuse",
+          "ordinal": null,
+          "iat_va": "0xaff008"
+        },
+        {
+          "name": "ABuse_InitDic",
+          "ordinal": null,
+          "iat_va": "0xaff00c"
+        }
+      ]
+    },
+    {
+      "dll": "Adv.dll",
+      "symbols": [
+        {
+          "name": "Adv_CheckAbuse",
+          "ordinal": null,
+          "iat_va": "0xaff088"
+        },
+        {
+          "name": "Adv_InitDic",
+          "ordinal": null,
+          "iat_va": "0xaff08c"
+        },
+        {
+          "name": "Adv_DecodeDic",
+          "ordinal": null,
+          "iat_va": "0xaff090"
+        },
+        {
+          "name": "Adv_LoadDic",
+          "ordinal": null,
+          "iat_va": "0xaff094"
+        }
+      ]
+    },
+    {
+      "dll": "WININET.dll",
+      "symbols": [
+        {
+          "name": "InternetOpenA",
+          "ordinal": null,
+          "iat_va": "0xaff63c"
+        },
+        {
+          "name": "InternetSetStatusCallback",
+          "ordinal": null,
+          "iat_va": "0xaff640"
+        },
+        {
+          "name": "InternetOpenUrlA",
+          "ordinal": null,
+          "iat_va": "0xaff644"
+        },
+        {
+          "name": "HttpOpenRequestA",
+          "ordinal": null,
+          "iat_va": "0xaff648"
+        },
+        {
+          "name": "InternetCloseHandle",
+          "ordinal": null,
+          "iat_va": "0xaff64c"
+        },
+        {
+          "name": "InternetOpenUrlW",
+          "ordinal": null,
+          "iat_va": "0xaff650"
+        },
+        {
+          "name": "InternetReadFile",
+          "ordinal": null,
+          "iat_va": "0xaff654"
+        },
+        {
+          "name": "InternetConnectA",
+          "ordinal": null,
+          "iat_va": "0xaff658"
+        },
+        {
+          "name": "HttpSendRequestA",
+          "ordinal": null,
+          "iat_va": "0xaff65c"
+        }
+      ]
+    },
+    {
+      "dll": "mss32.dll",
+      "symbols": [
+        {
+          "name": "_AIL_allocate_3D_sample_handle@4",
+          "ordinal": null,
+          "iat_va": "0xaff7dc"
+        },
+        {
+          "name": "_AIL_file_size@4",
+          "ordinal": null,
+          "iat_va": "0xaff7e0"
+        },
+        {
+          "name": "_AIL_file_type@8",
+          "ordinal": null,
+          "iat_va": "0xaff7e4"
+        },
+        {
+          "name": "_AIL_WAV_info@8",
+          "ordinal": null,
+          "iat_va": "0xaff7e8"
+        },
+        {
+          "name": "_AIL_decompress_ADPCM@12",
+          "ordinal": null,
+          "iat_va": "0xaff7ec"
+        },
+        {
+          "name": "_AIL_set_3D_sample_file@8",
+          "ordinal": null,
+          "iat_va": "0xaff7f0"
+        },
+        {
+          "name": "_AIL_set_3D_sample_distances@12",
+          "ordinal": null,
+          "iat_va": "0xaff7f4"
+        },
+        {
+          "name": "_AIL_set_3D_sample_loop_count@8",
+          "ordinal": null,
+          "iat_va": "0xaff7f8"
+        },
+        {
+          "name": "_AIL_active_sample_count@4",
+          "ordinal": null,
+          "iat_va": "0xaff7fc"
+        },
+        {
+          "name": "_AIL_end_3D_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff800"
+        },
+        {
+          "name": "_AIL_release_3D_sample_handle@4",
+          "ordinal": null,
+          "iat_va": "0xaff804"
+        },
+        {
+          "name": "_AIL_end_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff808"
+        },
+        {
+          "name": "_AIL_stream_status@4",
+          "ordinal": null,
+          "iat_va": "0xaff80c"
+        },
+        {
+          "name": "_AIL_service_stream@8",
+          "ordinal": null,
+          "iat_va": "0xaff810"
+        },
+        {
+          "name": "_AIL_set_stream_volume_pan@12",
+          "ordinal": null,
+          "iat_va": "0xaff814"
+        },
+        {
+          "name": "_AIL_start_3D_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff818"
+        },
+        {
+          "name": "_AIL_stop_3D_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff81c"
+        },
+        {
+          "name": "_AIL_set_3D_room_type@8",
+          "ordinal": null,
+          "iat_va": "0xaff820"
+        },
+        {
+          "name": "_AIL_open_3D_listener@4",
+          "ordinal": null,
+          "iat_va": "0xaff824"
+        },
+        {
+          "name": "_AIL_open_3D_provider@4",
+          "ordinal": null,
+          "iat_va": "0xaff828"
+        },
+        {
+          "name": "_AIL_enumerate_3D_providers@12",
+          "ordinal": null,
+          "iat_va": "0xaff82c"
+        },
+        {
+          "name": "_AIL_set_3D_orientation@28",
+          "ordinal": null,
+          "iat_va": "0xaff830"
+        },
+        {
+          "name": "_AIL_open_stream@12",
+          "ordinal": null,
+          "iat_va": "0xaff834"
+        },
+        {
+          "name": "_AIL_set_stream_loop_count@8",
+          "ordinal": null,
+          "iat_va": "0xaff838"
+        },
+        {
+          "name": "_AIL_3D_sample_status@4",
+          "ordinal": null,
+          "iat_va": "0xaff83c"
+        },
+        {
+          "name": "_AIL_stream_info@20",
+          "ordinal": null,
+          "iat_va": "0xaff840"
+        },
+        {
+          "name": "_AIL_close_3D_listener@4",
+          "ordinal": null,
+          "iat_va": "0xaff844"
+        },
+        {
+          "name": "_AIL_pause_stream@8",
+          "ordinal": null,
+          "iat_va": "0xaff848"
+        },
+        {
+          "name": "_AIL_close_stream@4",
+          "ordinal": null,
+          "iat_va": "0xaff84c"
+        },
+        {
+          "name": "_AIL_stop_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff850"
+        },
+        {
+          "name": "_AIL_start_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff854"
+        },
+        {
+          "name": "_AIL_release_sample_handle@4",
+          "ordinal": null,
+          "iat_va": "0xaff858"
+        },
+        {
+          "name": "_AIL_set_sample_volume_pan@12",
+          "ordinal": null,
+          "iat_va": "0xaff85c"
+        },
+        {
+          "name": "_AIL_file_read@8",
+          "ordinal": null,
+          "iat_va": "0xaff860"
+        },
+        {
+          "name": "_AIL_allocate_sample_handle@4",
+          "ordinal": null,
+          "iat_va": "0xaff864"
+        },
+        {
+          "name": "_AIL_init_sample@4",
+          "ordinal": null,
+          "iat_va": "0xaff868"
+        },
+        {
+          "name": "_AIL_set_named_sample_file@20",
+          "ordinal": null,
+          "iat_va": "0xaff86c"
+        },
+        {
+          "name": "_AIL_mem_free_lock@4",
+          "ordinal": null,
+          "iat_va": "0xaff870"
+        },
+        {
+          "name": "_AIL_last_error@0",
+          "ordinal": null,
+          "iat_va": "0xaff874"
+        },
+        {
+          "name": "_AIL_set_sample_loop_count@8",
+          "ordinal": null,
+          "iat_va": "0xaff878"
+        },
+        {
+          "name": "_AIL_sample_status@4",
+          "ordinal": null,
+          "iat_va": "0xaff87c"
+        },
+        {
+          "name": "_AIL_close_3D_provider@4",
+          "ordinal": null,
+          "iat_va": "0xaff880"
+        },
+        {
+          "name": "_AIL_close_digital_driver@4",
+          "ordinal": null,
+          "iat_va": "0xaff884"
+        },
+        {
+          "name": "_AIL_shutdown@0",
+          "ordinal": null,
+          "iat_va": "0xaff888"
+        },
+        {
+          "name": "_AIL_set_redist_directory@4",
+          "ordinal": null,
+          "iat_va": "0xaff88c"
+        },
+        {
+          "name": "_AIL_startup@0",
+          "ordinal": null,
+          "iat_va": "0xaff890"
+        },
+        {
+          "name": "_AIL_set_3D_sample_volume@8",
+          "ordinal": null,
+          "iat_va": "0xaff894"
+        },
+        {
+          "name": "_AIL_set_3D_position@16",
+          "ordinal": null,
+          "iat_va": "0xaff898"
+        },
+        {
+          "name": "_AIL_start_stream@4",
+          "ordinal": null,
+          "iat_va": "0xaff89c"
+        },
+        {
+          "name": "_AIL_set_3D_sample_effects_level@8",
+          "ordinal": null,
+          "iat_va": "0xaff8a0"
+        },
+        {
+          "name": "_AIL_decompress_ASI@24",
+          "ordinal": null,
+          "iat_va": "0xaff8a4"
+        },
+        {
+          "name": "_AIL_open_digital_driver@16",
+          "ordinal": null,
+          "iat_va": "0xaff8a8"
+        }
+      ]
+    },
+    {
+      "dll": "comdlg32.dll",
+      "symbols": [
+        {
+          "name": "GetOpenFileNameA",
+          "ordinal": null,
+          "iat_va": "0xaff718"
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "Shell_NotifyIconA",
+          "ordinal": null,
+          "iat_va": "0xaff464"
+        },
+        {
+          "name": "ExtractIconExA",
+          "ordinal": null,
+          "iat_va": "0xaff468"
+        }
+      ]
+    },
+    {
+      "dll": "d3d9.dll",
+      "symbols": [
+        {
+          "name": "Direct3DCreate9",
+          "ordinal": null,
+          "iat_va": "0xaff720"
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathAddBackslashA",
+          "ordinal": null,
+          "iat_va": "0xaff470"
+        },
+        {
+          "name": "PathIsDirectoryA",
+          "ordinal": null,
+          "iat_va": "0xaff474"
+        },
+        {
+          "name": "PathStripPathW",
+          "ordinal": null,
+          "iat_va": "0xaff478"
+        },
+        {
+          "name": "PathFileExistsW",
+          "ordinal": null,
+          "iat_va": "0xaff47c"
+        },
+        {
+          "name": "PathIsDirectoryW",
+          "ordinal": null,
+          "iat_va": "0xaff480"
+        },
+        {
+          "name": "PathRemoveFileSpecA",
+          "ordinal": null,
+          "iat_va": "0xaff484"
+        },
+        {
+          "name": "PathRemoveFileSpecW",
+          "ordinal": null,
+          "iat_va": "0xaff488"
+        },
+        {
+          "name": "PathAddBackslashW",
+          "ordinal": null,
+          "iat_va": "0xaff48c"
+        },
+        {
+          "name": "PathFileExistsA",
+          "ordinal": null,
+          "iat_va": "0xaff490"
+        }
+      ]
+    },
+    {
+      "dll": "DINPUT8.dll",
+      "symbols": [
+        {
+          "name": "DirectInput8Create",
+          "ordinal": null,
+          "iat_va": "0xaff09c"
+        }
+      ]
+    },
+    {
+      "dll": "NETAPI32.dll",
+      "symbols": [
+        {
+          "name": "Netbios",
+          "ordinal": null,
+          "iat_va": "0xaff428"
+        }
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "name": "??0?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@QAE@XZ",
+      "ordinal": 1,
+      "rva": "0x4a2920",
+      "forwarder": null
+    },
+    {
+      "name": "??0GBufferedFile@@IAE@XZ",
+      "ordinal": 2,
+      "rva": "0x584e40",
+      "forwarder": null
+    },
+    {
+      "name": "??0GBufferedFile@@QAE@PAVGFile@@@Z",
+      "ordinal": 3,
+      "rva": "0x584ea0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GEvent@@QAE@_N0@Z",
+      "ordinal": 4,
+      "rva": "0x4a6700",
+      "forwarder": null
+    },
+    {
+      "name": "??0GImage@@QAE@ABV0@@Z",
+      "ordinal": 5,
+      "rva": "0x1550",
+      "forwarder": null
+    },
+    {
+      "name": "??0GImage@@QAE@ABVGImageBase@@@Z",
+      "ordinal": 6,
+      "rva": "0x14a0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GImage@@QAE@W4ImageFormat@GImageBase@@KK@Z",
+      "ordinal": 7,
+      "rva": "0x4a44d0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GImage@@QAE@XZ",
+      "ordinal": 8,
+      "rva": "0x4a4230",
+      "forwarder": null
+    },
+    {
+      "name": "??0GMatrix3D@@QAE@ABVGMatrix2D@@@Z",
+      "ordinal": 9,
+      "rva": "0x4d7900",
+      "forwarder": null
+    },
+    {
+      "name": "??0GMutex@@QAE@_N0@Z",
+      "ordinal": 10,
+      "rva": "0x4a7c30",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSemaphore@@QAE@H_N@Z",
+      "ordinal": 11,
+      "rva": "0x4a6870",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSysAlloc@@QAE@XZ",
+      "ordinal": 12,
+      "rva": "0x1030",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSysAllocStatic@@QAE@I@Z",
+      "ordinal": 13,
+      "rva": "0x4a2410",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSysAllocStatic@@QAE@PAXI0I0I0I@Z",
+      "ordinal": 14,
+      "rva": "0x4a2690",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSysAllocWinAPI@@QAE@II@Z",
+      "ordinal": 15,
+      "rva": "0x4a29b0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSysFile@@QAE@ABVGString@@HH@Z",
+      "ordinal": 16,
+      "rva": "0x4c40b0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSysFile@@QAE@XZ",
+      "ordinal": 17,
+      "rva": "0x4c3ec0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSystem@@QAE@ABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z",
+      "ordinal": 18,
+      "rva": "0x1780",
+      "forwarder": null
+    },
+    {
+      "name": "??0GSystem@@QAE@PAVGSysAlloc@@@Z",
+      "ordinal": 19,
+      "rva": "0x1750",
+      "forwarder": null
+    },
+    {
+      "name": "??0GThread@@QAE@ABUCreateParams@0@@Z",
+      "ordinal": 20,
+      "rva": "0x4a8d10",
+      "forwarder": null
+    },
+    {
+      "name": "??0GThread@@QAE@IH@Z",
+      "ordinal": 21,
+      "rva": "0x4a8c40",
+      "forwarder": null
+    },
+    {
+      "name": "??0GThread@@QAE@P6AHPAV0@PAX@Z1IHW4ThreadState@0@@Z",
+      "ordinal": 22,
+      "rva": "0x4a8ca0",
+      "forwarder": null
+    },
+    {
+      "name": "??0GWaitCondition@@QAE@XZ",
+      "ordinal": 23,
+      "rva": "0x4a7ee0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GAcquireInterface@@UAE@XZ",
+      "ordinal": 24,
+      "rva": "0x18d0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GBufferedFile@@UAE@XZ",
+      "ordinal": 25,
+      "rva": "0x584ab0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GDefaultAcquireInterface@@UAE@XZ",
+      "ordinal": 26,
+      "rva": "0x1970",
+      "forwarder": null
+    },
+    {
+      "name": "??1GEvent@@UAE@XZ",
+      "ordinal": 27,
+      "rva": "0x4a6750",
+      "forwarder": null
+    },
+    {
+      "name": "??1GFxLoader@@UAE@XZ",
+      "ordinal": 28,
+      "rva": "0x4b5ae0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GImage@@UAE@XZ",
+      "ordinal": 29,
+      "rva": "0x4a41b0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GMutex@@UAE@XZ",
+      "ordinal": 30,
+      "rva": "0x4a8360",
+      "forwarder": null
+    },
+    {
+      "name": "??1GRefCountImplCore@@UAE@XZ",
+      "ordinal": 31,
+      "rva": "0x4a51e0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GRefCountWeakSupportImpl@@UAE@XZ",
+      "ordinal": 32,
+      "rva": "0x4a52b0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GSemaphore@@UAE@XZ",
+      "ordinal": 33,
+      "rva": "0x4a68c0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GSystem@@QAE@XZ",
+      "ordinal": 34,
+      "rva": "0x17b0",
+      "forwarder": null
+    },
+    {
+      "name": "??1GThread@@UAE@XZ",
+      "ordinal": 35,
+      "rva": "0x4a7f70",
+      "forwarder": null
+    },
+    {
+      "name": "??1GWaitCondition@@QAE@XZ",
+      "ordinal": 36,
+      "rva": "0x4a83a0",
+      "forwarder": null
+    },
+    {
+      "name": "??EGSemaphore@@QAEHH@Z",
+      "ordinal": 37,
+      "rva": "0x4a59a0",
+      "forwarder": null
+    },
+    {
+      "name": "??FGSemaphore@@QAEHH@Z",
+      "ordinal": 38,
+      "rva": "0x4a69d0",
+      "forwarder": null
+    },
+    {
+      "name": "??YGSemaphore@@QAEHH@Z",
+      "ordinal": 39,
+      "rva": "0x4a59f0",
+      "forwarder": null
+    },
+    {
+      "name": "??ZGSemaphore@@QAEHH@Z",
+      "ordinal": 40,
+      "rva": "0x4a6a50",
+      "forwarder": null
+    },
+    {
+      "name": "??_B?1??InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ@51",
+      "ordinal": 41,
+      "rva": "0x80d1f4",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGEvent@@QAEXXZ",
+      "ordinal": 42,
+      "rva": "0x1a40",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGMutex@@QAEXXZ",
+      "ordinal": 43,
+      "rva": "0x1a20",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGSemaphore@@QAEXXZ",
+      "ordinal": 44,
+      "rva": "0x1a60",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGSysAllocStatic@@QAEXXZ",
+      "ordinal": 45,
+      "rva": "0x11f0",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGSysAllocWinAPI@@QAEXXZ",
+      "ordinal": 46,
+      "rva": "0x1220",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGSystem@@QAEXXZ",
+      "ordinal": 47,
+      "rva": "0x18a0",
+      "forwarder": null
+    },
+    {
+      "name": "??_FGThread@@QAEXXZ",
+      "ordinal": 48,
+      "rva": "0x1a80",
+      "forwarder": null
+    },
+    {
+      "name": "?Acquire@GWaitable@@QAE_NI@Z",
+      "ordinal": 49,
+      "rva": "0x4a7470",
+      "forwarder": null
+    },
+    {
+      "name": "?AcquireMultipleObjects@GAcquireInterface@@SA_NPAPAVGWaitable@@II@Z",
+      "ordinal": 50,
+      "rva": "0x4a7080",
+      "forwarder": null
+    },
+    {
+      "name": "?AcquireOneOfMultipleObjects@GAcquireInterface@@SAHPAPAVGWaitable@@II@Z",
+      "ordinal": 51,
+      "rva": "0x4a7270",
+      "forwarder": null
+    },
+    {
+      "name": "?AddMemSegment@GSysAllocStatic@@QAEXPAXI@Z",
+      "ordinal": 52,
+      "rva": "0x4a2460",
+      "forwarder": null
+    },
+    {
+      "name": "?AddRef@GRefCountImpl@@QAEXXZ",
+      "ordinal": 53,
+      "rva": "0x4a5270",
+      "forwarder": null
+    },
+    {
+      "name": "?AddWaitHandler@GWaitable@@QAE_NP6AXPAX@Z0@Z",
+      "ordinal": 54,
+      "rva": "0x4a6260",
+      "forwarder": null
+    },
+    {
+      "name": "?Append@GMatrix2D@@QAEAAV1@ABV1@@Z",
+      "ordinal": 55,
+      "rva": "0x4d6b90",
+      "forwarder": null
+    },
+    {
+      "name": "?Blend@GColor@@SG?AV1@V1@0M@Z",
+      "ordinal": 56,
+      "rva": "0x60dc00",
+      "forwarder": null
+    },
+    {
+      "name": "?BytesAvailable@GBufferedFile@@UAEHXZ",
+      "ordinal": 57,
+      "rva": "0x584870",
+      "forwarder": null
+    },
+    {
+      "name": "?CallWaitHandlers@GWaitable@@QAEXXZ",
+      "ordinal": 58,
+      "rva": "0x4a6500",
+      "forwarder": null
+    },
+    {
+      "name": "?CallWaitHandlers@HandlerArray@GWaitable@@QAEXXZ",
+      "ordinal": 59,
+      "rva": "0x4a6480",
+      "forwarder": null
+    },
+    {
+      "name": "?CanAcquire@GAcquireInterface@@UAE_NXZ",
+      "ordinal": 60,
+      "rva": "0x4a55d0",
+      "forwarder": null
+    },
+    {
+      "name": "?CanAcquire@GEvent@@UAE_NXZ",
+      "ordinal": 61,
+      "rva": "0x4a5820",
+      "forwarder": null
+    },
+    {
+      "name": "?CanAcquire@GMutex@@UAE_NXZ",
+      "ordinal": 62,
+      "rva": "0x4a8ae0",
+      "forwarder": null
+    },
+    {
+      "name": "?CanAcquire@GSemaphore@@UAE_NXZ",
+      "ordinal": 63,
+      "rva": "0x4a5a40",
+      "forwarder": null
+    },
+    {
+      "name": "?ChangeSize@GBufferedFile@@UAE_NH@Z",
+      "ordinal": 64,
+      "rva": "0x584a60",
+      "forwarder": null
+    },
+    {
+      "name": "?Close@GBufferedFile@@UAE_NXZ",
+      "ordinal": 65,
+      "rva": "0x584a80",
+      "forwarder": null
+    },
+    {
+      "name": "?Close@GSysFile@@UAE_NXZ",
+      "ordinal": 66,
+      "rva": "0x4c4040",
+      "forwarder": null
+    },
+    {
+      "name": "?Container@?1??InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ@4USysAllocContainer@2@A",
+      "ordinal": 67,
+      "rva": "0x80cfe0",
+      "forwarder": null
+    },
+    {
+      "name": "?ConvertHSIToRGB@GColor@@SGXNNNPAN00@Z",
+      "ordinal": 68,
+      "rva": "0x60da40",
+      "forwarder": null
+    },
+    {
+      "name": "?ConvertRGBToHSI@GColor@@SGXNNNPAN00@Z",
+      "ordinal": 69,
+      "rva": "0x60e060",
+      "forwarder": null
+    },
+    {
+      "name": "?CopyFromStream@GBufferedFile@@UAEHPAVGFile@@H@Z",
+      "ordinal": 70,
+      "rva": "0x584550",
+      "forwarder": null
+    },
+    {
+      "name": "?CreateWaitableIncrement@GSemaphore@@QAEPAVGWaitable@@H@Z",
+      "ordinal": 71,
+      "rva": "0x4a6c70",
+      "forwarder": null
+    },
+    {
+      "name": "?Destroy@GSystem@@SAXXZ",
+      "ordinal": 72,
+      "rva": "0x4a5430",
+      "forwarder": null
+    },
+    {
+      "name": "?DoesFlip@GMatrix2D@@QBE_NXZ",
+      "ordinal": 73,
+      "rva": "0x4d6920",
+      "forwarder": null
+    },
+    {
+      "name": "?EncloseTransform@GMatrix2D@@QBEXPAV?$GRect@M@@ABV2@@Z",
+      "ordinal": 74,
+      "rva": "0x4d7130",
+      "forwarder": null
+    },
+    {
+      "name": "?EncloseTransform@GMatrix3D@@QBEXPAV?$GRect@M@@ABV2@@Z",
+      "ordinal": 75,
+      "rva": "0x4d8bb0",
+      "forwarder": null
+    },
+    {
+      "name": "?Exit@GThread@@UAEXH@Z",
+      "ordinal": 76,
+      "rva": "0x4a9140",
+      "forwarder": null
+    },
+    {
+      "name": "?FinishAllThreads@GThread@@SAXXZ",
+      "ordinal": 77,
+      "rva": "0x4a8fa0",
+      "forwarder": null
+    },
+    {
+      "name": "?Flush@GBufferedFile@@UAE_NXZ",
+      "ordinal": 78,
+      "rva": "0x5848a0",
+      "forwarder": null
+    },
+    {
+      "name": "?FlushBuffer@GBufferedFile@@IAEXXZ",
+      "ordinal": 79,
+      "rva": "0x584640",
+      "forwarder": null
+    },
+    {
+      "name": "?Format@GColor@@QBEXPAD@Z",
+      "ordinal": 80,
+      "rva": "0x60e380",
+      "forwarder": null
+    },
+    {
+      "name": "?Format@GMatrix2D@@QBEXPAD@Z",
+      "ordinal": 81,
+      "rva": "0x4d75e0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetAcquireInterface@GEvent@@UAEPAVGAcquireInterface@@XZ",
+      "ordinal": 82,
+      "rva": "0x4a5810",
+      "forwarder": null
+    },
+    {
+      "name": "?GetAcquireInterface@GMutex@@UAEPAVGAcquireInterface@@XZ",
+      "ordinal": 83,
+      "rva": "0x4a8aa0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetAcquireInterface@GSemaphore@@UAEPAVGAcquireInterface@@XZ",
+      "ordinal": 84,
+      "rva": "0x4a5ab0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetAcquireInterface@GWaitable@@UAEPAVGAcquireInterface@@XZ",
+      "ordinal": 85,
+      "rva": "0x4a5e90",
+      "forwarder": null
+    },
+    {
+      "name": "?GetBitSet@GSysAllocWinAPI@@QBEPBKI@Z",
+      "ordinal": 86,
+      "rva": "0x4a28e0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetCPUCount@GThread@@SAHXZ",
+      "ordinal": 87,
+      "rva": "0x4a7a10",
+      "forwarder": null
+    },
+    {
+      "name": "?GetDefaultAcquireInterface@GDefaultAcquireInterface@@SAPAV1@XZ",
+      "ordinal": 88,
+      "rva": "0x4a5d20",
+      "forwarder": null
+    },
+    {
+      "name": "?GetDeterminant@GMatrix2D@@QBEMXZ",
+      "ordinal": 89,
+      "rva": "0x4d6950",
+      "forwarder": null
+    },
+    {
+      "name": "?GetErrorCode@GSysFile@@UAEHXZ",
+      "ordinal": 90,
+      "rva": "0x4c3ae0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetExitFlag@GThread@@QBE_NXZ",
+      "ordinal": 91,
+      "rva": "0x4a7ff0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetFileStat@GSysFile@@SA_NPAUGFileStat@@ABVGString@@@Z",
+      "ordinal": 92,
+      "rva": "0x55fe80",
+      "forwarder": null
+    },
+    {
+      "name": "?GetHSI@GColor@@QBEXPAH00@Z",
+      "ordinal": 93,
+      "rva": "0x60e260",
+      "forwarder": null
+    },
+    {
+      "name": "?GetHSI@GColor@@QBEXPAM00@Z",
+      "ordinal": 94,
+      "rva": "0x60e1a0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetHSV@GColor@@QBEXPAH00@Z",
+      "ordinal": 95,
+      "rva": "0x60d8c0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetHSV@GColor@@QBEXPAM00@Z",
+      "ordinal": 96,
+      "rva": "0x60dda0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetLength@GBufferedFile@@UAEHXZ",
+      "ordinal": 97,
+      "rva": "0x584770",
+      "forwarder": null
+    },
+    {
+      "name": "?GetMaxScale@GMatrix2D@@QBEMXZ",
+      "ordinal": 98,
+      "rva": "0x4d6d00",
+      "forwarder": null
+    },
+    {
+      "name": "?GetRotation@GMatrix2D@@QBENXZ",
+      "ordinal": 99,
+      "rva": "0x4d69d0",
+      "forwarder": null
+    },
+    {
+      "name": "?GetScale@GMatrix3D@@QBEXPAM00@Z",
+      "ordinal": 100,
+      "rva": "0x4d8030",
+      "forwarder": null
+    },
+    {
+      "name": "?GetThreadState@GThread@@QBE?AW4ThreadState@1@XZ",
+      "ordinal": 101,
+      "rva": "0x4a8020",
+      "forwarder": null
+    },
+    {
+      "name": "?GetTranslation@GMatrix3D@@QBEXPAM00@Z",
+      "ordinal": 102,
+      "rva": "0x4d8000",
+      "forwarder": null
+    },
+    {
+      "name": "?GetX@GMatrix2D@@QBEMXZ",
+      "ordinal": 103,
+      "rva": "0x4d6970",
+      "forwarder": null
+    },
+    {
+      "name": "?GetXScale@GMatrix2D@@QBENXZ",
+      "ordinal": 104,
+      "rva": "0x4d6990",
+      "forwarder": null
+    },
+    {
+      "name": "?GetY@GMatrix2D@@QBEMXZ",
+      "ordinal": 105,
+      "rva": "0x4d6980",
+      "forwarder": null
+    },
+    {
+      "name": "?GetYScale@GMatrix2D@@QBENXZ",
+      "ordinal": 106,
+      "rva": "0x4d69b0",
+      "forwarder": null
+    },
+    {
+      "name": "?Init@GSystem@@SAXABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z",
+      "ordinal": 107,
+      "rva": "0x4a5400",
+      "forwarder": null
+    },
+    {
+      "name": "?Init@GSystem@@SAXPAVGSysAlloc@@@Z",
+      "ordinal": 108,
+      "rva": "0x17d0",
+      "forwarder": null
+    },
+    {
+      "name": "?InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ",
+      "ordinal": 109,
+      "rva": "0xc130",
+      "forwarder": null
+    },
+    {
+      "name": "?IsFinished@GThread@@QBE_NXZ",
+      "ordinal": 110,
+      "rva": "0x4a8000",
+      "forwarder": null
+    },
+    {
+      "name": "?IsLockedByAnotherThread@GMutex@@QAE_NXZ",
+      "ordinal": 111,
+      "rva": "0x4a8a60",
+      "forwarder": null
+    },
+    {
+      "name": "?IsSignaled@GEvent@@UBE_NXZ",
+      "ordinal": 112,
+      "rva": "0x4a5800",
+      "forwarder": null
+    },
+    {
+      "name": "?IsSignaled@GMutex@@UBE_NXZ",
+      "ordinal": 113,
+      "rva": "0x4a76d0",
+      "forwarder": null
+    },
+    {
+      "name": "?IsSignaled@GSemaphore@@UBE_NXZ",
+      "ordinal": 114,
+      "rva": "0x4a5aa0",
+      "forwarder": null
+    },
+    {
+      "name": "?IsSignaled@GWaitable@@UBE_NXZ",
+      "ordinal": 115,
+      "rva": "0x4a55b0",
+      "forwarder": null
+    },
+    {
+      "name": "?IsSuspended@GThread@@QBE_NXZ",
+      "ordinal": 116,
+      "rva": "0x4a8010",
+      "forwarder": null
+    },
+    {
+      "name": "?IsValid@GMatrix2D@@QBE_NXZ",
+      "ordinal": 117,
+      "rva": "0x4d6680",
+      "forwarder": null
+    },
+    {
+      "name": "?IsValid@GMatrix3D@@QBE_NXZ",
+      "ordinal": 118,
+      "rva": "0x4d7950",
+      "forwarder": null
+    },
+    {
+      "name": "?IsValid@GSysFile@@UAE_NXZ",
+      "ordinal": 119,
+      "rva": "0x4c3b00",
+      "forwarder": null
+    },
+    {
+      "name": "?LGetLength@GBufferedFile@@UAE_JXZ",
+      "ordinal": 120,
+      "rva": "0x5847b0",
+      "forwarder": null
+    },
+    {
+      "name": "?LSeek@GBufferedFile@@UAE_J_JH@Z",
+      "ordinal": 121,
+      "rva": "0x584980",
+      "forwarder": null
+    },
+    {
+      "name": "?LTell@GBufferedFile@@UAE_JXZ",
+      "ordinal": 122,
+      "rva": "0x584720",
+      "forwarder": null
+    },
+    {
+      "name": "?LoadBuffer@GBufferedFile@@IAEXXZ",
+      "ordinal": 123,
+      "rva": "0x5846b0",
+      "forwarder": null
+    },
+    {
+      "name": "?Lock@GMutex@@QAEXXZ",
+      "ordinal": 124,
+      "rva": "0x4a7680",
+      "forwarder": null
+    },
+    {
+      "name": "?MSleep@GThread@@SA_NI@Z",
+      "ordinal": 125,
+      "rva": "0x4a7a00",
+      "forwarder": null
+    },
+    {
+      "name": "?MultiplyMatrix@GMatrix3D@@QAEXABV1@0@Z",
+      "ordinal": 126,
+      "rva": "0x4d7b70",
+      "forwarder": null
+    },
+    {
+      "name": "?Notify@GWaitCondition@@QAEXXZ",
+      "ordinal": 127,
+      "rva": "0x4a7900",
+      "forwarder": null
+    },
+    {
+      "name": "?NotifyAll@GWaitCondition@@QAEXXZ",
+      "ordinal": 128,
+      "rva": "0x4a7910",
+      "forwarder": null
+    },
+    {
+      "name": "?ObtainSemaphore@GSemaphore@@QAE_NHI@Z",
+      "ordinal": 129,
+      "rva": "0x4a58b0",
+      "forwarder": null
+    },
+    {
+      "name": "?OnExit@GThread@@UAEXXZ",
+      "ordinal": 130,
+      "rva": "0x4a7940",
+      "forwarder": null
+    },
+    {
+      "name": "?Open@GSysFile@@QAE_NABVGString@@HH@Z",
+      "ordinal": 131,
+      "rva": "0x4c3f60",
+      "forwarder": null
+    },
+    {
+      "name": "?OrthoLH@GMatrix3D@@QAEXMMMM@Z",
+      "ordinal": 132,
+      "rva": "0x4d83e0",
+      "forwarder": null
+    },
+    {
+      "name": "?OrthoOffCenterLH@GMatrix3D@@QAEXMMMMMM@Z",
+      "ordinal": 133,
+      "rva": "0x4d84d0",
+      "forwarder": null
+    },
+    {
+      "name": "?OrthoOffCenterRH@GMatrix3D@@QAEXMMMMMM@Z",
+      "ordinal": 134,
+      "rva": "0x4d8440",
+      "forwarder": null
+    },
+    {
+      "name": "?OrthoRH@GMatrix3D@@QAEXMMMM@Z",
+      "ordinal": 135,
+      "rva": "0x4d8380",
+      "forwarder": null
+    },
+    {
+      "name": "?PerspectiveLH@GMatrix3D@@QAEXMMMM@Z",
+      "ordinal": 136,
+      "rva": "0x4d8100",
+      "forwarder": null
+    },
+    {
+      "name": "?PerspectiveOffCenterLH@GMatrix3D@@QAEXMMMMMM@Z",
+      "ordinal": 137,
+      "rva": "0x4d82f0",
+      "forwarder": null
+    },
+    {
+      "name": "?PerspectiveOffCenterRH@GMatrix3D@@QAEXMMMMMM@Z",
+      "ordinal": 138,
+      "rva": "0x4d8260",
+      "forwarder": null
+    },
+    {
+      "name": "?PerspectiveRH@GMatrix3D@@QAEXMMMM@Z",
+      "ordinal": 139,
+      "rva": "0x4d8060",
+      "forwarder": null
+    },
+    {
+      "name": "?PerspectiveViewVolLH@GMatrix3D@@QAEXMMMM@Z",
+      "ordinal": 140,
+      "rva": "0x4d8200",
+      "forwarder": null
+    },
+    {
+      "name": "?PerspectiveViewVolRH@GMatrix3D@@QAEXMMMM@Z",
+      "ordinal": 141,
+      "rva": "0x4d81a0",
+      "forwarder": null
+    },
+    {
+      "name": "?Prepend@GMatrix2D@@QAEAAV1@ABV1@@Z",
+      "ordinal": 142,
+      "rva": "0x4d6ad0",
+      "forwarder": null
+    },
+    {
+      "name": "?PulseEvent@GEvent@@QAEXXZ",
+      "ordinal": 143,
+      "rva": "0x4a6800",
+      "forwarder": null
+    },
+    {
+      "name": "?Read@GBufferedFile@@UAEHPAEH@Z",
+      "ordinal": 144,
+      "rva": "0x584c10",
+      "forwarder": null
+    },
+    {
+      "name": "?Release@GRefCountImpl@@QAEXXZ",
+      "ordinal": 145,
+      "rva": "0x4a5280",
+      "forwarder": null
+    },
+    {
+      "name": "?Release@GRefCountNTSImpl@@QAEXXZ",
+      "ordinal": 146,
+      "rva": "0x4a51f0",
+      "forwarder": null
+    },
+    {
+      "name": "?Release@HandlerArray@GWaitable@@QAEXXZ",
+      "ordinal": 147,
+      "rva": "0x4a6450",
+      "forwarder": null
+    },
+    {
+      "name": "?ReleaseSemaphore@GSemaphore@@QAE_NH@Z",
+      "ordinal": 148,
+      "rva": "0x4a6930",
+      "forwarder": null
+    },
+    {
+      "name": "?RemoveWaitHandler@GWaitable@@QAE_NP6AXPAX@Z0@Z",
+      "ordinal": 149,
+      "rva": "0x4a63a0",
+      "forwarder": null
+    },
+    {
+      "name": "?ResetEvent@GEvent@@QAEXXZ",
+      "ordinal": 150,
+      "rva": "0x4a57e0",
+      "forwarder": null
+    },
+    {
+      "name": "?Resume@GThread@@QAE_NXZ",
+      "ordinal": 151,
+      "rva": "0x4a86f0",
+      "forwarder": null
+    },
+    {
+      "name": "?RotateX@GMatrix3D@@QAEXM@Z",
+      "ordinal": 152,
+      "rva": "0x4d7e80",
+      "forwarder": null
+    },
+    {
+      "name": "?RotateY@GMatrix3D@@QAEXM@Z",
+      "ordinal": 153,
+      "rva": "0x4d7f00",
+      "forwarder": null
+    },
+    {
+      "name": "?RotateZ@GMatrix3D@@QAEXM@Z",
+      "ordinal": 154,
+      "rva": "0x4d7f80",
+      "forwarder": null
+    },
+    {
+      "name": "?Run@GThread@@UAEHXZ",
+      "ordinal": 155,
+      "rva": "0x4a7920",
+      "forwarder": null
+    },
+    {
+      "name": "?Seek@GBufferedFile@@UAEHHH@Z",
+      "ordinal": 156,
+      "rva": "0x5848c0",
+      "forwarder": null
+    },
+    {
+      "name": "?SetBufferMode@GBufferedFile@@IAE_NW4BufferModeType@1@@Z",
+      "ordinal": 157,
+      "rva": "0x584af0",
+      "forwarder": null
+    },
+    {
+      "name": "?SetEvent@GEvent@@QAEXXZ",
+      "ordinal": 158,
+      "rva": "0x4a73c0",
+      "forwarder": null
+    },
+    {
+      "name": "?SetExitFlag@GThread@@QAEX_N@Z",
+      "ordinal": 159,
+      "rva": "0x4a88b0",
+      "forwarder": null
+    },
+    {
+      "name": "?SetHSI@GColor@@QAEXHHH@Z",
+      "ordinal": 160,
+      "rva": "0x60e150",
+      "forwarder": null
+    },
+    {
+      "name": "?SetHSI@GColor@@QAEXMMM@Z",
+      "ordinal": 161,
+      "rva": "0x60df80",
+      "forwarder": null
+    },
+    {
+      "name": "?SetHSV@GColor@@QAEXHHH@Z",
+      "ordinal": 162,
+      "rva": "0x60d5a0",
+      "forwarder": null
+    },
+    {
+      "name": "?SetHSV@GColor@@QAEXMMM@Z",
+      "ordinal": 163,
+      "rva": "0x60d700",
+      "forwarder": null
+    },
+    {
+      "name": "?SetIdentity@GMatrix2D@@QAEXXZ",
+      "ordinal": 164,
+      "rva": "0x4d6740",
+      "forwarder": null
+    },
+    {
+      "name": "?SetIdentity@GMatrix3D@@QAEXXZ",
+      "ordinal": 165,
+      "rva": "0x4d7b50",
+      "forwarder": null
+    },
+    {
+      "name": "?SetInverse@GMatrix2D@@QAEXABV1@@Z",
+      "ordinal": 166,
+      "rva": "0x4d6870",
+      "forwarder": null
+    },
+    {
+      "name": "?SetLerp@GMatrix2D@@QAEXABV1@0M@Z",
+      "ordinal": 167,
+      "rva": "0x4d6760",
+      "forwarder": null
+    },
+    {
+      "name": "?SkipBytes@GBufferedFile@@UAEHH@Z",
+      "ordinal": 168,
+      "rva": "0x584800",
+      "forwarder": null
+    },
+    {
+      "name": "?Sleep@GThread@@SA_NI@Z",
+      "ordinal": 169,
+      "rva": "0x4a79e0",
+      "forwarder": null
+    },
+    {
+      "name": "?Start@GThread@@UAE_NW4ThreadState@1@@Z",
+      "ordinal": 170,
+      "rva": "0x4a9080",
+      "forwarder": null
+    },
+    {
+      "name": "?Suspend@GThread@@QAE_NXZ",
+      "ordinal": 171,
+      "rva": "0x4a88e0",
+      "forwarder": null
+    },
+    {
+      "name": "?Swap@GMatrix2D@@QAEXPAV1@@Z",
+      "ordinal": 172,
+      "rva": "0x1250",
+      "forwarder": null
+    },
+    {
+      "name": "?Tell@GBufferedFile@@UAEHXZ",
+      "ordinal": 173,
+      "rva": "0x5846f0",
+      "forwarder": null
+    },
+    {
+      "name": "?Transform@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z",
+      "ordinal": 174,
+      "rva": "0x4d6810",
+      "forwarder": null
+    },
+    {
+      "name": "?Transform@GMatrix3D@@QBEXPAV?$GPoint3@M@@ABV2@@Z",
+      "ordinal": 175,
+      "rva": "0x12f0",
+      "forwarder": null
+    },
+    {
+      "name": "?Transform@GMatrix3D@@QBEXPAV?$GPoint@M@@ABV2@@Z",
+      "ordinal": 176,
+      "rva": "0x13e0",
+      "forwarder": null
+    },
+    {
+      "name": "?TransformByInverse@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z",
+      "ordinal": 177,
+      "rva": "0x4d6c50",
+      "forwarder": null
+    },
+    {
+      "name": "?TransformVector@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z",
+      "ordinal": 178,
+      "rva": "0x4d6840",
+      "forwarder": null
+    },
+    {
+      "name": "?Transpose@GMatrix3D@@QAEXXZ",
+      "ordinal": 179,
+      "rva": "0x4d8600",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquire@GAcquireInterface@@UAE_NXZ",
+      "ordinal": 180,
+      "rva": "0x4a55e0",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquire@GEvent@@UAE_NXZ",
+      "ordinal": 181,
+      "rva": "0x4a5830",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquire@GMutex@@UAE_NXZ",
+      "ordinal": 182,
+      "rva": "0x4a76e0",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquire@GSemaphore@@UAE_NXZ",
+      "ordinal": 183,
+      "rva": "0x4a5a50",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCancel@GAcquireInterface@@UAE_NXZ",
+      "ordinal": 184,
+      "rva": "0x4a5600",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCancel@GEvent@@UAE_NXZ",
+      "ordinal": 185,
+      "rva": "0x4a5870",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCancel@GMutex@@UAE_NXZ",
+      "ordinal": 186,
+      "rva": "0x4a8b30",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCancel@GSemaphore@@UAE_NXZ",
+      "ordinal": 187,
+      "rva": "0x4a6ae0",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCommit@GAcquireInterface@@UAE_NXZ",
+      "ordinal": 188,
+      "rva": "0x4a55f0",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCommit@GEvent@@UAE_NXZ",
+      "ordinal": 189,
+      "rva": "0x4a5840",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCommit@GMutex@@UAE_NXZ",
+      "ordinal": 190,
+      "rva": "0x4a7710",
+      "forwarder": null
+    },
+    {
+      "name": "?TryAcquireCommit@GSemaphore@@UAE_NXZ",
+      "ordinal": 191,
+      "rva": "0x4a5a90",
+      "forwarder": null
+    },
+    {
+      "name": "?TryLock@GMutex@@QAE_NXZ",
+      "ordinal": 192,
+      "rva": "0x4a76a0",
+      "forwarder": null
+    },
+    {
+      "name": "?Unlock@GMutex@@QAEXXZ",
+      "ordinal": 193,
+      "rva": "0x4a8a50",
+      "forwarder": null
+    },
+    {
+      "name": "?ViewLH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z",
+      "ordinal": 194,
+      "rva": "0x4d8980",
+      "forwarder": null
+    },
+    {
+      "name": "?ViewRH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z",
+      "ordinal": 195,
+      "rva": "0x4d8750",
+      "forwarder": null
+    },
+    {
+      "name": "?Wait@GEvent@@QAE_NI@Z",
+      "ordinal": 196,
+      "rva": "0x4a5760",
+      "forwarder": null
+    },
+    {
+      "name": "?Wait@GWaitCondition@@QAE_NPAVGMutex@@I@Z",
+      "ordinal": 197,
+      "rva": "0x4a7f60",
+      "forwarder": null
+    },
+    {
+      "name": "?Wait@GWaitable@@QAE_NI@Z",
+      "ordinal": 198,
+      "rva": "0x4a6f20",
+      "forwarder": null
+    },
+    {
+      "name": "?Write@GBufferedFile@@UAEHPBEH@Z",
+      "ordinal": 199,
+      "rva": "0x584b50",
+      "forwarder": null
+    }
+  ],
+  "resource_references": [
+    {
+      "text": "./Interface/contact_ui.swf",
+      "file_offset": "0x6fe4f8",
+      "va": "0xaffcf8"
+    },
+    {
+      "text": "./Interface/play_ui.swf",
+      "file_offset": "0x6fe514",
+      "va": "0xaffd14"
+    },
+    {
+      "text": "pA./DataTable/clientdb.dat",
+      "file_offset": "0x6ff29a",
+      "va": "0xb00a9a"
+    },
+    {
+      "text": "./DataTable/clientdb.dat",
+      "file_offset": "0x6ff3b8",
+      "va": "0xb00bb8"
+    },
+    {
+      "text": "%s\\transition.dds",
+      "file_offset": "0x6ff824",
+      "va": "0xb01024"
+    },
+    {
+      "text": "%s\\%s.dds",
+      "file_offset": "0x6ff838",
+      "va": "0xb01038"
+    },
+    {
+      "text": "%s\\%03d.dds",
+      "file_offset": "0x6ff844",
+      "va": "0xb01044"
+    },
+    {
+      "text": "%s\\ChatCommand.ini",
+      "file_offset": "0x6ffbe4",
+      "va": "0xb013e4"
+    },
+    {
+      "text": "%s\\UIHelp.edf",
+      "file_offset": "0x702920",
+      "va": "0xb04120"
+    },
+    {
+      "text": "./DataTable/BlockData.dat",
+      "file_offset": "0x702f3c",
+      "va": "0xb0473c"
+    },
+    {
+      "text": ".\\Datatable\\ItemCombine.edf",
+      "file_offset": "0x703d00",
+      "va": "0xb05500"
+    },
+    {
+      "text": "%s\\RF_WebURL.dat",
+      "file_offset": "0x704240",
+      "va": "0xb05a40"
+    },
+    {
+      "text": ".\\CHEF\\GuardTower.ini",
+      "file_offset": "0x7047d8",
+      "va": "0xb05fd8"
+    },
+    {
+      "text": ".\\CHEF\\Npc.ini",
+      "file_offset": "0x7047f0",
+      "va": "0xb05ff0"
+    },
+    {
+      "text": ".\\CHEF\\Siege.ini",
+      "file_offset": "0x704800",
+      "va": "0xb06000"
+    },
+    {
+      "text": ".\\CHEF\\recall.ini",
+      "file_offset": "0x704814",
+      "va": "0xb06014"
+    },
+    {
+      "text": ".\\CHEF\\Unit.ini",
+      "file_offset": "0x704828",
+      "va": "0xb06028"
+    },
+    {
+      "text": ".\\CHEF\\Monster.ini",
+      "file_offset": "0x704838",
+      "va": "0xb06038"
+    },
+    {
+      "text": ".\\CHEF\\Entity.INI",
+      "file_offset": "0x70489c",
+      "va": "0xb0609c"
+    },
+    {
+      "text": ".\\CHEF\\Particle.INI",
+      "file_offset": "0x7048b0",
+      "va": "0xb060b0"
+    },
+    {
+      "text": ".\\system\\titlelogotr.dds",
+      "file_offset": "0x7048e0",
+      "va": "0xb060e0"
+    },
+    {
+      "text": ".\\system\\titlelogo.dds",
+      "file_offset": "0x704914",
+      "va": "0xb06114"
+    },
+    {
+      "text": ".\\map\\lobby\\lobby.BSP",
+      "file_offset": "0x704944",
+      "va": "0xb06144"
+    },
+    {
+      "text": "./DataTable/GameSetting.ini",
+      "file_offset": "0x704a74",
+      "va": "0xb06274"
+    },
+    {
+      "text": "./R3Engine.ini",
+      "file_offset": "0x704b00",
+      "va": "0xb06300"
+    },
+    {
+      "text": "%s\\CcrLogo.dat",
+      "file_offset": "0x705324",
+      "va": "0xb06b24"
+    },
+    {
+      "text": ".\\map\\accretia\\accretia.bsp",
+      "file_offset": "0x7054a8",
+      "va": "0xb06ca8"
+    },
+    {
+      "text": ".\\map\\cora\\cora.bsp",
+      "file_offset": "0x7054c4",
+      "va": "0xb06cc4"
+    },
+    {
+      "text": ".\\map\\bellato\\bellato.bsp",
+      "file_offset": "0x7054d8",
+      "va": "0xb06cd8"
+    },
+    {
+      "text": "%s\\KeyMap_NKM.dat",
+      "file_offset": "0x706880",
+      "va": "0xb08080"
+    },
+    {
+      "text": "%s\\KeyMap.dat",
+      "file_offset": "0x706894",
+      "va": "0xb08094"
+    },
+    {
+      "text": "%s/nProtectEncrypt.ini",
+      "file_offset": "0x706bf0",
+      "va": "0xb083f0"
+    },
+    {
+      "text": "%s\\BattleDungeon.edf",
+      "file_offset": "0x70e724",
+      "va": "0xb0ff24"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDItemCash.edf",
+      "file_offset": "0x70edc8",
+      "va": "0xb105c8"
+    },
+    {
+      "text": ".\\DataTable\\ItemCash.edf",
+      "file_offset": "0x70ede8",
+      "va": "0xb105e8"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDCasteGrade.edf",
+      "file_offset": "0x70ee04",
+      "va": "0xb10604"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDCasteGradeW.edf",
+      "file_offset": "0x70ee24",
+      "va": "0xb10624"
+    },
+    {
+      "text": ".\\DataTable\\CasteGrade.edf",
+      "file_offset": "0x70ee48",
+      "va": "0xb10648"
+    },
+    {
+      "text": ".\\DataTable\\PlayerCharacter.edf",
+      "file_offset": "0x70f27c",
+      "va": "0xb10a7c"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDSkillForce.edf",
+      "file_offset": "0x70f29c",
+      "va": "0xb10a9c"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDSkillForceW.edf",
+      "file_offset": "0x70f2bc",
+      "va": "0xb10abc"
+    },
+    {
+      "text": ".\\DataTable\\SkillForce.edf",
+      "file_offset": "0x70f2e0",
+      "va": "0xb10ae0"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDStore.edf",
+      "file_offset": "0x70f2fc",
+      "va": "0xb10afc"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDStoreW.edf",
+      "file_offset": "0x70f318",
+      "va": "0xb10b18"
+    },
+    {
+      "text": ".\\DataTable\\Store.edf",
+      "file_offset": "0x70f334",
+      "va": "0xb10b34"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDCharacter.edf",
+      "file_offset": "0x70f34c",
+      "va": "0xb10b4c"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDCharacterW.edf",
+      "file_offset": "0x70f36c",
+      "va": "0xb10b6c"
+    },
+    {
+      "text": ".\\DataTable\\Character.edf",
+      "file_offset": "0x70f38c",
+      "va": "0xb10b8c"
+    },
+    {
+      "text": ".\\DataTable\\EventDrop.edf",
+      "file_offset": "0x70f3d4",
+      "va": "0xb10bd4"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDMsgEvent.edf",
+      "file_offset": "0x70f3f0",
+      "va": "0xb10bf0"
+    },
+    {
+      "text": ".\\DataTable\\MsgEvent.edf",
+      "file_offset": "0x70f410",
+      "va": "0xb10c10"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDEventShip.edf",
+      "file_offset": "0x70f42c",
+      "va": "0xb10c2c"
+    },
+    {
+      "text": ".\\DataTable\\EventShip.edf",
+      "file_offset": "0x70f44c",
+      "va": "0xb10c4c"
+    },
+    {
+      "text": "%s\\EventSound.edf",
+      "file_offset": "0x70f468",
+      "va": "0xb10c68"
+    },
+    {
+      "text": "%s\\ItemCombine.edf",
+      "file_offset": "0x70f47c",
+      "va": "0xb10c7c"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDItem.edf",
+      "file_offset": "0x70f490",
+      "va": "0xb10c90"
+    },
+    {
+      "text": ".\\DataTable\\Item.edf",
+      "file_offset": "0x70f4ac",
+      "va": "0xb10cac"
+    },
+    {
+      "text": ".\\DataTable\\ItemGradeUp.edf",
+      "file_offset": "0x70f4c4",
+      "va": "0xb10cc4"
+    },
+    {
+      "text": ".\\DataTable\\ItemRankUp.edf",
+      "file_offset": "0x70f4e0",
+      "va": "0xb10ce0"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDLanguage.edf",
+      "file_offset": "0x70f4fc",
+      "va": "0xb10cfc"
+    },
+    {
+      "text": ".\\DataTable\\MinerGradeUp.edf",
+      "file_offset": "0x70f51c",
+      "va": "0xb10d1c"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDMsgMonster.edf",
+      "file_offset": "0x70f53c",
+      "va": "0xb10d3c"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDPatriarchEnchant.edf",
+      "file_offset": "0x70f55c",
+      "va": "0xb10d5c"
+    },
+    {
+      "text": ".\\DataTable\\PatriarchEnchant.edf",
+      "file_offset": "0x70f584",
+      "va": "0xb10d84"
+    },
+    {
+      "text": ".\\DataTable\\ItemPremium.edf",
+      "file_offset": "0x70f5a8",
+      "va": "0xb10da8"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDQuest.edf",
+      "file_offset": "0x70f688",
+      "va": "0xb10e88"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDQuestW.edf",
+      "file_offset": "0x70f6a4",
+      "va": "0xb10ea4"
+    },
+    {
+      "text": ".\\DataTable\\Quest.edf",
+      "file_offset": "0x70f6c0",
+      "va": "0xb10ec0"
+    },
+    {
+      "text": ".\\DataTable\\Resource.edf",
+      "file_offset": "0x70f714",
+      "va": "0xb10f14"
+    },
+    {
+      "text": ".\\DataTable\\ItemSetEffect.edf",
+      "file_offset": "0x70f730",
+      "va": "0xb10f30"
+    },
+    {
+      "text": ".\\DataTable\\ItemTimer.edf",
+      "file_offset": "0x70f750",
+      "va": "0xb10f50"
+    },
+    {
+      "text": ".\\DataTable\\UIHelp.edf",
+      "file_offset": "0x70f76c",
+      "va": "0xb10f6c"
+    },
+    {
+      "text": ".\\System\\mouse\\samerace.ani",
+      "file_offset": "0x710170",
+      "va": "0xb11970"
+    },
+    {
+      "text": ".\\System\\mouse\\NPC.ani",
+      "file_offset": "0x71018c",
+      "va": "0xb1198c"
+    },
+    {
+      "text": ".\\System\\mouse\\skill.ani",
+      "file_offset": "0x7101a4",
+      "va": "0xb119a4"
+    },
+    {
+      "text": ".\\System\\mouse\\force.ani",
+      "file_offset": "0x7101c0",
+      "va": "0xb119c0"
+    },
+    {
+      "text": ".\\System\\mouse\\get.ani",
+      "file_offset": "0x7101dc",
+      "va": "0xb119dc"
+    },
+    {
+      "text": ".\\System\\mouse\\attack.ani",
+      "file_offset": "0x7101f4",
+      "va": "0xb119f4"
+    },
+    {
+      "text": ".\\System\\mouse\\basic.ani",
+      "file_offset": "0x710210",
+      "va": "0xb11a10"
+    },
+    {
+      "text": "%s%s%02d.spr",
+      "file_offset": "0x718618",
+      "va": "0xb19e18"
+    },
+    {
+      "text": "./SpriteImage/Common/worldmap/%s.spr",
+      "file_offset": "0x718b20",
+      "va": "0xb1a320"
+    },
+    {
+      "text": ".\\DataTable\\%s\\NDMap.edf",
+      "file_offset": "0x71f07c",
+      "va": "0xb2087c"
+    },
+    {
+      "text": ".\\DataTable\\Map.edf",
+      "file_offset": "0x71f098",
+      "va": "0xb20898"
+    },
+    {
+      "text": "%s/FG_CB.ini",
+      "file_offset": "0x71f5a0",
+      "va": "0xb20da0"
+    },
+    {
+      "text": "./DataTable/ClientSystem.ini",
+      "file_offset": "0x71f6e0",
+      "va": "0xb20ee0"
+    },
+    {
+      "text": "%s\\RF_AVI.dat",
+      "file_offset": "0x71f788",
+      "va": "0xb20f88"
+    },
+    {
+      "text": ".\\Effect\\effectfont.dds",
+      "file_offset": "0x71fe0c",
+      "va": "0xb2160c"
+    },
+    {
+      "text": "%s\\advr.dat",
+      "file_offset": "0x723b0c",
+      "va": "0xb2530c"
+    },
+    {
+      "text": "%s\\cryp.dat",
+      "file_offset": "0x723b34",
+      "va": "0xb25334"
+    },
+    {
+      "text": "./interface/RF_FontConfig.ini",
+      "file_offset": "0x723ef8",
+      "va": "0xb256f8"
+    },
+    {
+      "text": "Run_Loop.ani",
+      "file_offset": "0x73bc24",
+      "va": "0xb3d424"
+    },
+    {
+      "text": "Stop.ani",
+      "file_offset": "0x73bc3c",
+      "va": "0xb3d43c"
+    },
+    {
+      "text": "SNWG_001.msh",
+      "file_offset": "0x73bc6c",
+      "va": "0xb3d46c"
+    },
+    {
+      "text": ".\\R3Engine.ini",
+      "file_offset": "0x73be14",
+      "va": "0xb3d614"
+    },
+    {
+      "text": ".\\system\\010.TTF",
+      "file_offset": "0x73bfcc",
+      "va": "0xb3d7cc"
+    },
+    {
+      "text": "?system/PerbMap.dds",
+      "file_offset": "0x73c157",
+      "va": "0xb3d957"
+    },
+    {
+      "text": ".\\chef\\real\\unit.ini",
+      "file_offset": "0x73c6d0",
+      "va": "0xb3ded0"
+    },
+    {
+      "text": ".\\chef\\real\\particle.ini",
+      "file_offset": "0x73c6e8",
+      "va": "0xb3dee8"
+    },
+    {
+      "text": ".\\chef\\real\\entity.ini",
+      "file_offset": "0x73c704",
+      "va": "0xb3df04"
+    },
+    {
+      "text": "G.r3t",
+      "file_offset": "0x73cd17",
+      "va": "0xb3e517"
+    },
+    {
+      "text": ".r3m",
+      "file_offset": "0x73cd20",
+      "va": "0xb3e520"
+    },
+    {
+      "text": ".\\system\\default.cfg",
+      "file_offset": "0x73cdac",
+      "va": "0xb3e5ac"
+    },
+    {
+      "text": "R3BSP (*.BSP)",
+      "file_offset": "0x73ceec",
+      "va": "0xb3e6ec"
+    },
+    {
+      "text": "*.BSP",
+      "file_offset": "0x73cefa",
+      "va": "0xb3e6fa"
+    },
+    {
+      "text": ".\\Map\\test.bsp",
+      "file_offset": "0x73cf18",
+      "va": "0xb3e718"
+    },
+    {
+      "text": "Lgt.R3T",
+      "file_offset": "0x73d2e4",
+      "va": "0xb3eae4"
+    },
+    {
+      "text": ".bsp",
+      "file_offset": "0x73d2fc",
+      "va": "0xb3eafc"
+    },
+    {
+      "text": "%s\\%s\\%s.bsp",
+      "file_offset": "0x73d348",
+      "va": "0xb3eb48"
+    },
+    {
+      "text": "%s%s\\%s.r3t",
+      "file_offset": "0x73d374",
+      "va": "0xb3eb74"
+    },
+    {
+      "text": "%s%s\\%s.r3m",
+      "file_offset": "0x73d380",
+      "va": "0xb3eb80"
+    },
+    {
+      "text": "%s%s\\%s\\%s.bsp",
+      "file_offset": "0x73d40c",
+      "va": "0xb3ec0c"
+    },
+    {
+      "text": ".\\system\\dlight.dds",
+      "file_offset": "0x73e2c4",
+      "va": "0xb3fac4"
+    },
+    {
+      "text": ".\\system\\logo.dds",
+      "file_offset": "0x73e2d8",
+      "va": "0xb3fad8"
+    },
+    {
+      "text": "?.\\system\\sun.dds",
+      "file_offset": "0x73e507",
+      "va": "0xb3fd07"
+    },
+    {
+      "text": "%sPlanetWar\\%s\\%s\\%s\\%s.bsp",
+      "file_offset": "0x73ed30",
+      "va": "0xb40530"
+    },
+    {
+      "text": "%splanetwar\\%s\\%s\\%s\\%s.bsp",
+      "file_offset": "0x73ef34",
+      "va": "0xb40734"
+    },
+    {
+      "text": ".dds",
+      "file_offset": "0x73f4e8",
+      "va": "0xb40ce8"
+    },
+    {
+      "text": "%sDATA%d.RFS",
+      "file_offset": "0x73f9c4",
+      "va": "0xb411c4"
+    },
+    {
+      "text": "DATA%d.RFS",
+      "file_offset": "0x73f9d4",
+      "va": "0xb411d4"
+    },
+    {
+      "text": "%sRFSINFO.DAT",
+      "file_offset": "0x73f9f8",
+      "va": "0xb411f8"
+    },
+    {
+      "text": ".swf",
+      "file_offset": "0x76a484",
+      "va": "0xb6bc84"
+    },
+    {
+      "text": "gfxfontlib.swf",
+      "file_offset": "0x771ce8",
+      "va": "0xb734e8"
+    },
+    {
+      "text": ".gfx",
+      "file_offset": "0x771d2c",
+      "va": "0xb7352c"
+    },
+    {
+      "text": "gfxfontlib.swf",
+      "file_offset": "0x771d34",
+      "va": "0xb73534"
+    },
+    {
+      "text": "IME.swf",
+      "file_offset": "0x77582c",
+      "va": "0xb7702c"
+    },
+    {
+      "text": "mouse.spr",
+      "file_offset": "0x7e5340",
+      "va": "0xbe7540"
+    },
+    {
+      "text": "common.spr",
+      "file_offset": "0x7e53c0",
+      "va": "0xbe75c0"
+    },
+    {
+      "text": "loading.spr",
+      "file_offset": "0x7e5440",
+      "va": "0xbe7640"
+    },
+    {
+      "text": "login.spr",
+      "file_offset": "0x7e54c0",
+      "va": "0xbe76c0"
+    },
+    {
+      "text": "main.spr",
+      "file_offset": "0x7e5540",
+      "va": "0xbe7740"
+    },
+    {
+      "text": "system.spr",
+      "file_offset": "0x7e55c0",
+      "va": "0xbe77c0"
+    },
+    {
+      "text": "inventory.spr",
+      "file_offset": "0x7e5640",
+      "va": "0xbe7840"
+    },
+    {
+      "text": "maploading.spr",
+      "file_offset": "0x7e56c0",
+      "va": "0xbe78c0"
+    },
+    {
+      "text": "item.spr",
+      "file_offset": "0x7e5740",
+      "va": "0xbe7940"
+    },
+    {
+      "text": "shop.spr",
+      "file_offset": "0x7e57c0",
+      "va": "0xbe79c0"
+    },
+    {
+      "text": "oreproc.spr",
+      "file_offset": "0x7e5840",
+      "va": "0xbe7a40"
+    },
+    {
+      "text": "mining.spr",
+      "file_offset": "0x7e58c0",
+      "va": "0xbe7ac0"
+    },
+    {
+      "text": "exchange.spr",
+      "file_offset": "0x7e5940",
+      "va": "0xbe7b40"
+    },
+    {
+      "text": "summon.spr",
+      "file_offset": "0x7e59c0",
+      "va": "0xbe7bc0"
+    },
+    {
+      "text": "itemmake.spr",
+      "file_offset": "0x7e5a40",
+      "va": "0xbe7c40"
+    },
+    {
+      "text": "itemupgrade.spr",
+      "file_offset": "0x7e5ac0",
+      "va": "0xbe7cc0"
+    },
+    {
+      "text": "trade.spr",
+      "file_offset": "0x7e5b40",
+      "va": "0xbe7d40"
+    },
+    {
+      "text": "dungeon.spr",
+      "file_offset": "0x7e5bc0",
+      "va": "0xbe7dc0"
+    },
+    {
+      "text": "unit.spr",
+      "file_offset": "0x7e5c40",
+      "va": "0xbe7e40"
+    },
+    {
+      "text": "unitparts.spr",
+      "file_offset": "0x7e5cc0",
+      "va": "0xbe7ec0"
+    },
+    {
+      "text": "class.spr",
+      "file_offset": "0x7e5d40",
+      "va": "0xbe7f40"
+    },
+    {
+      "text": "tutorial.spr",
+      "file_offset": "0x7e5dc0",
+      "va": "0xbe7fc0"
+    },
+    {
+      "text": "pvp.spr",
+      "file_offset": "0x7e5e40",
+      "va": "0xbe8040"
+    },
+    {
+      "text": "guild.spr",
+      "file_offset": "0x7e5ec0",
+      "va": "0xbe80c0"
+    },
+    {
+      "text": "emblem.spr",
+      "file_offset": "0x7e5f40",
+      "va": "0xbe8140"
+    },
+    {
+      "text": "trunk.spr",
+      "file_offset": "0x7e5fc0",
+      "va": "0xbe81c0"
+    },
+    {
+      "text": "cribattle.spr",
+      "file_offset": "0x7e6040",
+      "va": "0xbe8240"
+    },
+    {
+      "text": "itemcombine.spr",
+      "file_offset": "0x7e60c0",
+      "va": "0xbe82c0"
+    },
+    {
+      "text": "patriarch.spr",
+      "file_offset": "0x7e6140",
+      "va": "0xbe8340"
+    },
+    {
+      "text": "unmannedminer.spr",
+      "file_offset": "0x7e61c0",
+      "va": "0xbe83c0"
+    },
+    {
+      "text": "CashShop.spr",
+      "file_offset": "0x7e6240",
+      "va": "0xbe8440"
+    },
+    {
+      "text": "npc/bel.spr",
+      "file_offset": "0x7e62c0",
+      "va": "0xbe84c0"
+    },
+    {
+      "text": "npc/cor.spr",
+      "file_offset": "0x7e6340",
+      "va": "0xbe8540"
+    },
+    {
+      "text": "npc/acc.spr",
+      "file_offset": "0x7e63c0",
+      "va": "0xbe85c0"
+    }
+  ],
+  "configuration_neighborhoods": [
+    {
+      "reference": {
+        "text": "%s\\ChatCommand.ini",
+        "file_offset": "0x6ffbe4",
+        "va": "0xb013e4"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "%s %s %s",
+          "file_offset": "0x6ffb44",
+          "va": "0xb01344"
+        },
+        {
+          "text": "NULL",
+          "file_offset": "0x6ffb58",
+          "va": "0xb01358"
+        },
+        {
+          "text": "COMMAND_PART",
+          "file_offset": "0x6ffb60",
+          "va": "0xb01360"
+        },
+        {
+          "text": "MAX_COMMAND_PART",
+          "file_offset": "0x6ffb70",
+          "va": "0xb01370"
+        },
+        {
+          "text": "%s%s%d",
+          "file_offset": "0x6ffb84",
+          "va": "0xb01384"
+        },
+        {
+          "text": "_COMMAND",
+          "file_offset": "0x6ffb8c",
+          "va": "0xb0138c"
+        },
+        {
+          "text": "Wrong Chat Command",
+          "file_offset": "0x6ffb98",
+          "va": "0xb01398"
+        },
+        {
+          "text": "MAX_COMMAND",
+          "file_offset": "0x6ffbac",
+          "va": "0xb013ac"
+        },
+        {
+          "text": "%s%d",
+          "file_offset": "0x6ffbb8",
+          "va": "0xb013b8"
+        },
+        {
+          "text": "MAX_ACTION_TYPE",
+          "file_offset": "0x6ffbc0",
+          "va": "0xb013c0"
+        },
+        {
+          "text": "ACTION_TYPE",
+          "file_offset": "0x6ffbd0",
+          "va": "0xb013d0"
+        },
+        {
+          "text": "INFO",
+          "file_offset": "0x6ffbdc",
+          "va": "0xb013dc"
+        },
+        {
+          "text": "%s\\ChatCommand.ini",
+          "file_offset": "0x6ffbe4",
+          "va": "0xb013e4"
+        },
+        {
+          "text": "GM - %s : %s",
+          "file_offset": "0x6ffbf8",
+          "va": "0xb013f8"
+        },
+        {
+          "text": "FlashOff",
+          "file_offset": "0x6ffc08",
+          "va": "0xb01408"
+        },
+        {
+          "text": "FlashOn",
+          "file_offset": "0x6ffc14",
+          "va": "0xb01414"
+        },
+        {
+          "text": "mixing",
+          "file_offset": "0x6ffc1c",
+          "va": "0xb0141c"
+        },
+        {
+          "text": "couponclose",
+          "file_offset": "0x6ffc24",
+          "va": "0xb01424"
+        },
+        {
+          "text": "couponopen",
+          "file_offset": "0x6ffc30",
+          "va": "0xb01430"
+        },
+        {
+          "text": "pvpwin",
+          "file_offset": "0x6ffc3c",
+          "va": "0xb0143c"
+        },
+        {
+          "text": "setconum",
+          "file_offset": "0x6ffc44",
+          "va": "0xb01444"
+        },
+        {
+          "text": "setfame",
+          "file_offset": "0x6ffc50",
+          "va": "0xb01450"
+        },
+        {
+          "text": "dealergiveup",
+          "file_offset": "0x6ffc58",
+          "va": "0xb01458"
+        },
+        {
+          "text": "imdealer",
+          "file_offset": "0x6ffc68",
+          "va": "0xb01468"
+        },
+        {
+          "text": "soloenchant",
+          "file_offset": "0x6ffc74",
+          "va": "0xb01474"
+        },
+        {
+          "text": "groupenchant",
+          "file_offset": "0x6ffc80",
+          "va": "0xb01480"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\GuardTower.ini",
+        "file_offset": "0x7047d8",
+        "va": "0xb05fd8"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "c_ex01",
+          "file_offset": "0x704740",
+          "va": "0xb05f40"
+        },
+        {
+          "text": "?%s %d",
+          "file_offset": "0x70474f",
+          "va": "0xb05f4f"
+        },
+        {
+          "text": "ClientData Loding End.",
+          "file_offset": "0x704758",
+          "va": "0xb05f58"
+        },
+        {
+          "text": "ClientData Loding Start.",
+          "file_offset": "0x704770",
+          "va": "0xb05f70"
+        },
+        {
+          "text": "Client Ver Auth Faile",
+          "file_offset": "0x70478c",
+          "va": "0xb05f8c"
+        },
+        {
+          "text": "d@IsRequestLogout LGS_MOVEIN_WORLDSERVER",
+          "file_offset": "0x7047ae",
+          "va": "0xb05fae"
+        },
+        {
+          "text": ".\\CHEF\\GuardTower.ini",
+          "file_offset": "0x7047d8",
+          "va": "0xb05fd8"
+        },
+        {
+          "text": ".\\CHEF\\Npc.ini",
+          "file_offset": "0x7047f0",
+          "va": "0xb05ff0"
+        },
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\Npc.ini",
+        "file_offset": "0x7047f0",
+        "va": "0xb05ff0"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "ClientData Loding End.",
+          "file_offset": "0x704758",
+          "va": "0xb05f58"
+        },
+        {
+          "text": "ClientData Loding Start.",
+          "file_offset": "0x704770",
+          "va": "0xb05f70"
+        },
+        {
+          "text": "Client Ver Auth Faile",
+          "file_offset": "0x70478c",
+          "va": "0xb05f8c"
+        },
+        {
+          "text": "d@IsRequestLogout LGS_MOVEIN_WORLDSERVER",
+          "file_offset": "0x7047ae",
+          "va": "0xb05fae"
+        },
+        {
+          "text": ".\\CHEF\\GuardTower.ini",
+          "file_offset": "0x7047d8",
+          "va": "0xb05fd8"
+        },
+        {
+          "text": ".\\CHEF\\Npc.ini",
+          "file_offset": "0x7047f0",
+          "va": "0xb05ff0"
+        },
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\Siege.ini",
+        "file_offset": "0x704800",
+        "va": "0xb06000"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "ClientData Loding Start.",
+          "file_offset": "0x704770",
+          "va": "0xb05f70"
+        },
+        {
+          "text": "Client Ver Auth Faile",
+          "file_offset": "0x70478c",
+          "va": "0xb05f8c"
+        },
+        {
+          "text": "d@IsRequestLogout LGS_MOVEIN_WORLDSERVER",
+          "file_offset": "0x7047ae",
+          "va": "0xb05fae"
+        },
+        {
+          "text": ".\\CHEF\\GuardTower.ini",
+          "file_offset": "0x7047d8",
+          "va": "0xb05fd8"
+        },
+        {
+          "text": ".\\CHEF\\Npc.ini",
+          "file_offset": "0x7047f0",
+          "va": "0xb05ff0"
+        },
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        },
+        {
+          "text": ".\\CHEF\\Entity.INI",
+          "file_offset": "0x70489c",
+          "va": "0xb0609c"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\recall.ini",
+        "file_offset": "0x704814",
+        "va": "0xb06014"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "Client Ver Auth Faile",
+          "file_offset": "0x70478c",
+          "va": "0xb05f8c"
+        },
+        {
+          "text": "d@IsRequestLogout LGS_MOVEIN_WORLDSERVER",
+          "file_offset": "0x7047ae",
+          "va": "0xb05fae"
+        },
+        {
+          "text": ".\\CHEF\\GuardTower.ini",
+          "file_offset": "0x7047d8",
+          "va": "0xb05fd8"
+        },
+        {
+          "text": ".\\CHEF\\Npc.ini",
+          "file_offset": "0x7047f0",
+          "va": "0xb05ff0"
+        },
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        },
+        {
+          "text": ".\\CHEF\\Entity.INI",
+          "file_offset": "0x70489c",
+          "va": "0xb0609c"
+        },
+        {
+          "text": ".\\CHEF\\Particle.INI",
+          "file_offset": "0x7048b0",
+          "va": "0xb060b0"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\Unit.ini",
+        "file_offset": "0x704828",
+        "va": "0xb06028"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "Client Ver Auth Faile",
+          "file_offset": "0x70478c",
+          "va": "0xb05f8c"
+        },
+        {
+          "text": "d@IsRequestLogout LGS_MOVEIN_WORLDSERVER",
+          "file_offset": "0x7047ae",
+          "va": "0xb05fae"
+        },
+        {
+          "text": ".\\CHEF\\GuardTower.ini",
+          "file_offset": "0x7047d8",
+          "va": "0xb05fd8"
+        },
+        {
+          "text": ".\\CHEF\\Npc.ini",
+          "file_offset": "0x7047f0",
+          "va": "0xb05ff0"
+        },
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        },
+        {
+          "text": ".\\CHEF\\Entity.INI",
+          "file_offset": "0x70489c",
+          "va": "0xb0609c"
+        },
+        {
+          "text": ".\\CHEF\\Particle.INI",
+          "file_offset": "0x7048b0",
+          "va": "0xb060b0"
+        },
+        {
+          "text": ".\\system\\titlelogotr.tga",
+          "file_offset": "0x7048c4",
+          "va": "0xb060c4"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\Monster.ini",
+        "file_offset": "0x704838",
+        "va": "0xb06038"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "d@IsRequestLogout LGS_MOVEIN_WORLDSERVER",
+          "file_offset": "0x7047ae",
+          "va": "0xb05fae"
+        },
+        {
+          "text": ".\\CHEF\\GuardTower.ini",
+          "file_offset": "0x7047d8",
+          "va": "0xb05fd8"
+        },
+        {
+          "text": ".\\CHEF\\Npc.ini",
+          "file_offset": "0x7047f0",
+          "va": "0xb05ff0"
+        },
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        },
+        {
+          "text": ".\\CHEF\\Entity.INI",
+          "file_offset": "0x70489c",
+          "va": "0xb0609c"
+        },
+        {
+          "text": ".\\CHEF\\Particle.INI",
+          "file_offset": "0x7048b0",
+          "va": "0xb060b0"
+        },
+        {
+          "text": ".\\system\\titlelogotr.tga",
+          "file_offset": "0x7048c4",
+          "va": "0xb060c4"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\Entity.INI",
+        "file_offset": "0x70489c",
+        "va": "0xb0609c"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": ".\\CHEF\\Siege.ini",
+          "file_offset": "0x704800",
+          "va": "0xb06000"
+        },
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        },
+        {
+          "text": ".\\CHEF\\Entity.INI",
+          "file_offset": "0x70489c",
+          "va": "0xb0609c"
+        },
+        {
+          "text": ".\\CHEF\\Particle.INI",
+          "file_offset": "0x7048b0",
+          "va": "0xb060b0"
+        },
+        {
+          "text": ".\\system\\titlelogotr.tga",
+          "file_offset": "0x7048c4",
+          "va": "0xb060c4"
+        },
+        {
+          "text": ".\\system\\titlelogotr.dds",
+          "file_offset": "0x7048e0",
+          "va": "0xb060e0"
+        },
+        {
+          "text": ".\\system\\titlelogo.tga",
+          "file_offset": "0x7048fc",
+          "va": "0xb060fc"
+        },
+        {
+          "text": ".\\system\\titlelogo.dds",
+          "file_offset": "0x704914",
+          "va": "0xb06114"
+        },
+        {
+          "text": ".\\map\\lobby\\lobby.cam",
+          "file_offset": "0x70492c",
+          "va": "0xb0612c"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\CHEF\\Particle.INI",
+        "file_offset": "0x7048b0",
+        "va": "0xb060b0"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": ".\\CHEF\\recall.ini",
+          "file_offset": "0x704814",
+          "va": "0xb06014"
+        },
+        {
+          "text": ".\\CHEF\\Unit.ini",
+          "file_offset": "0x704828",
+          "va": "0xb06028"
+        },
+        {
+          "text": ".\\CHEF\\Monster.ini",
+          "file_offset": "0x704838",
+          "va": "0xb06038"
+        },
+        {
+          "text": ".\\CHEF\\ItemEffectList.txt",
+          "file_offset": "0x70484c",
+          "va": "0xb0604c"
+        },
+        {
+          "text": ".\\CHEF\\PatternList.txt",
+          "file_offset": "0x704868",
+          "va": "0xb06068"
+        },
+        {
+          "text": ".\\CHEF\\EffectFileList.txt",
+          "file_offset": "0x704880",
+          "va": "0xb06080"
+        },
+        {
+          "text": ".\\CHEF\\Entity.INI",
+          "file_offset": "0x70489c",
+          "va": "0xb0609c"
+        },
+        {
+          "text": ".\\CHEF\\Particle.INI",
+          "file_offset": "0x7048b0",
+          "va": "0xb060b0"
+        },
+        {
+          "text": ".\\system\\titlelogotr.tga",
+          "file_offset": "0x7048c4",
+          "va": "0xb060c4"
+        },
+        {
+          "text": ".\\system\\titlelogotr.dds",
+          "file_offset": "0x7048e0",
+          "va": "0xb060e0"
+        },
+        {
+          "text": ".\\system\\titlelogo.tga",
+          "file_offset": "0x7048fc",
+          "va": "0xb060fc"
+        },
+        {
+          "text": ".\\system\\titlelogo.dds",
+          "file_offset": "0x704914",
+          "va": "0xb06114"
+        },
+        {
+          "text": ".\\map\\lobby\\lobby.cam",
+          "file_offset": "0x70492c",
+          "va": "0xb0612c"
+        },
+        {
+          "text": ".\\map\\lobby\\lobby.BSP",
+          "file_offset": "0x704944",
+          "va": "0xb06144"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": "./DataTable/GameSetting.ini",
+        "file_offset": "0x704a74",
+        "va": "0xb06274"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "333333",
+          "file_offset": "0x704a10",
+          "va": "0xb06210"
+        },
+        {
+          "text": "Camera",
+          "file_offset": "0x704a20",
+          "va": "0xb06220"
+        },
+        {
+          "text": "Mode",
+          "file_offset": "0x704a28",
+          "va": "0xb06228"
+        },
+        {
+          "text": "VisualFieldAdjustmentLevel",
+          "file_offset": "0x704a30",
+          "va": "0xb06230"
+        },
+        {
+          "text": "Performance",
+          "file_offset": "0x704a4c",
+          "va": "0xb0624c"
+        },
+        {
+          "text": "AutoVisualFieldAdjustment",
+          "file_offset": "0x704a58",
+          "va": "0xb06258"
+        },
+        {
+          "text": "./DataTable/GameSetting.ini",
+          "file_offset": "0x704a74",
+          "va": "0xb06274"
+        },
+        {
+          "text": "ShadowDetail",
+          "file_offset": "0x704a90",
+          "va": "0xb06290"
+        },
+        {
+          "text": "DynamicLight",
+          "file_offset": "0x704aa0",
+          "va": "0xb062a0"
+        },
+        {
+          "text": "BBoShasi",
+          "file_offset": "0x704ab0",
+          "va": "0xb062b0"
+        },
+        {
+          "text": "RenderState",
+          "file_offset": "0x704abc",
+          "va": "0xb062bc"
+        },
+        {
+          "text": "Gamma",
+          "file_offset": "0x704ac8",
+          "va": "0xb062c8"
+        },
+        {
+          "text": "AmbVol",
+          "file_offset": "0x704ad0",
+          "va": "0xb062d0"
+        },
+        {
+          "text": "SoundVol",
+          "file_offset": "0x704ad8",
+          "va": "0xb062d8"
+        },
+        {
+          "text": "Sound",
+          "file_offset": "0x704ae4",
+          "va": "0xb062e4"
+        },
+        {
+          "text": "MusicVol",
+          "file_offset": "0x704aec",
+          "va": "0xb062ec"
+        },
+        {
+          "text": "%.1f",
+          "file_offset": "0x704af8",
+          "va": "0xb062f8"
+        },
+        {
+          "text": "./R3Engine.ini",
+          "file_offset": "0x704b00",
+          "va": "0xb06300"
+        },
+        {
+          "text": "ShowHint",
+          "file_offset": "0x704b14",
+          "va": "0xb06314"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": "./R3Engine.ini",
+        "file_offset": "0x704b00",
+        "va": "0xb06300"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "./DataTable/GameSetting.ini",
+          "file_offset": "0x704a74",
+          "va": "0xb06274"
+        },
+        {
+          "text": "ShadowDetail",
+          "file_offset": "0x704a90",
+          "va": "0xb06290"
+        },
+        {
+          "text": "DynamicLight",
+          "file_offset": "0x704aa0",
+          "va": "0xb062a0"
+        },
+        {
+          "text": "BBoShasi",
+          "file_offset": "0x704ab0",
+          "va": "0xb062b0"
+        },
+        {
+          "text": "RenderState",
+          "file_offset": "0x704abc",
+          "va": "0xb062bc"
+        },
+        {
+          "text": "Gamma",
+          "file_offset": "0x704ac8",
+          "va": "0xb062c8"
+        },
+        {
+          "text": "AmbVol",
+          "file_offset": "0x704ad0",
+          "va": "0xb062d0"
+        },
+        {
+          "text": "SoundVol",
+          "file_offset": "0x704ad8",
+          "va": "0xb062d8"
+        },
+        {
+          "text": "Sound",
+          "file_offset": "0x704ae4",
+          "va": "0xb062e4"
+        },
+        {
+          "text": "MusicVol",
+          "file_offset": "0x704aec",
+          "va": "0xb062ec"
+        },
+        {
+          "text": "%.1f",
+          "file_offset": "0x704af8",
+          "va": "0xb062f8"
+        },
+        {
+          "text": "./R3Engine.ini",
+          "file_offset": "0x704b00",
+          "va": "0xb06300"
+        },
+        {
+          "text": "ShowHint",
+          "file_offset": "0x704b14",
+          "va": "0xb06314"
+        },
+        {
+          "text": "AutoRebirthTime",
+          "file_offset": "0x704b20",
+          "va": "0xb06320"
+        },
+        {
+          "text": "Play",
+          "file_offset": "0x704b30",
+          "va": "0xb06330"
+        },
+        {
+          "text": "AutoRebirth",
+          "file_offset": "0x704b38",
+          "va": "0xb06338"
+        },
+        {
+          "text": "UI FrameMove",
+          "file_offset": "0x704b44",
+          "va": "0xb06344"
+        },
+        {
+          "text": "FrameMove",
+          "file_offset": "0x704b69",
+          "va": "0xb06369"
+        },
+        {
+          "text": "FrameMove+Ani",
+          "file_offset": "0x704b7a",
+          "va": "0xb0637a"
+        },
+        {
+          "text": "FrameMove+ReturnEffect",
+          "file_offset": "0x704b9a",
+          "va": "0xb0639a"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": "%s/nProtectEncrypt.ini",
+        "file_offset": "0x706bf0",
+        "va": "0xb083f0"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "fight_msg",
+          "file_offset": "0x706b54",
+          "va": "0xb08354"
+        },
+        {
+          "text": "position_msg",
+          "file_offset": "0x706b60",
+          "va": "0xb08360"
+        },
+        {
+          "text": "init_msg",
+          "file_offset": "0x706b70",
+          "va": "0xb08370"
+        },
+        {
+          "text": "chat_msg",
+          "file_offset": "0x706b7c",
+          "va": "0xb0837c"
+        },
+        {
+          "text": "system_msg",
+          "file_offset": "0x706b88",
+          "va": "0xb08388"
+        },
+        {
+          "text": "no_msg_0",
+          "file_offset": "0x706b94",
+          "va": "0xb08394"
+        },
+        {
+          "text": ".\\NetLog\\Client-Net.log",
+          "file_offset": "0x706bcc",
+          "va": "0xb083cc"
+        },
+        {
+          "text": "RF_CLIENT",
+          "file_offset": "0x706be4",
+          "va": "0xb083e4"
+        },
+        {
+          "text": "%s/nProtectEncrypt.ini",
+          "file_offset": "0x706bf0",
+          "va": "0xb083f0"
+        },
+        {
+          "text": "Completed to initialize Lingo.",
+          "file_offset": "0x706c08",
+          "va": "0xb08408"
+        },
+        {
+          "text": "Failed to initialize Lingo.",
+          "file_offset": "0x706c28",
+          "va": "0xb08428"
+        },
+        {
+          "text": "SetAccountID %s ^^ %s",
+          "file_offset": "0x706c44",
+          "va": "0xb08444"
+        },
+        {
+          "text": "Connect To Server ( Type:%d ) Failure : %d",
+          "file_offset": "0x706c5c",
+          "va": "0xb0845c"
+        },
+        {
+          "text": "Connect To Server ( Type:%d ) Success",
+          "file_offset": "0x706c88",
+          "va": "0xb08488"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": "%s/FG_CB.ini",
+        "file_offset": "0x71f5a0",
+        "va": "0xb20da0"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "CERBERUS Init Ok",
+          "file_offset": "0x71f510",
+          "va": "0xb20d10"
+        },
+        {
+          "text": "CERBERUS Error",
+          "file_offset": "0x71f524",
+          "va": "0xb20d24"
+        },
+        {
+          "text": "ConnectToServer....OK",
+          "file_offset": "0x71f534",
+          "va": "0xb20d34"
+        },
+        {
+          "text": "ConnectToServer....False",
+          "file_offset": "0x71f54c",
+          "va": "0xb20d4c"
+        },
+        {
+          "text": "ConnectToServer....",
+          "file_offset": "0x71f568",
+          "va": "0xb20d68"
+        },
+        {
+          "text": "CreateNetworkMgr",
+          "file_offset": "0x71f57c",
+          "va": "0xb20d7c"
+        },
+        {
+          "text": "SETTING",
+          "file_offset": "0x71f590",
+          "va": "0xb20d90"
+        },
+        {
+          "text": "USEFG",
+          "file_offset": "0x71f598",
+          "va": "0xb20d98"
+        },
+        {
+          "text": "%s/FG_CB.ini",
+          "file_offset": "0x71f5a0",
+          "va": "0xb20da0"
+        },
+        {
+          "text": "Select Language End",
+          "file_offset": "0x71f5b0",
+          "va": "0xb20db0"
+        },
+        {
+          "text": "LangPack reading failure.",
+          "file_offset": "0x71f5c4",
+          "va": "0xb20dc4"
+        },
+        {
+          "text": "RF Online",
+          "file_offset": "0x71f5e0",
+          "va": "0xb20de0"
+        },
+        {
+          "text": "RFLang(%d) Fail.",
+          "file_offset": "0x71f5ec",
+          "va": "0xb20dec"
+        },
+        {
+          "text": "GetDataFromLauncher",
+          "file_offset": "0x71f600",
+          "va": "0xb20e00"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": "./DataTable/ClientSystem.ini",
+        "file_offset": "0x71f6e0",
+        "va": "0xb20ee0"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "IsConnectedToServer TRUE",
+          "file_offset": "0x71f668",
+          "va": "0xb20e68"
+        },
+        {
+          "text": "Connect World....True.. WaitingFor...",
+          "file_offset": "0x71f684",
+          "va": "0xb20e84"
+        },
+        {
+          "text": "World Server Connect Faile %d",
+          "file_offset": "0x71f6ac",
+          "va": "0xb20eac"
+        },
+        {
+          "text": "Network",
+          "file_offset": "0x71f6cc",
+          "va": "0xb20ecc"
+        },
+        {
+          "text": "ConnectTime",
+          "file_offset": "0x71f6d4",
+          "va": "0xb20ed4"
+        },
+        {
+          "text": "./DataTable/ClientSystem.ini",
+          "file_offset": "0x71f6e0",
+          "va": "0xb20ee0"
+        },
+        {
+          "text": "Can't find WIC Windows in GameChuLauncher.exe",
+          "file_offset": "0x71f700",
+          "va": "0xb20f00"
+        },
+        {
+          "text": "Error",
+          "file_offset": "0x71f730",
+          "va": "0xb20f30"
+        },
+        {
+          "text": "Find WIC Windows in GameChuLauncher.exe",
+          "file_offset": "0x71f738",
+          "va": "0xb20f38"
+        },
+        {
+          "text": "?Video error - MaxVideoNumber Zero",
+          "file_offset": "0x71f763",
+          "va": "0xb20f63"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": "./interface/RF_FontConfig.ini",
+        "file_offset": "0x723ef8",
+        "va": "0xb256f8"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "SmallType",
+          "file_offset": "0x723e78",
+          "va": "0xb25678"
+        },
+        {
+          "text": "$SmallFont",
+          "file_offset": "0x723e84",
+          "va": "0xb25684"
+        },
+        {
+          "text": "SmallFont",
+          "file_offset": "0x723e90",
+          "va": "0xb25690"
+        },
+        {
+          "text": "NormalType",
+          "file_offset": "0x723e9c",
+          "va": "0xb2569c"
+        },
+        {
+          "text": "$NormalFont",
+          "file_offset": "0x723ea8",
+          "va": "0xb256a8"
+        },
+        {
+          "text": "NormalFont",
+          "file_offset": "0x723eb4",
+          "va": "0xb256b4"
+        },
+        {
+          "text": "Bold",
+          "file_offset": "0x723ec0",
+          "va": "0xb256c0"
+        },
+        {
+          "text": "TitleType",
+          "file_offset": "0x723ec8",
+          "va": "0xb256c8"
+        },
+        {
+          "text": "$TitleFont",
+          "file_offset": "0x723ed4",
+          "va": "0xb256d4"
+        },
+        {
+          "text": "TitleFont",
+          "file_offset": "0x723ee0",
+          "va": "0xb256e0"
+        },
+        {
+          "text": "FilePath",
+          "file_offset": "0x723eec",
+          "va": "0xb256ec"
+        },
+        {
+          "text": "./interface/RF_FontConfig.ini",
+          "file_offset": "0x723ef8",
+          "va": "0xb256f8"
+        },
+        {
+          "text": "NATION_TPE",
+          "file_offset": "0x723f18",
+          "va": "0xb25718"
+        },
+        {
+          "text": "NATION_RUS",
+          "file_offset": "0x723f24",
+          "va": "0xb25724"
+        },
+        {
+          "text": "NATION_PHI",
+          "file_offset": "0x723f30",
+          "va": "0xb25730"
+        },
+        {
+          "text": "NATION_JPN",
+          "file_offset": "0x723f3c",
+          "va": "0xb2573c"
+        },
+        {
+          "text": "NATION_IND",
+          "file_offset": "0x723f48",
+          "va": "0xb25748"
+        },
+        {
+          "text": "NATION_ENG",
+          "file_offset": "0x723f54",
+          "va": "0xb25754"
+        },
+        {
+          "text": "NATION_CHN",
+          "file_offset": "0x723f60",
+          "va": "0xb25760"
+        },
+        {
+          "text": "NATION_BRA",
+          "file_offset": "0x723f6c",
+          "va": "0xb2576c"
+        },
+        {
+          "text": "NATION_KOR",
+          "file_offset": "0x723f78",
+          "va": "0xb25778"
+        },
+        {
+          "text": "moveCursor",
+          "file_offset": "0x723f84",
+          "va": "0xb25784"
+        },
+        {
+          "text": "showNormalTooltip",
+          "file_offset": "0x723f90",
+          "va": "0xb25790"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\R3Engine.ini",
+        "file_offset": "0x73be14",
+        "va": "0xb3d614"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "1024",
+          "file_offset": "0x73bd7c",
+          "va": "0xb3d57c"
+        },
+        {
+          "text": "SoundPath",
+          "file_offset": "0x73bd84",
+          "va": "0xb3d584"
+        },
+        {
+          "text": ".\\Snd\\",
+          "file_offset": "0x73bd90",
+          "va": "0xb3d590"
+        },
+        {
+          "text": "ScreenShotsPath",
+          "file_offset": "0x73bd98",
+          "va": "0xb3d598"
+        },
+        {
+          "text": ".\\ScreenShots\\",
+          "file_offset": "0x73bda8",
+          "va": "0xb3d5a8"
+        },
+        {
+          "text": "EffectPath",
+          "file_offset": "0x73bdb8",
+          "va": "0xb3d5b8"
+        },
+        {
+          "text": ".\\Effect\\",
+          "file_offset": "0x73bdc4",
+          "va": "0xb3d5c4"
+        },
+        {
+          "text": "EntityPath",
+          "file_offset": "0x73bdd0",
+          "va": "0xb3d5d0"
+        },
+        {
+          "text": ".\\Map\\Entity\\",
+          "file_offset": "0x73bddc",
+          "va": "0xb3d5dc"
+        },
+        {
+          "text": "SystemPath",
+          "file_offset": "0x73bdec",
+          "va": "0xb3d5ec"
+        },
+        {
+          "text": ".\\System\\",
+          "file_offset": "0x73bdf8",
+          "va": "0xb3d5f8"
+        },
+        {
+          "text": "MapPath",
+          "file_offset": "0x73be04",
+          "va": "0xb3d604"
+        },
+        {
+          "text": ".\\Map\\",
+          "file_offset": "0x73be0c",
+          "va": "0xb3d60c"
+        },
+        {
+          "text": ".\\R3Engine.ini",
+          "file_offset": "0x73be14",
+          "va": "0xb3d614"
+        },
+        {
+          "text": "?Error opening file ",
+          "file_offset": "0x73be2b",
+          "va": "0xb3d62b"
+        },
+        {
+          "text": "Failed to allocate memory to load shader ",
+          "file_offset": "0x73be40",
+          "va": "0xb3d640"
+        },
+        {
+          "text": "Could not find file ",
+          "file_offset": "0x73be6c",
+          "va": "0xb3d66c"
+        },
+        {
+          "text": " APP",
+          "file_offset": "0x73be98",
+          "va": "0xb3d698"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\chef\\real\\unit.ini",
+        "file_offset": "0x73c6d0",
+        "va": "0xb3ded0"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "bone",
+          "file_offset": "0x73c638",
+          "va": "0xb3de38"
+        },
+        {
+          "text": "texpath",
+          "file_offset": "0x73c640",
+          "va": "0xb3de40"
+        },
+        {
+          "text": "*magic",
+          "file_offset": "0x73c648",
+          "va": "0xb3de48"
+        },
+        {
+          "text": "[track]",
+          "file_offset": "0x73c650",
+          "va": "0xb3de50"
+        },
+        {
+          "text": "[object]",
+          "file_offset": "0x73c658",
+          "va": "0xb3de58"
+        },
+        {
+          "text": " cam",
+          "file_offset": "0x73c675",
+          "va": "0xb3de75"
+        },
+        {
+          "text": "camera",
+          "file_offset": "0x73c6b8",
+          "va": "0xb3deb8"
+        },
+        {
+          "text": "[preparetrack]",
+          "file_offset": "0x73c6c0",
+          "va": "0xb3dec0"
+        },
+        {
+          "text": ".\\chef\\real\\unit.ini",
+          "file_offset": "0x73c6d0",
+          "va": "0xb3ded0"
+        },
+        {
+          "text": ".\\chef\\real\\particle.ini",
+          "file_offset": "0x73c6e8",
+          "va": "0xb3dee8"
+        },
+        {
+          "text": ".\\chef\\real\\entity.ini",
+          "file_offset": "0x73c704",
+          "va": "0xb3df04"
+        },
+        {
+          "text": ".cam",
+          "file_offset": "0x73c71c",
+          "va": "0xb3df1c"
+        },
+        {
+          "text": "Failed to create shader ",
+          "file_offset": "0x73c724",
+          "va": "0xb3df24"
+        },
+        {
+          "text": "?.\\System\\shader\\BlurBlit.pso",
+          "file_offset": "0x73c747",
+          "va": "0xb3df47"
+        },
+        {
+          "text": ".\\System\\shader\\FilterBlit.vso",
+          "file_offset": "0x73c768",
+          "va": "0xb3df68"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\chef\\real\\particle.ini",
+        "file_offset": "0x73c6e8",
+        "va": "0xb3dee8"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "*magic",
+          "file_offset": "0x73c648",
+          "va": "0xb3de48"
+        },
+        {
+          "text": "[track]",
+          "file_offset": "0x73c650",
+          "va": "0xb3de50"
+        },
+        {
+          "text": "[object]",
+          "file_offset": "0x73c658",
+          "va": "0xb3de58"
+        },
+        {
+          "text": " cam",
+          "file_offset": "0x73c675",
+          "va": "0xb3de75"
+        },
+        {
+          "text": "camera",
+          "file_offset": "0x73c6b8",
+          "va": "0xb3deb8"
+        },
+        {
+          "text": "[preparetrack]",
+          "file_offset": "0x73c6c0",
+          "va": "0xb3dec0"
+        },
+        {
+          "text": ".\\chef\\real\\unit.ini",
+          "file_offset": "0x73c6d0",
+          "va": "0xb3ded0"
+        },
+        {
+          "text": ".\\chef\\real\\particle.ini",
+          "file_offset": "0x73c6e8",
+          "va": "0xb3dee8"
+        },
+        {
+          "text": ".\\chef\\real\\entity.ini",
+          "file_offset": "0x73c704",
+          "va": "0xb3df04"
+        },
+        {
+          "text": ".cam",
+          "file_offset": "0x73c71c",
+          "va": "0xb3df1c"
+        },
+        {
+          "text": "Failed to create shader ",
+          "file_offset": "0x73c724",
+          "va": "0xb3df24"
+        },
+        {
+          "text": "?.\\System\\shader\\BlurBlit.pso",
+          "file_offset": "0x73c747",
+          "va": "0xb3df47"
+        },
+        {
+          "text": ".\\System\\shader\\FilterBlit.vso",
+          "file_offset": "0x73c768",
+          "va": "0xb3df68"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\chef\\real\\entity.ini",
+        "file_offset": "0x73c704",
+        "va": "0xb3df04"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": " cam",
+          "file_offset": "0x73c675",
+          "va": "0xb3de75"
+        },
+        {
+          "text": "camera",
+          "file_offset": "0x73c6b8",
+          "va": "0xb3deb8"
+        },
+        {
+          "text": "[preparetrack]",
+          "file_offset": "0x73c6c0",
+          "va": "0xb3dec0"
+        },
+        {
+          "text": ".\\chef\\real\\unit.ini",
+          "file_offset": "0x73c6d0",
+          "va": "0xb3ded0"
+        },
+        {
+          "text": ".\\chef\\real\\particle.ini",
+          "file_offset": "0x73c6e8",
+          "va": "0xb3dee8"
+        },
+        {
+          "text": ".\\chef\\real\\entity.ini",
+          "file_offset": "0x73c704",
+          "va": "0xb3df04"
+        },
+        {
+          "text": ".cam",
+          "file_offset": "0x73c71c",
+          "va": "0xb3df1c"
+        },
+        {
+          "text": "Failed to create shader ",
+          "file_offset": "0x73c724",
+          "va": "0xb3df24"
+        },
+        {
+          "text": "?.\\System\\shader\\BlurBlit.pso",
+          "file_offset": "0x73c747",
+          "va": "0xb3df47"
+        },
+        {
+          "text": ".\\System\\shader\\FilterBlit.vso",
+          "file_offset": "0x73c768",
+          "va": "0xb3df68"
+        }
+      ]
+    },
+    {
+      "reference": {
+        "text": ".\\system\\default.cfg",
+        "file_offset": "0x73cdac",
+        "va": "0xb3e5ac"
+      },
+      "confidence": "Adjacent strings only; not proven key/section associations or defaults.",
+      "neighbors": [
+        {
+          "text": "G.r3t",
+          "file_offset": "0x73cd17",
+          "va": "0xb3e517"
+        },
+        {
+          "text": ".r3m",
+          "file_offset": "0x73cd20",
+          "va": "0xb3e520"
+        },
+        {
+          "text": "@\\@<-",
+          "file_offset": "0x73cd4d",
+          "va": "0xb3e54d"
+        },
+        {
+          "text": ".\\System\\console.jpg",
+          "file_offset": "0x73cd6c",
+          "va": "0xb3e56c"
+        },
+        {
+          "text": "F%1d",
+          "file_offset": "0x73cd84",
+          "va": "0xb3e584"
+        },
+        {
+          "text": "*BindHotKey",
+          "file_offset": "0x73cd8c",
+          "va": "0xb3e58c"
+        },
+        {
+          "text": "can't open hotkey!",
+          "file_offset": "0x73cd98",
+          "va": "0xb3e598"
+        },
+        {
+          "text": ".\\system\\default.cfg",
+          "file_offset": "0x73cdac",
+          "va": "0xb3e5ac"
+        },
+        {
+          "text": "can't function key!",
+          "file_offset": "0x73cdc4",
+          "va": "0xb3e5c4"
+        },
+        {
+          "text": "open",
+          "file_offset": "0x73cdd8",
+          "va": "0xb3e5d8"
+        },
+        {
+          "text": "%s Value '%d'",
+          "file_offset": "0x73cde0",
+          "va": "0xb3e5e0"
+        },
+        {
+          "text": "%s Value '%.3f'",
+          "file_offset": "0x73cdf0",
+          "va": "0xb3e5f0"
+        },
+        {
+          "text": " '%s' is '%d'Value!",
+          "file_offset": "0x73ce00",
+          "va": "0xb3e600"
+        },
+        {
+          "text": "End capture screen from camera ani! ",
+          "file_offset": "0x73ce14",
+          "va": "0xb3e614"
+        },
+        {
+          "text": " 'go to %f, %f, %f' !",
+          "file_offset": "0x73ce3c",
+          "va": "0xb3e63c"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static inventory, not recovered source code or a decompiler.",
+    "String presence does not prove a reachable feature, a configuration value or protocol semantics.",
+    "Native dependencies, external configuration and server logic are not embedded in this report.",
+    "No executable, DLL, command or endpoint found in the input is executed or contacted."
+  ]
+}

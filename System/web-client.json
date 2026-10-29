@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "mode": "local-preview",
+  "assets": {
+    "language": "assets/language.json",
+    "keymaps": {
+      "mouse": "assets/keymaps/KeyMap.dat",
+      "keyboard": "assets/keymaps/KeyMap_NKM.dat"
+    }
+  },
+  "ui": {"fontFamily": "Lucida Console"},
+  "input": {"defaultMode": "mouse"},
+  "renderer": {"maxPixelRatio": 1.5, "maxFrameSeconds": 0.05},
+  "camera": {
+    "fovDegrees": 60,
+    "near": 0.1,
+    "far": 900,
+    "distance": 8,
+    "minDistance": 4.5,
+    "maxDistance": 14,
+    "zoomStep": 0.5,
+    "followHeight": 1.2,
+    "pitch": -0.5,
+    "minPitch": -0.8,
+    "maxPitch": 0.05,
+    "dragSensitivity": 0.005,
+    "turnSpeed": 1.5
+  },
+  "movement": {
+    "walkSpeed": 2.2,
+    "runSpeed": 5,
+    "stepUp": 0.45,
+    "stepDown": 1,
+    "arrivalRadius": 0.12
+  },
+  "stamina": {"drainPerSecond": 14, "recoverPerSecond": 8, "resumeAt": 25}
+}

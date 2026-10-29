@@ -3,9 +3,9 @@ export function setLanguage(data){
  if(!data?.phrases||data.count!==Object.keys(data.phrases).length)throw Error('Invalid Language.xlsx catalog');
  catalog=data;
 }
-export async function loadLanguage(){
+export async function loadLanguage(url='assets/language.json'){
  if(catalog)return catalog;
- const r=await fetch('assets/language.json');if(!r.ok)throw Error(`Language.xlsx: HTTP ${r.status}`);
+ const r=await fetch(url);if(!r.ok)throw Error(`Language.xlsx: HTTP ${r.status}`);
  setLanguage(await r.json());return catalog;
 }
 export function t(id,...args){

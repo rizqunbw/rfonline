@@ -134,7 +134,6 @@ export async function createRFHUD({onPause,onFocus,onAction,onSetting,mapBackgro
   $('rfRadarPlus').onclick=()=>radarRange=Math.max(25,radarRange-15);$('rfRadarMinus').onclick=()=>radarRange=Math.min(160,radarRange+15);
   // Keep all HUD interactions outside the scene's mouse/keyboard controls.
   root.addEventListener('pointerdown',e=>{if(e.target.closest('button,input,select,.rf-window,.rf-chat'))onFocus();});
-  log(t(1129)+' : '+t(2022));
   function drawRadar(state){
     const ctx=$('rfRadarCanvas').getContext('2d');ctx.clearRect(0,0,186,186);ctx.save();ctx.scale(2,2);
     ctx.drawImage(images['radar-face'],0,0);ctx.beginPath();ctx.arc(46.5,46.5,39,0,Math.PI*2);ctx.clip();

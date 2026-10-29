@@ -17,10 +17,10 @@ export function resolveKey(bindings,e){
  const matches=bindings.filter(b=>b.code===e.code&&!e.metaKey&&b.alt===!!e.altKey&&b.shift===!!e.shiftKey);
  return matches.sort((a,b)=>Number(b.section==='BEHAVIOR')-Number(a.section==='BEHAVIOR')||Number(b.section==='COMBAT')-Number(a.section==='COMBAT'))[0]?.action||null;
 }
-export async function loadKeyMaps(){
+export async function loadKeyMaps(paths={mouse:'assets/keymaps/KeyMap.dat',keyboard:'assets/keymaps/KeyMap_NKM.dat'}){
  const modes={};
- for(const [mode,file] of [['mouse','KeyMap.dat'],['keyboard','KeyMap_NKM.dat']]){
-  const r=await fetch('assets/keymaps/'+file);if(!r.ok)throw Error('Keymap gagal dimuat: '+file);
+ for(const [mode,file] of Object.entries(paths)){
+  const r=await fetch(file);if(!r.ok)throw Error('Keymap gagal dimuat: '+file);
   modes[mode]=parseKeyMap(await r.text());
  }
  return modes;
