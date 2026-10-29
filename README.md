@@ -6,6 +6,10 @@ Player mesh archives, extracted RF meshes and inspection tools are in [Character
 
 Native fonts, cursors, shader assets and inspection findings are in [System](System/README.md).
 
+Game HUD labels and the native Character/item information panels use serials from
+`DataTable/en-gb/Language.xlsx`. Hover equipment (tap on mobile) for its information
+frame; unknown item stats remain empty until item data is connected.
+
 Original UI archives and the sprite decoder are in [SpriteImage](SpriteImage/README.md).
 The website opens Bellato character mode with the original sprite HUD. Select
 **Masuk Sektor**. Mouse mode uses click-to-move; H switches to keyboard mode
